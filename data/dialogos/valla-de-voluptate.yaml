@@ -1,6 +1,5 @@
 id: valla-de-voluptate
 titulo: De voluptate
-titulo_completo: De voluptate / De vero bono / De vero falsoque bono
 lengua: latín
 forma: diálogo
 libros: 3
@@ -8,9 +7,8 @@ libros: 3
 autores: [valla]
 
 destinatarios: []
-nota_destinatarios: "Por verificar en cada redacción."
+nota_destinatarios: "Por verificar."
 
-# Interlocutores de la primera redacción (1431). Las siguientes cambian el reparto.
 interlocutores:
   - persona: bruni
     nota: "Portavoz de la postura estoica."
@@ -19,39 +17,24 @@ interlocutores:
   - persona: niccoli
     nota: "Portavoz de la síntesis cristiana."
 
+relaciones:
+  - dialogo: valla-de-vero-bono
+    tipo: reelaborada-en
+    nota: "En 1433 Valla reescribe la obra con interlocutores distintos."
+
 composicion:
   fecha:
     desde: 1431
-    hasta: 1449
+    hasta: 1431
     certeza: probable
-    nota: "Primera redacción en 1431; revisiones hasta c. 1449."
   lugares:
     - lugar: roma
-      nota: "Primera redacción. Por verificar (¿Roma o Piacenza?)."
-    - lugar: pavia
-      nota: "Segunda redacción."
-
-redacciones:
-  - titulo: De voluptate
-    fecha: { desde: 1431, hasta: 1431, certeza: probable }
-    lugares: [roma]
-    interlocutores: [bruni, panormita, niccoli]
-    ambientacion: roma
-  - titulo: De vero bono
-    fecha: { desde: 1433, hasta: 1433, certeza: probable }
-    lugares: [pavia]
-    interlocutores: [catone-sacco, maffeo-vegio, antonio-da-rho]
-    ambientacion: pavia
-    nota: "Nuevo reparto: interlocutores lombardos, por verificar."
-  - titulo: De vero falsoque bono
-    fecha: { desde: 1441, hasta: 1449, certeza: conjetural }
-    lugares: []
-    nota: "Revisiones posteriores; fechas y lugares por verificar."
+      nota: "Por verificar (¿Roma o Piacenza?)."
 
 ambientacion:
   fecha: null
   lugar: roma
-  nota: "Según la primera redacción."
+  nota: "Por verificar."
 
 temas: [voluptas, honestas, estoicismo, epicureísmo, sumo bien]
 

@@ -95,9 +95,18 @@ En cada diálogo se distinguen:
 - `ambientacion.lugar`: dónde transcurre la conversación.
 - `primera_edicion.lugar`: dónde se imprimió.
 
-## Redacciones
+## Redacciones y obras vinculadas
 
-Algunas obras tienen varias versiones con fechas, lugares e incluso interlocutores distintos (Valla, *De voluptate* → *De vero bono*). Para esos casos se usa `redacciones`, una lista en la que cada entrada repite los campos que cambian.
+- **Revisión de la misma obra:** si cambian la fecha o el lugar pero no el reparto, va en la misma ficha, en `redacciones`. Es una lista en la que cada entrada repite los campos que cambian (por ejemplo, las revisiones de *De vero falsoque bono*).
+- **Reelaboración:** si cambian los interlocutores, la versión nueva tiene su propia ficha y las dos se vinculan con `relaciones`. Es el caso de Valla, *De voluptate* (1431) y *De vero bono* (1433).
+
+```yaml
+relaciones:
+  - dialogo: valla-de-vero-bono
+    tipo: reelaborada-en      # reelaboracion-de | reelaborada-en | parte-de | contiene
+```
+
+`parte-de` y `contiene` quedan para las obras divididas en fichas, como las seis etapas de los *Colloquia*.
 
 ## Control de calidad
 
@@ -120,6 +129,7 @@ Algunas obras tienen varias versiones con fechas, lugares e incluso interlocutor
 | `ambientacion` | no | `fecha` y `lugar` |
 | `primera_edicion` | no | `fecha`, `lugar`, `impresor` |
 | `redacciones` | no | lista |
+| `relaciones` | no | lista de `dialogo` y `tipo` |
 | `forma` | no | `diálogo` \| `coloquio` \| `convivium` \| `diálogo narrado` \| `mixta` |
 | `libros` | no | número de libros |
 | `temas` | no | etiquetas libres |

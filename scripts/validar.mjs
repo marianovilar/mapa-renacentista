@@ -22,6 +22,7 @@ const CERTEZAS = ['segura', 'probable', 'conjetural'];
 const FORMAS = ['diálogo', 'coloquio', 'convivium', 'diálogo narrado', 'mixta'];
 const FORMAS_DEDICATORIA = ['dedicatoria', 'carta-prefatoria', 'apóstrofe'];
 const REVISIONES = ['pendiente', 'revisado'];
+const RELACIONES = { 'reelaboracion-de': 'reelaborada-en', 'reelaborada-en': 'reelaboracion-de', 'parte-de': 'contiene', contiene: 'parte-de' };
 
 function indice(lista, nombre) {
   const mapa = new Map();
@@ -35,7 +36,7 @@ function indice(lista, nombre) {
 
 const idPersonas = indice(personas, 'personas');
 const idLugares = indice(lugares, 'lugares');
-indice(dialogos, 'diálogos');
+const idDialogos = indice(dialogos, 'diálogos');
 
 for (const p of personas) {
   if (!p.nombre) errores.push(`persona ${p.id}: falta nombre`);
@@ -80,6 +81,14 @@ for (const d of dialogos) {
   lugar(`${c} ambientacion`, d.ambientacion?.lugar);
   fecha(`${c} primera_edicion`, d.primera_edicion?.fecha);
   lugar(`${c} primera_edicion`, d.primera_edicion?.lugar);
+
+  for (const r of d.relaciones ?? []) {
+    const otro = idDialogos.get(r.dialogo);
+    if (!otro) { errores.push(`${c} relaciones: diálogo inexistente "${r.dialogo}"`); continue; }
+    if (!(r.tipo in RELACIONES)) { errores.push(`${c} relaciones: tipo inválido "${r.tipo}"`); continue; }
+    const inversa = (otro.relaciones ?? []).some((x) => x.dialogo === d.id && x.tipo === RELACIONES[r.tipo]);
+    if (!inversa) avisos.push(`${c}: falta la relación inversa "${RELACIONES[r.tipo]}" en ${otro.archivo}`);
+  }
 
   for (const [i, r] of (d.redacciones ?? []).entries()) {
     const cr = `${c} redacciones[${i}]`;

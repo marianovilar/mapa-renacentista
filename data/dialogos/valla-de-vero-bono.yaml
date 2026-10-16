@@ -1,0 +1,53 @@
+id: valla-de-vero-bono
+titulo: De vero bono
+titulo_completo: De vero bono / De vero falsoque bono
+lengua: latín
+forma: diálogo
+libros: 3
+
+autores: [valla]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: catone-sacco
+    nota: "Ocupa el lugar de Bruni (postura estoica). Por verificar."
+  - persona: maffeo-vegio
+    nota: "Ocupa el lugar del Panormita (postura epicúrea). Por verificar."
+  - persona: antonio-da-rho
+    nota: "Ocupa el lugar de Niccoli (síntesis cristiana). Por verificar."
+
+relaciones:
+  - dialogo: valla-de-voluptate
+    tipo: reelaboracion-de
+
+composicion:
+  fecha:
+    desde: 1433
+    hasta: 1433
+    certeza: probable
+  lugares:
+    - lugar: pavia
+
+redacciones:
+  - titulo: De vero falsoque bono
+    fecha: { desde: 1441, hasta: 1449, certeza: conjetural }
+    lugares: []
+    nota: "Revisiones posteriores con el mismo reparto; fechas y lugares por verificar."
+
+ambientacion:
+  fecha: null
+  lugar: pavia
+  nota: "Por verificar."
+
+temas: [voluptas, honestas, estoicismo, epicureísmo, sumo bien]
+
+resumen: >
+  Segunda versión de De voluptate: el mismo debate sobre el sumo bien,
+  trasladado a Pavía y con interlocutores lombardos.
+
+fuentes:
+  - "Maristella de Panizza Lorch (ed.), De vero falsoque bono (1970)."
+
+revision: pendiente

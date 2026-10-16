@@ -21,7 +21,8 @@ Una lista de trabajo para elegir unos 30 diálogos. Las fechas y los lugares son
 | | Poggio Bracciolini | *De nobilitate* | c. 1440 | Florencia (curia) | Niccoli y Lorenzo de' Medici el Viejo |
 | | Poggio Bracciolini | *De infelicitate principum* | 1440 | Florencia | Niccoli, Carlo Marsuppini |
 | | Poggio Bracciolini | *Historia tripartita disceptativa convivalis* | c. 1450 | Roma | *Convivium* |
-| ✅ | Lorenzo Valla | *De voluptate* / *De vero falsoque bono* | 1431–c. 1449 | Roma / Pavía | Varias redacciones con distintos interlocutores |
+| ✅ | Lorenzo Valla | *De voluptate* | 1431 | Roma (?) | Bruni, Panormita, Niccoli |
+| ✅ | Lorenzo Valla | *De vero bono* (luego *De vero falsoque bono*) | 1433; revisiones hasta c. 1449 | Pavía | Reelaboración con interlocutores lombardos: ficha propia |
 | | Lorenzo Valla | *De libero arbitrio* | c. 1439 | Nápoles (?) | Con Antonio Glarea |
 | | Lorenzo Valla | *De professione religiosorum* | 1442 | Nápoles (?) | |
 | | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia (?) | Alberti escribe también en vulgar; elegir la obra latina |
@@ -51,13 +52,26 @@ Una lista de trabajo para elegir unos 30 diálogos. Las fechas y los lugares son
 | ✅ | Tomás Moro | *Utopia* | 1515–1516 | Amberes / Londres; imp. Lovaina | **Dudoso:** solo el libro I es dialogado |
 | | Erasmo | *Antibarbari* | 1494–1520 | Halsteren / Basilea | Redacción juvenil, publicada en 1520 |
 | | Ulrich von Hutten | *Dialogi* (*Fortuna*, *Febris*, *Vadiscus*…) | 1518–1520 | Maguncia | Polémica antirromana |
-| | Erasmo | *Colloquia* | 1518–1533 | Basilea, Lovaina | Obra creciente: ¿una ficha o varias? |
+| — | Erasmo | *Colloquia* | 1518–1533 | Basilea, Lovaina | **Fuera de la fase 1.** Más adelante, en seis fichas (ver abajo) |
 | ✅ | Erasmo | *Ciceronianus* | 1527–1528 | Basilea | Dedicado a Johann von Vlatten |
 | | Pierio Valeriano | *De litteratorum infelicitate* | c. 1529 | Roma (?) | Tras el saco de Roma |
 
 ## Cuestiones abiertas
 
-1. **Los *Colloquia*.** Propongo una sola ficha con sus ediciones (1518, 1522, 1524, 1526, 1529, 1533) como `redacciones`, y quizás fichas aparte para tres o cuatro coloquios destacados.
-2. **Obras en serie** (Cusa, *Idiota*; Hutten, *Dialogi*): ¿una ficha por colección o por diálogo?
-3. **Diálogos con interlocutores alegóricos** (*De remediis*): entran, pero aportan poco a la red de personas.
-4. **Alberti:** la tentación es *Della famiglia*, pero es en vulgar; queda para la fase italiana.
+1. **Obras en serie** (Cusa, *Idiota*; Hutten, *Dialogi*): ¿una ficha por colección o por diálogo?
+2. **Diálogos con interlocutores alegóricos** (*De remediis*): entran, pero aportan poco a la red de personas.
+3. **Alberti:** la tentación es *Della famiglia*, pero es en vulgar; queda para la fase italiana.
+
+## Decisiones tomadas
+
+- **Valla:** *De voluptate* (1431) y *De vero bono* (1433) son dos fichas vinculadas, porque cambian todos los interlocutores. Las revisiones posteriores (*De vero falsoque bono*) van como `redacciones` de la segunda.
+- **Los *Colloquia*:** quedan fuera de la fase 1. Más adelante se cargan en seis fichas, una por etapa, vinculadas con `parte-de`:
+
+| Etapa | Ediciones | Rasgos | Coloquios que se suman |
+|---|---|---|---|
+| 1. Edición no autorizada | Basilea, Froben, nov. 1518 (*Familiarium colloquiorum formulae*) | Borradores escolares de París (c. 1497–1500), publicados por Hollonius y Beatus Rhenanus | — |
+| 2. Primeras autorizadas | Lovaina, Martens, mar. 1519; Basilea, Froben, may. 1519 | Texto corregido y prefacio de Erasmo | Fórmulas de conversación |
+| 3. Diálogos literarios | Basilea, Froben, mar. y jul./ago. 1522 | Dedicatoria a Johannes Erasmius Froben | *De votis temere susceptis*, *Convivium profanum*, *Convivium religiosum* |
+| 4. Expansiones polémicas | Basilea, Froben, 1523, 1524, 1526 | Condena de la Sorbona (1526) | *Naufragium*, *Militis et Carthusiani*, *Virgo misogamos*, *Abbatis et Eruditae*, *Inquisitio de fide*, *Funus*, *Ichthyophagia*, *De utilitate Colloquiorum* |
+| 5. Consolidación | Basilea, 1528, 1529, 1531 | | *Cyclops*, *Charon*, *Concio, seu Merdardus* |
+| 6. Última edición de Erasmo | Basilea, Froben y Episcopius, mar. 1533 | Base de la tradición posterior (Basilea 1540, LB 1703, ASD I-3) | |
