@@ -1,0 +1,13 @@
+{
+  "name": "mapa-renacentista",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Visualización interactiva del Renacimiento europeo. Fase 1: diálogos latinos de Petrarca a Erasmo.",
+  "scripts": {
+    "validar": "node scripts/validar.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  }
+}

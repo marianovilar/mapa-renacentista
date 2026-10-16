@@ -1,0 +1,47 @@
+id: poggio-de-avaritia
+titulo: De avaritia
+titulo_completo: Dialogus contra avaritiam
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [poggio]
+
+destinatarios:
+  - persona: barbaro
+    forma: dedicatoria
+
+interlocutores:
+  - persona: bartolomeo-montepulciano
+  - persona: loschi
+  - persona: andrea-constantinopla
+  - persona: cencio-rustici
+
+composicion:
+  fecha:
+    desde: 1428
+    hasta: 1429
+    certeza: probable
+    nota: "Hubo una revisión posterior a la primera circulación."
+  lugares:
+    - lugar: roma
+      nota: "En la curia papal, donde Poggio era secretario."
+
+ambientacion:
+  fecha:
+    desde: 1427
+    hasta: 1428
+    certeza: conjetural
+  lugar: roma
+  nota: "Conversación entre secretarios de la curia."
+
+temas: [avaritia, riqueza, curia, utilidad civil]
+
+resumen: >
+  Secretarios de la curia debaten sobre la avaricia; Loschi la defiende como
+  motor de la vida civil y Andrea la condena.
+
+fuentes:
+  - "David Marsh, The Quattrocento Dialogue (1980)."
+
+revision: pendiente

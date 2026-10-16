@@ -1,0 +1,52 @@
+id: erasmo-ciceronianus
+titulo: Ciceronianus
+titulo_completo: Dialogus cui titulus Ciceronianus, sive De optimo dicendi genere
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [erasmo]
+
+destinatarios:
+  - persona: vlatten
+    forma: carta-prefatoria
+
+interlocutores:
+  - persona: bulephorus
+    nota: "Portavoz de Erasmo."
+  - persona: hypologus
+  - persona: nosoponus
+    nota: "El ciceroniano obsesivo."
+
+composicion:
+  fecha:
+    desde: 1527
+    hasta: 1528
+    certeza: probable
+  lugares:
+    - lugar: basilea
+
+ambientacion:
+  fecha: null
+  lugar: null
+  nota: "Sin lugar ni fecha precisos."
+
+primera_edicion:
+  fecha:
+    desde: 1528
+    hasta: 1528
+    certeza: segura
+    nota: "Marzo; junto con De recta Latini Graecique sermonis pronuntiatione."
+  lugar: basilea
+  impresor: Froben
+
+temas: [imitatio, Cicerón, estilo latino, paganismo y cristianismo]
+
+resumen: >
+  Bulephorus e Hypologus curan a Nosoponus de su ciceronianismo extremo y
+  pasan revista a los estilistas latinos antiguos y modernos.
+
+fuentes:
+  - "Desiderius Erasmus, Ciceronianus, ed. Pierre Mesnard, Opera omnia (ASD) I-2 (1971)."
+
+revision: pendiente

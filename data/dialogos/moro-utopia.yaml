@@ -1,0 +1,67 @@
+id: moro-utopia
+titulo: Utopia
+titulo_completo: Libellus vere aureus, nec minus salutaris quam festivus, de optimo reipublicae statu deque nova insula Utopia
+lengua: latín
+forma: mixta
+libros: 2
+
+caso_dudoso: true
+motivo_duda: "Solo el libro I es dialogado; el libro II es casi entero el relato de Hitlodeo."
+
+autores: [moro]
+
+destinatarios:
+  - persona: gillis
+    forma: carta-prefatoria
+
+interlocutores:
+  - persona: hitlodeo
+    nombre_en_el_texto: Raphael Hythlodaeus
+  - persona: moro
+    nombre_en_el_texto: Morus
+    nota: "El autor como personaje y narrador."
+  - persona: gillis
+    nombre_en_el_texto: Petrus Aegidius
+  - persona: morton
+    nota: "Interviene en el diálogo que Hitlodeo refiere, en su mesa, años antes. Hay además interlocutores anónimos (un jurista, un fraile, un parásito)."
+
+composicion:
+  fecha:
+    desde: 1515
+    hasta: 1516
+    certeza: probable
+    nota: "Libro II durante la embajada en Flandes (1515); libro I en Londres (1516)."
+  lugares:
+    - lugar: amberes
+      nota: "Libro II."
+    - lugar: londres
+      nota: "Libro I."
+
+ambientacion:
+  fecha:
+    desde: 1515
+    hasta: 1515
+    certeza: probable
+  lugar: amberes
+  nota: "En un jardín de la casa de Moro en Amberes."
+
+primera_edicion:
+  fecha:
+    desde: 1516
+    hasta: 1516
+    certeza: segura
+    nota: "Diciembre."
+  lugar: lovaina
+  impresor: Dirk Martens
+  nota: "Edición preparada con la intervención de Erasmo y Gillis."
+
+temas: [optimus status reipublicae, consejo al príncipe, propiedad común, viaje]
+
+resumen: >
+  Hitlodeo discute con Moro y Gillis si el filósofo debe aconsejar a los
+  príncipes y luego describe la isla de Utopía.
+
+fuentes:
+  - "Edward Surtz y J. H. Hexter (eds.), Utopia, Complete Works of St. Thomas More, vol. 4 (1965)."
+
+revision: pendiente

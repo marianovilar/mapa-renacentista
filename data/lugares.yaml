@@ -1,0 +1,73 @@
+# Lugares de composición, ambientación e impresión. Ver docs/esquema.md.
+# Coordenadas del centro histórico. wikidata: null = falta verificar.
+
+- id: vaucluse
+  nombre: Vaucluse
+  nombre_latino: Vallis Clausa
+  lat: 43.9180
+  lon: 5.1320
+  wikidata: Q463304
+  nota: "Fontaine-de-Vaucluse, retiro de Petrarca."
+
+- id: avinon
+  nombre: Aviñón
+  nombre_latino: Avenio
+  lat: 43.9493
+  lon: 4.8055
+  wikidata: Q6397
+
+- id: milan
+  nombre: Milán
+  nombre_latino: Mediolanum
+  lat: 45.4642
+  lon: 9.1900
+  wikidata: null
+
+- id: florencia
+  nombre: Florencia
+  nombre_latino: Florentia
+  lat: 43.7696
+  lon: 11.2558
+  wikidata: null
+
+- id: roma
+  nombre: Roma
+  nombre_latino: Roma
+  lat: 41.8933
+  lon: 12.4829
+  wikidata: Q220
+
+- id: pavia
+  nombre: Pavía
+  nombre_latino: Ticinum
+  lat: 45.1847
+  lon: 9.1582
+  wikidata: null
+
+- id: amberes
+  nombre: Amberes
+  nombre_latino: Antverpia
+  lat: 51.2194
+  lon: 4.4025
+  wikidata: null
+
+- id: londres
+  nombre: Londres
+  nombre_latino: Londinium
+  lat: 51.5072
+  lon: -0.1276
+  wikidata: null
+
+- id: lovaina
+  nombre: Lovaina
+  nombre_latino: Lovanium
+  lat: 50.8798
+  lon: 4.7005
+  wikidata: Q118958
+
+- id: basilea
+  nombre: Basilea
+  nombre_latino: Basilea
+  lat: 47.5596
+  lon: 7.5886
+  wikidata: Q78

@@ -1,0 +1,53 @@
+id: bruni-dialogi
+titulo: Dialogi ad Petrum Paulum Histrum
+lengua: latín
+forma: diálogo narrado
+libros: 2
+
+autores: [bruni]
+
+destinatarios:
+  - persona: vergerio
+    forma: dedicatoria
+
+interlocutores:
+  - persona: salutati
+    nombre_en_el_texto: Colucius
+  - persona: niccoli
+    nombre_en_el_texto: Nicolaus
+  - persona: rossi
+    nombre_en_el_texto: Robertus
+  - persona: bruni
+    nombre_en_el_texto: Leonardus
+    nota: "El autor como personaje y narrador."
+  - persona: pietro-sermini
+    nota: "Solo en el libro II."
+
+composicion:
+  fecha:
+    desde: 1401
+    hasta: 1406
+    certeza: probable
+    nota: "Libro I hacia 1401; libro II posterior. La datación del libro II es objeto de debate (Baron)."
+  lugares:
+    - lugar: florencia
+
+ambientacion:
+  fecha:
+    desde: 1401
+    hasta: 1401
+    certeza: probable
+    nota: "En Pascua; libro I en casa de Salutati, libro II al día siguiente en casa de Rossi."
+  lugar: florencia
+
+temas: [Dante, Petrarca y Boccaccio, antiguos y modernos, disputatio, Florencia]
+
+resumen: >
+  Niccoli condena a las tres coronas florentinas frente a Salutati y, al día
+  siguiente, se retracta y las elogia.
+
+fuentes:
+  - "Hans Baron, The Crisis of the Early Italian Renaissance (1955)."
+  - "David Marsh, The Quattrocento Dialogue (1980)."
+
+revision: pendiente

@@ -1,0 +1,222 @@
+# Autores, destinatarios y personajes. Ver docs/esquema.md.
+# wikidata: null = falta verificar el identificador.
+
+# --- Petrarca, Secretum ---
+- id: petrarca
+  nombre: Francesco Petrarca
+  nombre_latino: Franciscus Petrarca
+  nacimiento: 1304
+  muerte: 1374
+  tipo: histórica
+  wikidata: Q1401
+
+- id: agustin
+  nombre: Agustín de Hipona
+  nombre_latino: Augustinus
+  nacimiento: 354
+  muerte: 430
+  tipo: histórica
+  wikidata: Q8018
+
+- id: veritas
+  nombre: La Verdad
+  nombre_latino: Veritas
+  tipo: alegórica
+
+# --- Bruni, Dialogi ---
+- id: bruni
+  nombre: Leonardo Bruni
+  nombre_latino: Leonardus Aretinus
+  nacimiento: 1370
+  muerte: 1444
+  tipo: histórica
+  wikidata: Q314488
+  nota: "Nacimiento c. 1370."
+
+- id: salutati
+  nombre: Coluccio Salutati
+  nombre_latino: Colucius Salutatus
+  nacimiento: 1331
+  muerte: 1406
+  tipo: histórica
+  wikidata: Q93113
+
+- id: niccoli
+  nombre: Niccolò Niccoli
+  nombre_latino: Nicolaus Nicolus
+  nacimiento: 1364
+  muerte: 1437
+  tipo: histórica
+  wikidata: Q730505
+
+- id: rossi
+  nombre: Roberto de' Rossi
+  nombre_latino: Robertus Rufus
+  nacimiento: 1355
+  muerte: 1417
+  tipo: histórica
+  wikidata: Q7351953
+  nota: "Fechas aproximadas."
+
+- id: pietro-sermini
+  nombre: Pietro di ser Mino
+  nombre_latino: Petrus Minius
+  tipo: histórica
+  nota: "Notario florentino; interlocutor en el libro II. Fechas por verificar."
+
+- id: vergerio
+  nombre: Pier Paolo Vergerio el Viejo
+  nombre_latino: Petrus Paulus Histrus
+  nacimiento: 1370
+  muerte: 1444
+  tipo: histórica
+  wikidata: Q737756
+
+# --- Poggio, De avaritia ---
+- id: poggio
+  nombre: Poggio Bracciolini
+  nombre_latino: Poggius Florentinus
+  nacimiento: 1380
+  muerte: 1459
+  tipo: histórica
+  wikidata: Q318254
+
+- id: loschi
+  nombre: Antonio Loschi
+  nombre_latino: Antonius Luscus
+  nacimiento: 1368
+  muerte: 1441
+  tipo: histórica
+  wikidata: Q2857327
+  nota: "Nacimiento c. 1368."
+
+- id: bartolomeo-montepulciano
+  nombre: Bartolomeo da Montepulciano
+  nombre_latino: Bartholomaeus de Montepolitiano
+  muerte: 1429
+  tipo: histórica
+  nota: "Bartolomeo Aragazzi, secretario apostólico."
+
+- id: cencio-rustici
+  nombre: Cencio de' Rustici
+  nombre_latino: Cincius Romanus
+  nacimiento: 1390
+  muerte: 1445
+  tipo: histórica
+  nota: "Fechas aproximadas."
+
+- id: andrea-constantinopla
+  nombre: Andrea de Constantinopla
+  nombre_latino: Andreas Constantinopolitanus
+  muerte: 1451
+  tipo: histórica
+  nota: "Andreas Chrysoberges, dominico. Identificación por verificar."
+
+- id: barbaro
+  nombre: Francesco Barbaro
+  nombre_latino: Franciscus Barbarus
+  nacimiento: 1390
+  muerte: 1454
+  tipo: histórica
+  wikidata: Q3749599
+
+# --- Valla, De voluptate ---
+- id: valla
+  nombre: Lorenzo Valla
+  nombre_latino: Laurentius Valla
+  nacimiento: 1407
+  muerte: 1457
+  tipo: histórica
+  wikidata: Q214115
+  nota: "Nacimiento c. 1407."
+
+- id: panormita
+  nombre: Antonio Beccadelli, el Panormita
+  nombre_latino: Antonius Panormita
+  nacimiento: 1394
+  muerte: 1471
+  tipo: histórica
+  wikidata: Q599858
+
+- id: catone-sacco
+  nombre: Catone Sacco
+  nombre_latino: Cato Saccus
+  tipo: histórica
+  nota: "Jurista de Pavía. Fechas por verificar."
+
+- id: maffeo-vegio
+  nombre: Maffeo Vegio
+  nombre_latino: Maphaeus Vegius
+  nacimiento: 1407
+  muerte: 1458
+  tipo: histórica
+
+- id: antonio-da-rho
+  nombre: Antonio da Rho
+  nombre_latino: Antonius Raudensis
+  tipo: histórica
+  nota: "Franciscano milanés. Fechas por verificar."
+
+# --- More, Utopia ---
+- id: moro
+  nombre: Tomás Moro
+  nombre_latino: Thomas Morus
+  nacimiento: 1478
+  muerte: 1535
+  tipo: histórica
+
+- id: gillis
+  nombre: Pieter Gillis
+  nombre_latino: Petrus Aegidius
+  nacimiento: 1486
+  muerte: 1533
+  tipo: histórica
+  nota: "Nacimiento c. 1486. Secretario municipal de Amberes."
+
+- id: hitlodeo
+  nombre: Rafael Hitlodeo
+  nombre_latino: Raphael Hythlodaeus
+  tipo: ficticia
+
+- id: morton
+  nombre: John Morton
+  nombre_latino: Ioannes Mortonus
+  nacimiento: 1420
+  muerte: 1500
+  tipo: histórica
+  wikidata: Q672779
+  nota: "Nacimiento c. 1420. Arzobispo de Canterbury y canciller."
+
+# --- Erasmo, Ciceronianus ---
+- id: erasmo
+  nombre: Erasmo de Róterdam
+  nombre_latino: Desiderius Erasmus Roterodamus
+  nacimiento: 1466
+  muerte: 1536
+  tipo: histórica
+  nota: "Nacimiento 1466 o 1469."
+
+- id: vlatten
+  nombre: Johann von Vlatten
+  nombre_latino: Ioannes a Vlattena
+  nacimiento: 1498
+  muerte: 1562
+  tipo: histórica
+  nota: "Fechas aproximadas."
+
+- id: bulephorus
+  nombre: Bulephorus
+  nombre_latino: Bulephorus
+  tipo: ficticia
+  nota: "'El que aconseja'. Portavoz de Erasmo."
+
+- id: hypologus
+  nombre: Hypologus
+  nombre_latino: Hypologus
+  tipo: ficticia
+
+- id: nosoponus
+  nombre: Nosoponus
+  nombre_latino: Nosoponus
+  tipo: ficticia
+  nota: "'El que sufre una enfermedad': el ciceroniano obsesivo."
