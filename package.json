@@ -5,7 +5,9 @@
   "type": "module",
   "description": "Visualización interactiva del Renacimiento europeo. Fase 1: diálogos latinos de Petrarca a Erasmo.",
   "scripts": {
-    "validar": "node scripts/validar.mjs"
+    "validar": "node scripts/validar.mjs",
+    "dev": "node scripts/validar.mjs && node scripts/servir.mjs",
+    "construir": "node scripts/validar.mjs && node scripts/construir.mjs"
   },
   "dependencies": {
     "yaml": "^2.5.0"

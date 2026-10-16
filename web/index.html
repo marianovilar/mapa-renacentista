@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa renacentista</title>
+  <meta name="description" content="Diálogos latinos del Renacimiento, de Petrarca a Erasmo (1347–1533): autores, destinatarios, interlocutores, fechas y lugares.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <a class="marca" href="#/">
+      <span class="marca-titulo">Mapa renacentista</span>
+      <span class="marca-sub">Diálogos latinos, de Petrarca a Erasmo · 1347–1533</span>
+    </a>
+  </header>
+
+  <main class="disposicion">
+    <aside class="panel panel-lista" aria-label="Índice">
+      <div class="pestanas" role="tablist">
+        <button role="tab" data-pestana="dialogos" aria-selected="true">Diálogos</button>
+        <button role="tab" data-pestana="personas" aria-selected="false">Personas</button>
+        <button role="tab" data-pestana="lugares" aria-selected="false">Lugares</button>
+      </div>
+      <input class="buscador" type="search" placeholder="Buscar…" aria-label="Buscar en la lista">
+      <ul class="lista" id="lista"></ul>
+    </aside>
+
+    <section class="centro">
+      <div class="mapa-marco">
+        <div id="mapa" aria-label="Mapa de lugares"></div>
+        <div class="leyenda" id="leyenda-mapa"></div>
+      </div>
+      <div class="tiempo-marco">
+        <div class="tiempo-titulo">Fecha de composición</div>
+        <div id="tiempo"></div>
+      </div>
+    </section>
+
+    <aside class="panel panel-detalle" id="detalle" aria-live="polite"></aside>
+  </main>
+
+  <div class="globo" id="globo" role="tooltip" hidden></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

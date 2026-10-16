@@ -76,6 +76,10 @@ for (const d of dialogos) {
     if (x.forma && !FORMAS_DEDICATORIA.includes(x.forma)) errores.push(`${c}: forma de dedicatoria inválida "${x.forma}"`);
   }
   for (const x of d.interlocutores ?? []) { persona(`${c} interlocutores`, x.persona); usadas.add(x.persona); }
+  for (const x of d.evocados ?? []) {
+    persona(`${c} evocados`, x.persona); usadas.add(x.persona);
+    if ((d.interlocutores ?? []).some((i) => i.persona === x.persona)) avisos.push(`${c}: ${x.persona} figura a la vez como interlocutor y evocado`);
+  }
 
   fecha(`${c} composicion`, d.composicion?.fecha);
   for (const x of d.composicion?.lugares ?? []) lugar(`${c} composicion`, x.lugar);
@@ -115,6 +119,7 @@ for (const d of dialogos) {
   for (const a of d.autores ?? []) anotar(a, 'autor');
   for (const x of d.destinatarios ?? []) anotar(x.persona, 'destinatario');
   for (const x of d.interlocutores ?? []) anotar(x.persona, 'interlocutor');
+  for (const x of d.evocados ?? []) anotar(x.persona, 'evocado');
   for (const r of d.redacciones ?? []) for (const p of r.interlocutores ?? []) {
     if (!(d.interlocutores ?? []).some((x) => x.persona === p)) anotar(p, `interlocutor en ${r.titulo}`);
   }

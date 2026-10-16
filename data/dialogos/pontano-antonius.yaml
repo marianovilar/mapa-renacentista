@@ -35,7 +35,13 @@ interlocutores:
     nota: "Parte en verso. Canta el Bellum Sertoriacum (630 hexámetros)."
   - persona: histrio-personatus
     nota: "Parte en verso. Prólogo e intermedio en yambos plautinos."
-nota_interlocutores: "Pontano no habla (está en casa con una pierna rota), pero es evocado y aparece bajo máscaras: el Lyricen y Pontius en el Bellum Sertoriacum, donde también figuran, heroizados, Marullo, Pardo, el Cariteo, Altilio y Sannazaro."
+nota_interlocutores: "En el Bellum Sertoriacum figuran también, heroizados, Marullo, Pardo, el Cariteo, Altilio y Sannazaro."
+
+evocados:
+  - persona: panormita
+    nota: "Protagonista in absentia: el diálogo lleva su nombre y transcurre poco después de su muerte."
+  - persona: pontano
+    nota: "Ausente por una pierna rota; aparece bajo máscaras (el Lyricen, Pontius en el Bellum Sertoriacum)."
 
 composicion:
   fecha:

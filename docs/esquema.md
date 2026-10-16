@@ -63,6 +63,7 @@ En el diálogo, cada persona aparece con su **rol**:
 | `autores` | quien escribe |
 | `destinatarios` | a quien se dedica o dirige la obra (dedicatoria, carta prefatoria, apóstrofe) |
 | `interlocutores` | quienes hablan en el diálogo |
+| `evocados` | quienes no hablan pero tienen un papel central: el homenajeado, el ausente que aparece bajo una máscara, el muerto recordado |
 
 Destinatarios e interlocutores admiten detalles:
 
@@ -127,6 +128,7 @@ Si falta un dato y no se puede completar todavía, el campo queda vacío y se ex
 | `autores` | sí | lista de `id` de persona |
 | `destinatarios` | no | lista (ver arriba) |
 | `interlocutores` | sí | lista (ver arriba) |
+| `evocados` | no | lista de `persona` y `nota` |
 | `composicion` | sí | `fecha` y `lugares` |
 | `ambientacion` | no | `fecha` y `lugar` |
 | `primera_edicion` | no | `fecha`, `lugar`, `impresor` |
