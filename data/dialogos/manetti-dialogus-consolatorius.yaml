@@ -1,0 +1,34 @@
+id: manetti-dialogus-consolatorius
+titulo: Dialogus consolatorius
+lengua: latín
+forma: diálogo
+libros: 3
+
+autores: [manetti]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: manetti
+    nota: "El autor como personaje, de duelo por su hijo."
+  - persona: agnolo-acciaiuoli
+    nota: "Por verificar."
+  - persona: niccolo-medici
+    nota: "Por verificar."
+
+composicion:
+  fecha:
+    desde: 1438
+    hasta: 1438
+    certeza: probable
+    nota: "Tras la muerte de su hijo Antonino."
+  lugares:
+    - lugar: florencia
+      nota: "Por verificar."
+
+temas: [consolación, duelo, estoicismo y cristianismo]
+
+fuentes: []
+
+revision: pendiente

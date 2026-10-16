@@ -1,0 +1,44 @@
+id: cusa-idiota-de-mente
+titulo: Idiota de mente
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [cusa]
+
+destinatarios: []
+
+interlocutores:
+  - persona: idiota
+  - persona: orator
+  - persona: philosophus
+
+relaciones:
+  - dialogo: cusa-idiota-de-sapientia
+    tipo: serie
+  - dialogo: cusa-idiota-de-staticis
+    tipo: serie
+
+composicion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+    nota: "Agosto de 1450, según las suscripciones. Por verificar."
+  lugares:
+    - lugar: fabriano
+
+ambientacion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+    nota: "Año jubilar."
+  lugar: roma
+  nota: "En el taller donde el idiota talla cucharas."
+
+temas: [mente, medida, conocimiento]
+
+fuentes: []
+
+revision: pendiente

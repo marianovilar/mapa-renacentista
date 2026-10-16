@@ -1,0 +1,36 @@
+id: poggio-de-nobilitate
+titulo: De nobilitate
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [poggio]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: niccoli
+  - persona: lorenzo-medici-viejo
+  - persona: poggio
+    nota: "El autor como personaje y anfitrión."
+
+composicion:
+  fecha:
+    desde: 1440
+    hasta: 1440
+    certeza: probable
+  lugares:
+    - lugar: florencia
+      nota: "La curia residía en Florencia entre 1434 y 1443."
+
+ambientacion:
+  fecha: null
+  lugar: terranuova
+  nota: "En la villa de Poggio, ante su colección de esculturas antiguas. Por verificar."
+
+temas: [nobleza, virtud y linaje, antigüedades]
+
+fuentes: []
+
+revision: pendiente

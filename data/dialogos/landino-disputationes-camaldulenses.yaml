@@ -1,0 +1,54 @@
+id: landino-disputationes-camaldulenses
+titulo: Disputationes Camaldulenses
+lengua: latín
+forma: diálogo narrado
+libros: 4
+
+autores: [landino]
+
+destinatarios:
+  - persona: federico-montefeltro
+    forma: dedicatoria
+
+interlocutores:
+  - persona: alberti
+    nota: "Interlocutor principal."
+  - persona: lorenzo-magnifico
+  - persona: giuliano-medici
+  - persona: ficino
+  - persona: donato-acciaiuoli
+  - persona: rinuccini
+  - persona: marco-parenti
+  - persona: landino
+    nota: "El autor como personaje y narrador."
+nota_interlocutores: "Participan también Piero y Antonio Canigiani y el abad Mariotto Allegri. Por verificar."
+
+composicion:
+  fecha:
+    desde: 1472
+    hasta: 1474
+    certeza: probable
+  lugares:
+    - lugar: florencia
+
+ambientacion:
+  fecha:
+    desde: 1468
+    hasta: 1468
+    certeza: probable
+    nota: "Verano."
+  lugar: camaldoli
+
+primera_edicion:
+  fecha:
+    desde: 1480
+    hasta: 1480
+    certeza: conjetural
+  lugar: florencia
+  nota: "Hacia 1480. Impresor por verificar."
+
+temas: [vida activa y contemplativa, sumo bien, alegoría de Virgilio]
+
+fuentes: []
+
+revision: pendiente

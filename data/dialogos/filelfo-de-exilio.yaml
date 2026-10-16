@@ -1,0 +1,42 @@
+id: filelfo-de-exilio
+titulo: Commentationes florentinae de exilio
+lengua: latín
+forma: diálogo
+libros: 3
+
+autores: [filelfo]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: palla-strozzi
+    nota: "Exiliado en 1434. Resto del reparto por verificar."
+  - persona: poggio
+    nota: "Personaje hostil, blanco de la polémica de Filelfo. Por verificar."
+
+composicion:
+  fecha:
+    desde: 1440
+    hasta: 1445
+    certeza: conjetural
+    nota: "Obra inconclusa."
+  lugares:
+    - lugar: siena
+      nota: "Por verificar."
+    - lugar: milan
+      nota: "Por verificar."
+
+ambientacion:
+  fecha:
+    desde: 1434
+    hasta: 1434
+    certeza: conjetural
+    nota: "Tras el regreso de Cosme y el destierro de sus adversarios."
+  lugar: florencia
+
+temas: [exilio, Florencia medicea, polémica antimedicea]
+
+fuentes: []
+
+revision: pendiente

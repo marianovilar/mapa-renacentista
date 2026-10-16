@@ -22,7 +22,7 @@ const CERTEZAS = ['segura', 'probable', 'conjetural'];
 const FORMAS = ['diálogo', 'coloquio', 'convivium', 'diálogo narrado', 'mixta'];
 const FORMAS_DEDICATORIA = ['dedicatoria', 'carta-prefatoria', 'apóstrofe'];
 const REVISIONES = ['pendiente', 'revisado'];
-const RELACIONES = { 'reelaboracion-de': 'reelaborada-en', 'reelaborada-en': 'reelaboracion-de', 'parte-de': 'contiene', contiene: 'parte-de' };
+const RELACIONES = { 'reelaboracion-de': 'reelaborada-en', 'reelaborada-en': 'reelaboracion-de', 'parte-de': 'contiene', contiene: 'parte-de', serie: 'serie' };
 
 function indice(lista, nombre) {
   const mapa = new Map();
@@ -67,6 +67,8 @@ for (const d of dialogos) {
   if (d.forma && !FORMAS.includes(d.forma)) errores.push(`${c}: forma inválida "${d.forma}"`);
   if (!REVISIONES.includes(d.revision)) errores.push(`${c}: revision inválida "${d.revision}"`);
   if (d.caso_dudoso && !d.motivo_duda) errores.push(`${c}: caso_dudoso sin motivo_duda`);
+
+  if (Array.isArray(d.interlocutores) && d.interlocutores.length === 0) avisos.push(`${c}: interlocutores por completar`);
 
   for (const a of d.autores ?? []) { persona(`${c} autores`, a); usadas.add(a); }
   for (const x of d.destinatarios ?? []) {

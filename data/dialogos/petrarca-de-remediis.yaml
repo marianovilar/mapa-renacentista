@@ -1,0 +1,47 @@
+id: petrarca-de-remediis
+titulo: De remediis utriusque fortunae
+lengua: latín
+forma: diálogo
+libros: 2
+
+autores: [petrarca]
+
+destinatarios:
+  - persona: azzo-correggio
+    forma: dedicatoria
+
+interlocutores:
+  - persona: ratio
+    nota: "Responde en todos los diálogos."
+  - persona: gaudium
+    nota: "Libro I (fortuna próspera)."
+  - persona: spes
+    nota: "Libro I (fortuna próspera)."
+  - persona: dolor
+    nota: "Libro II (fortuna adversa)."
+  - persona: metus
+    nota: "Libro II (fortuna adversa)."
+
+composicion:
+  fecha:
+    desde: 1354
+    hasta: 1366
+    certeza: probable
+  lugares:
+    - lugar: milan
+      nota: "Comenzado en Milán; terminado en 1366, lugar por verificar."
+
+ambientacion:
+  fecha: null
+  lugar: null
+  nota: "Diálogos alegóricos sin escena."
+
+temas: [fortuna, consolación, estoicismo, vida moral]
+
+resumen: >
+  Más de doscientos cincuenta diálogos breves en los que la Razón modera los
+  excesos de las pasiones ante la buena y la mala fortuna.
+
+fuentes: []
+
+revision: pendiente

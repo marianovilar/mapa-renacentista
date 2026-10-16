@@ -1,0 +1,41 @@
+id: cusa-idiota-de-staticis
+titulo: Idiota de staticis experimentis
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [cusa]
+
+destinatarios: []
+
+interlocutores:
+  - persona: idiota
+  - persona: orator
+
+relaciones:
+  - dialogo: cusa-idiota-de-sapientia
+    tipo: serie
+  - dialogo: cusa-idiota-de-mente
+    tipo: serie
+
+composicion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+    nota: "Septiembre de 1450, según las suscripciones. Por verificar."
+  lugares:
+    - lugar: fabriano
+
+ambientacion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+  lugar: roma
+
+temas: [balanza, experimentación, medida]
+
+fuentes: []
+
+revision: pendiente

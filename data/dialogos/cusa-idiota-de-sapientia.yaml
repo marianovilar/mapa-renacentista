@@ -1,0 +1,42 @@
+id: cusa-idiota-de-sapientia
+titulo: Idiota de sapientia
+lengua: latín
+forma: diálogo
+libros: 2
+
+autores: [cusa]
+
+destinatarios: []
+
+interlocutores:
+  - persona: idiota
+  - persona: orator
+
+relaciones:
+  - dialogo: cusa-idiota-de-mente
+    tipo: serie
+  - dialogo: cusa-idiota-de-staticis
+    tipo: serie
+
+composicion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+    nota: "Julio de 1450, según las suscripciones. Por verificar."
+  lugares:
+    - lugar: rieti
+
+ambientacion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+    nota: "Año jubilar."
+  lugar: roma
+
+temas: [docta ignorancia, sabiduría, saber del laico]
+
+fuentes: []
+
+revision: pendiente

@@ -1,0 +1,40 @@
+id: valeriano-de-litteratorum-infelicitate
+titulo: De litteratorum infelicitate
+lengua: latín
+forma: diálogo
+libros: 2
+
+autores: [valeriano]
+
+destinatarios: []
+
+interlocutores:
+  - persona: contarini
+    nota: "Por verificar."
+  - persona: valeriano
+    nota: "El autor como personaje. Por verificar."
+nota_interlocutores: "Reparto completo por verificar."
+
+composicion:
+  fecha:
+    desde: 1527
+    hasta: 1530
+    certeza: conjetural
+    nota: "Tras el saco de Roma (1527)."
+  lugares:
+    - lugar: roma
+      nota: "Por verificar."
+
+primera_edicion:
+  fecha:
+    desde: 1620
+    hasta: 1620
+    certeza: probable
+    nota: "Edición póstuma."
+  lugar: venecia
+
+temas: [desgracia de los letrados, saco de Roma, biografías de humanistas]
+
+fuentes: []
+
+revision: pendiente

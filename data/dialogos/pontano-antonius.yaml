@@ -1,0 +1,39 @@
+id: pontano-antonius
+titulo: Antonius
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [pontano]
+
+destinatarios: []
+
+interlocutores: []
+nota_interlocutores: "Miembros de la academia napolitana tras la muerte del Panormita (1471). Reparto por verificar."
+
+composicion:
+  fecha:
+    desde: 1482
+    hasta: 1491
+    certeza: conjetural
+  lugares:
+    - lugar: napoles
+
+ambientacion:
+  fecha: null
+  lugar: napoles
+  nota: "En el pórtico donde se reunía la academia (Porticus Antoniana)."
+
+primera_edicion:
+  fecha:
+    desde: 1491
+    hasta: 1491
+    certeza: probable
+    nota: "Junto con el Charon. Por verificar."
+  lugar: napoles
+
+temas: [academia napolitana, homenaje al Panormita, poesía, sátira]
+
+fuentes: []
+
+revision: pendiente

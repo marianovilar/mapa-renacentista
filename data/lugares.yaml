@@ -71,3 +71,126 @@
   lat: 47.5596
   lon: 7.5886
   wikidata: Q78
+
+- id: ferrara
+  nombre: Ferrara
+  nombre_latino: Ferraria
+  lat: 44.8381
+  lon: 11.6198
+  wikidata: null
+
+- id: napoles
+  nombre: Nápoles
+  nombre_latino: Neapolis
+  lat: 40.8518
+  lon: 14.2681
+  wikidata: null
+
+- id: bolonia
+  nombre: Bolonia
+  nombre_latino: Bononia
+  lat: 44.4949
+  lon: 11.3426
+  wikidata: null
+
+- id: siena
+  nombre: Siena
+  nombre_latino: Sena
+  lat: 43.3188
+  lon: 11.3308
+  wikidata: null
+
+- id: terranuova
+  nombre: Terranuova
+  nombre_latino: Terranova
+  lat: 43.5530
+  lon: 11.5880
+  wikidata: null
+  nota: "Villa de Poggio en el Valdarno."
+
+- id: rieti
+  nombre: Rieti
+  nombre_latino: Reate
+  lat: 42.4048
+  lon: 12.8627
+  wikidata: null
+
+- id: fabriano
+  nombre: Fabriano
+  nombre_latino: Fabrianum
+  lat: 43.3366
+  lon: 12.9087
+  wikidata: null
+
+- id: bressanone
+  nombre: Bressanone
+  nombre_latino: Brixina
+  lat: 46.7150
+  lon: 11.6560
+  wikidata: null
+  nota: "Brixen, sede episcopal de Cusa."
+
+- id: camaldoli
+  nombre: Camaldoli
+  nombre_latino: Camaldulum
+  lat: 43.7955
+  lon: 11.8158
+  wikidata: null
+
+- id: careggi
+  nombre: Careggi
+  nombre_latino: Caregium
+  lat: 43.8106
+  lon: 11.2483
+  wikidata: null
+  nota: "Villa medicea en las afueras de Florencia."
+
+- id: bisentina
+  nombre: Isla Bisentina (lago de Bolsena)
+  nombre_latino: Bisentina
+  lat: 42.5170
+  lon: 11.8810
+  wikidata: null
+
+- id: buda
+  nombre: Buda
+  nombre_latino: Buda
+  lat: 47.4960
+  lon: 19.0398
+  wikidata: null
+
+- id: venecia
+  nombre: Venecia
+  nombre_latino: Venetiae
+  lat: 45.4408
+  lon: 12.3155
+  wikidata: null
+
+- id: padua
+  nombre: Padua
+  nombre_latino: Patavium
+  lat: 45.4064
+  lon: 11.8768
+  wikidata: null
+
+- id: cambridge
+  nombre: Cambridge
+  nombre_latino: Cantabrigia
+  lat: 52.2053
+  lon: 0.1218
+  wikidata: null
+
+- id: halsteren
+  nombre: Halsteren
+  nombre_latino: Halsteren
+  lat: 51.5280
+  lon: 4.2730
+  wikidata: null
+  nota: "Cerca de Bergen op Zoom."
+
+- id: maguncia
+  nombre: Maguncia
+  nombre_latino: Moguntia
+  lat: 49.9929
+  lon: 8.2473
+  wikidata: null

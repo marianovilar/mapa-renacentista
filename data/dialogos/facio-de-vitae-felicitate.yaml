@@ -1,0 +1,39 @@
+id: facio-de-vitae-felicitate
+titulo: De humanae vitae felicitate
+titulo_completo: De vitae felicitate / De humanae vitae felicitate
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [facio]
+
+destinatarios:
+  - persona: alfonso-v
+    forma: dedicatoria
+
+interlocutores:
+  - persona: guarino
+    nota: "Por verificar."
+  - persona: panormita
+    nota: "Por verificar."
+  - persona: lamola
+    nota: "Por verificar."
+
+composicion:
+  fecha:
+    desde: 1445
+    hasta: 1446
+    certeza: probable
+  lugares:
+    - lugar: napoles
+
+ambientacion:
+  fecha: null
+  lugar: ferrara
+  nota: "Por verificar."
+
+temas: [felicidad, vida contemplativa, respuesta a Valla]
+
+fuentes: []
+
+revision: pendiente

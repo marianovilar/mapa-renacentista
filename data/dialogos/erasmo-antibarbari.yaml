@@ -1,0 +1,47 @@
+id: erasmo-antibarbari
+titulo: Antibarbari
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [erasmo]
+
+destinatarios: []
+nota_destinatarios: "La edición de 1520 lleva un prefacio. Destinatario por verificar."
+
+interlocutores:
+  - persona: batt
+  - persona: willem-hermans
+  - persona: erasmo
+    nota: "El autor como personaje."
+nota_interlocutores: "Participan también un burgomaestre y un médico. Por verificar."
+
+composicion:
+  fecha:
+    desde: 1494
+    hasta: 1520
+    certeza: probable
+    nota: "Redacción juvenil (c. 1494–1495) revisada para la edición de 1520. Solo se publicó el libro I."
+  lugares:
+    - lugar: halsteren
+    - lugar: basilea
+      nota: "Revisión para la imprenta."
+
+ambientacion:
+  fecha: null
+  lugar: halsteren
+  nota: "En una casa de campo cerca de Bergen op Zoom."
+
+primera_edicion:
+  fecha:
+    desde: 1520
+    hasta: 1520
+    certeza: segura
+  lugar: basilea
+  impresor: Froben
+
+temas: [defensa de las letras, barbarie escolástica, educación]
+
+fuentes: []
+
+revision: pendiente

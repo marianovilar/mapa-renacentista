@@ -1,0 +1,39 @@
+id: lapo-de-curiae-commodis
+titulo: De curiae commodis
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [lapo]
+
+destinatarios:
+  - persona: condulmer
+    forma: dedicatoria
+
+interlocutores:
+  - persona: lapo
+    nota: "El autor como personaje."
+  - persona: angelo-recanati
+
+composicion:
+  fecha:
+    desde: 1438
+    hasta: 1438
+    certeza: probable
+  lugares:
+    - lugar: ferrara
+      nota: "Durante el concilio de Ferrara."
+
+ambientacion:
+  fecha:
+    desde: 1438
+    hasta: 1438
+    certeza: probable
+  lugar: ferrara
+
+temas: [curia papal, ironía, carrera eclesiástica]
+
+fuentes:
+  - "Christopher S. Celenza, Renaissance Humanism and the Papal Curia: Lapo da Castiglionchio the Younger's De curiae commodis (1999)."
+
+revision: pendiente

@@ -1,0 +1,28 @@
+id: poggio-historia-tripartita
+titulo: Historia tripartita disceptativa convivalis
+lengua: latín
+forma: convivium
+libros: 3
+
+autores: [poggio]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores: []
+nota_interlocutores: "Por verificar. Una de las tres partes discute si el latín fue lengua común de los romanos, contra la tesis de Bruni."
+
+composicion:
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: conjetural
+  lugares:
+    - lugar: roma
+      nota: "Por verificar."
+
+temas: [lengua latina, sobremesa, Bruni]
+
+fuentes: []
+
+revision: pendiente

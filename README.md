@@ -4,10 +4,10 @@ Visualización interactiva del Renacimiento europeo (siglos XIV–XVII): mapas p
 
 ## Fase 1: diálogos latinos, de Petrarca a Erasmo
 
-Una base de datos navegable de unos 30 diálogos latinos, del *Secretum* de Petrarca (desde 1347) a la última edición de los *Colloquia* de Erasmo (1533). Cada diálogo registra autor, destinatario, interlocutores, fecha y lugar de composición, ambientación y primera edición. Al hacer clic en cualquiera de esos datos se ven sus cruces con el resto.
+Una base de datos navegable de 38 diálogos latinos, del *Secretum* de Petrarca (desde 1347) a la última edición de los *Colloquia* de Erasmo (1533). Cada diálogo registra autor, destinatario, interlocutores, fecha y lugar de composición, ambientación y primera edición. Al hacer clic en cualquiera de esos datos se ven sus cruces con el resto.
 
 - [`docs/esquema.md`](docs/esquema.md): cómo se cargan los datos.
-- [`docs/corpus-candidatos.md`](docs/corpus-candidatos.md): lista de trabajo para elegir el corpus.
+- [`docs/corpus-candidatos.md`](docs/corpus-candidatos.md): el corpus elegido y las decisiones tomadas.
 - [`data/`](data/): los datos (un YAML por diálogo, más `personas.yaml` y `lugares.yaml`).
 
 ## Validar los datos

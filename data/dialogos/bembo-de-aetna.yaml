@@ -1,0 +1,45 @@
+id: bembo-de-aetna
+titulo: De Aetna
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [bembo]
+
+destinatarios:
+  - persona: angelo-gabriele
+    forma: dedicatoria
+
+interlocutores:
+  - persona: bembo
+    nota: "El autor como personaje."
+  - persona: bernardo-bembo
+
+composicion:
+  fecha:
+    desde: 1494
+    hasta: 1495
+    certeza: probable
+    nota: "Tras su estancia en Messina (1492–1494) y su ascenso al Etna."
+  lugares:
+    - lugar: venecia
+
+ambientacion:
+  fecha: null
+  lugar: padua
+  nota: "En la villa familiar de Noniano, cerca de Padua. Por verificar."
+
+primera_edicion:
+  fecha:
+    desde: 1496
+    hasta: 1496
+    certeza: segura
+    nota: "Febrero de 1496 (1495 según el calendario veneciano)."
+  lugar: venecia
+  impresor: Aldo Manuzio
+
+temas: [Etna, viaje, filosofía natural, latín de Bembo]
+
+fuentes: []
+
+revision: pendiente

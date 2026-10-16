@@ -1,0 +1,43 @@
+id: poggio-de-varietate-fortunae
+titulo: De varietate fortunae
+lengua: latín
+forma: mixta
+libros: 4
+
+caso_dudoso: true
+motivo_duda: "El marco dialogado con Loschi domina el libro I; el resto es sobre todo historia y relato de viajes (Niccolò de' Conti en el libro IV)."
+
+autores: [poggio]
+
+destinatarios:
+  - persona: nicolas-v
+    forma: dedicatoria
+
+interlocutores:
+  - persona: poggio
+    nota: "El autor como personaje."
+  - persona: loschi
+
+composicion:
+  fecha:
+    desde: 1431
+    hasta: 1448
+    certeza: probable
+    nota: "Comenzado hacia 1431; terminado y dedicado a Nicolás V en 1448."
+  lugares:
+    - lugar: roma
+
+ambientacion:
+  fecha:
+    desde: 1430
+    hasta: 1431
+    certeza: probable
+    nota: "Poco antes de la muerte de Martín V (febrero de 1431)."
+  lugar: roma
+  nota: "Desde el Capitolio, contemplando las ruinas de la ciudad."
+
+temas: [fortuna, ruinas de Roma, historia contemporánea, viajes]
+
+fuentes: []
+
+revision: pendiente

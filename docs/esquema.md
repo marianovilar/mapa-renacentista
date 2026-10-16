@@ -6,7 +6,7 @@ Este documento fija cómo se cargan los datos. Si un caso no encaja, se discute 
 
 - **Género:** diálogos en prosa latina (incluye coloquios, *convivia* y diálogos narrados).
 - **Período:** del *Secretum* de Petrarca (redacción desde 1347) a la última edición de los *Colloquia* revisada por Erasmo (Basilea, Froben, 1533).
-- **Tamaño:** unos 30 diálogos. No se busca exhaustividad.
+- **Tamaño:** 38 diálogos. No se busca exhaustividad.
 - **Casos dudosos:** se incluyen con `caso_dudoso: true` y el motivo explicado (por ejemplo, *Utopia*, dialogada solo en el libro I).
 
 ## Archivos
@@ -103,10 +103,12 @@ En cada diálogo se distinguen:
 ```yaml
 relaciones:
   - dialogo: valla-de-vero-bono
-    tipo: reelaborada-en      # reelaboracion-de | reelaborada-en | parte-de | contiene
+    tipo: reelaborada-en      # reelaboracion-de | reelaborada-en | parte-de | contiene | serie
 ```
 
-`parte-de` y `contiene` quedan para las obras divididas en fichas, como las seis etapas de los *Colloquia*.
+`serie` vincula obras hermanas con fichas propias, como los tres libros del *Idiota* de Cusa. `parte-de` y `contiene` quedan para las obras divididas en fichas, como las seis etapas de los *Colloquia*.
+
+Si falta un dato y no se puede completar todavía, el campo queda vacío y se explica en una nota hermana: `nota_destinatarios`, `nota_interlocutores`.
 
 ## Control de calidad
 

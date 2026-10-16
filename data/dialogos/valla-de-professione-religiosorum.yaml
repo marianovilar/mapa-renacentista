@@ -1,0 +1,30 @@
+id: valla-de-professione-religiosorum
+titulo: De professione religiosorum
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [valla]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: valla
+    nombre_en_el_texto: Laurentius
+  - persona: frater
+
+composicion:
+  fecha:
+    desde: 1442
+    hasta: 1442
+    certeza: probable
+  lugares:
+    - lugar: napoles
+      nota: "Por verificar."
+
+temas: [votos religiosos, órdenes mendicantes, vida cristiana]
+
+fuentes: []
+
+revision: pendiente

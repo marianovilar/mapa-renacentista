@@ -1,0 +1,37 @@
+id: cortesi-de-hominibus-doctis
+titulo: De hominibus doctis
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [cortesi]
+
+destinatarios:
+  - persona: lorenzo-magnifico
+    forma: dedicatoria
+    nota: "Por verificar."
+
+interlocutores:
+  - persona: cortesi
+    nota: "El autor como personaje."
+  - persona: alessandro-farnese
+nota_interlocutores: "Participa también Antonio Cortesi, hermano del autor. Por verificar."
+
+composicion:
+  fecha:
+    desde: 1489
+    hasta: 1491
+    certeza: conjetural
+  lugares:
+    - lugar: roma
+
+ambientacion:
+  fecha: null
+  lugar: bisentina
+  nota: "En la isla Bisentina del lago de Bolsena. Por verificar."
+
+temas: [historia de los humanistas, estilo latino, ciceronianismo]
+
+fuentes: []
+
+revision: pendiente

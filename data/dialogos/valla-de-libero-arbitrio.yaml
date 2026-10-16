@@ -1,0 +1,31 @@
+id: valla-de-libero-arbitrio
+titulo: De libero arbitrio
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [valla]
+
+destinatarios: []
+nota_destinatarios: "Probablemente García, obispo de Lérida. Por verificar."
+
+interlocutores:
+  - persona: glarea
+  - persona: valla
+    nombre_en_el_texto: Laurentius
+    nota: "El autor como personaje."
+
+composicion:
+  fecha:
+    desde: 1439
+    hasta: 1439
+    certeza: probable
+  lugares:
+    - lugar: napoles
+      nota: "Al servicio de Alfonso de Aragón; quizás Gaeta. Por verificar."
+
+temas: [libre albedrío, presciencia divina, Boecio]
+
+fuentes: []
+
+revision: pendiente

@@ -1,0 +1,29 @@
+id: alberti-pontifex
+titulo: Pontifex
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [alberti]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: paolo-alberti
+  - persona: alberto-alberti
+
+composicion:
+  fecha:
+    desde: 1437
+    hasta: 1437
+    certeza: probable
+  lugares:
+    - lugar: bolonia
+      nota: "Alberti seguía a la curia de Eugenio IV. Por verificar."
+
+temas: [oficio del obispo, curia, vida eclesiástica]
+
+fuentes: []
+
+revision: pendiente

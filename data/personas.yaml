@@ -220,3 +220,485 @@
   nombre_latino: Nosoponus
   tipo: ficticia
   nota: "'El que sufre una enfermedad': el ciceroniano obsesivo."
+
+# --- Petrarca, De remediis ---
+- id: gaudium
+  nombre: El Gozo
+  nombre_latino: Gaudium
+  tipo: alegórica
+
+- id: spes
+  nombre: La Esperanza
+  nombre_latino: Spes
+  tipo: alegórica
+
+- id: dolor
+  nombre: El Dolor
+  nombre_latino: Dolor
+  tipo: alegórica
+
+- id: metus
+  nombre: El Miedo
+  nombre_latino: Metus
+  tipo: alegórica
+
+- id: ratio
+  nombre: La Razón
+  nombre_latino: Ratio
+  tipo: alegórica
+
+- id: azzo-correggio
+  nombre: Azzo da Correggio
+  nombre_latino: Azo Corrigiensis
+  nacimiento: 1303
+  muerte: 1362
+  tipo: histórica
+
+# --- Poggio ---
+- id: nicolas-v
+  nombre: Nicolás V (Tommaso Parentucelli)
+  nombre_latino: Nicolaus V
+  nacimiento: 1397
+  muerte: 1455
+  tipo: histórica
+
+- id: lorenzo-medici-viejo
+  nombre: Lorenzo di Giovanni de' Medici
+  nombre_latino: Laurentius Medices
+  nacimiento: 1395
+  muerte: 1440
+  tipo: histórica
+  nota: "Hermano de Cosme el Viejo."
+
+- id: marsuppini
+  nombre: Carlo Marsuppini
+  nombre_latino: Carolus Aretinus
+  nacimiento: 1398
+  muerte: 1453
+  tipo: histórica
+
+# --- Valla ---
+- id: glarea
+  nombre: Antonio Glarea
+  nombre_latino: Antonius Glarea
+  tipo: histórica
+  nota: "Clérigo español de la corte aragonesa. Fechas por verificar."
+
+- id: frater
+  nombre: Un fraile
+  nombre_latino: Frater
+  tipo: ficticia
+  nota: "Interlocutor anónimo."
+
+# --- Alberti, Pontifex ---
+- id: alberti
+  nombre: Leon Battista Alberti
+  nombre_latino: Leo Baptista Albertus
+  nacimiento: 1404
+  muerte: 1472
+  tipo: histórica
+
+- id: paolo-alberti
+  nombre: Paolo Alberti
+  nombre_latino: Paulus Albertus
+  tipo: histórica
+  nota: "Obispo, pariente del autor. Fechas por verificar."
+
+- id: alberto-alberti
+  nombre: Alberto Alberti
+  nombre_latino: Albertus Albertus
+  nacimiento: 1386
+  muerte: 1445
+  tipo: histórica
+  nota: "Obispo de Camerino, cardenal desde 1439."
+
+# --- Lapo ---
+- id: lapo
+  nombre: Lapo da Castiglionchio el Joven
+  nombre_latino: Lapus Castelliunculus
+  nacimiento: 1405
+  muerte: 1438
+  tipo: histórica
+
+- id: angelo-recanati
+  nombre: Angelo da Recanati
+  nombre_latino: Angelus Recinetensis
+  tipo: histórica
+  nota: "Funcionario de la curia. Por verificar."
+
+- id: condulmer
+  nombre: Francesco Condulmer
+  nombre_latino: Franciscus Condulmerius
+  nacimiento: 1390
+  muerte: 1453
+  tipo: histórica
+  nota: "Cardenal vicecanciller, sobrino de Eugenio IV."
+
+# --- Manetti ---
+- id: manetti
+  nombre: Giannozzo Manetti
+  nombre_latino: Iannotius Manettus
+  nacimiento: 1396
+  muerte: 1459
+  tipo: histórica
+
+- id: agnolo-acciaiuoli
+  nombre: Agnolo Acciaiuoli
+  nombre_latino: Angelus Acciaiolus
+  nacimiento: 1398
+  muerte: 1470
+  tipo: histórica
+  nota: "Fechas aproximadas."
+
+- id: niccolo-medici
+  nombre: Niccolò di Vieri de' Medici
+  nombre_latino: Nicolaus Medices
+  tipo: histórica
+  nota: "Identificación y fechas por verificar."
+
+# --- Facio ---
+- id: facio
+  nombre: Bartolomeo Facio
+  nombre_latino: Bartholomaeus Facius
+  nacimiento: 1405
+  muerte: 1457
+  tipo: histórica
+  nota: "Nacimiento c. 1405."
+
+- id: alfonso-v
+  nombre: Alfonso V de Aragón, el Magnánimo
+  nombre_latino: Alphonsus Rex
+  nacimiento: 1396
+  muerte: 1458
+  tipo: histórica
+
+- id: guarino
+  nombre: Guarino Veronese
+  nombre_latino: Guarinus Veronensis
+  nacimiento: 1374
+  muerte: 1460
+  tipo: histórica
+
+- id: lamola
+  nombre: Giovanni Lamola
+  nombre_latino: Ioannes Lamola
+  muerte: 1449
+  tipo: histórica
+
+# --- Filelfo ---
+- id: filelfo
+  nombre: Francesco Filelfo
+  nombre_latino: Franciscus Philelfus
+  nacimiento: 1398
+  muerte: 1481
+  tipo: histórica
+
+- id: palla-strozzi
+  nombre: Palla Strozzi
+  nombre_latino: Palla Strozza
+  nacimiento: 1372
+  muerte: 1462
+  tipo: histórica
+
+# --- Cusa ---
+- id: cusa
+  nombre: Nicolás de Cusa
+  nombre_latino: Nicolaus Cusanus
+  nacimiento: 1401
+  muerte: 1464
+  tipo: histórica
+
+- id: idiota
+  nombre: El idiota
+  nombre_latino: Idiota
+  tipo: ficticia
+  nota: "Artesano laico sin formación escolástica."
+
+- id: orator
+  nombre: El orador
+  nombre_latino: Orator
+  tipo: ficticia
+
+- id: philosophus
+  nombre: El filósofo
+  nombre_latino: Philosophus
+  tipo: ficticia
+  nota: "Peripatético."
+
+- id: verbum
+  nombre: El Verbo
+  nombre_latino: Verbum
+  tipo: divina
+
+- id: san-pedro
+  nombre: San Pedro
+  nombre_latino: Petrus
+  tipo: histórica
+
+- id: san-pablo
+  nombre: San Pablo
+  nombre_latino: Paulus
+  tipo: histórica
+
+# --- Accolti ---
+- id: accolti
+  nombre: Benedetto Accolti el Viejo
+  nombre_latino: Benedictus Accoltus
+  nacimiento: 1415
+  muerte: 1464
+  tipo: histórica
+
+# --- Landino y Florencia medicea ---
+- id: landino
+  nombre: Cristoforo Landino
+  nombre_latino: Christophorus Landinus
+  nacimiento: 1424
+  muerte: 1498
+  tipo: histórica
+
+- id: lorenzo-magnifico
+  nombre: Lorenzo de' Medici, el Magnífico
+  nombre_latino: Laurentius Medices
+  nacimiento: 1449
+  muerte: 1492
+  tipo: histórica
+
+- id: giuliano-medici
+  nombre: Giuliano de' Medici
+  nombre_latino: Iulianus Medices
+  nacimiento: 1453
+  muerte: 1478
+  tipo: histórica
+
+- id: ficino
+  nombre: Marsilio Ficino
+  nombre_latino: Marsilius Ficinus
+  nacimiento: 1433
+  muerte: 1499
+  tipo: histórica
+
+- id: donato-acciaiuoli
+  nombre: Donato Acciaiuoli
+  nombre_latino: Donatus Acciaiolus
+  nacimiento: 1429
+  muerte: 1478
+  tipo: histórica
+
+- id: rinuccini
+  nombre: Alamanno Rinuccini
+  nombre_latino: Alamannus Rinuccinus
+  nacimiento: 1426
+  muerte: 1499
+  tipo: histórica
+
+- id: marco-parenti
+  nombre: Marco Parenti
+  nombre_latino: Marcus Parentius
+  nacimiento: 1421
+  muerte: 1497
+  tipo: histórica
+
+- id: federico-montefeltro
+  nombre: Federico da Montefeltro
+  nombre_latino: Federicus Feretranus
+  nacimiento: 1422
+  muerte: 1482
+  tipo: histórica
+
+- id: platina
+  nombre: Bartolomeo Platina
+  nombre_latino: Platyna
+  nacimiento: 1421
+  muerte: 1481
+  tipo: histórica
+
+- id: cosme-medici
+  nombre: Cosme de' Medici, el Viejo
+  nombre_latino: Cosmus Medices
+  nacimiento: 1389
+  muerte: 1464
+  tipo: histórica
+
+- id: eleutherius
+  nombre: Eleutherius
+  nombre_latino: Eleutherius
+  tipo: ficticia
+  nota: "«El libre». Máscara del propio Rinuccini."
+
+- id: alitheus
+  nombre: Alitheus
+  nombre_latino: Alitheus
+  tipo: ficticia
+  nota: "«El veraz». Por verificar a quién encubre."
+
+- id: microtoxus
+  nombre: Microtoxus
+  nombre_latino: Microtoxus
+  tipo: ficticia
+  nota: "Por verificar a quién encubre."
+
+- id: cavalcanti
+  nombre: Giovanni Cavalcanti
+  nombre_latino: Ioannes Cavalcantes
+  nacimiento: 1444
+  muerte: 1509
+  tipo: histórica
+  nota: "Amigo de Ficino; no confundir con el cronista homónimo."
+
+- id: antonio-agli
+  nombre: Antonio degli Agli
+  nombre_latino: Antonius Allius
+  nacimiento: 1400
+  muerte: 1477
+  tipo: histórica
+  nota: "Obispo de Fiesole. Fechas aproximadas."
+
+# --- Pontano y Nápoles ---
+- id: pontano
+  nombre: Giovanni Pontano
+  nombre_latino: Ioannes Iovianus Pontanus
+  nacimiento: 1426
+  muerte: 1503
+  tipo: histórica
+
+- id: caronte
+  nombre: Caronte
+  nombre_latino: Charon
+  tipo: mitológica
+
+- id: mercurio
+  nombre: Mercurio
+  nombre_latino: Mercurius
+  tipo: mitológica
+
+- id: minos
+  nombre: Minos
+  nombre_latino: Minos
+  tipo: mitológica
+
+- id: eaco
+  nombre: Éaco
+  nombre_latino: Aeacus
+  tipo: mitológica
+
+- id: sannazaro
+  nombre: Jacopo Sannazaro
+  nombre_latino: Actius Syncerus Sannazarius
+  nacimiento: 1458
+  muerte: 1530
+  tipo: histórica
+
+# --- Cortesi, Brandolini, Bembo ---
+- id: cortesi
+  nombre: Paolo Cortesi
+  nombre_latino: Paulus Cortesius
+  nacimiento: 1465
+  muerte: 1510
+  tipo: histórica
+
+- id: alessandro-farnese
+  nombre: Alessandro Farnese (luego Pablo III)
+  nombre_latino: Alexander Farnesius
+  nacimiento: 1468
+  muerte: 1549
+  tipo: histórica
+
+- id: brandolini
+  nombre: Aurelio Lippo Brandolini
+  nombre_latino: Aurelius Lippus Brandolinus
+  nacimiento: 1454
+  muerte: 1497
+  tipo: histórica
+  nota: "Nacimiento c. 1454."
+
+- id: matias-corvino
+  nombre: Matías Corvino
+  nombre_latino: Matthias Corvinus
+  nacimiento: 1443
+  muerte: 1490
+  tipo: histórica
+
+- id: ranzano
+  nombre: Pietro Ranzano
+  nombre_latino: Petrus Ransanus
+  nacimiento: 1428
+  muerte: 1492
+  tipo: histórica
+  nota: "Dominico siciliano, embajador napolitano en Hungría."
+
+- id: bembo
+  nombre: Pietro Bembo
+  nombre_latino: Petrus Bembus
+  nacimiento: 1470
+  muerte: 1547
+  tipo: histórica
+
+- id: bernardo-bembo
+  nombre: Bernardo Bembo
+  nombre_latino: Bernardus Bembus
+  nacimiento: 1433
+  muerte: 1519
+  tipo: histórica
+
+- id: angelo-gabriele
+  nombre: Angelo Gabriele
+  nombre_latino: Angelus Gabriel
+  tipo: histórica
+  nota: "Patricio veneciano, amigo de Bembo. Fechas por verificar."
+
+# --- Norte de Europa ---
+- id: julio-ii
+  nombre: Julio II
+  nombre_latino: Iulius II
+  nacimiento: 1443
+  muerte: 1513
+  tipo: histórica
+
+- id: genius
+  nombre: El Genio
+  nombre_latino: Genius
+  tipo: alegórica
+  nota: "Genio tutelar de Julio II."
+
+- id: batt
+  nombre: Jacob Batt
+  nombre_latino: Iacobus Battus
+  nacimiento: 1464
+  muerte: 1502
+  tipo: histórica
+  nota: "Fechas aproximadas."
+
+- id: willem-hermans
+  nombre: Willem Hermans
+  nombre_latino: Guilielmus Hermannus
+  nacimiento: 1468
+  muerte: 1510
+  tipo: histórica
+  nota: "Fechas aproximadas."
+
+- id: hutten
+  nombre: Ulrich von Hutten
+  nombre_latino: Udalricus Huttenus
+  nacimiento: 1488
+  muerte: 1523
+  tipo: histórica
+
+- id: ernholdus
+  nombre: Ernholdus
+  nombre_latino: Ernholdus
+  tipo: ficticia
+  nota: "Por verificar si encubre a alguien."
+
+- id: valeriano
+  nombre: Pierio Valeriano
+  nombre_latino: Pierius Valerianus
+  nacimiento: 1477
+  muerte: 1558
+  tipo: histórica
+
+- id: contarini
+  nombre: Gasparo Contarini
+  nombre_latino: Gaspar Contarenus
+  nacimiento: 1483
+  muerte: 1542
+  tipo: histórica

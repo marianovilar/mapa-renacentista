@@ -1,0 +1,40 @@
+id: pontano-actius
+titulo: Actius
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [pontano]
+
+destinatarios: []
+
+interlocutores:
+  - persona: sannazaro
+    nombre_en_el_texto: Actius Syncerus
+nota_interlocutores: "Resto del reparto (miembros de la academia napolitana) por verificar."
+
+composicion:
+  fecha:
+    desde: 1495
+    hasta: 1499
+    certeza: probable
+  lugares:
+    - lugar: napoles
+
+ambientacion:
+  fecha: null
+  lugar: napoles
+
+primera_edicion:
+  fecha:
+    desde: 1507
+    hasta: 1507
+    certeza: probable
+    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Aegidius."
+  lugar: napoles
+
+temas: [poesía, ritmo, historiografía, Virgilio]
+
+fuentes: []
+
+revision: pendiente

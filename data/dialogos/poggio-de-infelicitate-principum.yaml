@@ -1,0 +1,35 @@
+id: poggio-de-infelicitate-principum
+titulo: De infelicitate principum
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [poggio]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: niccoli
+  - persona: marsuppini
+  - persona: poggio
+    nota: "El autor como personaje."
+
+composicion:
+  fecha:
+    desde: 1440
+    hasta: 1440
+    certeza: probable
+  lugares:
+    - lugar: florencia
+
+ambientacion:
+  fecha: null
+  lugar: florencia
+  nota: "Por verificar."
+
+temas: [príncipes, felicidad, vida activa y contemplativa]
+
+fuentes: []
+
+revision: pendiente

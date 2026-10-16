@@ -1,0 +1,36 @@
+id: brandolini-de-humanae-vitae-conditione
+titulo: De humanae vitae conditione
+titulo_completo: De humanae vitae conditione et toleranda corporis aegritudine
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [brandolini]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: matias-corvino
+  - persona: ranzano
+    nota: "Por verificar."
+
+composicion:
+  fecha:
+    desde: 1489
+    hasta: 1490
+    certeza: conjetural
+  lugares:
+    - lugar: buda
+      nota: "En la corte de Matías Corvino. Por verificar."
+
+ambientacion:
+  fecha: null
+  lugar: buda
+  nota: "Junto al rey enfermo."
+
+temas: [miseria y dignidad del hombre, enfermedad, consolación]
+
+fuentes: []
+
+revision: pendiente

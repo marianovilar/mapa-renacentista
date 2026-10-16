@@ -1,0 +1,41 @@
+id: erasmo-iulius-exclusus
+titulo: Iulius exclusus e coelis
+lengua: latín
+forma: diálogo
+libros: 1
+
+caso_dudoso: true
+motivo_duda: "Atribución a Erasmo discutida; circuló anónimo."
+
+autores: [erasmo]
+
+destinatarios: []
+
+interlocutores:
+  - persona: julio-ii
+  - persona: genius
+  - persona: san-pedro
+
+composicion:
+  fecha:
+    desde: 1513
+    hasta: 1514
+    certeza: conjetural
+    nota: "Tras la muerte de Julio II (febrero de 1513)."
+  lugares:
+    - lugar: cambridge
+      nota: "Si es de Erasmo, que estuvo allí hasta 1514. Por verificar."
+
+ambientacion:
+  fecha:
+    desde: 1513
+    hasta: 1513
+    certeza: probable
+  lugar: null
+  nota: "Ante las puertas del cielo."
+
+temas: [sátira antipapal, guerra, Iglesia]
+
+fuentes: []
+
+revision: pendiente

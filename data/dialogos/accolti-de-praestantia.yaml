@@ -1,0 +1,30 @@
+id: accolti-de-praestantia
+titulo: Dialogus de praestantia virorum sui aevi
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [accolti]
+
+destinatarios:
+  - persona: cosme-medici
+    forma: dedicatoria
+    nota: "Por verificar."
+
+interlocutores: []
+nota_interlocutores: "Por verificar."
+
+composicion:
+  fecha:
+    desde: 1462
+    hasta: 1464
+    certeza: conjetural
+    nota: "Antes de la muerte de Accolti y de Cosme (1464)."
+  lugares:
+    - lugar: florencia
+
+temas: [antiguos y modernos, excelencia de los contemporáneos]
+
+fuentes: []
+
+revision: pendiente

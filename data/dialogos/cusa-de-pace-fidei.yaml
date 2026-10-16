@@ -1,0 +1,35 @@
+id: cusa-de-pace-fidei
+titulo: De pace fidei
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [cusa]
+
+destinatarios: []
+
+interlocutores:
+  - persona: verbum
+  - persona: san-pedro
+  - persona: san-pablo
+nota_interlocutores: "Además, sabios de diecisiete naciones y credos (griego, italiano, árabe, indio, caldeo, judío, escita, persa, tártaro, bohemio, inglés, entre otros), sin nombre propio."
+
+composicion:
+  fecha:
+    desde: 1453
+    hasta: 1453
+    certeza: probable
+    nota: "Tras la caída de Constantinopla (mayo de 1453)."
+  lugares:
+    - lugar: bressanone
+
+ambientacion:
+  fecha: null
+  lugar: null
+  nota: "Visión: un concilio celestial."
+
+temas: [concordia religiosa, una religio in rituum varietate, Constantinopla]
+
+fuentes: []
+
+revision: pendiente

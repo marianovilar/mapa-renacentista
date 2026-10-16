@@ -1,0 +1,36 @@
+id: rinuccini-de-libertate
+titulo: De libertate
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [rinuccini]
+
+destinatarios: []
+
+interlocutores:
+  - persona: eleutherius
+    nota: "Máscara del autor."
+  - persona: alitheus
+  - persona: microtoxus
+
+composicion:
+  fecha:
+    desde: 1479
+    hasta: 1479
+    certeza: probable
+    nota: "Tras la conjura de los Pazzi (1478). No circuló en vida del autor."
+  lugares:
+    - lugar: florencia
+      nota: "Por verificar."
+
+ambientacion:
+  fecha: null
+  lugar: null
+  nota: "En la villa de Eleutherius, retirado de la vida pública. Lugar por verificar."
+
+temas: [libertad, tiranía, Lorenzo de' Medici, conjura de los Pazzi]
+
+fuentes: []
+
+revision: pendiente

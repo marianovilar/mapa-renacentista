@@ -1,0 +1,41 @@
+id: ficino-de-amore
+titulo: De amore
+titulo_completo: Commentarium in Convivium Platonis de amore
+lengua: latín
+forma: convivium
+libros: 7
+
+caso_dudoso: true
+motivo_duda: "Es un comentario al Banquete de Platón con forma de convivium: cada comensal interpreta uno de los discursos."
+
+autores: [ficino]
+
+destinatarios:
+  - persona: cavalcanti
+    forma: dedicatoria
+
+interlocutores:
+  - persona: antonio-agli
+  - persona: ficino
+  - persona: landino
+  - persona: cavalcanti
+nota_interlocutores: "Participan también Bernardo Nuti, Tommaso Benci, Cristoforo Marsuppini y otros. Reparto completo por verificar."
+
+composicion:
+  fecha:
+    desde: 1468
+    hasta: 1469
+    certeza: probable
+  lugares:
+    - lugar: florencia
+
+ambientacion:
+  fecha: null
+  lugar: careggi
+  nota: "Banquete del 7 de noviembre, aniversario de Platón. Año por verificar."
+
+temas: [amor platónico, belleza, Banquete de Platón]
+
+fuentes: []
+
+revision: pendiente

@@ -1,0 +1,37 @@
+id: platina-de-optimo-cive
+titulo: De optimo cive
+lengua: latín
+forma: diálogo
+libros: 2
+
+autores: [platina]
+
+destinatarios:
+  - persona: lorenzo-magnifico
+    forma: dedicatoria
+
+interlocutores:
+  - persona: cosme-medici
+  - persona: lorenzo-magnifico
+    nota: "Niño todavía en la ficción."
+  - persona: platina
+    nota: "El autor como personaje."
+
+composicion:
+  fecha:
+    desde: 1474
+    hasta: 1474
+    certeza: probable
+  lugares:
+    - lugar: roma
+
+ambientacion:
+  fecha: null
+  lugar: careggi
+  nota: "En la villa de Cosme, poco antes de su muerte (1464). Por verificar."
+
+temas: [buen ciudadano, república, Medici]
+
+fuentes: []
+
+revision: pendiente

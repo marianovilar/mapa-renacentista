@@ -1,0 +1,40 @@
+id: hutten-vadiscus
+titulo: Vadiscus
+titulo_completo: Vadiscus, sive Trias Romana
+lengua: latín
+forma: diálogo
+libros: 1
+
+autores: [hutten]
+
+destinatarios: []
+
+interlocutores:
+  - persona: hutten
+    nota: "El autor como personaje."
+  - persona: ernholdus
+nota_interlocutores: "Vadiscus no habla: sus tríadas sobre Roma son referidas por Hutten."
+
+composicion:
+  fecha:
+    desde: 1519
+    hasta: 1520
+    certeza: probable
+  lugares:
+    - lugar: maguncia
+      nota: "Por verificar."
+
+primera_edicion:
+  fecha:
+    desde: 1520
+    hasta: 1520
+    certeza: probable
+    nota: "En el volumen Dialogi. Por verificar."
+  lugar: maguncia
+  impresor: Johann Schöffer
+
+temas: [polémica antirromana, curia, nación alemana]
+
+fuentes: []
+
+revision: pendiente
