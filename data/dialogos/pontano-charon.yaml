@@ -33,12 +33,19 @@ primera_edicion:
   fecha:
     desde: 1491
     hasta: 1491
-    certeza: probable
-    nota: "Junto con el Antonius. Por verificar."
+    certeza: segura
+    nota: "31 de enero de 1491, junto con el Antonius (Del Noce 2018)."
   lugar: napoles
+  impresor: Mattia Moravo
+
+relaciones:
+  - dialogo: pontano-antonius
+    tipo: serie
+    nota: "Publicados juntos en 1491 por voluntad del autor."
 
 temas: [sátira lucianesca, vicios humanos, clero]
 
-fuentes: []
+fuentes:
+  - "Gianluca Del Noce, «Identità accademica e ‘incursioni’ dell’autore nel dialogo ‘Antonius’ di Giovanni Pontano», Atti del XX Congresso dell’ADI, 2018 (datos de la edición)."
 
 revision: pendiente

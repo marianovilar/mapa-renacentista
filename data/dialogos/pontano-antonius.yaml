@@ -1,39 +1,85 @@
 id: pontano-antonius
 titulo: Antonius
 lengua: latín
-forma: diálogo
+forma: mixta
 libros: 1
 
 autores: [pontano]
 
 destinatarios: []
+nota_destinatarios: "Sin dedicatario. El título rinde homenaje al Panormita, fundador de la academia, muerto poco antes del tiempo de la acción y protagonista in absentia."
 
-interlocutores: []
-nota_interlocutores: "Miembros de la academia napolitana tras la muerte del Panormita (1471). Reparto por verificar."
+# Del Noce distingue cuatro secciones en prosa, con repartos distintos,
+# más una parte prosimétrica y otra enteramente en verso.
+interlocutores:
+  - persona: golino
+    nombre_en_el_texto: Compater
+    nota: "Secciones 1 y 3. De luto por el Panormita; pronuncia su elogio."
+  - persona: huesped-siciliano
+    nombre_en_el_texto: Hospes Siculus
+    nota: "Sección 1. Forastero que busca al Panormita y su pórtico."
+  - persona: puderico
+    nota: "Sección 1. «Civitas nostra tota delirium est»."
+  - persona: contrario
+    nota: "Sección 2. Defiende a Cicerón contra los gramáticos."
+  - persona: calenzio
+    nombre_en_el_texto: Elisius
+    nota: "Sección 2. Defiende a Virgilio contra los gramáticos."
+  - persona: suppazio
+    nota: "Sección 3. Relata su viaje por Italia en busca del verdadero sabio."
+  - persona: lucio-pontano
+    nota: "Sección 4. El hijo pequeño de Pontano, que huye de una escena de celos de su madre."
+  - persona: lyricen
+    nota: "Parte prosimétrica. Alter ego de Pontano."
+  - persona: poeta-personatus
+    nota: "Parte en verso. Canta el Bellum Sertoriacum (630 hexámetros)."
+  - persona: histrio-personatus
+    nota: "Parte en verso. Prólogo e intermedio en yambos plautinos."
+nota_interlocutores: "Pontano no habla (está en casa con una pierna rota), pero es evocado y aparece bajo máscaras: el Lyricen y Pontius en el Bellum Sertoriacum, donde también figuran, heroizados, Marullo, Pardo, el Cariteo, Altilio y Sannazaro."
 
 composicion:
   fecha:
     desde: 1482
-    hasta: 1491
-    certeza: conjetural
+    hasta: 1490
+    certeza: probable
+    nota: "Entre 1482–1483 y 1490, según la cronología de S. Monti."
   lugares:
     - lugar: napoles
 
 ambientacion:
-  fecha: null
+  fecha:
+    desde: 1471
+    hasta: 1471
+    certeza: probable
+    nota: "Poco después de la muerte del Panormita (19 de enero de 1471)."
   lugar: napoles
-  nota: "En el pórtico donde se reunía la academia (Porticus Antoniana)."
+  nota: "Junto a la Porticus Antoniana, sede de las reuniones de la academia."
 
 primera_edicion:
   fecha:
     desde: 1491
     hasta: 1491
-    certeza: probable
-    nota: "Junto con el Charon. Por verificar."
+    certeza: segura
+    nota: "31 de enero de 1491, junto con el Charon."
   lugar: napoles
+  impresor: Mattia Moravo
 
-temas: [academia napolitana, homenaje al Panormita, poesía, sátira]
+relaciones:
+  - dialogo: pontano-charon
+    tipo: serie
+    nota: "Publicados juntos en 1491 por voluntad del autor."
 
-fuentes: []
+temas: [academia napolitana, homenaje al Panormita, gramáticos, defensa de Virgilio y Cicerón, Bellum Sertoriacum]
+
+resumen: >
+  Los académicos napolitanos, reunidos junto al pórtico del difunto Panormita,
+  critican las costumbres de Nápoles, defienden a Cicerón y a Virgilio de los
+  gramáticos y escuchan cantos que culminan en un poema épico sobre Sertorio.
+
+fuentes:
+  - "Gianluca Del Noce, «Identità accademica e ‘incursioni’ dell’autore nel dialogo ‘Antonius’ di Giovanni Pontano», en La letteratura italiana e le arti. Atti del XX Congresso dell’ADI, Roma, Adi editore, 2018."
+  - "Giovanni Pontano, I Dialoghi, ed. C. Previtera, Firenze, Sansoni, 1943."
+  - "Giovanni Gioviano Pontano, Dialogues I: Charon and Antonius, ed. y trad. J. H. Gaisser, Cambridge (MA), Harvard University Press, 2012."
+  - "Salvatore Monti, «Ricerche sulla cronologia dei Dialoghi», en L. Monti Sabia y S. Monti, Studi su Giovanni Pontano, Messina, 2010, II, 757–834."
 
 revision: pendiente

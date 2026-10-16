@@ -702,3 +702,66 @@
   nacimiento: 1483
   muerte: 1542
   tipo: histórica
+
+# --- Pontano, Antonius (según Del Noce 2018) ---
+- id: golino
+  nombre: Pietro Golino, Compater
+  nombre_latino: Petrus Compater
+  nacimiento: 1431
+  muerte: 1501
+  tipo: histórica
+  nota: "«Compater generalis». Presidente de la Sommaria."
+
+- id: huesped-siciliano
+  nombre: Un forastero siciliano
+  nombre_latino: Hospes Siculus
+  tipo: ficticia
+
+- id: puderico
+  nombre: Enrico Puderico
+  nombre_latino: Henricus Pudericus
+  muerte: 1472
+  tipo: histórica
+  nota: "También Poderico. Muerto entre 1472 y 1475; noble napolitano, consejero regio."
+
+- id: contrario
+  nombre: Andrea Contrario
+  nombre_latino: Andreas Contrarius
+  tipo: histórica
+  nota: "Veneciano, nacido a comienzos del siglo XV; activo en Roma y en Nápoles."
+
+- id: calenzio
+  nombre: Elisio Calenzio (Luigi Gallucci)
+  nombre_latino: Elisius Calentius
+  nacimiento: 1430
+  muerte: 1502
+  tipo: histórica
+  nota: "Muerte en 1502 o 1503. Preceptor de Federico de Aragón."
+
+- id: suppazio
+  nombre: Giurazio Suppazio
+  nombre_latino: Suppatius
+  tipo: histórica
+  nota: "Miembro de la academia napolitana. Fechas por verificar."
+
+- id: lucio-pontano
+  nombre: Lucio Francesco Pontano
+  nombre_latino: Lucius
+  tipo: histórica
+  nota: "Hijo de Pontano y Adriana Sassone. Fechas por verificar."
+
+- id: lyricen
+  nombre: El citarista
+  nombre_latino: Lyricen
+  tipo: ficticia
+  nota: "Alter ego de Pontano en el Antonius."
+
+- id: poeta-personatus
+  nombre: El poeta enmascarado
+  nombre_latino: Poeta personatus
+  tipo: ficticia
+
+- id: histrio-personatus
+  nombre: El actor enmascarado
+  nombre_latino: Histrio personatus
+  tipo: ficticia
