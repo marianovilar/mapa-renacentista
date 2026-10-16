@@ -8,21 +8,53 @@ libros: 1
 
 autores: [pontano]
 
-destinatarios: []
+destinatarios:
+  - persona: egidio-viterbo
+    forma: dedicatoria
+    nota: "La obra lleva su nombre; la dedicatoria impresa es de Summonte (1507). El diálogo responde a la carta de Egidio del 3 de noviembre de 1500 (Cantore)."
 
+# Reparto según Cantore (2018) y Vilar (2022). Salvo los dos viajeros,
+# todos son miembros de la academia napolitana.
 interlocutores:
   - persona: suardo
-    nota: "Viajero que llega a Nápoles al comienzo del diálogo."
+    nota: "Viajero que vuelve de Roma con Peto; abre el diálogo y lo cierra con una nota de esperanza sobre la filosofía latina."
   - persona: peto
-    nota: "Viajero que llega a Nápoles al comienzo del diálogo."
-  - persona: egidio-viterbo
-    nombre_en_el_texto: Aegidius
-    nota: "Da nombre al diálogo."
-nota_interlocutores: "Reparto completo por verificar. Los viajeros leen la inscripción de la casa de Pontano, que lo presenta como alguien que «honró las letras, las buenas artes y a los reyes»."
+    nota: "Viajero que vuelve de Roma con Suardo."
+  - persona: pontano
+    nombre_en_el_texto: Pontanus
+    nota: "Recibe a los viajeros en el pórtico; consuela por la muerte de Mariano da Genazzano y defiende la inmortalidad del alma."
+  - persona: cariteo
+    nota: "Se declara convertido a Hermes Trismegisto; habla del verbum creador y redentor."
+  - persona: tristano-caracciolo
+  - persona: francesco-poderico
+  - persona: pardo
+    nota: "Habla sobre privatio y carentia y sobre la astrología frente al libre albedrío. Cantore lo ve como posible sucesor de Pontano al frente de la academia."
+  - persona: summonte
+    nota: "Recita un poema atribuido a Sannazaro, quizás de Pontano (Tateo)."
+  - persona: tamira
+    nota: "Narra, con Pucci, la aparición de Altilio a un monje de Montecassino."
+  - persona: carbone
+    nota: "Propone discutir el comienzo de las Geórgicas."
+  - persona: pucci
+    nota: "Narra, con Tamira, la aparición de Altilio."
+  - persona: tomacelli
+    nota: "Propone vincular el paraíso cristiano con los Campos Elíseos."
+  - persona: elio-marchese
+nota_interlocutores: "Aparece además, en un relato referido, un monje de Montecassino ante quien se presenta el espíritu de Altilio."
 
 evocados:
+  - persona: egidio-viterbo
+    nota: "No habla: está presente por dos sermones que abren y cierran el diálogo en simetría; se lo saluda como «nuestro ausente Egidio» (Cantore, Vilar)."
+  - persona: mariano-genazzano
+    nota: "Su muerte reciente abre el diálogo; desde el cielo inspira a Egidio, su sucesor."
+  - persona: altilio
+    nota: "Muerto en 1501; su espíritu se aparece para pedir que las Musas se vuelvan a Cristo."
+  - persona: sannazaro
+    nota: "Ausente: sigue al rey Federico a su exilio en Francia."
   - persona: golino
-    nota: "Se recuerda su muerte (Corfiati 2018)."
+    nota: "Recordado entre los amigos muertos."
+  - persona: calenzio
+    nota: "Recordado entre los amigos muertos."
 
 relaciones:
   - dialogo: pontano-actius
@@ -35,17 +67,21 @@ relaciones:
 composicion:
   fecha:
     desde: 1501
-    hasta: 1503
-    certeza: conjetural
-    nota: "Escrito en los últimos años de Pontano: después de la muerte de Golino (1501) y antes de la suya (1503). Por verificar con la cronología de S. Monti."
+    hasta: 1501
+    certeza: probable
+    nota: "Compuesto en 1501, dos años antes de la muerte de Pontano (17 de septiembre de 1503), según la cronología de Salvatore Monti que siguen Cantore y Vilar."
   lugares:
     - lugar: napoles
 
 ambientacion:
-  espacio: casa privada
-  fecha: null
+  espacio: academia
+  fecha:
+    desde: 1501
+    hasta: 1501
+    certeza: probable
+    nota: "Después de la muerte de Altilio y de la partida de Sannazaro con el rey Federico a Francia (1501)."
   lugar: napoles
-  nota: "Comienza ante la casa de Pontano, con su inscripción."
+  nota: "En el pórtico de la casa de Pontano, donde se reunía la academia; los viajeros leen la inscripción de la fachada (hoy en la capilla Pontano, via dei Tribunali)."
 
 primera_edicion:
   fecha:
@@ -57,18 +93,20 @@ primera_edicion:
   impresor: Sigismund Mayr
   nota: "Impresor por verificar."
 
-temas: [retórica y filosofía, res et verba, creación por la palabra, léxico filosófico latino, piedad religiosa, duelo por Golino]
+temas: [unión de sapiencia y elocuencia, Musas cristianas, inmortalidad del alma, astrología y libre albedrío, léxico filosófico latino, muerte y sucesión, Hermes Trismegisto]
 
 resumen: >
-  Diálogo de vejez en el que la sabiduría de Pontano aparece unida a la piedad
-  religiosa. Defiende la unión de elocuencia y saber y critica el latín de los
-  traductores de Aristóteles (privatio y carentia, las circumstantiae).
+  Testamento espiritual de Pontano. Los académicos, reunidos en su pórtico,
+  pasan de un tema a otro sin disputa in utramque partem: la muerte de los
+  amigos, la inmortalidad del alma, la astrología y la necesidad de que la
+  filosofía vuelva a hablar un latín elegante.
 
 fuentes:
+  - "Anna Gioia Cantore, «L'Aegidius di Giovanni Pontano: l'approdo religioso di un uomo politico», en Acta Conventus Neo-Latini Monasteriensis, Leiden, Brill, 2015, 150–159."
   - "Mariano Vilar, «Los saberes del humanismo en diálogo: introducción al Aegidius de Giovanni Pontano», Circe de clásicos y modernos 26, 1 (2022), 135–148."
   - "Mariano Vilar, «El Asinus de Giovanni Pontano: un autoelogio paródico», Scripta Mediaevalia 17, 1 (2024), 49–70."
   - "Rainer Weiss, «The Humanist Rediscovery of Rhetoric as Philosophy: Giovanni Gioviano Pontano's Aegidius», trad. Y. Mundy, Philosophy & Rhetoric 13, 1 (1980), 25–42."
-  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
+  - "Ernesto Caserta, «Il problema religioso nel De voluptate del Valla e nell'Aegidius del Pontano», Italica 43 (1966), 240–262."
   - "Giovanni Pontano, Aegidius: Dialogo, ed. Francesco Tateo, Roma, 2013."
 
 revision: pendiente

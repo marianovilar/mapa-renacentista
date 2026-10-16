@@ -633,7 +633,7 @@
   muerte: 1503
   tipo: histórica
   sexo: masculino
-  nota: "Nacido en 1429 según el Dizionario Biografico degli Italiani (Figliuolo 2015); la fecha antigua era 1426."
+  nota: "Nacido en 1429 en Cerreto di Spoleto según el Dizionario Biografico degli Italiani (Figliuolo 2015); la fecha antigua era 1426. Muere el 17 de septiembre de 1503 (Monti Sabia, De Nichilo)."
 
 - id: caronte
   nombre: Caronte
@@ -887,7 +887,7 @@
   muerte: 1532
   tipo: histórica
   sexo: masculino
-  nota: "Agustino, predicador y teólogo; cardenal desde 1517."
+  nota: "Agustino, predicador y teólogo; llega a Nápoles en 1498 y es admitido en la academia; cardenal desde 1517."
 
 - id: diogenes
   nombre: Diógenes de Sinope
@@ -923,7 +923,7 @@
   muerte: 1501
   tipo: histórica
   sexo: masculino
-  nota: "Poeta de la academia napolitana. Fechas aproximadas."
+  nota: "Poeta de la academia napolitana y obispo de Policastro; muere en 1501. Nacimiento aproximado."
 
 - id: cariteo
   nombre: Benet Garret, el Cariteo
@@ -961,3 +961,70 @@
   tipo: histórica
   sexo: masculino
   nota: "Humanista de Fondi. Identificación y fechas por verificar."
+
+# --- Pontano, Aegidius (según Cantore 2015 y Vilar 2022) ---
+- id: tristano-caracciolo
+  nombre: Tristano Caracciolo
+  nombre_latino: Tristanus Caracciolus
+  tipo: histórica
+  sexo: masculino
+  nota: "Noble napolitano, miembro de la academia. Fechas por verificar."
+
+- id: francesco-poderico
+  nombre: Francesco Poderico
+  nombre_latino: Franciscus Pudericus
+  tipo: histórica
+  sexo: masculino
+  nota: "Miembro de la academia napolitana. Fechas por verificar."
+
+- id: summonte
+  nombre: Pietro Summonte
+  nombre_latino: Petrus Summontius
+  nacimiento: 1463
+  muerte: 1526
+  tipo: histórica
+  sexo: masculino
+  nota: "Discípulo de Pontano y editor póstumo de sus diálogos (1507)."
+
+- id: tamira
+  nombre: Pietro Tomarozzi, el Tamira
+  nombre_latino: Petrus Tamira
+  tipo: histórica
+  sexo: masculino
+  nota: "Poeta romano, discípulo de Pomponio Leto, sumado a la academia napolitana. Fechas por verificar."
+
+- id: carbone
+  nombre: Girolamo Carbone
+  nombre_latino: Hieronymus Carbo
+  tipo: histórica
+  sexo: masculino
+  nota: "Poeta de la academia napolitana. Fechas por verificar."
+
+- id: pucci
+  nombre: Francesco Pucci
+  nombre_latino: Franciscus Puccius
+  tipo: histórica
+  sexo: masculino
+  nota: "Florentino, discípulo de Poliziano, instalado en Nápoles hacia 1485. Fechas por verificar."
+
+- id: tomacelli
+  nombre: Marino Tomacelli
+  nombre_latino: Marinus Tomacellus
+  tipo: histórica
+  sexo: masculino
+  nota: "Miembro de la academia napolitana. Fechas por verificar."
+
+- id: elio-marchese
+  nombre: Francesco Elio Marchese
+  nombre_latino: Franciscus Aelius Marchesius
+  tipo: histórica
+  sexo: masculino
+  nota: "Miembro de la academia napolitana. Fechas por verificar."
+
+- id: mariano-genazzano
+  nombre: Mariano da Genazzano
+  nombre_latino: Marianus Genazzanensis
+  muerte: 1498
+  tipo: histórica
+  sexo: masculino
+  nota: "Predicador agustino y prior general de la orden; maestro de Egidio da Viterbo. Fecha de nacimiento por verificar."
