@@ -14,7 +14,11 @@ interlocutores:
   - persona: mercurio
   - persona: minos
   - persona: eaco
-nota_interlocutores: "Intervienen además sombras de muertos. Por verificar."
+  - persona: diogenes
+    nota: "Breve intercambio con Caronte."
+  - persona: crates
+    nota: "Breve intercambio con Caronte."
+nota_interlocutores: "Corfiati cuenta dieciséis personajes con voz, sin el coro final de almas. Los cuatro principales son Éaco y Minos (los dos jueces, que preguntan) y Mercurio y Caronte. Mercurio funciona como maestro u oráculo; Caronte, como el que interrumpe y pregunta. Entre las comparsas están Piricalco, tres gramáticos y almas sin nombre."
 
 composicion:
   fecha:
@@ -29,7 +33,7 @@ ambientacion:
   espacio: más allá
   fecha: null
   lugar: null
-  nota: "En el inframundo, a orillas del río de los muertos."
+  nota: "A orillas del Aqueronte, en un lugar de paso parecido a un locus amoenus. Las escenas transcurren a la vez en las dos orillas, unidas por los viajes de Caronte (Corfiati)."
 
 primera_edicion:
   fecha:
@@ -49,5 +53,6 @@ temas: [sátira lucianesca, vicios humanos, clero]
 
 fuentes:
   - "Gianluca Del Noce, «Identità accademica e ‘incursioni’ dell’autore nel dialogo ‘Antonius’ di Giovanni Pontano», Atti del XX Congresso dell’ADI, 2018 (datos de la edición)."
+  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
 
 revision: pendiente

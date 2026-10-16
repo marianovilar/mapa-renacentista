@@ -1,0 +1,54 @@
+id: pontano-asinus
+titulo: Asinus
+titulo_completo: Tertius dialogus de ingratitudine, qui Asinus inscribitur
+lengua: latín
+forma: diálogo
+modo: mimético
+denominacion: dialogus
+libros: 1
+
+autores: [pontano]
+
+destinatarios: []
+
+interlocutores:
+  - persona: pontano
+    nombre_en_el_texto: Pontanus
+    nota: "El autor como personaje, encariñado con un asno. Por verificar."
+nota_interlocutores: "Reparto completo por verificar."
+
+relaciones:
+  - dialogo: pontano-actius
+    tipo: serie
+    nota: "Publicados juntos por Summonte en 1507."
+  - dialogo: pontano-aegidius
+    tipo: serie
+    nota: "Publicados juntos por Summonte en 1507."
+
+composicion:
+  fecha:
+    desde: 1486
+    hasta: 1501
+    certeza: conjetural
+    nota: "Fecha muy discutida; por verificar con la cronología de S. Monti."
+  lugares:
+    - lugar: napoles
+
+primera_edicion:
+  fecha:
+    desde: 1507
+    hasta: 1507
+    certeza: segura
+    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Actius y el Aegidius; el subtítulo es de Summonte."
+  lugar: napoles
+  impresor: Sigismund Mayr
+  nota: "Impresor por verificar."
+
+temas: [ingratitud, sátira, autoironía]
+
+fuentes:
+  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
+  - "Giovanni Pontano, Asinus: Dialogo dell'ingratitudine, ed. Francesco Tateo, Roma, 2014."
+  - "Mauro de Nichilo, «Lingua e stile nell'Asinus di Giovanni Pontano», en Sul latino degli umanisti, ed. F. Tateo, Bari, 2006, 79–101."
+
+revision: pendiente

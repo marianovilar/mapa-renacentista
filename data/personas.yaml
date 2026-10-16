@@ -839,10 +839,10 @@
 
 - id: suppazio
   nombre: Giurazio Suppazio
-  nombre_latino: Suppatius
-  tipo: histórica
+  nombre_latino: Iuratius Suppatius
+  tipo: ficticia
   sexo: masculino
-  nota: "Miembro de la academia napolitana. Fechas por verificar."
+  nota: "Aparece con nombre y apellido y como viejo amigo de Puderico, pero no se identifica con ninguna figura histórica precisa (Corfiati 2018); Del Noce lo trata como sodal de la academia."
 
 - id: lucio-pontano
   nombre: Lucio Francesco Pontano
@@ -877,3 +877,27 @@
   tipo: histórica
   sexo: masculino
   nota: "Dedicatario verificado. Probablemente García Aznar de Añón; nombre completo y fechas por verificar."
+
+# --- Pontano, Aegidius y Charon (según Corfiati 2018) ---
+- id: egidio-viterbo
+  nombre: Egidio da Viterbo
+  nombre_latino: Aegidius Viterbiensis
+  nacimiento: 1469
+  muerte: 1532
+  tipo: histórica
+  sexo: masculino
+  nota: "Agustino, predicador y teólogo; cardenal desde 1517."
+
+- id: diogenes
+  nombre: Diógenes de Sinope
+  nombre_latino: Diogenes
+  tipo: histórica
+  sexo: masculino
+  nota: "Filósofo cínico (siglo IV a. C.), como sombra en el más allá."
+
+- id: crates
+  nombre: Crates de Tebas
+  nombre_latino: Crates
+  tipo: histórica
+  sexo: masculino
+  nota: "Filósofo cínico (siglo IV a. C.), como sombra en el más allá."

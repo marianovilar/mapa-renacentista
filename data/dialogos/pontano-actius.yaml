@@ -1,5 +1,6 @@
 id: pontano-actius
 titulo: Actius
+titulo_completo: Actius de numeris poeticis et lege historiae
 lengua: latín
 forma: diálogo
 libros: 1
@@ -12,6 +13,14 @@ interlocutores:
   - persona: sannazaro
     nombre_en_el_texto: Actius Syncerus
 nota_interlocutores: "Resto del reparto (miembros de la academia napolitana) por verificar."
+
+relaciones:
+  - dialogo: pontano-aegidius
+    tipo: serie
+    nota: "Publicados juntos por Summonte en 1507."
+  - dialogo: pontano-asinus
+    tipo: serie
+    nota: "Publicados juntos por Summonte en 1507."
 
 composicion:
   fecha:
@@ -29,12 +38,16 @@ primera_edicion:
   fecha:
     desde: 1507
     hasta: 1507
-    certeza: probable
-    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Aegidius."
+    certeza: segura
+    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Aegidius y el Asinus; el subtítulo es de Summonte."
   lugar: napoles
+  impresor: Sigismund Mayr
+  nota: "Impresor por verificar."
 
 temas: [poesía, ritmo, historiografía, Virgilio]
 
-fuentes: []
+fuentes:
+  - "Gianluca Del Noce, «Identità accademica e ‘incursioni’ dell’autore nel dialogo ‘Antonius’ di Giovanni Pontano», Atti del XX Congresso dell’ADI, 2018 (datos de la edición)."
+  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225 (subtítulo)."
 
 revision: pendiente

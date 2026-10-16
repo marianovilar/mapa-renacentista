@@ -36,7 +36,7 @@ interlocutores:
     nota: "Parte en verso. Canta el Bellum Sertoriacum (630 hexámetros)."
   - persona: histrio-personatus
     nota: "Parte en verso. Prólogo e intermedio en yambos plautinos."
-nota_interlocutores: "En el Bellum Sertoriacum figuran también, heroizados, Marullo, Pardo, el Cariteo, Altilio y Sannazaro."
+nota_interlocutores: "Corfiati cuenta catorce personajes con voz. Además de los registrados aparecen máscaras de paso: el Peregrinus, el Praeco (pregonero), un puer y un senex, y la misteriosa Euforbia. Según Corfiati, Compater y Puderico repiten el papel de Éaco y Minos en el Charon (viejos funcionarios que preguntan), y Contrario y Calenzio el de los maestros. En el Bellum Sertoriacum figuran también, heroizados, Marullo, Pardo, el Cariteo, Altilio y Sannazaro."
 
 evocados:
   - persona: panormita
@@ -61,7 +61,7 @@ ambientacion:
     certeza: probable
     nota: "Poco después de la muerte del Panormita (19 de enero de 1471)."
   lugar: napoles
-  nota: "Junto a la Porticus Antoniana, sede de las reuniones de la academia."
+  nota: "En un cruce de calles (la actual via dei Tribunali) entre la Porticus Antoniana, sede de la academia, y la casa de Pontano."
 
 primera_edicion:
   fecha:
@@ -85,6 +85,7 @@ resumen: >
   gramáticos y escuchan cantos que culminan en un poema épico sobre Sertorio.
 
 fuentes:
+  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
   - "Gianluca Del Noce, «Identità accademica e ‘incursioni’ dell’autore nel dialogo ‘Antonius’ di Giovanni Pontano», en La letteratura italiana e le arti. Atti del XX Congresso dell’ADI, Roma, Adi editore, 2018."
   - "Giovanni Pontano, I Dialoghi, ed. C. Previtera, Firenze, Sansoni, 1943."
   - "Giovanni Gioviano Pontano, Dialogues I: Charon and Antonius, ed. y trad. J. H. Gaisser, Cambridge (MA), Harvard University Press, 2012."

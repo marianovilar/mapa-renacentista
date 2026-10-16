@@ -1,6 +1,6 @@
 # Corpus de la fase 1 — diálogos latinos, 1347–1533
 
-Los 38 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
+Los 40 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
 
 
 ## Italia, siglo XIV y comienzos del XV
@@ -38,6 +38,8 @@ Los 38 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Giovanni Pontano | *Charon* | c. 1467–1470 | Nápoles | |
 | ✅ | Giovanni Pontano | *Antonius* | 1480s–1491 | Nápoles | Homenaje al Panormita |
 | ✅ | Giovanni Pontano | *Actius* | 1495–1499 | Nápoles | Sobre la poesía; Sannazaro |
+| ✅ | Giovanni Pontano | *Aegidius* | c. 1501–1503 | Nápoles | Egidio da Viterbo; publicado por Summonte en 1507 |
+| ✅ | Giovanni Pontano | *Asinus* | ¿1486–1501? | Nápoles | Sobre la ingratitud; publicado por Summonte en 1507 |
 | ✅ | Paolo Cortesi | *De hominibus doctis* | c. 1490 | Roma | Panorama de humanistas |
 | ✅ | Aurelio Lippo Brandolini | *De humanae vitae conditione* | c. 1490 | Hungría / Roma (?) | |
 | ✅ | Pietro Bembo | *De Aetna* | 1495–1496 | Venecia (Aldo Manuzio) | Bembo con su padre Bernardo |
@@ -57,7 +59,7 @@ Los 38 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 
 ## Decisiones tomadas
 
-- **Corpus:** se mantienen los 38 diálogos de la lista.
+- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos.
 - **Diálogos alegóricos** (*De remediis*, *Charon*, *De pace fidei*): entran.
 - **Cusa, *Idiota*:** tres fichas (*De sapientia*, *De mente*, *De staticis experimentis*) vinculadas como `serie`.
 - **Hutten:** cada pieza de los *Dialogi* sería una ficha; por ahora solo *Vadiscus*.

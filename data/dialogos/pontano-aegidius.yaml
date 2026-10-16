@@ -1,0 +1,60 @@
+id: pontano-aegidius
+titulo: Aegidius
+titulo_completo: Aegidius multiplicis argumenti
+lengua: latín
+forma: diálogo
+modo: mimético
+libros: 1
+
+autores: [pontano]
+
+destinatarios: []
+
+interlocutores:
+  - persona: egidio-viterbo
+    nombre_en_el_texto: Aegidius
+    nota: "Da nombre al diálogo. Resto del reparto (miembros de la academia napolitana) por verificar."
+
+evocados:
+  - persona: golino
+    nota: "Se recuerda su muerte (Corfiati 2018)."
+
+relaciones:
+  - dialogo: pontano-actius
+    tipo: serie
+    nota: "Publicados juntos por Summonte en 1507."
+  - dialogo: pontano-asinus
+    tipo: serie
+    nota: "Publicados juntos por Summonte en 1507."
+
+composicion:
+  fecha:
+    desde: 1501
+    hasta: 1503
+    certeza: conjetural
+    nota: "Después de la muerte de Golino (1501) y antes de la de Pontano (1503). Por verificar con la cronología de S. Monti."
+  lugares:
+    - lugar: napoles
+
+ambientacion:
+  fecha: null
+  lugar: napoles
+  nota: "En el ámbito de la academia napolitana. Escena por verificar."
+
+primera_edicion:
+  fecha:
+    desde: 1507
+    hasta: 1507
+    certeza: segura
+    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Actius y el Asinus; el subtítulo «multiplicis argumenti» es de Summonte."
+  lugar: napoles
+  impresor: Sigismund Mayr
+  nota: "Impresor por verificar."
+
+temas: [teología, academia napolitana, variedad de asuntos, duelo por Golino]
+
+fuentes:
+  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
+  - "Giovanni Pontano, Aegidius: Dialogo, ed. Francesco Tateo, Roma, 2013."
+
+revision: pendiente
