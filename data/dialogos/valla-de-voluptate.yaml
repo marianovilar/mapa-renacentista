@@ -28,8 +28,7 @@ composicion:
     hasta: 1431
     certeza: probable
   lugares:
-    - lugar: roma
-      nota: "Por verificar (¿Roma o Piacenza?)."
+    - lugar: pavia
 
 ambientacion:
   fecha: null
