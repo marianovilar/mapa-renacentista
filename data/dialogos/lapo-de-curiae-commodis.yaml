@@ -25,6 +25,7 @@ composicion:
       nota: "Durante el concilio de Ferrara."
 
 ambientacion:
+  espacio: curia
   fecha:
     desde: 1438
     hasta: 1438

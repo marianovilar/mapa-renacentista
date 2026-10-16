@@ -2,6 +2,7 @@ id: bembo-de-aetna
 titulo: De Aetna
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 1
 
 autores: [bembo]
@@ -25,6 +26,7 @@ composicion:
     - lugar: venecia
 
 ambientacion:
+  espacio: villa
   fecha: null
   lugar: padua
   nota: "En la villa familiar de Noniano, cerca de Padua. Por verificar."

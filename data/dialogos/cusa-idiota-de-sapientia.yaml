@@ -2,6 +2,7 @@ id: cusa-idiota-de-sapientia
 titulo: Idiota de sapientia
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 2
 
 autores: [cusa]
@@ -28,6 +29,7 @@ composicion:
     - lugar: rieti
 
 ambientacion:
+  espacio: espacio urbano
   fecha:
     desde: 1450
     hasta: 1450

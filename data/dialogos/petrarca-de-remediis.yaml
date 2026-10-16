@@ -2,6 +2,7 @@ id: petrarca-de-remediis
 titulo: De remediis utriusque fortunae
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 2
 
 autores: [petrarca]
@@ -32,6 +33,7 @@ composicion:
       nota: "Comenzado en Milán; terminado en 1366, lugar por verificar."
 
 ambientacion:
+  espacio: indeterminado
   fecha: null
   lugar: null
   nota: "Diálogos alegóricos sin escena."

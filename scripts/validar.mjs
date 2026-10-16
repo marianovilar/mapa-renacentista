@@ -19,7 +19,11 @@ const avisos = [];
 
 const TIPOS_PERSONA = ['histórica', 'ficticia', 'alegórica', 'mitológica', 'divina'];
 const CERTEZAS = ['segura', 'probable', 'conjetural'];
-const FORMAS = ['diálogo', 'coloquio', 'convivium', 'diálogo narrado', 'mixta'];
+const FORMAS = ['diálogo', 'coloquio', 'convivium', 'mixta'];
+const SEXOS = ['masculino', 'femenino'];
+const MODOS = ['mimético', 'diegético', 'mixto'];
+const RELACIONES_VOCES = ['jerárquica', 'entre pares', 'mixta'];
+const ESPACIOS = ['corte', 'curia', 'academia', 'casa privada', 'villa', 'jardín', 'monasterio', 'taller', 'espacio urbano', 'paraje natural', 'visión', 'más allá', 'indeterminado'];
 const FORMAS_DEDICATORIA = ['dedicatoria', 'carta-prefatoria', 'apóstrofe'];
 const REVISIONES = ['pendiente', 'revisado'];
 const RELACIONES = { 'reelaboracion-de': 'reelaborada-en', 'reelaborada-en': 'reelaboracion-de', 'parte-de': 'contiene', contiene: 'parte-de', serie: 'serie' };
@@ -41,6 +45,7 @@ const idDialogos = indice(dialogos, 'diálogos');
 for (const p of personas) {
   if (!p.nombre) errores.push(`persona ${p.id}: falta nombre`);
   if (!TIPOS_PERSONA.includes(p.tipo)) errores.push(`persona ${p.id}: tipo inválido "${p.tipo}"`);
+  if (p.sexo != null && !SEXOS.includes(p.sexo)) errores.push(`persona ${p.id}: sexo inválido "${p.sexo}"`);
   if (p.nacimiento && p.muerte && p.nacimiento > p.muerte) errores.push(`persona ${p.id}: nacimiento posterior a muerte`);
 }
 
@@ -65,6 +70,9 @@ for (const d of dialogos) {
     if (d[campo] == null) errores.push(`${c}: falta el campo obligatorio "${campo}"`);
   }
   if (d.forma && !FORMAS.includes(d.forma)) errores.push(`${c}: forma inválida "${d.forma}"`);
+  if (d.modo != null && !MODOS.includes(d.modo)) errores.push(`${c}: modo inválido "${d.modo}"`);
+  if (d.relacion_interlocutores != null && !RELACIONES_VOCES.includes(d.relacion_interlocutores)) errores.push(`${c}: relacion_interlocutores inválida "${d.relacion_interlocutores}"`);
+  if (d.ambientacion?.espacio != null && !ESPACIOS.includes(d.ambientacion.espacio)) errores.push(`${c}: espacio inválido "${d.ambientacion.espacio}"`);
   if (!REVISIONES.includes(d.revision)) errores.push(`${c}: revision inválida "${d.revision}"`);
   if (d.caso_dudoso && !d.motivo_duda) errores.push(`${c}: caso_dudoso sin motivo_duda`);
 

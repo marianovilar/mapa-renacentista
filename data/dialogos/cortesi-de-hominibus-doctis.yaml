@@ -2,6 +2,7 @@ id: cortesi-de-hominibus-doctis
 titulo: De hominibus doctis
 lengua: latín
 forma: diálogo
+denominacion: dialogus
 libros: 1
 
 autores: [cortesi]
@@ -26,6 +27,7 @@ composicion:
     - lugar: roma
 
 ambientacion:
+  espacio: paraje natural
   fecha: null
   lugar: bisentina
   nota: "En la isla Bisentina del lago de Bolsena. Por verificar."

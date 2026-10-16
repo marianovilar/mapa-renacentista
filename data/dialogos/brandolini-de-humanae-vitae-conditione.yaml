@@ -25,6 +25,7 @@ composicion:
       nota: "En la corte de Matías Corvino. Por verificar."
 
 ambientacion:
+  espacio: corte
   fecha: null
   lugar: buda
   nota: "Junto al rey enfermo."

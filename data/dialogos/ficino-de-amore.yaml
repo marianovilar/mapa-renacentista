@@ -3,6 +3,8 @@ titulo: De amore
 titulo_completo: Commentarium in Convivium Platonis de amore
 lengua: latín
 forma: convivium
+modo: diegético
+denominacion: commentarium
 libros: 7
 
 caso_dudoso: true
@@ -30,6 +32,7 @@ composicion:
     - lugar: florencia
 
 ambientacion:
+  espacio: villa
   fecha: null
   lugar: careggi
   nota: "Banquete del 7 de noviembre, aniversario de Platón. Año por verificar."

@@ -3,6 +3,8 @@ titulo: Utopia
 titulo_completo: Libellus vere aureus, nec minus salutaris quam festivus, de optimo reipublicae statu deque nova insula Utopia
 lengua: latín
 forma: mixta
+modo: diegético
+denominacion: libellus
 libros: 2
 
 caso_dudoso: true
@@ -38,6 +40,7 @@ composicion:
       nota: "Libro I."
 
 ambientacion:
+  espacio: jardín
   fecha:
     desde: 1515
     hasta: 1515

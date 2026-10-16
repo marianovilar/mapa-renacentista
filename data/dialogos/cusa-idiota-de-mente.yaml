@@ -2,6 +2,7 @@ id: cusa-idiota-de-mente
 titulo: Idiota de mente
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 1
 
 autores: [cusa]
@@ -29,6 +30,7 @@ composicion:
     - lugar: fabriano
 
 ambientacion:
+  espacio: taller
   fecha:
     desde: 1450
     hasta: 1450

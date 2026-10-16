@@ -2,6 +2,7 @@ id: cusa-de-pace-fidei
 titulo: De pace fidei
 lengua: latín
 forma: diálogo
+modo: diegético
 libros: 1
 
 autores: [cusa]
@@ -24,6 +25,7 @@ composicion:
     - lugar: bressanone
 
 ambientacion:
+  espacio: visión
   fecha: null
   lugar: null
   nota: "Visión: un concilio celestial."

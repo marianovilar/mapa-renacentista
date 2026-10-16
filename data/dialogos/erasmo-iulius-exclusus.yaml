@@ -2,6 +2,7 @@ id: erasmo-iulius-exclusus
 titulo: Iulius exclusus e coelis
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 1
 
 caso_dudoso: true
@@ -27,6 +28,7 @@ composicion:
       nota: "Si es de Erasmo, que estuvo allí hasta 1514. Por verificar."
 
 ambientacion:
+  espacio: más allá
   fecha:
     desde: 1513
     hasta: 1513

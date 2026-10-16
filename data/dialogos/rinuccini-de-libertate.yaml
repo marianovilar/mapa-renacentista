@@ -25,6 +25,7 @@ composicion:
       nota: "Por verificar."
 
 ambientacion:
+  espacio: villa
   fecha: null
   lugar: null
   nota: "En la villa de Eleutherius, retirado de la vida pública. Lugar por verificar."

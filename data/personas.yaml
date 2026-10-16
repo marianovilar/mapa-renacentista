@@ -8,6 +8,7 @@
   nacimiento: 1304
   muerte: 1374
   tipo: histórica
+  sexo: masculino
   wikidata: Q1401
 
 - id: agustin
@@ -16,12 +17,14 @@
   nacimiento: 354
   muerte: 430
   tipo: histórica
+  sexo: masculino
   wikidata: Q8018
 
 - id: veritas
   nombre: La Verdad
   nombre_latino: Veritas
   tipo: alegórica
+  sexo: femenino
 
 # --- Bruni, Dialogi ---
 - id: bruni
@@ -30,6 +33,7 @@
   nacimiento: 1370
   muerte: 1444
   tipo: histórica
+  sexo: masculino
   wikidata: Q314488
   nota: "Nacimiento c. 1370."
 
@@ -39,6 +43,7 @@
   nacimiento: 1331
   muerte: 1406
   tipo: histórica
+  sexo: masculino
   wikidata: Q93113
 
 - id: niccoli
@@ -47,6 +52,7 @@
   nacimiento: 1364
   muerte: 1437
   tipo: histórica
+  sexo: masculino
   wikidata: Q730505
 
 - id: rossi
@@ -55,6 +61,7 @@
   nacimiento: 1355
   muerte: 1417
   tipo: histórica
+  sexo: masculino
   wikidata: Q7351953
   nota: "Fechas aproximadas."
 
@@ -62,6 +69,7 @@
   nombre: Pietro di ser Mino
   nombre_latino: Petrus Minius
   tipo: histórica
+  sexo: masculino
   nota: "Notario florentino; interlocutor en el libro II. Fechas por verificar."
 
 - id: vergerio
@@ -70,6 +78,7 @@
   nacimiento: 1370
   muerte: 1444
   tipo: histórica
+  sexo: masculino
   wikidata: Q737756
 
 # --- Poggio, De avaritia ---
@@ -79,6 +88,7 @@
   nacimiento: 1380
   muerte: 1459
   tipo: histórica
+  sexo: masculino
   wikidata: Q318254
 
 - id: loschi
@@ -87,6 +97,7 @@
   nacimiento: 1368
   muerte: 1441
   tipo: histórica
+  sexo: masculino
   wikidata: Q2857327
   nota: "Nacimiento c. 1368."
 
@@ -95,6 +106,7 @@
   nombre_latino: Bartholomaeus de Montepolitiano
   muerte: 1429
   tipo: histórica
+  sexo: masculino
   nota: "Bartolomeo Aragazzi, secretario apostólico."
 
 - id: cencio-rustici
@@ -103,6 +115,7 @@
   nacimiento: 1390
   muerte: 1445
   tipo: histórica
+  sexo: masculino
   nota: "Fechas aproximadas."
 
 - id: andrea-constantinopla
@@ -110,6 +123,7 @@
   nombre_latino: Andreas Constantinopolitanus
   muerte: 1451
   tipo: histórica
+  sexo: masculino
   nota: "Andreas Chrysoberges, dominico. Identificación por verificar."
 
 - id: barbaro
@@ -118,6 +132,7 @@
   nacimiento: 1390
   muerte: 1454
   tipo: histórica
+  sexo: masculino
   wikidata: Q3749599
 
 # --- Valla, De voluptate ---
@@ -127,6 +142,7 @@
   nacimiento: 1407
   muerte: 1457
   tipo: histórica
+  sexo: masculino
   wikidata: Q214115
   nota: "Nacimiento c. 1407."
 
@@ -136,12 +152,14 @@
   nacimiento: 1394
   muerte: 1471
   tipo: histórica
+  sexo: masculino
   wikidata: Q599858
 
 - id: catone-sacco
   nombre: Catone Sacco
   nombre_latino: Cato Saccus
   tipo: histórica
+  sexo: masculino
   nota: "Jurista de Pavía. Fechas por verificar."
 
 - id: maffeo-vegio
@@ -150,11 +168,13 @@
   nacimiento: 1407
   muerte: 1458
   tipo: histórica
+  sexo: masculino
 
 - id: antonio-da-rho
   nombre: Antonio da Rho
   nombre_latino: Antonius Raudensis
   tipo: histórica
+  sexo: masculino
   nota: "Franciscano milanés. Fechas por verificar."
 
 # --- More, Utopia ---
@@ -164,6 +184,7 @@
   nacimiento: 1478
   muerte: 1535
   tipo: histórica
+  sexo: masculino
 
 - id: gillis
   nombre: Pieter Gillis
@@ -171,12 +192,14 @@
   nacimiento: 1486
   muerte: 1533
   tipo: histórica
+  sexo: masculino
   nota: "Nacimiento c. 1486. Secretario municipal de Amberes."
 
 - id: hitlodeo
   nombre: Rafael Hitlodeo
   nombre_latino: Raphael Hythlodaeus
   tipo: ficticia
+  sexo: masculino
 
 - id: morton
   nombre: John Morton
@@ -184,6 +207,7 @@
   nacimiento: 1420
   muerte: 1500
   tipo: histórica
+  sexo: masculino
   wikidata: Q672779
   nota: "Nacimiento c. 1420. Arzobispo de Canterbury y canciller."
 
@@ -194,6 +218,7 @@
   nacimiento: 1466
   muerte: 1536
   tipo: histórica
+  sexo: masculino
   nota: "Nacimiento 1466 o 1469."
 
 - id: vlatten
@@ -202,23 +227,27 @@
   nacimiento: 1498
   muerte: 1562
   tipo: histórica
+  sexo: masculino
   nota: "Fechas aproximadas."
 
 - id: bulephorus
   nombre: Bulephorus
   nombre_latino: Bulephorus
   tipo: ficticia
+  sexo: masculino
   nota: "'El que aconseja'. Portavoz de Erasmo."
 
 - id: hypologus
   nombre: Hypologus
   nombre_latino: Hypologus
   tipo: ficticia
+  sexo: masculino
 
 - id: nosoponus
   nombre: Nosoponus
   nombre_latino: Nosoponus
   tipo: ficticia
+  sexo: masculino
   nota: "'El que sufre una enfermedad': el ciceroniano obsesivo."
 
 # --- Petrarca, De remediis ---
@@ -253,6 +282,7 @@
   nacimiento: 1303
   muerte: 1362
   tipo: histórica
+  sexo: masculino
 
 # --- Poggio ---
 - id: nicolas-v
@@ -261,6 +291,7 @@
   nacimiento: 1397
   muerte: 1455
   tipo: histórica
+  sexo: masculino
 
 - id: lorenzo-medici-viejo
   nombre: Lorenzo di Giovanni de' Medici
@@ -268,6 +299,7 @@
   nacimiento: 1395
   muerte: 1440
   tipo: histórica
+  sexo: masculino
   nota: "Hermano de Cosme el Viejo."
 
 - id: marsuppini
@@ -276,18 +308,21 @@
   nacimiento: 1398
   muerte: 1453
   tipo: histórica
+  sexo: masculino
 
 # --- Valla ---
 - id: glarea
   nombre: Antonio Glarea
   nombre_latino: Antonius Glarea
   tipo: histórica
+  sexo: masculino
   nota: "Clérigo español de la corte aragonesa. Fechas por verificar."
 
 - id: frater
   nombre: Un fraile
   nombre_latino: Frater
   tipo: ficticia
+  sexo: masculino
   nota: "Interlocutor anónimo."
 
 # --- Alberti, Pontifex ---
@@ -297,11 +332,13 @@
   nacimiento: 1404
   muerte: 1472
   tipo: histórica
+  sexo: masculino
 
 - id: paolo-alberti
   nombre: Paolo Alberti
   nombre_latino: Paulus Albertus
   tipo: histórica
+  sexo: masculino
   nota: "Obispo, pariente del autor. Fechas por verificar."
 
 - id: alberto-alberti
@@ -310,6 +347,7 @@
   nacimiento: 1386
   muerte: 1445
   tipo: histórica
+  sexo: masculino
   nota: "Obispo de Camerino, cardenal desde 1439."
 
 # --- Lapo ---
@@ -319,11 +357,13 @@
   nacimiento: 1405
   muerte: 1438
   tipo: histórica
+  sexo: masculino
 
 - id: angelo-recanati
   nombre: Angelo da Recanati
   nombre_latino: Angelus Recinetensis
   tipo: histórica
+  sexo: masculino
   nota: "Funcionario de la curia. Por verificar."
 
 - id: condulmer
@@ -332,6 +372,7 @@
   nacimiento: 1390
   muerte: 1453
   tipo: histórica
+  sexo: masculino
   nota: "Cardenal vicecanciller, sobrino de Eugenio IV."
 
 # --- Manetti ---
@@ -341,6 +382,7 @@
   nacimiento: 1396
   muerte: 1459
   tipo: histórica
+  sexo: masculino
 
 - id: agnolo-acciaiuoli
   nombre: Agnolo Acciaiuoli
@@ -348,12 +390,14 @@
   nacimiento: 1398
   muerte: 1470
   tipo: histórica
+  sexo: masculino
   nota: "Fechas aproximadas."
 
 - id: niccolo-medici
   nombre: Niccolò di Vieri de' Medici
   nombre_latino: Nicolaus Medices
   tipo: histórica
+  sexo: masculino
   nota: "Identificación y fechas por verificar."
 
 # --- Facio ---
@@ -363,6 +407,7 @@
   nacimiento: 1405
   muerte: 1457
   tipo: histórica
+  sexo: masculino
   nota: "Nacimiento c. 1405."
 
 - id: alfonso-v
@@ -371,6 +416,7 @@
   nacimiento: 1396
   muerte: 1458
   tipo: histórica
+  sexo: masculino
 
 - id: guarino
   nombre: Guarino Veronese
@@ -378,12 +424,14 @@
   nacimiento: 1374
   muerte: 1460
   tipo: histórica
+  sexo: masculino
 
 - id: lamola
   nombre: Giovanni Lamola
   nombre_latino: Ioannes Lamola
   muerte: 1449
   tipo: histórica
+  sexo: masculino
 
 # --- Filelfo ---
 - id: filelfo
@@ -392,6 +440,7 @@
   nacimiento: 1398
   muerte: 1481
   tipo: histórica
+  sexo: masculino
 
 - id: palla-strozzi
   nombre: Palla Strozzi
@@ -399,6 +448,7 @@
   nacimiento: 1372
   muerte: 1462
   tipo: histórica
+  sexo: masculino
 
 # --- Cusa ---
 - id: cusa
@@ -407,22 +457,26 @@
   nacimiento: 1401
   muerte: 1464
   tipo: histórica
+  sexo: masculino
 
 - id: idiota
   nombre: El idiota
   nombre_latino: Idiota
   tipo: ficticia
+  sexo: masculino
   nota: "Artesano laico sin formación escolástica."
 
 - id: orator
   nombre: El orador
   nombre_latino: Orator
   tipo: ficticia
+  sexo: masculino
 
 - id: philosophus
   nombre: El filósofo
   nombre_latino: Philosophus
   tipo: ficticia
+  sexo: masculino
   nota: "Peripatético."
 
 - id: verbum
@@ -434,11 +488,13 @@
   nombre: San Pedro
   nombre_latino: Petrus
   tipo: histórica
+  sexo: masculino
 
 - id: san-pablo
   nombre: San Pablo
   nombre_latino: Paulus
   tipo: histórica
+  sexo: masculino
 
 # --- Accolti ---
 - id: accolti
@@ -447,6 +503,7 @@
   nacimiento: 1415
   muerte: 1464
   tipo: histórica
+  sexo: masculino
 
 # --- Landino y Florencia medicea ---
 - id: landino
@@ -455,6 +512,7 @@
   nacimiento: 1424
   muerte: 1498
   tipo: histórica
+  sexo: masculino
 
 - id: lorenzo-magnifico
   nombre: Lorenzo de' Medici, el Magnífico
@@ -462,6 +520,7 @@
   nacimiento: 1449
   muerte: 1492
   tipo: histórica
+  sexo: masculino
 
 - id: giuliano-medici
   nombre: Giuliano de' Medici
@@ -469,6 +528,7 @@
   nacimiento: 1453
   muerte: 1478
   tipo: histórica
+  sexo: masculino
 
 - id: ficino
   nombre: Marsilio Ficino
@@ -476,6 +536,7 @@
   nacimiento: 1433
   muerte: 1499
   tipo: histórica
+  sexo: masculino
 
 - id: donato-acciaiuoli
   nombre: Donato Acciaiuoli
@@ -483,6 +544,7 @@
   nacimiento: 1429
   muerte: 1478
   tipo: histórica
+  sexo: masculino
 
 - id: rinuccini
   nombre: Alamanno Rinuccini
@@ -490,6 +552,7 @@
   nacimiento: 1426
   muerte: 1499
   tipo: histórica
+  sexo: masculino
 
 - id: marco-parenti
   nombre: Marco Parenti
@@ -497,6 +560,7 @@
   nacimiento: 1421
   muerte: 1497
   tipo: histórica
+  sexo: masculino
 
 - id: federico-montefeltro
   nombre: Federico da Montefeltro
@@ -504,6 +568,7 @@
   nacimiento: 1422
   muerte: 1482
   tipo: histórica
+  sexo: masculino
 
 - id: platina
   nombre: Bartolomeo Platina
@@ -511,6 +576,7 @@
   nacimiento: 1421
   muerte: 1481
   tipo: histórica
+  sexo: masculino
 
 - id: cosme-medici
   nombre: Cosme de' Medici, el Viejo
@@ -518,23 +584,27 @@
   nacimiento: 1389
   muerte: 1464
   tipo: histórica
+  sexo: masculino
 
 - id: eleutherius
   nombre: Eleutherius
   nombre_latino: Eleutherius
   tipo: ficticia
+  sexo: masculino
   nota: "«El libre». Máscara del propio Rinuccini."
 
 - id: alitheus
   nombre: Alitheus
   nombre_latino: Alitheus
   tipo: ficticia
+  sexo: masculino
   nota: "«El veraz». Por verificar a quién encubre."
 
 - id: microtoxus
   nombre: Microtoxus
   nombre_latino: Microtoxus
   tipo: ficticia
+  sexo: masculino
   nota: "Por verificar a quién encubre."
 
 - id: cavalcanti
@@ -543,6 +613,7 @@
   nacimiento: 1444
   muerte: 1509
   tipo: histórica
+  sexo: masculino
   nota: "Amigo de Ficino; no confundir con el cronista homónimo."
 
 - id: antonio-agli
@@ -551,6 +622,7 @@
   nacimiento: 1400
   muerte: 1477
   tipo: histórica
+  sexo: masculino
   nota: "Obispo de Fiesole. Fechas aproximadas."
 
 # --- Pontano y Nápoles ---
@@ -560,26 +632,31 @@
   nacimiento: 1426
   muerte: 1503
   tipo: histórica
+  sexo: masculino
 
 - id: caronte
   nombre: Caronte
   nombre_latino: Charon
   tipo: mitológica
+  sexo: masculino
 
 - id: mercurio
   nombre: Mercurio
   nombre_latino: Mercurius
   tipo: mitológica
+  sexo: masculino
 
 - id: minos
   nombre: Minos
   nombre_latino: Minos
   tipo: mitológica
+  sexo: masculino
 
 - id: eaco
   nombre: Éaco
   nombre_latino: Aeacus
   tipo: mitológica
+  sexo: masculino
 
 - id: sannazaro
   nombre: Jacopo Sannazaro
@@ -587,6 +664,7 @@
   nacimiento: 1458
   muerte: 1530
   tipo: histórica
+  sexo: masculino
 
 # --- Cortesi, Brandolini, Bembo ---
 - id: cortesi
@@ -595,6 +673,7 @@
   nacimiento: 1465
   muerte: 1510
   tipo: histórica
+  sexo: masculino
 
 - id: alessandro-farnese
   nombre: Alessandro Farnese (luego Pablo III)
@@ -602,6 +681,7 @@
   nacimiento: 1468
   muerte: 1549
   tipo: histórica
+  sexo: masculino
 
 - id: brandolini
   nombre: Aurelio Lippo Brandolini
@@ -609,6 +689,7 @@
   nacimiento: 1454
   muerte: 1497
   tipo: histórica
+  sexo: masculino
   nota: "Nacimiento c. 1454."
 
 - id: matias-corvino
@@ -617,6 +698,7 @@
   nacimiento: 1443
   muerte: 1490
   tipo: histórica
+  sexo: masculino
 
 - id: ranzano
   nombre: Pietro Ranzano
@@ -624,6 +706,7 @@
   nacimiento: 1428
   muerte: 1492
   tipo: histórica
+  sexo: masculino
   nota: "Dominico siciliano, embajador napolitano en Hungría."
 
 - id: bembo
@@ -632,6 +715,7 @@
   nacimiento: 1470
   muerte: 1547
   tipo: histórica
+  sexo: masculino
 
 - id: bernardo-bembo
   nombre: Bernardo Bembo
@@ -639,11 +723,13 @@
   nacimiento: 1433
   muerte: 1519
   tipo: histórica
+  sexo: masculino
 
 - id: angelo-gabriele
   nombre: Angelo Gabriele
   nombre_latino: Angelus Gabriel
   tipo: histórica
+  sexo: masculino
   nota: "Patricio veneciano, amigo de Bembo. Fechas por verificar."
 
 # --- Norte de Europa ---
@@ -653,11 +739,13 @@
   nacimiento: 1443
   muerte: 1513
   tipo: histórica
+  sexo: masculino
 
 - id: genius
   nombre: El Genio
   nombre_latino: Genius
   tipo: alegórica
+  sexo: masculino
   nota: "Genio tutelar de Julio II."
 
 - id: batt
@@ -666,6 +754,7 @@
   nacimiento: 1464
   muerte: 1502
   tipo: histórica
+  sexo: masculino
   nota: "Fechas aproximadas."
 
 - id: willem-hermans
@@ -674,6 +763,7 @@
   nacimiento: 1468
   muerte: 1510
   tipo: histórica
+  sexo: masculino
   nota: "Fechas aproximadas."
 
 - id: hutten
@@ -682,11 +772,13 @@
   nacimiento: 1488
   muerte: 1523
   tipo: histórica
+  sexo: masculino
 
 - id: ernholdus
   nombre: Ernholdus
   nombre_latino: Ernholdus
   tipo: ficticia
+  sexo: masculino
   nota: "Por verificar si encubre a alguien."
 
 - id: valeriano
@@ -695,6 +787,7 @@
   nacimiento: 1477
   muerte: 1558
   tipo: histórica
+  sexo: masculino
 
 - id: contarini
   nombre: Gasparo Contarini
@@ -702,6 +795,7 @@
   nacimiento: 1483
   muerte: 1542
   tipo: histórica
+  sexo: masculino
 
 # --- Pontano, Antonius (según Del Noce 2018) ---
 - id: golino
@@ -710,24 +804,28 @@
   nacimiento: 1431
   muerte: 1501
   tipo: histórica
+  sexo: masculino
   nota: "«Compater generalis». Presidente de la Sommaria."
 
 - id: huesped-siciliano
   nombre: Un forastero siciliano
   nombre_latino: Hospes Siculus
   tipo: ficticia
+  sexo: masculino
 
 - id: puderico
   nombre: Enrico Puderico
   nombre_latino: Henricus Pudericus
   muerte: 1472
   tipo: histórica
+  sexo: masculino
   nota: "También Poderico. Muerto entre 1472 y 1475; noble napolitano, consejero regio."
 
 - id: contrario
   nombre: Andrea Contrario
   nombre_latino: Andreas Contrarius
   tipo: histórica
+  sexo: masculino
   nota: "Veneciano, nacido a comienzos del siglo XV; activo en Roma y en Nápoles."
 
 - id: calenzio
@@ -736,32 +834,38 @@
   nacimiento: 1430
   muerte: 1502
   tipo: histórica
+  sexo: masculino
   nota: "Muerte en 1502 o 1503. Preceptor de Federico de Aragón."
 
 - id: suppazio
   nombre: Giurazio Suppazio
   nombre_latino: Suppatius
   tipo: histórica
+  sexo: masculino
   nota: "Miembro de la academia napolitana. Fechas por verificar."
 
 - id: lucio-pontano
   nombre: Lucio Francesco Pontano
   nombre_latino: Lucius
   tipo: histórica
+  sexo: masculino
   nota: "Hijo de Pontano y Adriana Sassone. Fechas por verificar."
 
 - id: lyricen
   nombre: El citarista
   nombre_latino: Lyricen
   tipo: ficticia
+  sexo: masculino
   nota: "Alter ego de Pontano en el Antonius."
 
 - id: poeta-personatus
   nombre: El poeta enmascarado
   nombre_latino: Poeta personatus
   tipo: ficticia
+  sexo: masculino
 
 - id: histrio-personatus
   nombre: El actor enmascarado
   nombre_latino: Histrio personatus
   tipo: ficticia
+  sexo: masculino

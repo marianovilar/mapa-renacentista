@@ -2,6 +2,7 @@ id: pontano-antonius
 titulo: Antonius
 lengua: latín
 forma: mixta
+modo: mimético
 libros: 1
 
 autores: [pontano]
@@ -53,6 +54,7 @@ composicion:
     - lugar: napoles
 
 ambientacion:
+  espacio: academia
   fecha:
     desde: 1471
     hasta: 1471

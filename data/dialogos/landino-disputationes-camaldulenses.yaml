@@ -1,7 +1,9 @@
 id: landino-disputationes-camaldulenses
 titulo: Disputationes Camaldulenses
 lengua: latín
-forma: diálogo narrado
+forma: diálogo
+modo: diegético
+denominacion: disputationes
 libros: 4
 
 autores: [landino]
@@ -32,6 +34,7 @@ composicion:
     - lugar: florencia
 
 ambientacion:
+  espacio: monasterio
   fecha:
     desde: 1468
     hasta: 1468

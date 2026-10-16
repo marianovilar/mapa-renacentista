@@ -3,6 +3,8 @@ titulo: Ciceronianus
 titulo_completo: Dialogus cui titulus Ciceronianus, sive De optimo dicendi genere
 lengua: latín
 forma: diálogo
+modo: mimético
+denominacion: dialogus
 libros: 1
 
 autores: [erasmo]
@@ -27,6 +29,7 @@ composicion:
     - lugar: basilea
 
 ambientacion:
+  espacio: indeterminado
   fecha: null
   lugar: null
   nota: "Sin lugar ni fecha precisos."

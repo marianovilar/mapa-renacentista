@@ -1,7 +1,9 @@
 id: bruni-dialogi
 titulo: Dialogi ad Petrum Paulum Histrum
 lengua: latín
-forma: diálogo narrado
+forma: diálogo
+modo: diegético
+denominacion: dialogi
 libros: 2
 
 autores: [bruni]
@@ -33,6 +35,7 @@ composicion:
     - lugar: florencia
 
 ambientacion:
+  espacio: casa privada
   fecha:
     desde: 1401
     hasta: 1401

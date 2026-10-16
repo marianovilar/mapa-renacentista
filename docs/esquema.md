@@ -53,6 +53,7 @@ Una sola lista `personas.yaml` para todos, porque una misma persona puede ser au
   nacimiento: 1331
   muerte: 1406
   tipo: histórica          # histórica | ficticia | alegórica | mitológica | divina
+  sexo: masculino          # masculino | femenino (para alegorías, el de la personificación)
   wikidata: Q93113
 ```
 
@@ -96,6 +97,19 @@ En cada diálogo se distinguen:
 - `ambientacion.lugar`: dónde transcurre la conversación.
 - `primera_edicion.lugar`: dónde se imprimió.
 
+## Forma del diálogo
+
+Campos que siguen la propuesta de Elena Bilancia para una base de diálogos («Giudicare i libri dalla copertina», *Umanistica Digitale*, 16, 2023): cómo se presenta la obra, cómo se organizan las voces y dónde transcurre.
+
+| Campo | Qué registra | Valores |
+|---|---|---|
+| `denominacion` | la palabra genérica que usa el título o el frontispicio | texto libre en latín: `dialogus`, `disputatio`, `commentarium`… Se omite si el título no trae ninguna |
+| `modo` | cómo llegan las palabras de los personajes | `mimético` (hablan directamente, con sus nombres al margen), `diegético` (un narrador refiere la conversación) o `mixto` |
+| `relacion_interlocutores` | cómo se reparte la autoridad entre las voces | `jerárquica` (maestro y discípulo, quien sabe y quien aprende), `entre pares` o `mixta` |
+| `ambientacion.espacio` | el tipo de escena | `corte`, `curia`, `academia`, `casa privada`, `villa`, `jardín`, `monasterio`, `taller`, `espacio urbano`, `paraje natural`, `visión`, `más allá` o `indeterminado` |
+
+`forma` sigue indicando el subgénero (diálogo, coloquio, *convivium*); que la conversación sea narrada va ahora en `modo`.
+
 ## Redacciones y obras vinculadas
 
 - **Revisión de la misma obra:** si cambian la fecha o el lugar pero no el reparto, va en la misma ficha, en `redacciones`. Es una lista en la que cada entrada repite los campos que cambian (por ejemplo, las revisiones de *De vero falsoque bono*).
@@ -130,7 +144,7 @@ Si falta un dato y no se puede completar todavía, el campo queda vacío y se ex
 | `interlocutores` | sí | lista (ver arriba) |
 | `evocados` | no | lista de `persona` y `nota` |
 | `composicion` | sí | `fecha` y `lugares` |
-| `ambientacion` | no | `fecha` y `lugar` |
+| `ambientacion` | no | `fecha`, `lugar` y `espacio` |
 | `primera_edicion` | no | `fecha`, `lugar`, `impresor` |
 | `redacciones` | no | lista |
 | `relaciones` | no | lista de `dialogo` y `tipo` |

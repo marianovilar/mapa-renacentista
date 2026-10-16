@@ -2,6 +2,7 @@ id: pontano-charon
 titulo: Charon
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 1
 
 autores: [pontano]
@@ -25,6 +26,7 @@ composicion:
     - lugar: napoles
 
 ambientacion:
+  espacio: más allá
   fecha: null
   lugar: null
   nota: "En el inframundo, a orillas del río de los muertos."

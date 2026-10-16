@@ -28,6 +28,7 @@ composicion:
     - lugar: roma
 
 ambientacion:
+  espacio: espacio urbano
   fecha:
     desde: 1430
     hasta: 1431

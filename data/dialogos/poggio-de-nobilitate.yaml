@@ -25,6 +25,7 @@ composicion:
       nota: "La curia residía en Florencia entre 1434 y 1443."
 
 ambientacion:
+  espacio: villa
   fecha: null
   lugar: terranuova
   nota: "En la villa de Poggio, ante su colección de esculturas antiguas. Por verificar."

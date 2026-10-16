@@ -230,6 +230,16 @@ function vistaDialogo(d) {
       </dl>
     </div>
 
+    ${d.denominacion || d.modo || d.relacion_interlocutores || amb?.espacio ? `<div class="seccion">
+      <h3>Forma</h3>
+      <dl class="datos">
+        ${filaDato('Denominación', d.denominacion ? `<i>${esc(d.denominacion)}</i>` : null)}
+        ${filaDato('Modo', esc(d.modo ?? ''))}
+        ${filaDato('Voces', esc(d.relacion_interlocutores ?? ''))}
+        ${filaDato('Espacio', esc(amb?.espacio ?? ''))}
+      </dl>
+    </div>` : ''}
+
     <div class="seccion">
       <h3>Destinatarios</h3>
       ${listaPersonas(d.destinatarios, false) || '<p class="nota-suelta">Sin destinatario registrado.</p>'}
@@ -282,7 +292,7 @@ function vistaPersona(p) {
   }
   const top = [...coinciden].sort((a, b) => b[1] - a[1] || nombre(a[0]).localeCompare(nombre(b[0]))).slice(0, 20);
 
-  const etiquetas = [p.tipo, fmtVida(p)].filter(Boolean).map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('');
+  const etiquetas = [p.tipo, p.sexo, fmtVida(p)].filter(Boolean).map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('');
   return `
     <div class="tipo-ficha">Persona</div>
     <h1 class="detalle-titulo">${esc(p.nombre)}</h1>

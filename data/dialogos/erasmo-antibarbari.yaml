@@ -28,6 +28,7 @@ composicion:
       nota: "Revisión para la imprenta."
 
 ambientacion:
+  espacio: villa
   fecha: null
   lugar: halsteren
   nota: "En una casa de campo cerca de Bergen op Zoom."

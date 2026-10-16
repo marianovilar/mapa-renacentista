@@ -26,6 +26,7 @@ composicion:
     - lugar: roma
 
 ambientacion:
+  espacio: villa
   fecha: null
   lugar: careggi
   nota: "En la villa de Cosme, poco antes de su muerte (1464). Por verificar."

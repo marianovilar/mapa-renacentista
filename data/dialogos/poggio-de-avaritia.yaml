@@ -3,6 +3,7 @@ titulo: De avaritia
 titulo_completo: Dialogus contra avaritiam
 lengua: latín
 forma: diálogo
+denominacion: dialogus
 libros: 1
 
 autores: [poggio]
@@ -28,6 +29,7 @@ composicion:
       nota: "En la curia papal, donde Poggio era secretario."
 
 ambientacion:
+  espacio: curia
   fecha:
     desde: 1427
     hasta: 1428
