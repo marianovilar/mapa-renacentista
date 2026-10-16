@@ -6,8 +6,9 @@ libros: 1
 
 autores: [valla]
 
-destinatarios: []
-nota_destinatarios: "Probablemente García, obispo de Lérida. Por verificar."
+destinatarios:
+  - persona: garcia-lerida
+    forma: dedicatoria
 
 interlocutores:
   - persona: glarea

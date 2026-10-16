@@ -869,3 +869,11 @@
   nombre_latino: Histrio personatus
   tipo: ficticia
   sexo: masculino
+
+# --- Valla, De libero arbitrio ---
+- id: garcia-lerida
+  nombre: García, obispo de Lérida
+  nombre_latino: Garsias episcopus Ilerdensis
+  tipo: histórica
+  sexo: masculino
+  nota: "Dedicatario verificado. Probablemente García Aznar de Añón; nombre completo y fechas por verificar."
