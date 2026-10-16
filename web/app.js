@@ -45,6 +45,7 @@ const db = {
   lugares: new Map(),
   porPersona: new Map(), // id → [{ d, rol, nota, alias }]
   porLugar: new Map(), // id → [{ d, rol, nota }]
+  regiones: [],
 };
 
 function anotar(mapa, id, entrada) {
@@ -54,6 +55,7 @@ function anotar(mapa, id, entrada) {
 }
 
 function indexar(datos) {
+  db.regiones = datos.regiones ?? [];
   for (const p of datos.personas) db.personas.set(p.id, p);
   for (const l of datos.lugares) db.lugares.set(l.id, l);
   const ordenados = [...datos.dialogos].sort((a, b) => inicio(a) - inicio(b) || a.titulo.localeCompare(b.titulo));
@@ -395,6 +397,7 @@ function iniciarMapa() {
     maxNativeZoom: 9,
   }).addTo(mapa);
   capaLineas = L.layerGroup().addTo(mapa);
+  pintarRegiones();
 
   for (const [id] of db.porLugar) {
     const l = db.lugares.get(id);
@@ -411,6 +414,29 @@ function iniciarMapa() {
     .join('');
 
   new ResizeObserver(() => mapa.invalidateSize()).observe($('#mapa'));
+}
+
+// Nombres de regiones: solo texto, debajo de los marcadores y sin capturar clics.
+// Se ocultan a escala de continente, donde se encimarían.
+const ZOOM_REGIONES = 6;
+
+function pintarRegiones() {
+  mapa.createPane('regiones');
+  const panel = mapa.getPane('regiones');
+  panel.style.zIndex = 390;
+  panel.style.pointerEvents = 'none';
+  for (const r of db.regiones) {
+    const latino = r.nombre_latino && r.nombre_latino !== r.nombre ? `<i>(${esc(r.nombre_latino)})</i>` : '';
+    L.marker([r.lat, r.lon], {
+      pane: 'regiones',
+      interactive: false,
+      keyboard: false,
+      icon: L.divIcon({ className: 'region', html: `<div class="region-texto"><span>${esc(r.nombre)}</span>${latino}</div>`, iconSize: null }),
+    }).addTo(mapa);
+  }
+  const alternar = () => panel.classList.toggle('oculto', mapa.getZoom() < ZOOM_REGIONES);
+  mapa.on('zoomend', alternar);
+  alternar();
 }
 
 function radio(id) {

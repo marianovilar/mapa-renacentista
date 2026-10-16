@@ -1,0 +1,124 @@
+# Regiones de Italia que se rotulan en el mapa (solo etiquetas, sin fronteras).
+# nombre_latino: forma usual en el latín humanista; conviene cotejarla con la
+# Italia illustrata de Flavio Biondo (1453), que divide Italia en regiones.
+# lat/lon: punto donde se ubica la etiqueta, no el centro exacto de la región.
+
+- id: piamonte
+  nombre: Piamonte
+  nombre_latino: Pedemontium
+  lat: 44.95
+  lon: 7.60
+
+- id: liguria
+  nombre: Liguria
+  nombre_latino: Liguria
+  lat: 44.42
+  lon: 8.95
+
+- id: lombardia
+  nombre: Lombardía
+  nombre_latino: Langobardia
+  lat: 45.62
+  lon: 9.75
+
+- id: veneto
+  nombre: Véneto
+  nombre_latino: Venetia
+  lat: 45.70
+  lon: 11.75
+
+- id: friul
+  nombre: Friul
+  nombre_latino: Forum Iulii
+  lat: 46.15
+  lon: 13.05
+
+- id: istria
+  nombre: Istria
+  nombre_latino: Histria
+  lat: 45.20
+  lon: 13.95
+
+- id: emilia
+  nombre: Emilia
+  nombre_latino: Aemilia
+  lat: 44.68
+  lon: 10.45
+
+- id: romana
+  nombre: Romaña
+  nombre_latino: Romandiola
+  lat: 44.22
+  lon: 11.95
+
+- id: toscana
+  nombre: Toscana
+  nombre_latino: Etruria
+  lat: 43.25
+  lon: 11.05
+
+- id: umbria
+  nombre: Umbría
+  nombre_latino: Umbria
+  lat: 42.95
+  lon: 12.55
+
+- id: marca-ancona
+  nombre: Marca de Ancona
+  nombre_latino: Picenum
+  lat: 43.35
+  lon: 13.30
+
+- id: lacio
+  nombre: Lacio
+  nombre_latino: Latium
+  lat: 41.62
+  lon: 13.20
+
+- id: abruzos
+  nombre: Abruzos
+  nombre_latino: Aprutium
+  lat: 42.22
+  lon: 13.90
+
+- id: campania
+  nombre: Campania
+  nombre_latino: Campania
+  lat: 41.15
+  lon: 14.85
+
+- id: apulia
+  nombre: Apulia
+  nombre_latino: Apulia
+  lat: 41.10
+  lon: 16.30
+
+- id: basilicata
+  nombre: Basilicata
+  nombre_latino: Lucania
+  lat: 40.50
+  lon: 16.05
+
+- id: calabria
+  nombre: Calabria
+  nombre_latino: Bruttium
+  lat: 39.10
+  lon: 16.45
+
+- id: sicilia
+  nombre: Sicilia
+  nombre_latino: Sicilia
+  lat: 37.55
+  lon: 14.15
+
+- id: cerdena
+  nombre: Cerdeña
+  nombre_latino: Sardinia
+  lat: 40.05
+  lon: 9.05
+
+- id: corcega
+  nombre: Córcega
+  nombre_latino: Corsica
+  lat: 42.15
+  lon: 9.10

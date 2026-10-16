@@ -10,6 +10,7 @@ const leer = (ruta) => parse(readFileSync(join(raiz, ruta), 'utf8'));
 
 const personas = leer('data/personas.yaml');
 const lugares = leer('data/lugares.yaml');
+const regiones = leer('data/regiones.yaml');
 const dialogos = readdirSync(join(raiz, 'data/dialogos'))
   .filter((f) => f.endsWith('.yaml'))
   .map((f) => ({ archivo: f, ...leer(`data/dialogos/${f}`) }));
@@ -51,6 +52,10 @@ for (const p of personas) {
 
 for (const l of lugares) {
   if (typeof l.lat !== 'number' || typeof l.lon !== 'number') errores.push(`lugar ${l.id}: faltan coordenadas`);
+}
+indice(regiones, 'regiones');
+for (const r of regiones) {
+  if (!r.nombre || typeof r.lat !== 'number' || typeof r.lon !== 'number') errores.push(`región ${r.id}: faltan nombre o coordenadas`);
 }
 
 function fecha(ctx, f) {
@@ -147,6 +152,6 @@ if (errores.length) {
 }
 
 mkdirSync(join(raiz, 'build'), { recursive: true });
-const salida = { dialogos: dialogos.map(({ archivo, ...d }) => d), personas, lugares };
+const salida = { dialogos: dialogos.map(({ archivo, ...d }) => d), personas, lugares, regiones };
 writeFileSync(join(raiz, 'build/datos.json'), JSON.stringify(salida, null, 2));
 console.log('Sin errores. Generado build/datos.json');

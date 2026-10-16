@@ -195,3 +195,27 @@ a:hover { text-decoration: underline; }
   .cabecera { padding: 10px 16px; }
   .marca-titulo { font-size: 22px; }
 }
+
+/* Nombres de regiones en el mapa */
+.region { width: 0; height: 0; }
+.region-texto {
+  position: absolute;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--tinta-2);
+  text-shadow: 0 0 3px var(--fondo), 0 0 3px var(--fondo), 0 0 6px var(--fondo);
+  line-height: 1.1;
+}
+.region span {
+  display: block;
+  font: 600 11px var(--sans);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.region i {
+  display: block;
+  font: italic 13px var(--serif);
+  color: var(--tinta-3);
+}
+.leaflet-pane.oculto { display: none; }
