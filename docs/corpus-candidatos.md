@@ -39,7 +39,7 @@ Los 40 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Giovanni Pontano | *Antonius* | 1480s–1491 | Nápoles | Homenaje al Panormita |
 | ✅ | Giovanni Pontano | *Actius* | 1495–1499 | Nápoles | Sobre la poesía; Sannazaro |
 | ✅ | Giovanni Pontano | *Aegidius* | c. 1501–1503 | Nápoles | Egidio da Viterbo; publicado por Summonte en 1507 |
-| ✅ | Giovanni Pontano | *Asinus* | ¿1486–1501? | Nápoles | Sobre la ingratitud; publicado por Summonte en 1507 |
+| ✅ | Giovanni Pontano | *Asinus* | c. 1490–1492 | Nápoles | Ambientado tras la paz de 1486; publicado por Summonte en 1507 |
 | ✅ | Paolo Cortesi | *De hominibus doctis* | c. 1490 | Roma | Panorama de humanistas |
 | ✅ | Aurelio Lippo Brandolini | *De humanae vitae conditione* | c. 1490 | Hungría / Roma (?) | |
 | ✅ | Pietro Bembo | *De Aetna* | 1495–1496 | Venecia (Aldo Manuzio) | Bembo con su padre Bernardo |

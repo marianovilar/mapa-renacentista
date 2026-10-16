@@ -10,12 +10,35 @@ libros: 1
 autores: [pontano]
 
 destinatarios: []
+nota_destinatarios: "Sin dedicatario. Según Vilar, los destinatarios implícitos son los colegas y discípulos de la academia napolitana."
 
+# Estructura cercana a la comedia: una escena en la posada, otra entre los
+# académicos y otra en la villa de Pontano (Vilar 2024).
 interlocutores:
+  - persona: posadero-asinus
+    nombre_en_el_texto: Caupo
+    nota: "Primera escena: recibe la noticia de la paz y piensa en el beneficio para su negocio."
+  - persona: mensajero-asinus
+    nombre_en_el_texto: Tabellarius
+    nota: "Primera escena: trae la noticia de la paz y pregunta por Pontano."
+  - persona: altilio
+    nombre_en_el_texto: Altilius
+    nota: "Elogia la labor diplomática de Pontano y presenta su locura."
+  - persona: cariteo
+    nombre_en_el_texto: Chariteus
+    nota: "Describe los adornos del asno y lee una carta de Pontano."
+  - persona: pardo
+    nombre_en_el_texto: Pardus
+  - persona: sannazaro
+    nombre_en_el_texto: Actius
+    nota: "Hace un extenso elogio de Pontano: su habilidad política, su saber, la Urania y su buen humor."
   - persona: pontano
     nombre_en_el_texto: Pontanus
-    nota: "El autor como personaje, encariñado con un asno. Por verificar."
-nota_interlocutores: "Reparto completo por verificar."
+    nota: "Aparece tarde: habla con Faselio de agricultura, adora al asno, que lo patea, y cambia de tono al llegar sus amigos («exhibe vultum gravem»)."
+  - persona: faselio
+    nombre_en_el_texto: Faselius
+    nota: "Villicus, administrador de la granja de Pontano."
+nota_interlocutores: "El asno Cílaro, centro de la trama, no habla; al final se lo regalan a la novia de Faselio. En la posada aparece de paso un grupo de irlandeses (Haywood)."
 
 relaciones:
   - dialogo: pontano-actius
@@ -27,28 +50,45 @@ relaciones:
 
 composicion:
   fecha:
-    desde: 1486
-    hasta: 1501
-    certeza: conjetural
-    nota: "Fecha muy discutida; por verificar con la cronología de S. Monti."
+    desde: 1490
+    hasta: 1492
+    certeza: probable
+    nota: "Suele fecharse poco después de 1490, porque menciona la revisión de la Urania; Martellotti propone una fecha más temprana, más cercana a 1486. Hay manuscrito autógrafo (Vat. lat. 2840)."
   lugares:
     - lugar: napoles
+
+ambientacion:
+  espacio: villa
+  fecha:
+    desde: 1486
+    hasta: 1486
+    certeza: segura
+    nota: "Poco después de la paz entre Ferrante I e Inocencio VIII (agosto de 1486), que cerró la segunda conjura de los barones."
+  lugar: napoles
+  nota: "Empieza en una posada camino de la ciudad y termina en la villa de Pontano en las afueras de Nápoles."
 
 primera_edicion:
   fecha:
     desde: 1507
     hasta: 1507
     certeza: segura
-    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Actius y el Aegidius; el subtítulo es de Summonte."
+    nota: "Edición póstuma a cargo de Pietro Summonte, junto con el Actius y el Aegidius. Summonte lo presenta como el último diálogo y le atribuye un ataque velado contra la ingratitud de alguien, lectura que Tateo y Vilar discuten."
   lugar: napoles
   impresor: Sigismund Mayr
   nota: "Impresor por verificar."
 
-temas: [ingratitud, sátira, autoironía]
+temas: [autoparodia, paz de 1486, conjura de los barones, ingratitud, locura, comedia plautina, Urania]
+
+resumen: >
+  Tras la paz de 1486, los amigos de Pontano descubren que el viejo humanista
+  adora a un asno, que termina pateándolo. El diálogo presenta a su autor desde
+  miradas de distintos círculos sociales como un autoelogio paródico.
 
 fuentes:
-  - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
+  - "Mariano Vilar, «El Asinus de Giovanni Pontano: un autoelogio paródico», Scripta Mediaevalia 17, 1 (2024), 49–70."
   - "Giovanni Pontano, Asinus: Dialogo dell'ingratitudine, ed. Francesco Tateo, Roma, 2014."
+  - "Guido Martellotti, «Il primo abbozzo dell'Asinus di G. Pontano», Annali della Scuola Normale Superiore di Pisa 36 (1967)."
+  - "Hélène Casanova-Robin, «Réminiscences plautiniennes dans le dialogue Asinus de Giovanni Pontano» (2023)."
   - "Mauro de Nichilo, «Lingua e stile nell'Asinus di Giovanni Pontano», en Sul latino degli umanisti, ed. F. Tateo, Bari, 2006, 79–101."
 
 revision: pendiente

@@ -11,9 +11,14 @@ autores: [pontano]
 destinatarios: []
 
 interlocutores:
+  - persona: suardo
+    nota: "Viajero que llega a Nápoles al comienzo del diálogo."
+  - persona: peto
+    nota: "Viajero que llega a Nápoles al comienzo del diálogo."
   - persona: egidio-viterbo
     nombre_en_el_texto: Aegidius
-    nota: "Da nombre al diálogo. Resto del reparto (miembros de la academia napolitana) por verificar."
+    nota: "Da nombre al diálogo."
+nota_interlocutores: "Reparto completo por verificar. Los viajeros leen la inscripción de la casa de Pontano, que lo presenta como alguien que «honró las letras, las buenas artes y a los reyes»."
 
 evocados:
   - persona: golino
@@ -32,14 +37,15 @@ composicion:
     desde: 1501
     hasta: 1503
     certeza: conjetural
-    nota: "Después de la muerte de Golino (1501) y antes de la de Pontano (1503). Por verificar con la cronología de S. Monti."
+    nota: "Escrito en los últimos años de Pontano: después de la muerte de Golino (1501) y antes de la suya (1503). Por verificar con la cronología de S. Monti."
   lugares:
     - lugar: napoles
 
 ambientacion:
+  espacio: casa privada
   fecha: null
   lugar: napoles
-  nota: "En el ámbito de la academia napolitana. Escena por verificar."
+  nota: "Comienza ante la casa de Pontano, con su inscripción."
 
 primera_edicion:
   fecha:
@@ -51,9 +57,17 @@ primera_edicion:
   impresor: Sigismund Mayr
   nota: "Impresor por verificar."
 
-temas: [teología, academia napolitana, variedad de asuntos, duelo por Golino]
+temas: [retórica y filosofía, res et verba, creación por la palabra, léxico filosófico latino, piedad religiosa, duelo por Golino]
+
+resumen: >
+  Diálogo de vejez en el que la sabiduría de Pontano aparece unida a la piedad
+  religiosa. Defiende la unión de elocuencia y saber y critica el latín de los
+  traductores de Aristóteles (privatio y carentia, las circumstantiae).
 
 fuentes:
+  - "Mariano Vilar, «Los saberes del humanismo en diálogo: introducción al Aegidius de Giovanni Pontano», Circe de clásicos y modernos 26, 1 (2022), 135–148."
+  - "Mariano Vilar, «El Asinus de Giovanni Pontano: un autoelogio paródico», Scripta Mediaevalia 17, 1 (2024), 49–70."
+  - "Rainer Weiss, «The Humanist Rediscovery of Rhetoric as Philosophy: Giovanni Gioviano Pontano's Aegidius», trad. Y. Mundy, Philosophy & Rhetoric 13, 1 (1980), 25–42."
   - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
   - "Giovanni Pontano, Aegidius: Dialogo, ed. Francesco Tateo, Roma, 2013."
 

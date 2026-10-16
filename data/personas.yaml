@@ -629,10 +629,11 @@
 - id: pontano
   nombre: Giovanni Pontano
   nombre_latino: Ioannes Iovianus Pontanus
-  nacimiento: 1426
+  nacimiento: 1429
   muerte: 1503
   tipo: histórica
   sexo: masculino
+  nota: "Nacido en 1429 según el Dizionario Biografico degli Italiani (Figliuolo 2015); la fecha antigua era 1426."
 
 - id: caronte
   nombre: Caronte
@@ -901,3 +902,62 @@
   tipo: histórica
   sexo: masculino
   nota: "Filósofo cínico (siglo IV a. C.), como sombra en el más allá."
+
+# --- Pontano, Asinus y Aegidius (según Vilar 2024) ---
+- id: posadero-asinus
+  nombre: El posadero
+  nombre_latino: Caupo
+  tipo: ficticia
+  sexo: masculino
+
+- id: mensajero-asinus
+  nombre: El mensajero
+  nombre_latino: Tabellarius
+  tipo: ficticia
+  sexo: masculino
+
+- id: altilio
+  nombre: Gabriele Altilio
+  nombre_latino: Gabriel Altilius
+  nacimiento: 1440
+  muerte: 1501
+  tipo: histórica
+  sexo: masculino
+  nota: "Poeta de la academia napolitana. Fechas aproximadas."
+
+- id: cariteo
+  nombre: Benet Garret, el Cariteo
+  nombre_latino: Chariteus
+  nacimiento: 1450
+  muerte: 1514
+  tipo: histórica
+  sexo: masculino
+  nota: "Poeta barcelonés de la academia napolitana. Fechas aproximadas."
+
+- id: pardo
+  nombre: Giovanni Pardo
+  nombre_latino: Ioannes Pardus
+  tipo: histórica
+  sexo: masculino
+  nota: "Humanista de la academia napolitana. Fechas por verificar."
+
+- id: faselio
+  nombre: Faselio
+  nombre_latino: Faselius
+  tipo: ficticia
+  sexo: masculino
+  nota: "Villicus de Pontano."
+
+- id: suardo
+  nombre: Suardino Suardo
+  nombre_latino: Suardinus Suardus
+  tipo: histórica
+  sexo: masculino
+  nota: "Humanista de Bérgamo. Identificación y fechas por verificar."
+
+- id: peto
+  nombre: Francesco Peto
+  nombre_latino: Franciscus Petus
+  tipo: histórica
+  sexo: masculino
+  nota: "Humanista de Fondi. Identificación y fechas por verificar."
