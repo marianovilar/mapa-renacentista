@@ -35,7 +35,9 @@ composicion:
     hasta: 1439
     certeza: probable
     nota: "Escrito entre 1437 y 1439, cuando Valla acompañaba a Alfonso de Aragón en la campaña de conquista del reino de Nápoles (Vilar 2025, remitiendo a Anfossi 1934)."
-  lugares: []
+  lugares:
+    - lugar: gaeta
+      nota: "Base de la corte de Alfonso durante la campaña napolitana."
 
 ambientacion:
   espacio: casa privada

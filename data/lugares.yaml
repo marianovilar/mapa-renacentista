@@ -107,6 +107,13 @@
   lon: 14.7826
   wikidata: null
 
+- id: gaeta
+  nombre: Gaeta
+  nombre_latino: Caieta
+  lat: 41.2133
+  lon: 13.5713
+  wikidata: null
+
 - id: siena
   nombre: Siena
   nombre_latino: Sena
