@@ -3,8 +3,9 @@ titulo: Dialogus consolatorius
 titulo_completo: Dialogus de acerba Antonii dilectissimi filii sui morte consolatorius
 lengua: latín
 forma: diálogo
+modo: diegético
 denominacion: dialogus
-libros: 3
+libros: 6
 
 autores: [manetti]
 
@@ -13,31 +14,59 @@ nota_destinatarios: "Por verificar."
 
 interlocutores:
   - persona: manetti
-    nota: "El autor como personaje, de duelo por su hijo. Defiende, como peripatético, que el dolor de los padres es natural y por eso obligatorio (Reviakina)."
+    nombre_en_el_texto: Iannotius
+    nota: "Narrador y personaje, de duelo por su hijo. Libro III: defiende con argumentos ciceronianos y peripatéticos que el dolor es natural."
   - persona: agnolo-acciaiuoli
     nombre_en_el_texto: Angelus
-    nota: "Defiende la posición estoica: el dolor no es natural sino fruto de la costumbre (Reviakina)."
-  - persona: niccolo-medici
-    nota: "Por verificar. Reviakina menciona un árbitro cristiano que da la razón al peripatético, sin nombrarlo."
+    nota: "Cuñado de Manetti; lo convoca a la Certosa. Libro II: sostiene con Séneca que el duelo no se justifica."
+  - persona: adovardo-acciaiuoli
+    nota: "Libro IV: comenta el debate y propone someterlo al prior."
+  - persona: gherardino
+    nota: "Embajador de Ferrara. Libro IV: resume para el prior las dos posiciones."
+  - persona: niccolo-cortona
+    nota: "Prior de la Certosa. Libro V: resuelve el empate con una homilía cristiana basada en la Escritura y los Padres; en el libro VI todos aceptan su enseñanza."
+
+evocados:
+  - persona: antonino-manetti
+    nota: "El hijo muerto a los cuatro años, cuya pérdida motiva el diálogo."
+
+redacciones:
+  - titulo: Dialogo consolatorio
+    fecha: { desde: 1439, hasta: 1439, certeza: segura }
+    lugares: [florencia]
+    nota: "Traducción italiana del propio Manetti, con añadidos (entre ellos la novela de Seleuco y Antíoco de Bruni). Cada versión sobrevive en siete manuscritos."
 
 composicion:
   fecha:
     desde: 1438
     hasta: 1438
-    certeza: probable
-    nota: "Tras la muerte de su hijo Antonio."
+    certeza: segura
+    nota: "Tras la muerte de Antonino, poco antes del Sábado Santo de 1438."
   lugares:
-    - lugar: florencia
-      nota: "Por verificar."
+    - lugar: vacciano
+      nota: "Manetti se retiró a su villa de Vacciano tras la muerte de su hijo (Marsh); que lo escribiera allí es probable."
 
-temas: [consolación, duelo, naturaleza y costumbre, estoicismo, peripatetismo y cristianismo, Bruto y Torcuato]
+ambientacion:
+  espacio: monasterio
+  fecha:
+    desde: 1438
+    hasta: 1438
+    certeza: segura
+    nota: "Viernes Santo y Sábado Santo de 1438. La versión italiana fecha el encuentro «nell'anno 1438 della salutifera Incarnazione», con eco del Decameron (1348/1438)."
+  lugar: certosa-galluzzo
+  nota: "Al aire libre, a la sombra de pinos y cipreses, después de la misa y el almuerzo; Agnolo pasaba allí cada Semana Santa."
+
+temas: [consolación, duelo, pasiones, estoicismo frente a peripatetismo, homilía cristiana, Niccolò III d'Este, Seleuco y Antíoco]
 
 resumen: >
-  Tras la muerte de su hijo Antonio, Manetti discute si el dolor de los padres
-  es natural. El estoico lo atribuye a la costumbre, el peripatético lo defiende
-  como natural, y un árbitro cristiano termina dando la razón al peripatético.
+  Tras la muerte de su hijo, Manetti discute con Agnolo Acciaiuoli si el
+  duelo es propio del hombre virtuoso. Agnolo lo niega con Séneca y Manetti lo
+  defiende como natural. El prior Niccolò da Cortona zanja la disputa con una
+  homilía, siguiendo el esquema de tres voces de Poggio y Valla.
 
 fuentes:
+  - "David Marsh, Giannozzo Manetti: The Life of a Florentine Humanist, Cambridge (MA), Harvard University Press, 2019, cap. 2."
+  - "Giannozzo Manetti, Dialogus consolatorius, ed. Alfonso De Petris, Roma, 1983."
   - "N. V. Reviakina, «Giannozzo Manetti's Dialogue at a Feast of Friends», Soviet Studies in History 19, 2 (1980), 47–65, n. 25 (manuscrito: Biblioteca Vaticana, Urb. lat. 5, ff. 165r–199r)."
 
 revision: pendiente

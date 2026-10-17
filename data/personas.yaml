@@ -388,17 +388,10 @@
   nombre: Agnolo Acciaiuoli
   nombre_latino: Angelus Acciaiolus
   nacimiento: 1398
-  muerte: 1470
+  muerte: 1468
   tipo: histórica
   sexo: masculino
-  nota: "Fechas aproximadas."
-
-- id: niccolo-medici
-  nombre: Niccolò di Vieri de' Medici
-  nombre_latino: Nicolaus Medices
-  tipo: histórica
-  sexo: masculino
-  nota: "Identificación y fechas por verificar."
+  nota: "Muerte hacia 1468. Cuñado de Manetti y cercano a los Medici (Marsh)."
 
 # --- Facio ---
 - id: facio
@@ -1112,91 +1105,6 @@
   sexo: masculino
   nota: "Hijo menor de Cosme el Viejo; muere el 1 de noviembre de 1463."
 
-# --- Manetti, Dialogus in symposio (nombres según Reviakina 1980; identificaciones por verificar) ---
-- id: sinibaldo
-  nombre: Sinibaldo
-  nombre_latino: Sinibaldus
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
-
-- id: bernardo-symposio
-  nombre: Bernardo
-  nombre_latino: Bernardus
-  tipo: histórica
-  sexo: masculino
-  nota: "El más joven de la mesa en el banquete de 1448; conocedor de hebreo, griego y latín. Identificación por verificar."
-
-- id: alessandro-martelli
-  nombre: Alessandro Martelli
-  nombre_latino: Alexander Martellus
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
-
-- id: carlo-bardo
-  nombre: Carlo Bardo
-  nombre_latino: Carolus Bardus
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
-
-- id: tommaso-ringadori
-  nombre: Tommaso Ringadori
-  nombre_latino: Thomas Ringadorius
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
-
-- id: pigelio
-  nombre: Pigelio
-  nombre_latino: Pigelius
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Junto con «Partinarius» podría ser Pigello Portinari: por verificar."
-
-- id: partinario
-  nombre: Partinario
-  nombre_latino: Partinarius
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Ver la nota de Pigelio."
-
-- id: nerozzo
-  nombre: Nerozzo
-  nombre_latino: Nerotius
-  tipo: histórica
-  sexo: masculino
-  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
-
-- id: hirsus
-  nombre: Hirsus, el canciller
-  nombre_latino: Hirsus
-  tipo: histórica
-  sexo: masculino
-  nota: "Canciller presente en el banquete veneciano de 1448. Identificación por verificar."
-
-- id: giovanfrancesco-manetti
-  nombre: Giovanfrancesco Manetti
-  nombre_latino: Iohannes Franciscus Manettus
-  tipo: histórica
-  sexo: masculino
-  nota: "Hijo de Giannozzo Manetti. Fechas por verificar."
-
-- id: gabriele-greco
-  nombre: Gabriel, el helenista
-  nombre_latino: Gabriel
-  tipo: histórica
-  sexo: masculino
-  nota: "Árbitro en el banquete veneciano de 1448, experto en griego. Identificación por verificar."
-
-- id: michele-rondinelli
-  nombre: Michele Rondinelli
-  nombre_latino: Michael Rondinellus
-  tipo: histórica
-  sexo: masculino
-  nota: "Árbitro en el banquete veneciano de 1448. Fechas por verificar."
-
 - id: boccaccio
   nombre: Giovanni Boccaccio
   nombre_latino: Iohannes Boccaccius
@@ -1204,3 +1112,112 @@
   muerte: 1375
   tipo: histórica
   sexo: masculino
+
+# --- Manetti, Dialogus consolatorius (según Marsh 2019) ---
+- id: niccolo-cortona
+  nombre: Niccolò da Cortona
+  nombre_latino: Nicolaus Cortonensis
+  tipo: histórica
+  sexo: masculino
+  nota: "Prior de la Certosa del Galluzzo en la década de 1430."
+
+- id: adovardo-acciaiuoli
+  nombre: Adovardo Acciaiuoli
+  nombre_latino: Odoardus Acciaiolus
+  tipo: histórica
+  sexo: masculino
+  nota: "Fechas por verificar."
+
+- id: gherardino
+  nombre: Gherardino
+  nombre_latino: Gherardinus
+  tipo: histórica
+  sexo: masculino
+  nota: "Embajador de Ferrara. Identificación por verificar."
+
+- id: antonino-manetti
+  nombre: Antonino Manetti
+  nombre_latino: Antonius
+  nacimiento: 1434
+  muerte: 1438
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo de Giannozzo, nacido el 18 de febrero de 1434; muere a los cuatro años, poco antes del Sábado Santo (12 de abril) de 1438."
+
+# --- Manetti, Dialogus in symposio (según Marsh 2019) ---
+- id: bernardo-manetti
+  nombre: Bernardo Manetti
+  nombre_latino: Bernardus
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo de Giannozzo; formó parte de la embajada a Venecia."
+
+- id: giovanfrancesco-manetti
+  nombre: Giovanfrancesco Manetti
+  nombre_latino: Iohannes Franciscus
+  tipo: histórica
+  sexo: masculino
+  nota: "Judío converso de la casa de Manetti (no su hijo, como dice Reviakina); formó parte de la embajada a Venecia."
+
+- id: nerozzo-del-nero
+  nombre: Nerozzo del Nero
+  nombre_latino: Nerotius
+  tipo: histórica
+  sexo: masculino
+  nota: "Miembro de la embajada a Venecia."
+
+- id: griso-griselli
+  nombre: Griso Griselli
+  nombre_latino: Grisus
+  tipo: histórica
+  sexo: masculino
+  nota: "Secretario de Manetti, luego en la cancillería florentina; copió en Venecia el ejemplar de dedicatoria del Dialogus in symposio (Riccardiana 696). Es el «canciller Hirsus» de Reviakina."
+
+- id: alessandro-martelli
+  nombre: Alessandro Martelli
+  nombre_latino: Alexander Martellus
+  tipo: histórica
+  sexo: masculino
+  nota: "Dirigía el banco Medici en Venecia."
+
+- id: pigello-portinari
+  nombre: Pigello Portinari
+  nombre_latino: Pigellus Portinarius
+  tipo: histórica
+  sexo: masculino
+  nota: "Mercader florentino en Venecia; en 1452 fundó la filial del banco Medici en Milán."
+
+- id: carlo-bardi
+  nombre: Carlo de' Bardi
+  nombre_latino: Carolus Bardus
+  tipo: histórica
+  sexo: masculino
+  nota: "De una familia desterrada por Cosme en 1434."
+
+- id: sinibaldo-donati
+  nombre: Sinibaldo Donati
+  nombre_latino: Sinibaldus
+  tipo: histórica
+  sexo: masculino
+  nota: "De una familia desterrada por Cosme en 1434."
+
+- id: michele-rondinelli
+  nombre: Michele Rondinelli
+  nombre_latino: Michael Rondinellus
+  tipo: histórica
+  sexo: masculino
+  nota: "De una familia desterrada por Cosme en 1434; autor de una carta filosófica de consolación."
+
+- id: tommaso-ringadori
+  nombre: Tommaso Ringadori
+  nombre_latino: Thomas Ringadorius
+  tipo: histórica
+  sexo: masculino
+  nota: "Mercader florentino en Venecia."
+
+- id: gabriele-belli
+  nombre: Gabriele Belli
+  nombre_latino: Gabriel
+  tipo: histórica
+  sexo: masculino
+  nota: "Judío converso, conocedor del griego."

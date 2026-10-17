@@ -202,3 +202,19 @@
   lon: 11.7340
   wikidata: null
   nota: "Abadía benedictina al pie de los montes Euganeos, cerca de Padua."
+
+- id: certosa-galluzzo
+  nombre: Certosa del Galluzzo
+  nombre_latino: Cartusia Florentina
+  lat: 43.7337
+  lon: 11.2290
+  wikidata: null
+  nota: "Cartuja fundada por Niccolò Acciaiuoli en la década de 1340, unos cinco kilómetros al sur de Florencia."
+
+- id: vacciano
+  nombre: Vacciano
+  nombre_latino: Vaccianum
+  lat: 43.7330
+  lon: 11.3050
+  wikidata: null
+  nota: "Villa de Manetti cerca de Ponte a Ema (Bagno a Ripoli). Coordenadas aproximadas."

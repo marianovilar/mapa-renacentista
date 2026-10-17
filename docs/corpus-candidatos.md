@@ -27,7 +27,7 @@ Los 44 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Lorenzo Valla | *De professione religiosorum* | 1442 | Nápoles (?) | |
 | ✅ | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia (?) | Alberti escribe también en vulgar; elegir la obra latina |
 | ✅ | Lapo da Castiglionchio el Joven | *De curiae commodis* | 1438 | Ferrara | La curia durante el concilio |
-| ✅ | Giannozzo Manetti | *Dialogus consolatorius* | 1438 | Florencia (?) | Sobre la muerte de su hijo |
+| ✅ | Giannozzo Manetti | *Dialogus consolatorius* | 1438 (versión italiana 1439) | Vacciano; ambientado en la Certosa del Galluzzo | Muerte de su hijo Antonino; Agnolo Acciaiuoli y el prior Niccolò da Cortona |
 | ✅ | Giannozzo Manetti | *Dialogus in symposio* | 1448 | Venecia | Banquete de la embajada florentina; dedicado a Donato Acciaiuoli; inédito |
 | ✅ | Bartolomeo Facio | *De humanae vitae felicitate* (o *De vitae felicitate*) | c. 1445 | Nápoles | Corte de Alfonso el Magnánimo |
 | ✅ | Francesco Filelfo | *Commentationes florentinae de exilio* | 1440s | Siena / Milán (?) | Exiliados florentinos |

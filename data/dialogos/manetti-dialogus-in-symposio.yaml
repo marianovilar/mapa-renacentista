@@ -11,71 +11,70 @@ autores: [manetti]
 destinatarios:
   - persona: donato-acciaiuoli
     forma: dedicatoria
-    nota: "Pariente de Manetti, «óptimo joven». Manetti quiere contarle cómo pasan su tiempo libre en Venecia y tranquilizarlo sobre su salud durante la peste."
+    nota: "Tenía diecinueve años; primo de Agnolo Acciaiuoli. El ejemplar de dedicatoria (Florencia, Riccardiana 696), copiado en Venecia por Griso Griselli, lleva su marca de propiedad."
 
-# Nombres según Reviakina (traducción inglesa de un artículo en ruso).
-# Las formas latinas y las identificaciones quedan por verificar en el manuscrito.
 interlocutores:
-  - persona: sinibaldo
-    nota: "Saca a los comensales de su sopor y propone convertir la cena en un convivium (de convivendo, mejor que el griego symposium)."
-  - persona: bernardo-symposio
-    nota: "El más joven de la mesa; versado en hebreo, griego y latín. Propone discutir la historia de Tancredi y Ghismonda (Decameron IV, 1) y la de Seleuco y Antíoco narrada por Bruni."
-  - persona: alessandro-martelli
-  - persona: carlo-bardo
-  - persona: tommaso-ringadori
-  - persona: pigelio
-  - persona: partinario
-  - persona: nerozzo
-  - persona: hirsus
-    nota: "Canciller."
   - persona: manetti
-    nota: "El autor como personaje."
+    nota: "Anfitrión: como embajador florentino ofrece el banquete; propone a los árbitros."
+  - persona: bernardo-manetti
+    nota: "Hijo del autor; narra las dos novelas que abren la primera disputa (Tancredi y Ghismonda, Seleuco y Antíoco), ambas en las versiones de Bruni."
+  - persona: sinibaldo-donati
+    nota: "Propone la segunda cuestión, cuál es el animal más útil al hombre, y defiende al caballo."
+  - persona: alessandro-martelli
+    nota: "Defiende a las abejas, con las Geórgicas."
+  - persona: tommaso-ringadori
+    nota: "Defiende al buey."
+  - persona: nerozzo-del-nero
+    nota: "Defiende a la oveja."
+  - persona: griso-griselli
+    nota: "Defiende a la gallina."
   - persona: giovanfrancesco-manetti
-    nota: "Hijo del autor."
-  - persona: gabriele-greco
-    nota: "Uno de los árbitros: experto en lengua griega. Los árbitros resuelven la disputa invocando la naturaleza."
+  - persona: pigello-portinari
+  - persona: carlo-bardi
+  - persona: gabriele-belli
+    nota: "Designado árbitro, cede el papel a Rondinelli."
   - persona: michele-rondinelli
-    nota: "Uno de los árbitros."
-nota_interlocutores: "Reviakina cita los nombres como Sinibald, Bernard, Alexander Martell, Carl Bardus, Thomas Ringadorius, Pigelius, Partinarius, Nerotius, el canciller Hirsus, Manetti y su hijo Gian-Francesco; árbitros: Gabriel y Michele Rondinelli. «Pigelius, Partinarius» podría ser una sola persona (¿Pigello Portinari?): por verificar."
+    nota: "Árbitro: da el premio al buey y, desde el cristianismo, no aprueba ni a Tancredi (homicidio) ni a Antíoco (incesto)."
+nota_interlocutores: "En la primera disputa cinco comensales elogian el rigor de Tancredi y cinco la indulgencia de Seleuco. Al final se suman jóvenes florentinos que bailan y cantan canciones francesas y venecianas. Reviakina (1980) da los nombres deformados por la traducción («Hirsus», «Pigelius, Partinarius»)."
 
 evocados:
-  - persona: boccaccio
-    nota: "«Nuestro poeta facetísimo y elegantísimo»: su novela de Tancredi y Ghismonda abre la primera disputa."
   - persona: bruni
-    nota: "«Óptimo orador e historiador de nuestro tiempo», autor de la novela de Seleuco y Antíoco."
+    nota: "Mentor de Manetti: modelo del diálogo ciceroniano (Dialogi ad Petrum Histrum) y autor de las dos novelas de 1436."
+  - persona: boccaccio
+    nota: "Autor de la novela de Tancredi (Decameron IV, 1); el final con música y danza también imita al Decameron."
 
 composicion:
   fecha:
     desde: 1448
     hasta: 1449
-    certeza: probable
-    nota: "Después del banquete de octubre de 1448, durante o poco después de la embajada florentina a Venecia."
+    certeza: segura
+    nota: "Entre el banquete (8 de octubre de 1448) y la copia de dedicatoria, hecha probablemente a comienzos de 1449."
   lugares:
     - lugar: venecia
-      nota: "Por verificar: el título dice que Manetti estaba allí como embajador."
 
 ambientacion:
   espacio: casa privada
   fecha:
     desde: 1448
     hasta: 1448
-    certeza: probable
-    nota: "Según Reviakina, el 8 de octubre de 1448, «día de san Marcos Evangelista»; pero la fiesta de san Marcos es el 25 de abril, así que la fecha debe verificarse en el manuscrito. Es tiempo de peste."
+    certeza: segura
+    nota: "8 de octubre de 1448, fiesta anual de la consagración de la basílica de San Marcos (no la del santo, como entiende Reviakina). Es tiempo de peste."
   lugar: venecia
-  nota: "Una cena festiva a la que los venecianos invitan a la misión florentina («in domestico et familiari symposio»)."
+  nota: "Banquete ofrecido por el embajador Manetti a sus invitados, en su mayoría florentinos residentes en Venecia, partidarios y enemigos de los Medici."
 
 primera_edicion: null
-nota_edicion: "Inédito según Reviakina (1980). Manuscrito: Florencia, Biblioteca Medicea Laurenziana, Plut. XC sup. 29, ff. 1r–43v."
+nota_edicion: "Inédito según Reviakina (1980). Manuscritos: Florencia, Riccardiana 696 (ejemplar de dedicatoria) y Laurenziana, Plut. XC sup. 29, ff. 1r–43v."
 
-temas: [peste, salud y longevidad, Tancredi y Ghismonda, Seleuco y Antíoco, crueldad y humanidad, ley natural, matrimonio y familia, el animal más útil al hombre]
+temas: [peste, Tancredi y Ghismonda, Seleuco y Antíoco, autoridad paterna, crueldad y humanidad, ley natural, el animal más útil al hombre, Saturnales de Macrobio]
 
 resumen: >
-  En una cena en Venecia en tiempo de peste, florentinos y venecianos discuten
-  si merece más elogio el severo Tancredi de Boccaccio o el compasivo Seleuco
-  de Bruni. Los árbitros condenan a Seleuco en nombre de la naturaleza.
-  La segunda cuestión es cuál es el animal más útil al hombre.
+  En un banquete en Venecia, los invitados de Manetti debaten primero si merece
+  más elogio el severo Tancredi o el indulgente Seleuco, y luego cuál es el
+  animal más útil al hombre. El diálogo combina la disputa ciceroniana con el
+  symposium erudito de Macrobio y termina con música y danza.
 
 fuentes:
+  - "David Marsh, Giannozzo Manetti: The Life of a Florentine Humanist, Cambridge (MA), Harvard University Press, 2019, cap. 4."
   - "N. V. Reviakina, «Giannozzo Manetti's Dialogue at a Feast of Friends», Soviet Studies in History 19, 2 (1980), 47–65 (orig. ruso, Saratov, 1978)."
   - "Nicola Badaloni, «Filosofia della mente e filosofia delle arti in Giannozzo Manetti», Critica storica (1963), 2, 414–415 n. 93."
 
