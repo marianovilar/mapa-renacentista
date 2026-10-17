@@ -803,19 +803,20 @@ function ocultarGlobo() { $('#globo').hidden = true; }
 
 // ---------- Presentación ----------
 
-function pintarPresentacion() {
+// El texto vive en web/presentacion.html, para poder editarlo sin tocar el código.
+async function pintarPresentacion() {
   const art = $('#presentacion');
   if (art.dataset.listo) return;
   art.dataset.listo = '1';
-  art.innerHTML = PRESENTACION;
+  try {
+    const r = await fetch('presentacion.html');
+    if (!r.ok) throw new Error(r.status);
+    art.innerHTML = await r.text();
+  } catch (err) {
+    delete art.dataset.listo;
+    art.innerHTML = `<p>No se pudo cargar la presentación (${esc(err.message)}).</p>`;
+  }
 }
-
-const PRESENTACION = `
-  <div class="tipo-ficha">Presentación</div>
-  <h1>El diálogo humanista</h1>
-  <p class="aviso-borrador">Texto en preparación.</p>
-  <p><a href="#/">Ir a explorar los diálogos</a></p>
-`;
 
 // ---------- Arranque ----------
 
