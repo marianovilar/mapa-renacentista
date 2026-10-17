@@ -10,14 +10,15 @@ autores: [poggio]
 destinatarios:
   - persona: nicolas-v
     forma: dedicatoria
-    nota: "Dedicado a Tommaso da Sarzana antes de que llegara a papa. La dedicatoria opone la pompa de los poderosos a la felicidad que da la virtud, y dice que la obra conviene a un eclesiástico que buscó ser virtuoso antes que rico (Shepherd 1837)."
+    nota: "Dedicado a Tommaso Parentucelli da Sarzana, el futuro Nicolás V. La dedicatoria opone la figura del príncipe a la del sabio y contradice la opinión, inculcada desde niño, de que solo son felices aquellos a quienes la fortuna puso por encima de los demás; dice que la obra conviene a un eclesiástico que buscó ser virtuoso antes que rico (Shepherd 1837; Ciordia 2017)."
 
 interlocutores:
   - persona: niccoli
-    nota: "Voz principal: expone las miserias del poder, sostiene que el mando ilimitado corrompe incluso a los buenos y que la felicidad está en la vida privada de los estudiosos. Se queja de que ningún príncipe apoyó la búsqueda de códices de Poggio."
+    nota: "«Vir clarissimus», en cuya biblioteca transcurre el diálogo. Voz principal: sostiene que los príncipes son infelices, sean buenos o malos, y opone al príncipe la figura del sabio retirado a la vida privada. Expone las miserias del poder, sostiene que el mando ilimitado corrompe incluso a los buenos y que la felicidad está en la vida privada de los estudiosos. Se queja de que ningún príncipe apoyó la búsqueda de códices de Poggio."
   - persona: marsuppini
-    nota: "Objeta que la vida en la curia suele envidiarse."
+    nota: "Formula la cuestión, que todos aceptan: los príncipes son felices. Sostiene que la infelicidad es propia de los malos príncipes y que el deseo de prevalecer (principatus) es natural. Encarna, según Ciordia, al humanista competitivo y deseoso de gloria."
   - persona: cosme-medici
+    nota: "«Tan egregio príncipe de esta nuestra república como óptimo ciudadano». Reprocha a Niccoli su inclinación a denigrar y, como Carlo, ve el principatus como algo natural."
   - persona: poggio
     nota: "Narrador. Abre la conversación contando su reciente cautiverio entre los soldados de Piccinino y las incomodidades de seguir a la curia."
 
@@ -26,7 +27,7 @@ composicion:
     desde: 1440
     hasta: 1440
     certeza: probable
-    nota: "Publicado en 1440 (Shepherd 1837, según una carta inédita citada por Tonelli)."
+    nota: "Publicado en 1440, según la carta de Poggio a Richard Petworth fechada en Florencia el 24 de mayo de 1440 (Ciordia 2017; Shepherd 1837)."
   lugares:
     - lugar: florencia
       nota: "La curia residía en Florencia."
@@ -36,10 +37,10 @@ ambientacion:
   fecha:
     desde: 1434
     hasta: 1434
-    certeza: probable
-    nota: "El verano en que Poggio siguió a Eugenio IV a Florencia, tras la huida del papa de Roma (junio de 1434), poco después de rescatarse de los soldados de Piccinino. Shepherd fecha estos hechos en 1433, pero la huida de Eugenio IV es de 1434."
+    certeza: segura
+    nota: "Un mediodía de comienzos del verano en que Poggio siguió a Eugenio IV a Florencia, tras la huida del papa de Roma (junio de 1434), poco después de rescatarse de los soldados de Piccinino. Niccoli ya había muerto (1437) cuando se publicó el diálogo. Cosme de Médici volvió del exilio recién en octubre de 1434, de modo que su presencia en verano es un anacronismo, o una licencia, del diálogo. Shepherd fecha estos hechos en 1433."
   lugar: florencia
-  nota: "En casa de Niccolò Niccoli, punto de reunión de los letrados, donde Poggio encuentra a Carlo Marsuppini y a Cosme de Médici."
+  nota: "En la biblioteca de la casa de Niccolò Niccoli, «posada común de los hombres más doctos», adonde Poggio va como de costumbre al mediodía y encuentra a Carlo Marsuppini y a Cosme de Médici (Ciordia 2017)."
 
 temas: [príncipes, felicidad, vida activa y contemplativa, corrupción del poder, mecenazgo de las letras]
 
@@ -47,9 +48,13 @@ resumen: >
   En casa de Niccoli, recién llegado a Florencia con la curia, Poggio se queja
   de la vida errante del cortesano. Niccoli sostiene que los príncipes viven en
   la angustia y que el poder los vuelve viciosos: la felicidad, si existe, está
-  en los particulares que moderan sus deseos y cultivan el saber.
+  en los particulares que moderan sus deseos y cultivan el saber. Carlo y
+  Cosme no aceptan su tesis: según Ciordia, Niccoli tiene la última palabra pero
+  no el acuerdo de los demás, y el diálogo queda abierto, in utramque partem.
 
 fuentes:
+  - "Martín José Ciordia, «El príncipe y el sabio en el De infelicitate principum de Poggio Bracciolini», Studia Aurea 11 (2017), 461–479."
+  - "Poggio Bracciolini, De infelicitate principum, ed. Davide Canfora, Roma, Edizioni di Storia e Letteratura, 1998."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. IX."
 
 revision: pendiente

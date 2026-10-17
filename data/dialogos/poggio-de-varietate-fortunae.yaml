@@ -36,7 +36,7 @@ ambientacion:
     certeza: probable
     nota: "Poco antes de la muerte de Martín V (febrero de 1431)."
   lugar: roma
-  nota: "Poggio y Loschi, cansados de recorrer los restos de la Roma antigua, descansan entre las ruinas del Capitolio, desde donde se domina casi toda la ciudad. Loschi evoca a Mario sentado entre las ruinas de Cartago."
+  nota: "Poggio y Loschi, cansados de recorrer los restos de la Roma antigua, descansan sentados en la roca Tarpeya, entre las ruinas del Capitolio, desde donde se domina casi toda la ciudad, que «yace como un inmenso cadáver» (Ciordia 2017). Loschi evoca a Mario sentado entre las ruinas de Cartago."
 
 temas: [fortuna, ruinas de Roma, historia contemporánea, Tamerlán y Bayezid, viajes a la India]
 
@@ -47,6 +47,7 @@ resumen: >
   el viaje de Niccolò de' Conti por Persia y la India.
 
 fuentes:
+  - "Martín José Ciordia, «El príncipe y el sabio en el De infelicitate principum de Poggio Bracciolini», Studia Aurea 11 (2017), 461–479."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. X."
 
 revision: pendiente

@@ -1,5 +1,6 @@
 id: poggio-de-nobilitate
 titulo: De nobilitate
+titulo_completo: De vera nobilitate
 lengua: latín
 forma: diálogo
 libros: 1
@@ -13,18 +14,18 @@ destinatarios:
 
 interlocutores:
   - persona: niccoli
-    nota: "Sostiene que la verdadera nobleza está en el alma, con Platón y los estoicos. Pasa revista a lo que se entiende por nobleza en Nápoles, Venecia, Roma, Florencia, Génova, Lombardía, Alemania, Francia, Inglaterra y España, y concluye que la opinión común no tiene principios fijos."
+    nota: "Sostiene que la nobleza es «un cierto esplendor que procede de la virtud», con los estoicos y con Platón, citado a través de Diógenes Laercio. Contra Lorenzo, que invoca la Política, arguye que Aristóteles da su verdadera opinión en la Ética. Pasa revista a lo que se entiende por nobleza en Nápoles, Venecia, Roma, Florencia, Génova, Lombardía, Alemania, Francia, Inglaterra y España, y concluye que la opinión común no tiene principios fijos. Solo Florencia se salva de sus críticas. Tiene la réplica final."
   - persona: lorenzo-medici-viejo
-    nota: "Al ver las estatuas recuerda a los romanos, que adornaban sus casas con las efigies de los antepasados. Defiende que la riqueza y la dignidad también dan nobleza y cita la definición de Aristóteles en la Política."
+    nota: "Al ver las estatuas recuerda a los romanos, que adornaban sus casas con las efigies de los antepasados. Defiende que la riqueza y la dignidad también dan nobleza y cita la definición de Aristóteles en la Política: virtud unida a riquezas antiguas. Acusa a la virtud estoica de Niccoli de ser la de un hombre solo, encerrado en su biblioteca y fuera de la ciudad (Finzi 2010)."
   - persona: poggio
-    nota: "Anfitrión. Shepherd solo menciona como interlocutores a Niccoli y a Lorenzo."
+    nota: "Anfitrión: queda en segundo plano, aunque se inclina por la tesis de Niccoli. En la carta a Pizolpasso dice que el diálogo expone las razones de ambas partes, pero que rechaza a quienes ponen la nobleza en otra cosa que la virtud (Finzi 2010)."
 
 composicion:
   fecha:
-    desde: 1439
+    desde: 1440
     hasta: 1440
-    certeza: probable
-    nota: "Publicado a comienzos de 1440. Poggio defiende el pasaje sobre los nobles venecianos en una carta a Gregorio Correr del 8 de abril de 1440 (Shepherd 1837)."
+    certeza: segura
+    nota: "Terminado en los primeros meses de 1440: en una carta fechada en Florencia el 24 de febrero de 1440, Poggio promete enviárselo al arzobispo de Milán, Francesco Pizolpasso, en cuanto empiece a difundirlo (Finzi 2010). Poggio defiende el pasaje sobre los nobles venecianos en una carta a Gregorio Correr del 8 de abril de 1440 (Shepherd 1837)."
   lugares:
     - lugar: florencia
       nota: "La curia residía en Florencia entre 1434 y 1443."
@@ -45,10 +46,14 @@ resumen: >
   Ante las estatuas antiguas de la villa de Poggio, Lorenzo de Médici defiende
   que la nobleza también procede del linaje, la riqueza y los cargos. Niccoli,
   tras repasar las ideas de nobleza de cada país, sostiene que solo la virtud
-  la otorga. El retrato de los nobles venecianos ofendió a Gregorio Correr, a
-  Pietro Tommasi y a Lauro Querini.
+  la otorga. El repaso crítico de las aristocracias italianas desató una polémica
+  que duró hasta fin de siglo, con respuestas de Leonardo da Chio, Lauro
+  Quirini, Paolo Morosini, Jacopo di Porcìa y Tristano Caracciolo (Finzi 2010).
 
 fuentes:
+  - "Claudio Finzi, «La polemica sulla nobiltà nell'Italia del Quattrocento», Cuadernos de Filología Clásica. Estudios Latinos 30, 2 (2010), 341–380."
+  - "Poggio Bracciolini, La vera nobiltà, ed. y trad. Davide Canfora, Roma, Salerno, 1999."
+  - "Martín José Ciordia, «El príncipe y el sabio en el De infelicitate principum de Poggio Bracciolini», Studia Aurea 11 (2017), 461–479."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. VIII."
 
 revision: pendiente
