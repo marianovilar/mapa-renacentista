@@ -93,6 +93,13 @@
   lon: 11.3426
   wikidata: null
 
+- id: perugia
+  nombre: Perugia
+  nombre_latino: Perusia
+  lat: 43.1107
+  lon: 12.3896
+  wikidata: null
+
 - id: siena
   nombre: Siena
   nombre_latino: Sena

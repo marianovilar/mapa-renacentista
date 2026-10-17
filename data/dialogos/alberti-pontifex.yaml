@@ -2,28 +2,56 @@ id: alberti-pontifex
 titulo: Pontifex
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 1
 
 autores: [alberti]
 
-destinatarios: []
-nota_destinatarios: "Por verificar."
+destinatarios:
+  - persona: carlo-alberti
+    forma: dedicatoria
+    nota: "«amantissime Carole… mi frater». Alberti le envía la disputa porque trata de la virtud y las costumbres, a las que Carlo siempre fue dado; se excusa de no hablar él mismo, por ser todavía «adolescens», y advierte que buscó más la utilidad moral que el placer del oído."
 
 interlocutores:
   - persona: paolo-alberti
+    nombre_en_el_texto: Paulus
+    nota: "«Paulus Albertus pontifex, vir sanctissimus»: el obispo veterano, con cuarenta y un años de episcopado, que asiste a la consagración y abre la conversación («Alberte fili»)."
   - persona: alberto-alberti
+    nombre_en_el_texto: Albertus
+    nota: "«Albertus jurisconsultus», nieto de Cipriano Alberti, exiliado: el recién consagrado obispo, que lo llama «Paule pater»."
+nota_interlocutores: "Diálogo directo con rúbricas (Pau., Alb.), precedido por la dedicatoria, que narra la ocasión. Alberti los presenta como parientes («domesticos inter se, atque affines»)."
 
 composicion:
   fecha:
     desde: 1437
     hasta: 1437
-    certeza: probable
+    certeza: segura
+    nota: "Según Mancini (1890), Alberti empezó el diálogo en Bolonia el 13 de octubre de 1437, a los treinta y tres años; el 30 de septiembre había terminado allí el De iure, cuyas ideas retoma. Fecha y lugar de conclusión por verificar en el final del texto."
   lugares:
     - lugar: bolonia
-      nota: "Alberti seguía a la curia de Eugenio IV. Por verificar."
+      nota: "Alberti seguía a la curia de Eugenio IV, instalada en Bolonia."
 
-temas: [oficio del obispo, curia, vida eclesiástica]
+ambientacion:
+  espacio: indeterminado
+  fecha:
+    desde: 1437
+    hasta: 1437
+    certeza: probable
+    nota: "El día de la consagración episcopal de Alberto Alberti, a la que asistió el autor: según Mancini, hacia el 7 de octubre de 1437 («circum nonas octobris»), porque un breve papal del 1 de octubre todavía lo llama electo de Camerino."
+  lugar: perugia
+  nota: "En Perugia, que Alberto gobernaba por delegación del papa, apenas terminada la ceremonia de consagración («peractoque sacrificio»). El texto no precisa el espacio."
 
-fuentes: []
+temas: [oficio del obispo, dignidad episcopal, costumbres del clero, curia, virtud, familia Alberti]
+
+resumen: >
+  Terminada la consagración de Alberto Alberti como obispo, su pariente Paolo,
+  obispo de larga experiencia, le explica qué difícil cargo acaba de asumir: de
+  los ornamentos del rito pasan a la conducta de los prelados, la disciplina de
+  la Iglesia y las virtudes que el pastor necesita.
+
+fuentes:
+  - "Leon Battista Alberti, Pontifex, en Opera inedita et pauca separatim impressa, ed. Girolamo Mancini, Florencia, Sansoni, 1890, 67 ss. (texto de un códice Canoniciano de la Bodleiana, copiado en Oxford por «Georgius Packer», con notas)."
+  - "Girolamo Mancini, Vita di Leon Battista Alberti, Florencia, 1882."
+  - "David Marsh, The Quattrocento Dialogue (1980)."
 
 revision: pendiente

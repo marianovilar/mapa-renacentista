@@ -340,7 +340,8 @@
   nombre_latino: Paulus Albertus
   tipo: histórica
   sexo: masculino
-  nota: "Obispo, pariente del autor. Fechas por verificar."
+  muerte: 1438
+  nota: "Franciscano, hijo de Iacopo Alberti. Obispo de Orte desde 1396, luego de Ajaccio y de Ascoli Piceno; murió antes de junio de 1438 (Mancini 1890)."
 
 - id: alberto-alberti
   nombre: Alberto Alberti
@@ -349,7 +350,14 @@
   muerte: 1445
   tipo: histórica
   sexo: masculino
-  nota: "Obispo de Camerino, cardenal desde 1439."
+  nota: "Hijo de Giovanni di Cipriano Alberti, doctor en ambos derechos. Colector de Martín V en Bolonia y gobernador de Perugia por Eugenio IV; obispo de Camerino en 1437, cardenal desde 1439 (Mancini 1890)."
+
+- id: carlo-alberti
+  nombre: Carlo Alberti
+  nombre_latino: Carolus Albertus
+  tipo: histórica
+  sexo: masculino
+  nota: "Hermano de Leon Battista, hijo natural de Lorenzo Alberti y de la misma madre; compañero de estudios. Escribió la Amiria imitando el estilo de su hermano (Mancini 1890)."
 
 # --- Lapo ---
 - id: lapo
