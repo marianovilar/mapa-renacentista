@@ -23,8 +23,8 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Poggio Bracciolini | *Historia tripartita disceptativa convivalis* | c. 1450 | Roma | *Convivium* |
 | ✅ | Lorenzo Valla | *De voluptate* | 1430–1431 | Roma, Piacenza, Pavía; ambientado en Roma (1427) | Bruni, Panormita, Niccoli |
 | ✅ | Lorenzo Valla | *De vero bono* | 1432–1433; revisiones posteriores | Pavía y Milán; ambientado en Pavía | Sacco, Vegio, Antonio da Rho y Guarino como moderador: ficha propia |
-| ✅ | Lorenzo Valla | *De libero arbitrio* | c. 1439 | Nápoles (?) | Con Antonio Glarea |
-| ✅ | Lorenzo Valla | *De professione religiosorum* | 1442 | Nápoles (?) | |
+| ✅ | Lorenzo Valla | *De libero arbitrio* | 1437–1439 | En campaña con Alfonso de Aragón | Con Antonio Glarea; dedicado a García Aznárez de Añón |
+| ✅ | Lorenzo Valla | *De professione religiosorum* | c. 1441–1444 | Ambientado en Benevento | Dedicado a Battista Platamone |
 | ✅ | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia, 13–17 de octubre (colofón); ambientado en Perugia | Alberti escribe también en vulgar; elegir la obra latina |
 | ✅ | Leon Battista Alberti | *Intercenales* | c. 1430–1440 | Bolonia / Florencia | Colección mixta; libros dedicados a Toscanelli, Bruni y Poggio |
 | ✅ | Lapo da Castiglionchio el Joven | *De curiae commodis* | 1438 | Ferrara | La curia durante el concilio |

@@ -100,6 +100,13 @@
   lon: 12.3896
   wikidata: null
 
+- id: benevento
+  nombre: Benevento
+  nombre_latino: Beneventum
+  lat: 41.1298
+  lon: 14.7826
+  wikidata: null
+
 - id: siena
   nombre: Siena
   nombre_latino: Sena

@@ -317,14 +317,44 @@
   nombre_latino: Antonius Glarea
   tipo: histórica
   sexo: masculino
-  nota: "Clérigo español de la corte aragonesa. Fechas por verificar."
+  nota: "Coterráneo de san Lorenzo según Valla; Mancini lo supone nativo de Huesca. Casi no hay datos sobre él (Vilar 2025)."
 
 - id: frater
   nombre: Un fraile
   nombre_latino: Frater
   tipo: ficticia
   sexo: masculino
-  nota: "Interlocutor anónimo."
+  nota: "Interlocutor del De professione religiosorum. Valla omite su nombre («cuius nomen melius est taceri»), lo presenta como docto en filosofía y teología y finalmente lo hace abandonar la disputa."
+
+- id: corbio
+  nombre: Pietro Paolo Corbio
+  nombre_latino: Paulus Corbius
+  tipo: histórica
+  sexo: masculino
+  nota: "Jurista, de lealtad angevina hasta que entró al servicio de Alfonso hacia 1441 (Cortesi 1986, según Vilar 2025)."
+
+- id: platamone
+  nombre: Battista Platamone
+  nombre_latino: Baptista Platamonius
+  tipo: histórica
+  sexo: masculino
+  nota: "Jurista, diplomático, consejero y juez de la corte de Alfonso de Aragón; Valla lo llama «vir praetorius» (Cortesi 1986, según Vilar 2025)."
+
+- id: boecio
+  nombre: Boecio
+  nombre_latino: Anicius Manlius Severinus Boethius
+  nacimiento: 480
+  muerte: 524
+  tipo: histórica
+  sexo: masculino
+  nota: "Autor de De consolatione philosophiae."
+
+- id: sexto-tarquinio
+  nombre: Sexto Tarquinio
+  nombre_latino: Sextus Tarquinius
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo de Tarquinio el Soberbio; violador de Lucrecia según Livio."
 
 # --- Alberti, Pontifex ---
 - id: alberti
@@ -879,7 +909,7 @@
   nombre_latino: Garsias episcopus Ilerdensis
   tipo: histórica
   sexo: masculino
-  nota: "Dedicatario verificado. Probablemente García Aznar de Añón; nombre completo y fechas por verificar."
+  nota: "García Aznárez de Añón, obispo de Lérida entre 1435 y 1449 (Vilar 2025)."
 
 # --- Pontano, Aegidius y Charon (según Corfiati 2018) ---
 - id: egidio-viterbo

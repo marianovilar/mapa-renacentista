@@ -2,6 +2,7 @@ id: valla-de-libero-arbitrio
 titulo: De libero arbitrio
 lengua: latín
 forma: diálogo
+modo: mimético
 libros: 1
 
 autores: [valla]
@@ -9,24 +10,51 @@ autores: [valla]
 destinatarios:
   - persona: garcia-lerida
     forma: dedicatoria
+    nota: "El proemio está dirigido a él, y al final del diálogo Lorenzo declara su intención de enviarle el texto para que dé su opinión (Vilar 2025)."
 
 interlocutores:
   - persona: glarea
+    nombre_en_el_texto: Antonius
+    nota: "«Homo perliteratus ac bene acutus»: va a la casa de Lorenzo a pedirle su opinión. Sostiene la imposibilidad de conciliar libre albedrío y presciencia, y a veces parece portavoz de las tesis más heterodoxas de Valla."
   - persona: valla
     nombre_en_el_texto: Laurentius
-    nota: "El autor como personaje."
+    nota: "Voz principal y alter ego del autor; acepta discutir solo el problema de la presciencia: lo invita «a almorzar, no a cenar»."
+nota_interlocutores: "Diálogo directo, sin «dije» ni «dijo», como en el Laelius de Cicerón, según declara el proemio. Asisten como espectadores algunos miembros de la casa de Lorenzo, a quienes se dirige la exhortación final."
+
+evocados:
+  - persona: boecio
+    nota: "Blanco del diálogo: Valla se propone mostrar que, por amor a la filosofía, no trató como debía el libre albedrío en el libro V de De consolatione."
+  - persona: sexto-tarquinio
+    nota: "Protagonista del diálogo ficticio con Apolo que Lorenzo inventa como ejemplo, luego retomado por Leibniz en la Teodicea."
+  - persona: apolo
+    nota: "Representa la presciencia divina; Júpiter, la voluntad."
 
 composicion:
   fecha:
-    desde: 1439
+    desde: 1437
     hasta: 1439
     certeza: probable
-  lugares:
-    - lugar: napoles
-      nota: "Al servicio de Alfonso de Aragón; quizás Gaeta. Por verificar."
+    nota: "Escrito entre 1437 y 1439, cuando Valla acompañaba a Alfonso de Aragón en la campaña de conquista del reino de Nápoles (Vilar 2025, remitiendo a Anfossi 1934)."
+  lugares: []
 
-temas: [libre albedrío, presciencia divina, Boecio]
+ambientacion:
+  espacio: casa privada
+  fecha: null
+  lugar: null
+  nota: "Antonio llega al mediodía a la casa de Lorenzo y lo encuentra desocupado, sentado en la sala con algunos miembros de su casa."
 
-fuentes: []
+temas: [libre albedrío, presciencia divina, Boecio, Judas, Sexto Tarquinio y Apolo, fe contra filosofía]
+
+resumen: >
+  Lorenzo y Antonio Glarea discuten si la presciencia divina es compatible con
+  el libre albedrío: del caso de Judas pasan a los potenciales irrealizados y a
+  la fábula de Sexto Tarquinio ante Apolo. Siguen una refutación de Boecio y
+  una exhortación a la fe sin filosofía. Marsh lo vincula con el modelo
+  socrático por su final no conclusivo.
+
+fuentes:
+  - "Lorenzo Valla, Sobre el libre albedrío y Sobre la profesión de los religiosos, estudio introductorio y traducción de Mariano Vilar, Buenos Aires, Las Cuarenta, 2025."
+  - "Maria Anfossi (ed.), De libero arbitrio, Florencia, Olschki, 1934."
+  - "David Marsh, The Quattrocento Dialogue (1980)."
 
 revision: pendiente

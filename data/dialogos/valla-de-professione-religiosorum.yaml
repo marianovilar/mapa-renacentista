@@ -2,29 +2,56 @@ id: valla-de-professione-religiosorum
 titulo: De professione religiosorum
 lengua: latín
 forma: diálogo
+modo: diegético
 libros: 1
 
 autores: [valla]
 
-destinatarios: []
-nota_destinatarios: "Por verificar."
+destinatarios:
+  - persona: platamone
+    forma: dedicatoria
+    nota: "El proemio se dirige a él («Baptista», «vir praetorius»). Al final, Lorenzo y sus amigos acuerdan transcribir la disputa y enviársela para que juzgue su calidad; no hay noticia de su respuesta (Vilar 2025)."
 
 interlocutores:
   - persona: valla
     nombre_en_el_texto: Laurentius
+    nota: "Narrador en primera persona. Niega que los votos den a los religiosos un mérito especial y sugiere la superioridad de la vida laica; cierra con un breve elogio de los frailes."
   - persona: frater
+    nota: "Defiende la superioridad de la profesión religiosa; pide tiempo para pensar y no vuelve a la cita acordada."
+  - persona: corbio
+    nombre_en_el_texto: Paulus
+    nota: "Provoca al fraile al comienzo y emite el primer juicio sobre la disputa: le reprocha a Lorenzo el elogio final y le propone el título De mendaci religiosorum et nomine et praerogativa."
+nota_interlocutores: "Los interlocutores no se presentan de antemano: aparecen en medio de la conversación, en un círculo de amigos doctos cuyos nombres no se dan."
 
 composicion:
   fecha:
-    desde: 1442
-    hasta: 1442
-    certeza: probable
-  lugares:
-    - lugar: napoles
-      nota: "Por verificar."
+    desde: 1441
+    hasta: 1444
+    certeza: conjetural
+    nota: "El proemio menciona la carta a Joan Serra del 13 de agosto de 1440, y la conjura evocada podría ser una de 1441 en Benevento (Cortesi 1986). Fue escrito poco antes del proceso inquisitorial de 1444, que explicaría que Valla no lo difundiera. No circuló en vida del autor ni figura en las Opera de 1543; la editio princeps es del siglo XIX (Vilar 2025)."
+  lugares: []
 
-temas: [votos religiosos, órdenes mendicantes, vida cristiana]
+ambientacion:
+  espacio: espacio urbano
+  fecha:
+    desde: 1441
+    hasta: 1441
+    certeza: conjetural
+    nota: "«Hace algunos días»: el 8 de enero, el día en que se descubrió una conjura en la que habían participado sacerdotes, dos días después de que se capturaran dos lobos dentro de los muros. El año no se da; 1441 si la conjura es la de Benevento (Cortesi 1986)."
+  lugar: benevento
+  nota: "En la basílica junto al mercado; Cortesi (1986) la ubica en Benevento."
 
-fuentes: []
+temas: [votos religiosos, órdenes religiosas, vida laica, obediencia, pobreza y continencia, filología del votum]
+
+resumen: >
+  En una basílica, Lorenzo discute con un fraile si las acciones de los
+  religiosos merecen mayores premios y castigos que las de los laicos.
+  Repasando el nombre de «religiosos», el voto y los tres votos, niega todo
+  privilegio a la profesión. El fraile pide tiempo y abandona la disputa.
+
+fuentes:
+  - "Lorenzo Valla, Sobre el libre albedrío y Sobre la profesión de los religiosos, estudio introductorio y traducción de Mariano Vilar, Buenos Aires, Las Cuarenta, 2025."
+  - "Mariarosa Cortesi (ed.), De professione religiosorum, Padua, Antenore, 1986."
+  - "Mario Fois, Il pensiero cristiano di Lorenzo Valla nel quadro storico-culturale del suo ambiente, Roma, 1969."
 
 revision: pendiente
