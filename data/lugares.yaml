@@ -218,3 +218,17 @@
   lon: 11.3050
   wikidata: null
   nota: "Villa de Manetti cerca de Ponte a Ema (Bagno a Ripoli). Coordenadas aproximadas."
+
+- id: paris
+  nombre: París
+  nombre_latino: Lutetia Parisiorum
+  lat: 48.8566
+  lon: 2.3522
+  wikidata: null
+
+- id: friburgo
+  nombre: Friburgo de Brisgovia
+  nombre_latino: Friburgum Brisgoviae
+  lat: 47.9990
+  lon: 7.8421
+  wikidata: null

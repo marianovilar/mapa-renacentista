@@ -1,6 +1,6 @@
 # Corpus de la fase 1 — diálogos latinos, 1347–1533
 
-Los 45 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
+Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
 
 
 ## Italia, siglo XIV y comienzos del XV
@@ -58,7 +58,7 @@ Los 45 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Tomás Moro | *Utopia* | 1515–1516 | Amberes / Londres; imp. Lovaina | **Dudoso:** solo el libro I es dialogado |
 | ✅ | Erasmo | *Antibarbari* | 1494–1520 | Halsteren / Basilea | Redacción juvenil, publicada en 1520 |
 | ✅ | Ulrich von Hutten | *Dialogi* (*Fortuna*, *Febris*, *Vadiscus*…) | 1518–1520 | Maguncia | Por ahora solo *Vadiscus*; pueden sumarse otras piezas |
-| — | Erasmo | *Colloquia* | 1518–1533 | Basilea, Lovaina | **Fuera de la fase 1.** Más adelante, en seis fichas (ver abajo) |
+| ✅ | Erasmo | *Colloquia* | 1497–1533 | París, Lovaina, Basilea | Volumen único, sin interlocutores; dedicado a Johannes Erasmius Froben. Más adelante, en seis fichas (ver abajo) |
 | ✅ | Erasmo | *Ciceronianus* | 1527–1528 | Basilea | Dedicado a Johann von Vlatten |
 | ✅ | Pierio Valeriano | *De litteratorum infelicitate* | c. 1529 | Roma (?) | Tras el saco de Roma |
 
@@ -72,7 +72,7 @@ Los 45 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 - **Alberti:** *Della famiglia*, en vulgar, queda para la fase italiana.
 
 - **Valla:** *De voluptate* (1431) y *De vero bono* (1433) son dos fichas vinculadas, porque cambian todos los interlocutores. Las revisiones posteriores (*De vero falsoque bono*) van como `redacciones` de la segunda.
-- **Los *Colloquia*:** quedan fuera de la fase 1. Más adelante se cargan en seis fichas, una por etapa, vinculadas con `parte-de`:
+- **Los *Colloquia*:** entran como volumen único, sin interlocutores (son demasiados), con las seis etapas como `redacciones`. Más adelante se dividirán en seis fichas, una por etapa, vinculadas con `parte-de`:
 
 | Etapa | Ediciones | Rasgos | Coloquios que se suman |
 |---|---|---|---|

@@ -6,7 +6,7 @@ Este documento fija cómo se cargan los datos. Si un caso no encaja, se discute 
 
 - **Género:** diálogos en prosa latina (incluye coloquios, *convivia* y diálogos narrados).
 - **Período:** del *Secretum* de Petrarca (redacción desde 1347) a la última edición de los *Colloquia* revisada por Erasmo (Basilea, Froben, 1533).
-- **Tamaño:** 45 diálogos. No se busca exhaustividad.
+- **Tamaño:** 46 diálogos. No se busca exhaustividad.
 - **Casos dudosos:** se incluyen con `caso_dudoso: true` y el motivo explicado (por ejemplo, *Utopia*, dialogada solo en el libro I).
 
 ## Archivos

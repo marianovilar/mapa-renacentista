@@ -310,3 +310,20 @@ a:hover { text-decoration: underline; }
   padding-top: 14px; font-weight: 600; color: var(--tinta); border-bottom: 1px solid var(--linea-fuerte);
 }
 .presentacion .volver { font-family: var(--sans); font-size: 15px; margin-top: 28px; }
+
+/* Aviso sobre el estado de los datos */
+.aviso-datos {
+  display: flex; align-items: center; gap: 14px;
+  padding: 8px 20px; background: var(--resalte); border-bottom: 1px solid var(--linea-fuerte);
+  font-size: 13px; color: var(--tinta);
+}
+.aviso-datos[hidden] { display: none; }
+.aviso-datos p { margin: 0; flex: 1; }
+.aviso-datos button {
+  flex: none; border: 1px solid var(--linea-fuerte); background: var(--superficie); color: var(--tinta);
+  border-radius: 6px; padding: 4px 12px; font: 500 12px var(--sans); cursor: pointer;
+}
+@media (max-width: 900px) {
+  .aviso-datos { padding: 8px 16px; flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+.leyenda-red .opcion-todos { margin-top: 4px; padding-top: 5px; border-top: 1px solid var(--linea); max-width: 230px; }

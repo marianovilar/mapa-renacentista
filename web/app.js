@@ -154,6 +154,7 @@ function vistaInicio() {
     .filter(([, n]) => n > 1)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 10);
+  const sinFuentes = [...db.dialogos.values()].filter((d) => !d.fuentes?.length).length;
   return `
     <div class="entrada">
       <div class="tipo-ficha">Fase 1</div>
@@ -165,7 +166,7 @@ function vistaInicio() {
         <div class="cifra"><b>${db.porLugar.size}</b><span>lugares</span></div>
       </div>
       <p>Elegí un diálogo, una persona o un lugar en el índice, el mapa o la línea de tiempo. Cada nombre de la ficha lleva a su propia ficha, con todos sus cruces.</p>
-      <p class="nota-suelta">Los datos están en revisión: las fechas, los lugares y algunos repartos son provisionales.</p>
+      <p class="nota-suelta">Prototipo en revisión: ${sinFuentes} de ${db.dialogos.size} fichas todavía no citan ninguna fuente y ninguna está revisada por completo. Las fechas, los lugares y algunos repartos son provisionales.</p>
       <div class="seccion">
         <h3>Personas con más cruces</h3>
         <ul class="items">
@@ -207,6 +208,7 @@ function vistaDialogo(d) {
   ].filter(Boolean).map((t) => `<span class="etiqueta">${esc(t)}</span>`);
   if (d.caso_dudoso) etiquetas.push(`<span class="etiqueta aviso" title="${esc(d.motivo_duda)}">caso dudoso</span>`);
   if (d.revision === 'pendiente') etiquetas.push('<span class="etiqueta">sin revisar</span>');
+  if (!d.fuentes?.length) etiquetas.push('<span class="etiqueta aviso" title="Los datos de esta ficha todavía no se apoyan en ninguna fuente citada">sin fuentes</span>');
 
   const lugaresComp = (d.composicion?.lugares ?? [])
     .map((x) => `${enlaceL(x.lugar)}${x.nota ? `<span class="items"><span class="nota">${esc(x.nota)}</span></span>` : ''}`)
@@ -581,6 +583,19 @@ function iniciarTiempo() {
   new ResizeObserver(() => pintarTiempo(leerRuta())).observe(cont);
 }
 
+// ---------- Aviso sobre el estado de los datos ----------
+// Se puede ocultar; la elección se recuerda en este navegador. La ficha de inicio repite el aviso.
+
+function iniciarAviso() {
+  const aviso = $('#aviso-datos');
+  if (leerPreferencia('aviso-datos') === 'oculto') aviso.hidden = true;
+  $('#cerrar-aviso').addEventListener('click', () => {
+    aviso.hidden = true;
+    guardarPreferencia('aviso-datos', 'oculto');
+    requestAnimationFrame(() => mapa.invalidateSize());
+  });
+}
+
 // ---------- Selector de vista (mapa o red) ----------
 
 function leerPreferencia(clave, porDefecto) {
@@ -623,7 +638,12 @@ const TIPOS_ENLACE = {
 };
 const RED_ANCHO = 1000;
 const RED_ALTO = 640;
-const red = { nodos: [], enlaces: [], porDialogo: new Map(), tipos: new Set(Object.keys(TIPOS_ENLACE)) };
+const red = { nodos: [], enlaces: [], porDialogo: new Map(), tipos: new Set(Object.keys(TIPOS_ENLACE)), todos: false };
+
+/** Personas que cuentan para un enlace: por defecto solo las históricas. */
+const personasDe = (e) => (red.todos ? e.personas : e.personas.filter((id) => db.personas.get(id)?.tipo === 'histórica'));
+/** Un enlace se dibuja si su tipo está activo y le queda al menos una persona que contar. */
+const activo = (e) => red.tipos.has(e.tipo) && personasDe(e).length > 0;
 
 /** persona → roles ('autor' | 'destinatario' | 'personaje') que tiene en el diálogo d. */
 function rolesEn(d) {
@@ -733,7 +753,7 @@ function iniciarRed() {
     .attr('d', trazo)
     .attr('fill', 'none')
     .on('mousemove', (ev, e) => mostrarGlobo(ev,
-      `<b>${esc(e.source.d.titulo)} · ${esc(e.target.d.titulo)}</b>${esc(TIPOS_ENLACE[e.tipo].etiqueta)}: ${esc(e.personas.map(nombre).join(', '))}`))
+      `<b>${esc(e.source.d.titulo)} · ${esc(e.target.d.titulo)}</b>${esc(TIPOS_ENLACE[e.tipo].etiqueta)}: ${esc((personasDe(e).length ? personasDe(e) : e.personas).map(nombre).join(', '))}`))
     .on('mouseleave', ocultarGlobo);
 
   const nodo = lienzo.append('g').attr('class', 'nodos').selectAll('g').data(red.nodos).join('g')
@@ -751,8 +771,14 @@ function iniciarRed() {
 
   $('#leyenda-red').innerHTML = Object.entries(TIPOS_ENLACE)
     .map(([tipo, t]) => `<label><input type="checkbox" data-tipo="${tipo}" checked><i class="raya" style="background:var(${t.color})"></i>${t.etiqueta}</label>`)
-    .join('') + '<span class="nota-leyenda">Clic en un diálogo para ver sus conexiones</span>';
-  for (const c of document.querySelectorAll('#leyenda-red input')) {
+    .join('') +
+    '<label class="opcion-todos"><input type="checkbox" id="red-todos">Incluir todos los personajes (ficticios, alegóricos, mitológicos)</label>' +
+    '<span class="nota-leyenda">Clic en un diálogo para ver sus conexiones</span>';
+  $('#red-todos').addEventListener('change', (ev) => {
+    red.todos = ev.target.checked;
+    pintarRed(leerRuta());
+  });
+  for (const c of document.querySelectorAll('#leyenda-red input[data-tipo]')) {
     c.addEventListener('change', () => {
       if (c.checked) red.tipos.add(c.dataset.tipo);
       else red.tipos.delete(c.dataset.tipo);
@@ -765,16 +791,16 @@ function pintarRed(sel) {
   // Destacados: el diálogo elegido y sus vecinos, o los diálogos de la persona o el lugar elegidos.
   const elegido = sel?.tipo === 'dialogo' ? sel.id : null;
   let destacados = null;
-  let visible = (e) => red.tipos.has(e.tipo);
+  let visible = activo;
   if (elegido) {
     destacados = new Set([elegido]);
-    for (const { otro, enlace } of red.porDialogo.get(elegido) ?? []) if (red.tipos.has(enlace.tipo)) destacados.add(otro);
-    visible = (e) => red.tipos.has(e.tipo) && (e.source.id === elegido || e.target.id === elegido);
+    for (const { otro, enlace } of red.porDialogo.get(elegido) ?? []) if (activo(enlace)) destacados.add(otro);
+    visible = (e) => activo(e) && (e.source.id === elegido || e.target.id === elegido);
   } else if (sel) {
     destacados = new Set(dialogosDe(sel).map((d) => d.id));
     visible = sel.tipo === 'persona'
       ? (e) => red.tipos.has(e.tipo) && e.personas.includes(sel.id)
-      : (e) => red.tipos.has(e.tipo) && destacados.has(e.source.id) && destacados.has(e.target.id);
+      : (e) => activo(e) && destacados.has(e.source.id) && destacados.has(e.target.id);
   }
 
   d3.select('#red .enlaces').selectAll('path')
@@ -831,6 +857,7 @@ async function arrancar() {
     $('#detalle').innerHTML = `<p>No se pudieron cargar los datos (${esc(err.message)}). Corré <code>npm run validar</code> y recargá.</p>`;
     return;
   }
+  iniciarAviso();
   iniciarLista();
   iniciarMapa();
   iniciarRed();

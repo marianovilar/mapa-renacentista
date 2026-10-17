@@ -1,0 +1,89 @@
+id: erasmo-colloquia
+titulo: Colloquia
+titulo_completo: Familiarium colloquiorum opus
+lengua: latín
+forma: coloquio
+modo: mimético
+denominacion: colloquia
+libros: 1
+
+autores: [erasmo]
+
+destinatarios:
+  - persona: johannes-erasmius-froben
+    forma: dedicatoria
+    nota: "Desde la edición de marzo de 1522 (Basilea, Froben), Erasmo dedica la obra al niño Johannes Erasmius Froben, hijo de su impresor Johann Froben."
+
+interlocutores: []
+nota_interlocutores: "Volumen único: no se cargan los interlocutores porque son muchísimos y cambian de un coloquio a otro (en la edición de 1533, más de medio centenar de coloquios). Más adelante la obra se dividirá en seis fichas, una por etapa."
+
+composicion:
+  fecha:
+    desde: 1497
+    hasta: 1533
+    certeza: probable
+    nota: "Los primeros borradores son ejercicios escolares escritos en París hacia 1497–1500 para alumnos particulares, entre ellos Christian Northoff. Erasmo amplió la obra en ediciones sucesivas hasta 1533."
+  lugares:
+    - lugar: paris
+      nota: "Borradores escolares, hacia 1497–1500."
+    - lugar: lovaina
+      nota: "Primera edición autorizada, 1519."
+    - lugar: basilea
+      nota: "Ampliaciones de 1522 a 1529."
+    - lugar: friburgo
+      nota: "Erasmo vive en Friburgo de Brisgovia desde 1529; las ediciones de 1531 y 1533 siguen imprimiéndose en Basilea. Por verificar."
+
+ambientacion:
+  espacio: indeterminado
+  fecha: null
+  lugar: null
+  nota: "Cada coloquio tiene su escena: posadas, banquetes, iglesias, naufragios, casas privadas…"
+
+primera_edicion:
+  fecha:
+    desde: 1518
+    hasta: 1518
+    certeza: segura
+    nota: "Noviembre de 1518: edición no autorizada titulada Familiarium colloquiorum formulae, et alia quaedam, impulsada por Lambertus Hollonius y Beatus Rhenanus a partir de los borradores; Erasmo protestó por la publicación."
+  lugar: basilea
+  impresor: Johann Froben
+
+# Etapas según las notas de Mariano Vilar; base para dividir la obra en seis fichas.
+redacciones:
+  - titulo: "1. Edición no autorizada"
+    fecha: { desde: 1518, hasta: 1518, certeza: segura }
+    lugares: [basilea]
+    nota: "Basilea, Froben, noviembre de 1518 (Familiarium colloquiorum formulae)."
+  - titulo: "2. Primeras ediciones autorizadas"
+    fecha: { desde: 1519, hasta: 1519, certeza: segura }
+    lugares: [lovaina, basilea]
+    nota: "Lovaina, Dirk Martens, marzo de 1519, con prefacio de Erasmo; Basilea, Froben, mayo de 1519."
+  - titulo: "3. Diálogos literarios y dramáticos"
+    fecha: { desde: 1522, hasta: 1522, certeza: segura }
+    lugares: [basilea]
+    nota: "Marzo y julio–agosto de 1522: dedicatoria a Johannes Erasmius Froben; De votis temere susceptis, Convivium profanum, Convivium religiosum."
+  - titulo: "4. Expansiones temáticas y polémicas"
+    fecha: { desde: 1523, hasta: 1526, certeza: segura }
+    lugares: [basilea]
+    nota: "Naufragium, Militis et Carthusiani, Virgo misogamos (1523); Abbatis et Eruditae, Inquisitio de fide (1524); Funus, Ichthyophagia (1526); tras la condena de la Sorbona (mayo de 1526), el apéndice De utilitate Colloquiorum."
+  - titulo: "5. Consolidación"
+    fecha: { desde: 1528, hasta: 1531, certeza: segura }
+    lugares: [basilea]
+    nota: "Cyclops (1528), Charon (1529), Concio, seu Merdardus (1531)."
+  - titulo: "6. Última edición supervisada por Erasmo"
+    fecha: { desde: 1533, hasta: 1533, certeza: segura }
+    lugares: [basilea]
+    nota: "Marzo de 1533, Hieronymus Froben y Nicolaus Episcopius: más de medio centenar de coloquios; base de la Opera omnia de 1540, de la edición de Le Clerc (LB, 1703) y de ASD I-3."
+
+temas: [latín conversacional, educación, crítica religiosa, matrimonio y mujeres, sátira de las órdenes, guerra, ayuno y ceremonias]
+
+resumen: >
+  Obra en crecimiento: de manual escolar de fórmulas de conversación latina a
+  colección de más de cincuenta coloquios satíricos, morales y religiosos,
+  ampliada por Erasmo entre 1518 y 1533.
+
+fuentes:
+  - "Notas de Mariano Vilar sobre las ediciones de los Colloquia (etapas 1518–1533)."
+  - "Desiderius Erasmus, Colloquia, ed. L.-E. Halkin, F. Bierlaire y R. Hoven, Opera omnia (ASD) I-3, Ámsterdam, North-Holland, 1972."
+
+revision: pendiente

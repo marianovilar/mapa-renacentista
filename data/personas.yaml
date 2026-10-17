@@ -1260,3 +1260,11 @@
   tipo: ficticia
   sexo: masculino
   nota: "«El astuto», epíteto de Odiseo."
+
+# --- Erasmo, Colloquia ---
+- id: johannes-erasmius-froben
+  nombre: Johannes Erasmius Froben
+  nombre_latino: Ioannes Erasmius Frobenius
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo del impresor Johann Froben y ahijado de Erasmo, que le dedica los Colloquia desde 1522, cuando era niño. Fechas por verificar."
