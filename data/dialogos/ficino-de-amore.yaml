@@ -8,37 +8,84 @@ denominacion: commentarium
 libros: 7
 
 caso_dudoso: true
-motivo_duda: "Es un comentario al Banquete de Platón con forma de convivium: cada comensal interpreta uno de los discursos."
+motivo_duda: "Es un comentario al Banquete de Platón con forma de convivium: cada comensal interpreta uno de los discursos, y Ficino intercala casi todas las palabras de Platón."
 
 autores: [ficino]
 
 destinatarios:
   - persona: cavalcanti
     forma: dedicatoria
+    nota: "A su «amigo único»: le dedica el libro, escrito de su mano, «para que lo que es tuyo vuelva a ti». Según De la Villa, Ficino lo compuso con Cavalcanti, que acudió a consolarlo en una crisis de melancolía."
+  - persona: jano-panonio
+    forma: dedicatoria
+    nota: "Proemio fechado en Florencia el 9 de agosto de 1469: dedica a un platónico «las cosas platónicas» y confía en su autoridad para difundirlas entre los húngaros."
+  - persona: francesco-piccolomini
+    forma: dedicatoria
+    nota: "Proemio al «cardenal sienés», enviado por medio de Giovanni Antonio Campano."
+nota_destinatarios: "Cada ejemplar enviado lleva su propio proemio; la segunda versión se entregó a Lorenzo de Médici en 1475 (De la Villa 1986)."
 
 interlocutores:
-  - persona: antonio-agli
-  - persona: ficino
-  - persona: landino
   - persona: cavalcanti
-nota_interlocutores: "Participan también Bernardo Nuti, Tommaso Benci, Cristoforo Marsuppini y otros. Reparto completo por verificar."
+    nota: "Los comensales lo llaman «héroe». Expone el discurso de Fedro y, como el obispo y el médico se retiran, también los de Pausanias y Erixímaco."
+  - persona: landino
+    nota: "«Poeta»: expone el discurso de Aristófanes."
+  - persona: carlo-marsuppini-joven
+    nombre_en_el_texto: Carolus
+    nota: "Expone el discurso de Agatón."
+  - persona: tommaso-benci
+    nota: "Expone el de Sócrates (la doctrina de Diotima)."
+  - persona: cristoforo-marsuppini
+    nota: "Expone el de Alcibíades, con un resumen de lo dicho, y comenta la canción de Guido Cavalcanti."
+  - persona: bernardo-nuti
+    nota: "«Retórico»: terminada la comida lee el Banquete y reparte los discursos entre los convidados."
+nota_interlocutores: "Narra Marsilio Ficino, noveno convidado, que completa el número de las Musas. Asisten Antonio Agli, obispo de Fiésole, a quien tocaba Pausanias, y el médico Ficino, padre de Marsilio, a quien tocaba Erixímaco; ambos se van antes de hablar, «uno al cuidado de las almas y el otro al de los cuerpos». En la segunda versión (1475) algunos personajes cambian (De la Villa 1986)."
+
+evocados:
+  - persona: antonio-agli
+    nota: "Obispo de Fiésole; convidado que se retira antes de exponer el discurso de Pausanias."
+  - persona: diotifeci
+    nota: "«El maestro Ficino, médico», padre del autor; se retira antes de exponer el discurso de Erixímaco."
+  - persona: ficino
+    nota: "Narrador y noveno convidado; no expone ningún discurso."
+  - persona: francesco-bandini
+    nota: "Anfitrión, designado por Lorenzo de Médici."
+  - persona: lorenzo-magnifico
+    nota: "Quiso restaurar el banquete platónico y designó a Bandini como anfitrión; en la versión de 1475 aparece como verdadero anfitrión."
+  - persona: guido-cavalcanti
+    nota: "El discurso VII comenta su canción «Donna me prega» sobre el amor."
+  - persona: marsuppini
+    nota: "«Carolo el poeta», padre de Cristoforo y de Carlo."
 
 composicion:
   fecha:
-    desde: 1468
+    desde: 1469
     hasta: 1469
-    certeza: probable
+    certeza: segura
+    nota: "Compuesto en 1469; el proemio a Jano Panonio, del 9 de agosto de 1469, ya lo da por publicado. En 1475 Ficino entregó a Lorenzo una segunda versión, con capítulos, Lorenzo como anfitrión, algunos personajes distintos y más referencias astrológicas. Ficino lo tradujo también al toscano (Sopra lo amore), impreso recién en 1544. El texto latino se imprimió con su Platón en 1484 (De la Villa 1986)."
   lugares:
     - lugar: florencia
 
 ambientacion:
   espacio: villa
-  fecha: null
+  fecha:
+    desde: 1468
+    hasta: 1468
+    certeza: probable
+    nota: "El 7 de noviembre, aniversario del nacimiento y de la muerte de Platón, cuyo banquete los platónicos renovaron hasta Porfirio y que se restaura «después de mil doscientos años». Marcel lo sitúa en 1468."
   lugar: careggi
-  nota: "Banquete del 7 de noviembre, aniversario de Platón. Año por verificar."
+  nota: "En la villa de Careggi, donde Bandini recibe «con magnificencia real» a nueve convidados platónicos."
 
-temas: [amor platónico, belleza, Banquete de Platón]
+temas: [amor platónico, belleza, Banquete de Platón, alma, Venus celeste y vulgar, furores divinos, Academia de Careggi]
 
-fuentes: []
+resumen: >
+  Para restaurar el banquete del aniversario de Platón, nueve platónicos se
+  reúnen en Careggi. Leído el Banquete, cada uno expone uno de los discursos: el
+  amor como deseo de belleza, las dos Venus, el amor como lazo del universo, el
+  alma que vuelve a Dios. El resultado es la síntesis del neoplatonismo
+  ficiniano y el texto que acuñó el «amor platónico».
+
+fuentes:
+  - "Marsilio Ficino, De amore. Comentario a «El Banquete» de Platón, trad. y estudio preliminar de Rocío de la Villa Ardura, 3.ª ed., Madrid, Tecnos, 1994 [1986]."
+  - "Raymond Marcel (ed.), Commentaire sur le Banquet de Platon, París, Les Belles Lettres, 1956."
 
 revision: pendiente

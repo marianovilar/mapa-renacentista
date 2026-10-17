@@ -8,7 +8,7 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Autor | Obra | Fecha aprox. | Lugar aprox. | Observaciones |
 |---|---|---|---|---|---|
 | ✅ | Petrarca | *Secretum* | 1347–1353 | Vaucluse / Milán | Franciscus y Augustinus; Veritas presente |
-| ✅ | Petrarca | *De remediis utriusque fortunae* | 1354–1366 | Milán | Interlocutores alegóricos (Gaudium, Spes, Ratio, Dolor, Metus) |
+| ✅ | Petrarca | *De remediis utriusque fortunae* | 1354–1366 | Milán | 254 diálogos; interlocutores alegóricos (Gaudium, Spes, Ratio, Dolor, Metus) |
 | ✅ | Francesco Zabarella | *De felicitate* | c. 1399–1400 | Padua / Praglia | Franciscus y un Disputans; dedicado a Vergerio |
 | ✅ | Leonardo Bruni | *Dialogi ad Petrum Paulum Histrum* | c. 1403–1408 (ambientados en la Pascua de 1401) | Florencia | Salutati, Niccoli, Rossi, Sermini; dedicado a Vergerio |
 
@@ -48,7 +48,7 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Paolo Cortesi | *De hominibus doctis* | c. 1490 | Roma | Panorama de humanistas |
 | ✅ | Aurelio Lippo Brandolini | *De humanae vitae conditione* | c. 1490 | Hungría / Roma (?) | |
 | ✅ | Pietro Bembo | *De Aetna* | 1495–1496 | Venecia (Aldo Manuzio) | Bembo con su padre Bernardo |
-| ✅ | Marsilio Ficino | *De amore* | 1469 | Florencia | **Dudoso:** comentario en forma de *convivium* |
+| ✅ | Marsilio Ficino | *De amore* | 1469 | Florencia; ambientado en Careggi (7 de noviembre de 1468) | **Dudoso:** comentario en forma de *convivium*; dedicado a Giovanni Cavalcanti |
 
 ## Norte de Europa, siglo XVI
 

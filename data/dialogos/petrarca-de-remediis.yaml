@@ -13,21 +13,22 @@ destinatarios:
 
 interlocutores:
   - persona: ratio
-    nota: "Responde en todos los diálogos."
+    nota: "Responde en todos los diálogos y modera las pasiones; a menudo pasa a la segunda persona para interpelar al lector."
   - persona: gaudium
-    nota: "Libro I (fortuna próspera)."
+    nota: "Libro I (fortuna próspera). Por ejemplo, en el diálogo «Nací en una patria gloriosa», al que la Razón responde que la mayor alabanza de una patria es la virtud de sus ciudadanos."
   - persona: spes
     nota: "Libro I (fortuna próspera)."
   - persona: dolor
     nota: "Libro II (fortuna adversa)."
   - persona: metus
-    nota: "Libro II (fortuna adversa)."
+    nota: "Libro II (fortuna adversa); en uno de los diálogos, el miedo a la peste."
 
 composicion:
   fecha:
     desde: 1354
     hasta: 1366
     certeza: probable
+    nota: "Celenza afirma que la obra ocupó buena parte del tiempo de Petrarca entre 1354 y 1357, en Milán, al servicio de los Visconti; la datación habitual la da por terminada en 1366, como el título de la edición de Carraud (1354–1366)."
   lugares:
     - lugar: milan
       nota: "Comenzado en Milán; terminado en 1366, lugar por verificar."
@@ -41,9 +42,13 @@ ambientacion:
 temas: [fortuna, consolación, estoicismo, vida moral]
 
 resumen: >
-  Más de doscientos cincuenta diálogos breves en los que la Razón modera los
-  excesos de las pasiones ante la buena y la mala fortuna.
+  Doscientos cincuenta y cuatro diálogos breves (122 sobre la fortuna
+  próspera, 132 sobre la adversa) en los que la Razón modera los excesos de las
+  pasiones. Celenza lo describe como un «estoicismo cristiano para las masas»:
+  tuvo más de 250 manuscritos, pero pocas ediciones impresas.
 
-fuentes: []
+fuentes:
+  - "Christopher S. Celenza, Petrarch: Everywhere a Wanderer, Londres, Reaktion Books, 2017."
+  - "Francesco Petrarca, Les remèdes aux deux fortunes / De remediis utriusque fortunae, 1354–1366, ed. y trad. Christophe Carraud, Grenoble, 2002."
 
 revision: pendiente

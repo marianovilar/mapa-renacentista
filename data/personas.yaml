@@ -373,6 +373,75 @@
   sexo: masculino
   nota: "Obispo de Lodi y luego de Como, cardenal desde 1439. En Lodi halló en 1421 el códice con el De oratore, el Brutus y el Orator de Cicerón."
 
+- id: francesco-bandini
+  nombre: Francesco Bandini
+  nombre_latino: Franciscus Bandinus
+  tipo: histórica
+  sexo: masculino
+  nota: "Florentino del círculo de Ficino; según el De amore, Lorenzo de Médici lo designó anfitrión del banquete platónico de Careggi."
+
+- id: diotifeci
+  nombre: Diotifeci d'Agnolo
+  nombre_latino: Ficinus medicus
+  tipo: histórica
+  sexo: masculino
+  nota: "Médico de Cosme de Médici y padre de Marsilio Ficino. Según Corsi, Cosme le habría dicho que él curaba los cuerpos y su hijo las almas."
+
+- id: bernardo-nuti
+  nombre: Bernardo Nuti
+  nombre_latino: Bernardus Nuthius
+  tipo: histórica
+  sexo: masculino
+  nota: "Retórico florentino."
+
+- id: tommaso-benci
+  nombre: Tommaso Benci
+  nombre_latino: Thomas Bencius
+  tipo: histórica
+  sexo: masculino
+  nota: "Florentino del círculo de Ficino; tradujo al toscano el Pimandro."
+
+- id: cristoforo-marsuppini
+  nombre: Cristoforo Marsuppini
+  nombre_latino: Christophorus Marsuppinus
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo del canciller Carlo Marsuppini."
+
+- id: carlo-marsuppini-joven
+  nombre: Carlo Marsuppini el Joven
+  nombre_latino: Carolus Marsuppinus
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo del canciller Carlo Marsuppini; hermano de Cristoforo."
+
+- id: jano-panonio
+  nombre: Jano Panonio
+  nombre_latino: Ianus Pannonius
+  nacimiento: 1434
+  muerte: 1472
+  tipo: histórica
+  sexo: masculino
+  nota: "Poeta humanista húngaro, alumno de Guarino, obispo de Pécs."
+
+- id: francesco-piccolomini
+  nombre: Francesco Todeschini Piccolomini
+  nombre_latino: Franciscus Piccolomineus
+  nacimiento: 1439
+  muerte: 1503
+  tipo: histórica
+  sexo: masculino
+  nota: "Sobrino de Pío II, cardenal diácono de San Eustaquio (el «cardenal sienés»); en 1503 papa Pío III."
+
+- id: guido-cavalcanti
+  nombre: Guido Cavalcanti
+  nombre_latino: Guido Cavalcantes
+  nacimiento: 1255
+  muerte: 1300
+  tipo: histórica
+  sexo: masculino
+  nota: "Poeta florentino del dolce stil novo, autor de la canción «Donna me prega»."
+
 # --- Alberti, Pontifex ---
 - id: alberti
   nombre: Leon Battista Alberti
