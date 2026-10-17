@@ -1221,3 +1221,42 @@
   tipo: histórica
   sexo: masculino
   nota: "Judío converso, conocedor del griego."
+
+# --- Alberti, Intercenales (según Marsh 1987) ---
+- id: toscanelli
+  nombre: Paolo dal Pozzo Toscanelli
+  nombre_latino: Paulus Tuscanellus
+  nacimiento: 1397
+  muerte: 1482
+  tipo: histórica
+  sexo: masculino
+  nota: "Médico, matemático y astrónomo florentino, amigo de Alberti."
+
+- id: piero-medici
+  nombre: Piero de' Medici
+  nombre_latino: Petrus Medices
+  nacimiento: 1416
+  muerte: 1469
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo de Cosme y padre de Lorenzo el Magnífico."
+
+- id: apolo
+  nombre: Apolo
+  nombre_latino: Phoebus
+  tipo: mitológica
+  sexo: masculino
+
+- id: neofrono
+  nombre: Neofrono
+  nombre_latino: Neophronus
+  tipo: ficticia
+  sexo: masculino
+  nota: "«El recién sabio»."
+
+- id: politropo
+  nombre: Politropo
+  nombre_latino: Polytropus
+  tipo: ficticia
+  sexo: masculino
+  nota: "«El astuto», epíteto de Odiseo."

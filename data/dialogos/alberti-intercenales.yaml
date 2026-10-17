@@ -1,0 +1,90 @@
+id: alberti-intercenales
+titulo: Intercenales
+lengua: latín
+forma: mixta
+modo: mixto
+denominacion: intercenales
+libros: 11
+
+caso_dudoso: true
+motivo_duda: "Colección de piezas breves: diálogos lucianescos y de tipo ciceroniano, pero también fábulas esópicas, alegorías, anécdotas y novelle. Solo sobreviven los libros I–IV y VII–XI, más dos piezas de libro incierto."
+
+autores: [alberti]
+
+# Cada libro lleva su propio prefacio y su propio destinatario (Marsh 1987).
+destinatarios:
+  - persona: toscanelli
+    forma: dedicatoria
+    nota: "Libro I. Alberti le promete que el humor de la obra aliviará las preocupaciones del lector, como la medicina amarga del médico."
+  - persona: bruni
+    forma: dedicatoria
+    nota: "Libro II, sobre el dinero y la avaricia: una elección irónica, por su fama de avaro. Bruni se sintió aludido. Grayson propone que también sea el destinatario anónimo del libro VII."
+  - persona: poggio
+    forma: dedicatoria
+    nota: "Libro IV, con la fábula del búfalo y la cabra; el prefacio se interrumpe."
+  - persona: piero-medici
+    forma: dedicatoria
+    nota: "Destinatario de la versión italiana de Uxoria (libro VII). La versión latina está dedicada a alguien cuyo nombre falta en el manuscrito."
+nota_destinatarios: "El libro III no tiene prefacio. El VII está dedicado a un «eminente hombre de letras» cuyo nombre falta en el manuscrito (seis puntos). El VIII se dirige a los detractores envidiosos de Alberti y el X a todos los estudiosos."
+
+interlocutores:
+  - persona: alberti
+    nombre_en_el_texto: Lepidus / Philoponius
+    nota: "Alberti aparece con dos máscaras: Lepidus, el cínico de cuño lucianesco, y Philoponius, el estudioso perseguido. Las dos abren la colección en Scriptor y Pupillus."
+  - persona: niccoli
+    nombre_en_el_texto: Libripeta
+    nota: "Caricatura del pedante Niccolò Niccoli, en Somnium (libro IV), donde dialoga con Lepidus sobre un viaje que inspiró el de Astolfo a la Luna en el Orlando furioso."
+  - persona: mercurio
+    nota: "Interviene en piezas lucianescas como Cynicus (libro IV)."
+  - persona: apolo
+    nombre_en_el_texto: Phoebus
+    nota: "En Cynicus (libro IV)."
+  - persona: neofrono
+    nombre_en_el_texto: Neophronus
+    nota: "En Defunctus: alma recién llegada al más allá que cuenta cómo lo traicionaron sus parientes y amigos."
+  - persona: politropo
+    nombre_en_el_texto: Polytropus
+    nota: "En Defunctus, amigo de Neophronus."
+nota_interlocutores: "Muchas piezas hacen hablar a dioses y personificaciones (Virtus, Fatum, Fortuna, Genius, Spes, la Envidia, el Rumor, la Verdad…). Ficha de conjunto: el reparto de cada pieza queda por cargar."
+
+composicion:
+  fecha:
+    desde: 1430
+    hasta: 1440
+    certeza: probable
+    nota: "Hacia 1430–1440. Alberti las habría empezado en sus años de estudiante en Bolonia; según su autobiografía de 1437, ya había escrito Defunctus y Vidua antes de los treinta años, y la organización en once libros sería posterior a 1437. El prefacio del libro VIII podría ser de 1441–1442 (Certame Coronario)."
+  lugares:
+    - lugar: bolonia
+      nota: "Comienzo probable, en sus años de estudiante. Por verificar."
+    - lugar: florencia
+      nota: "Con la curia, entre 1434 y 1443 con interrupciones; allí se sitúan Uxoria (hacia 1438) y el prefacio del libro VIII."
+
+ambientacion:
+  espacio: indeterminado
+  fecha: null
+  lugar: null
+  nota: "Escenarios variados según la pieza: el más allá, el país de los sueños, la plaza, templos y paisajes alegóricos."
+
+primera_edicion:
+  fecha:
+    desde: 1890
+    hasta: 1890
+    certeza: segura
+    nota: "Edición parcial de Girolamo Mancini, con las piezas entonces conocidas. Alberti no las publicó; Virtus se imprimió tras su muerte como traducción de Luciano. A comienzos de los años sesenta apareció el manuscrito de Pistoia (libros VII–XI), editado por Garin, que casi duplicó el texto conservado."
+  lugar: florencia
+
+temas: [lucianismo, cinismo, virtud y fortuna, avaricia, armonía social, vanidad de los deseos, matrimonio, envidia de los letrados, fábulas esópicas, alegoría moral]
+
+resumen: >
+  Piezas breves pensadas para leerse «entre cenas y copas» (inter cenas et
+  pocula): diálogos lucianescos con dioses, muertos y alegorías, debates de
+  tipo ciceroniano, fábulas y novelle. Alberti se retrata como Lepidus y como
+  Philoponius.
+
+fuentes:
+  - "Leon Battista Alberti, Dinner Pieces: A Translation of the Intercenales, trad. David Marsh, Binghamton, Medieval & Renaissance Texts & Studies, 1987."
+  - "Leon Battista Alberti, Intercenales, ed. Franco Bacchelli y Luca D'Ascia, Bolonia, Pendragon, 2003."
+  - "Mariana Sverlij, «Las Intercenales de Leon Battista Alberti y la crítica al saber humanista», Cuadernos del Sur. Letras 41 (2017), 31–46."
+  - "David Marsh, Lucian and the Latins: Humor and Humanism in the Early Renaissance, Ann Arbor, 1998."
+
+revision: pendiente
