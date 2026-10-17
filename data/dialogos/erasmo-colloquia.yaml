@@ -86,4 +86,55 @@ fuentes:
   - "Notas de Mariano Vilar sobre las ediciones de los Colloquia (etapas 1518–1533)."
   - "Desiderius Erasmus, Colloquia, ed. L.-E. Halkin, F. Bierlaire y R. Hoven, Opera omnia (ASD) I-3, Ámsterdam, North-Holland, 1972."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Desiderio Erasmo de Rotterdam, Opera omnia Desiderii Erasmi Roterodami. Colloquia, ed. René Hoven, Léon Ernest Halkin y Franz Bierlaire, Amsterdam, North-Holland, 1972."
+    anio: 1972
+    zotero: PVZ9S5M6
+    nota: "Edición crítica (ASD I-3)."
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Desiderio Erasmo de Rotterdam, Collected works of Erasmus Vol. 40: Colloquies, trad. Craig Thompson, Toronto, Univ. of Toronto Press, 1997."
+    anio: 1997
+    zotero: GHK8FUJT
+    nota: "Collected Works of Erasmus, vols. 39–40."
+  - tipo: traducción
+    lengua: español
+    referencia: "Desiderio Erasmo de Rottedam, Coloquios, trad. Pedro Santidrián, Madrid, Espasa Calpe, 2001."
+    anio: 2001
+    zotero: JWTV9ZBJ
+  - tipo: traducción
+    lengua: español
+    referencia: "Desiderio Erasmo de Rottedam, Enquiridión. Elogio de la locura. Coloquios (selección), trad. Pedro Rodríguez Santidrián, Madrid, Gredos, 2011."
+    anio: 2011
+    zotero: 6MGIR7CN
+    nota: "Selección."
+  - tipo: traducción
+    lengua: español
+    referencia: "Desiderio Erasmo de Rotterdam, Elogio de la locura / coloquios, trad. Alonso de Virués, México, Porrúa, 2002."
+    anio: 2002
+    zotero: DCHACZD5
+    nota: "Reedición de la traducción castellana del siglo XVI de Alonso de Virués."
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Desiderius Erasmus y E Johnson, The colloquies of Erasmus, London, Reeves & Turner, 1878."
+    anio: 1878
+    zotero: GNF5I5I2
+    nota: "Traducción decimonónica."
+
+bibliografia:
+  - referencia: "Preserved Smith, A key to the Colloquies of Erasmus, Harvard University Press, 1927."
+    zotero: G5IK82GD
+  - referencia: "Marie Delcourt y Marcelle Derwa, «Trois aspects humanistes de l'epicurisme chrétien», en Colloquium Erasmianum, ed. Marcel Bataillon y Charles Béné, Mons, Centre Universitarie de l'État, 1968, 119-133."
+    zotero: NSNXAT3B
+  - referencia: "L.E. Halkin, F. Bierlaire y R. Hoven, «Introduction», en Colloquia, Amsterdam, North-Holland Publishing Company, 1972, 4-23."
+    zotero: P64NNVDN
+  - referencia: "Beert Verstraete, «The defense of epicureanism in Erasmus' Colloquies: from the 'Banquet' Colloquies to Epicureus», Canadian Journal for Netherlandic Studies XXVII (2006), 38-48."
+    zotero: WKIUQ73K
+  - referencia: "Lorenzo Geri, A colloquio con Luciano di Samosata: Leon Battista Alberti, Giovanni Pontano ed Erasmo da Rotterdam, Roma, Bulzoni, 2011."
+    zotero: N794WXAP
+  - referencia: "Mariano Vilar, «Placer y diálogo en el Epicureus de Erasmo de Rotterdam La construcción argumentativa de la vera voluptas», Archivum Mentis. Studi di filologia e letteratura umanistica 5 (2016), 177-196."
+    zotero: RDRUFHH4
+
 revision: pendiente

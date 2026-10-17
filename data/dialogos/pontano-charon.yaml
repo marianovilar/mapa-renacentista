@@ -55,4 +55,44 @@ fuentes:
   - "Gianluca Del Noce, «Identità accademica e ‘incursioni’ dell’autore nel dialogo ‘Antonius’ di Giovanni Pontano», Atti del XX Congresso dell’ADI, 2018 (datos de la edición)."
   - "Claudia Corfiati, «Il sistema dei personaggi nei Dialoghi del Pontano», en Acta Conventus Neo-Latini Vindobonensis, Leiden, Brill, 2018, 216–225."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Giovanni Pontano, I Dialoghi, ed. Carmelo Previtera, Florencia, Sansoni, 1943."
+    anio: 1943
+    nota: "Edición crítica de los cinco diálogos."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Giovanni Gioviano Pontano, Dialogues, Volume 1: Charon and Antonius, trad. Julia Haig Gaisser, Cambridge, Harvard University Press, 2012."
+    anio: 2012
+    zotero: 9R54TUKP
+  - tipo: traducción
+    lengua: español
+    referencia: "Giovanni Gioviano Pontano, Diálogo de Carón, trad. María José Vega, Salamanca, Seminario de Estudios Medievales y Renacentistas: Sociedad de Estudios Medievales y Renacentistas, 2004."
+    anio: 2004
+    zotero: H56S2MIQ
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Giovanni Gioviano Pontano, I dialoghi. La fortuna. La conversazione, ed. Francesco Tateo, Milán, Bompiani, 2019."
+    anio: 2019
+    zotero: AV3MBP7X
+    nota: "Los cinco diálogos."
+
+bibliografia:
+  - referencia: "Scevola Mariotti, «PER LO STUDIO DEI DIALOGHI DEL PONTANO», Belfagor 2, 3 (1947), 332-344."
+    zotero: 45BLERH8
+  - referencia: "Francesco Tateo, Umanesimo etico di Giovanni Pontano, Lecce, Milella, 1972."
+    zotero: HC9AJWKP
+  - referencia: "Salvatore Monti, «Richerche sulla cronologia dei \"Dialoghi\" di Pontano», en Studi su Giovanni Pontano, ed. Liliana Monti Sabia y Salvatore Monti, Messina, Centro Interdipartimentale di Studi Umanistici, 2010, 757-826."
+    zotero: FWGD5XL4
+  - referencia: "Lorenzo Geri, A colloquio con Luciano di Samosata: Leon Battista Alberti, Giovanni Pontano ed Erasmo da Rotterdam, Roma, Bulzoni, 2011."
+    zotero: N794WXAP
+  - referencia: "Sherry Roush, Speaking Spirits: Ventriloquizing the Dead in Renaissance Italy, University of Toronto Press, 2015."
+    zotero: ME3VLR3X
+  - referencia: "Alessandra Mantovani, «Intorno ad alcune edizioni recenti dei Dialoghi di Pontano», Intorno ad alcune edizioni recenti dei Dialoghi di Pontano (2018), 49-75."
+    zotero: BXJ4S9RG
+  - referencia: "Francesco Tateo, «Introduzione», en I dialoghi; la fortuna; la conversazione, Milano, Bompiani, 2019, VII-LXXX."
+    zotero: LRXXBZVB
+
 revision: pendiente

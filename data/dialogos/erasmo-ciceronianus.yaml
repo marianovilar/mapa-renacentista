@@ -52,4 +52,31 @@ resumen: >
 fuentes:
   - "Desiderius Erasmus, Ciceronianus, ed. Pierre Mesnard, Opera omnia (ASD) I-2 (1971)."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: ", Desiderio Erasmo de Rotterdam, Opera omnia Desiderii Erasmi Roterodami, ed. Pierre Mesnard y Jean-Claude Margolin, Amsterdam, North-Holland, 1971."
+    anio: 1971
+    zotero: 76G4SUWH
+    nota: "Edición crítica (ASD I-2), ya citada entre las fuentes."
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Erasmus, Ciceronianus, trad. Betty I. Knott, en Collected Works of Erasmus 28, Toronto, University of Toronto Press, 1986."
+    anio: 1986
+    verificado: false
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Erasmo da Rotterdam, Il Ciceroniano o dello stile migliore, ed. y trad. Angiolo Gambaro, Brescia, La Scuola, 1965."
+    anio: 1965
+    verificado: false
+  - tipo: traducción
+    lengua: español
+    referencia: "Desiderio Erasmo de Rotterdam, El Ciceroniano: o sobre el mejor estilo, trad. Manuel Mañas Núñez, Madrid, Akal, 2009."
+    anio: 2009
+    zotero: XXDHYAUA
+
+bibliografia:
+  - referencia: "La diffusione europea del pensiero del Valla: atti del Convegno del Comitato nazionale VI centenario della nascita di Lorenzo Valla: Prato, 3-6 dicembre 2008, ed. Mariangela Regoliosi y Clementina Marsico, Florencia, Polistampa, 2013."
+    zotero: FECVST44
+
 revision: pendiente

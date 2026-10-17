@@ -54,4 +54,39 @@ fuentes:
   - "Mariarosa Cortesi (ed.), De professione religiosorum, Padua, Antenore, 1986."
   - "Mario Fois, Il pensiero cristiano di Lorenzo Valla nel quadro storico-culturale del suo ambiente, Roma, 1969."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Lorenzo Valla, Laurentii Vallae opsucula tria (Oratio habita in principio sui studii, MCCCCLV, De professione religiosorum, Traductio Demosthenis pro Ctesiphonte), ed. Johannes Vahlen, Viena, Sitzungsberichte der Philosophisch-Historischen Classe, Akademie der Wissenschaften, 1869."
+    anio: 1869
+    zotero: 4RF8D9W8
+    nota: "Primera edición (editio princeps)."
+  - tipo: edición
+    lengua: latín
+    referencia: "Lorenzo Valla, Laurentii Valle De professione religiosorum, ed. Mariarosa Cortesi, Padua, In Aedibus Antenoreis, 1986."
+    anio: 1986
+    zotero: 6FUHSZA5
+    nota: "Edición crítica."
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Lorenzo Valla, The Profession of the Religious and selections from the Falsely-Believed and Forged Donation of Constantine, trad. Olga Zorzi Pugliese, Toronto, Centre for Reformation and Renaissance Studies, 1994."
+    anio: 1994
+    zotero: L6CFN5X2
+  - tipo: traducción
+    lengua: español
+    referencia: "Lorenzo Valla, Sobre el libre albedrío. Sobre la profesión de los religiosos, ed. Mariano Vilar, Buenos Aires, Las Cuarenta, 2025."
+    anio: 2025
+    zotero: UA6HEHYJ
+    nota: "Con estudio introductorio; ya citada entre las fuentes."
+
+bibliografia:
+  - referencia: "Charles Trinkaus, «Humanist Treatises on the Status of the Religious: Petrarch, Salutati, Valla», Studies in the Renaissance 11 (1964), 7-45."
+    zotero: E5UP2NXB
+  - referencia: "Olga Z. Pugliese, «The Rhetoric of Deviation in Lorenzo Valla's \"The Profession of the Religious\"», Renaissance and Reformation / Renaissance et Réforme 9, 4 (1985), 263-274."
+    zotero: T9NZPC33
+  - referencia: "Mariarosa Cortesi, «Introduzione», en Laurentii Valle De professione religiosorum, Padua, In Aedibus Antenoreis, 1986, xiii-cvii."
+    zotero: 42Q8L63X
+  - referencia: "Mariano Vilar, «La estructura dialógica del De professione religiosorum de Lorenzo Valla», Studia Aurea 18 (2024), 373-394."
+    zotero: 5YSGEXVY
+
 revision: pendiente

@@ -69,4 +69,18 @@ fuentes:
   - "Giannozzo Manetti, Dialogus consolatorius, ed. Alfonso De Petris, Roma, 1983."
   - "N. V. Reviakina, «Giannozzo Manetti's Dialogue at a Feast of Friends», Soviet Studies in History 19, 2 (1980), 47–65, n. 25 (manuscrito: Biblioteca Vaticana, Urb. lat. 5, ff. 165r–199r)."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Giannozzo Manetti, Dialogus consolatorius, ed. Alfonso De Petris, Roma, Edizioni di Storia e Letteratura, 1983."
+    anio: 1983
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+
+bibliografia:
+  - referencia: "Alfonso De Petris, «GIANNOZZO MANETTI AND HIS CONSOLATORIA», Bibliothèque d'Humanisme et Renaissance 41, 3 (1979), 493-525."
+    zotero: 9GW52FHR
+  - referencia: "Olivia Catanorchi, «La trattatistica de miseria hominis nel primo Rinascimento», Viator (English and Multilingual Edition) 41 (2010), 377-391."
+    zotero: X4K6BHM2
+
 revision: pendiente

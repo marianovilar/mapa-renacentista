@@ -54,4 +54,12 @@ fuentes:
   - "Girolamo Mancini, Vita di Leon Battista Alberti, Florencia, 1882."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Leon Battista Alberti y Girolamo Mancini, Leonis Baptistæ Alberti: opera inedita et pauca separatim impressa,Hieronymo Mancini curante, Florentiæ: J.C. Sansoni, 1890."
+    anio: 1890
+    zotero: T8UQDH2V
+    nota: "Primera edición, ya citada entre las fuentes."
+
 revision: pendiente

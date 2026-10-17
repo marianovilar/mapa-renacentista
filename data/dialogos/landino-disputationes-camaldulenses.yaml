@@ -54,4 +54,24 @@ temas: [vida activa y contemplativa, sumo bien, alegoría de Virgilio]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Cristoforo Landino, Disputationes Camaldulenses, ed. Peter Lohe, Firenze, Sansoni, 1980."
+    anio: 1980
+    zotero: ZIAA5G88
+    nota: "Edición crítica."
+  - tipo: traducción
+    lengua: español
+    referencia: "Cristóforo Landino, ¿El intelectual o el político? El De vita contemplativa et activa de Cristoforo Landino, trad. Silvia Magnavacca, Buenos Aires, Eudeba, 2000."
+    anio: 2000
+    zotero: CM6GKG3M
+    nota: "Libro I (De vita contemplativa et activa), con estudio preliminar."
+
+bibliografia:
+  - referencia: "James B. Wadsworth, «Landino's \"Disputationes Camaldulenses\", Ficino's \"De Felicitate\", and \"L'Altercazione\" of Lorenzo de' Medici», Modern Philology 50, 1 (1952), 23-31."
+    zotero: T73ZGARP
+  - referencia: "Silvia Magnavacca, «Estudio preliminar», en ¿El intelectual o el político? El De vita contemplativa et activa de Cristoforo Landino, Buenos Aires, Eudeba, 2000, 9-59."
+    zotero: P69QRDZV
+
 revision: pendiente

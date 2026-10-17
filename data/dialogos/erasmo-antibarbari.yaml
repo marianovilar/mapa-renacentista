@@ -45,4 +45,17 @@ temas: [defensa de las letras, barbarie escolástica, educación]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Erasmus, Antibarbarorum liber, ed. Kazimierz Kumaniecki, Opera omnia (ASD) I-1, Ámsterdam, North-Holland, 1969."
+    anio: 1969
+    nota: "Edición crítica."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Erasmus, The Antibarbarians, trad. Margaret Mann Phillips, en Collected Works of Erasmus 23, Toronto, University of Toronto Press, 1978."
+    anio: 1978
+    verificado: false
+
 revision: pendiente

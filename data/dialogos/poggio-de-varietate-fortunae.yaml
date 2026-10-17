@@ -50,4 +50,30 @@ fuentes:
   - "Martín José Ciordia, «El príncipe y el sabio en el De infelicitate principum de Poggio Bracciolini», Studia Aurea 11 (2017), 461–479."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. X."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Poggio Bracciolini, De varietate fortunae, ed. Outi Merisalo, Helsinki, Suomalainen Tiedeakatemia, 1993."
+    anio: 1993
+    nota: "Edición crítica citada por Ciordia (2017)."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: francés
+    referencia: "Gian Francesco Poggio Bracciolini, Les ruines de rome: de varietate fortunae (livre I), ed. XXX, Paris, Les Belles Lettres, 1999."
+    anio: 1999
+    zotero: TPZKM4Z6
+    nota: "Solo el libro I."
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Gianfrancesco Poggio Bracciolini y Ludovico de Varthema, Travelers in disguise: narratives of Eastern travel, trad. Lincoln Davis Hammond, Cambridge, Distributed for the Dept. of Romance Languages and Literatures of Harvard University by Harvard University Press, 1963."
+    anio: 1963
+    zotero: KBQFFW2E
+    nota: "Solo el libro IV (el viaje de Niccolò de' Conti)."
+
+bibliografia:
+  - referencia: "Ricardo Fubini, «Il 'Teatro del mondo' nelle prospettive morali e storico-politiche di Poggio Bracciolini», en Poggio Bracciolini (1380-1980), Florencia, Sansoni, 1982, 1-92."
+    zotero: BJEI7B8M
+  - referencia: "Iiro Kajanto, Poggio Bracciolini and classicism: a study in early Italian humanism, Helsinki, Suomalainen Tiedeakatemia: Distributor, Akateeminen Kirjakauppa, 1987."
+    zotero: ZS6BQM3P
+
 revision: pendiente

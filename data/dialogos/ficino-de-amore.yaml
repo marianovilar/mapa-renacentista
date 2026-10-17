@@ -88,4 +88,34 @@ fuentes:
   - "Marsilio Ficino, De amore. Comentario a «El Banquete» de Platón, trad. y estudio preliminar de Rocío de la Villa Ardura, 3.ª ed., Madrid, Tecnos, 1994 [1986]."
   - "Raymond Marcel (ed.), Commentaire sur le Banquet de Platon, París, Les Belles Lettres, 1956."
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: francés
+    referencia: "Marsile Ficin, Commentaire sur le Banquet de Platon, ed. y trad. Raymond Marcel, París, Les Belles Lettres, 1956."
+    anio: 1956
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Marsilio Ficino, Marsilio Ficino's Commentary on Plato's Symposium: the text and a translation, with an introduction, ed. Sears Reynolds Jayne, Columbia [Mo.], University of Missouri, 1944."
+    anio: 1944
+    zotero: E2WBXMFS
+  - tipo: traducción
+    lengua: español
+    referencia: "Marsilio Ficino, De amore: comentario a El Banquete de Platón, trad. Rocío Villa Ardura, Madrid, Tecnos, 1994."
+    anio: 1994
+    zotero: R6GEJDPQ
+    nota: "Ya citada entre las fuentes."
+  - tipo: edición y traducción
+    lengua: francés
+    referencia: "Marsile Ficin, Commentaire sur le Banquet de Platon, De l'amour, ed. y trad. Pierre Laurens, París, Les Belles Lettres, 2002."
+    anio: 2002
+    verificado: false
+  - tipo: edición
+    lengua: italiano
+    referencia: "Marsilio Ficino, El libro dell'amore, ed. Sandra Niccoli, Florencia, Olschki, 1987."
+    anio: 1987
+    nota: "Versión toscana del propio Ficino."
+    verificado: false
+
 revision: pendiente

@@ -37,4 +37,11 @@ temas: [desgracia de los letrados, saco de Roma, biografías de humanistas]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Julia Haig Gaisser, Pierio Valeriano on the Ill Fortune of Learned Men: A Renaissance Humanist and His World, Ann Arbor, University of Michigan Press, 1999."
+    anio: 1999
+    verificado: false
+
 revision: pendiente

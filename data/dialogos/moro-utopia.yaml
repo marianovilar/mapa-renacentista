@@ -67,4 +67,69 @@ resumen: >
 fuentes:
   - "Edward Surtz y J. H. Hexter (eds.), Utopia, Complete Works of St. Thomas More, vol. 4 (1965)."
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Tomás Moro, The complete works of St. Thomas More. Vol. 4. Utopia, ed. Edward Surtz y Jack H. Hexter, New Haven, Yale University Press, 1965."
+    anio: 1965
+    zotero: UUIPQZE4
+    nota: "Edición crítica de Yale (Complete Works, vol. 4)."
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Thomas More, Utopia: Latin Text and English Translation, ed. George M. Logan, Robert M. Adams y Clarence H. Miller, Cambridge, Cambridge University Press, 1995."
+    anio: 1995
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Tomás Moro, More: Utopia, ed. George M. Logan y Robert M. Adams, Cambridge University Press, 2002."
+    anio: 2002
+    zotero: ZJP9CBPD
+  - tipo: edición y traducción
+    lengua: francés
+    referencia: "Thomas More, L'Utopie, ed. y trad. André Prévost, París, Mame, 1978."
+    anio: 1978
+    nota: "Texto original, aparato crítico, traducción y notas."
+    verificado: false
+  - tipo: traducción
+    lengua: español
+    referencia: "Tomas Moro, Utopia, Barcelona, Planeta, 1977."
+    anio: 1977
+    zotero: HAAZCWKV
+
+bibliografia:
+  - referencia: "Edward Surtz, The Praise of Pleasure: Philosophy, Education and Communism in More's Utopia, Cambridge, Harvard University Press, 1957."
+    zotero: UNPIFVPK
+  - referencia: "David M. Bevington, «The Dialogue in \"Utopia\": Two Sides to the Question», Studies in Philology 58, 3 (1961), 496-509."
+    zotero: C2RQKSPJ
+  - referencia: "Richard J. Schoeck, «A Nursery of Correct and Useful Institutions: On Reading More's Utopia as Dialogue», Moreana 22 (1969), 19-32."
+    zotero: J6C9AUAQ
+  - referencia: "George Logan, The Meaning of More's \"Utopia\", Princeton, Princeton University Press, 1983."
+    zotero: CBRT5HZN
+  - referencia: "Robert Bratch Branham, «Utopian Laughter: Lucian and Thomas More», Moreana, 86 (1985), 23-43."
+    zotero: WPT5C65H
+  - referencia: "Quentin Skinner, «Sir Thomas More´s Utopia and the language of Renaissance humanism», en The Languages of political theory in early-modern Europe, ed. Anthony Pagden, Cambridge, Cambridge University Press, 1987, 123-158."
+    zotero: BFU7NK6U
+  - referencia: "Interpreting Thomas More's Utopia, ed. John C. Olin, Fordham University Press, 1989."
+    zotero: 229MKE9V
+  - referencia: "Romuald Lakowski, Sir Thomas More and the Art of Dialogue, tesis, The University of British Columbia, 1993."
+    zotero: Q8NUTBHG
+  - referencia: "David Wootton, «Friendship Portrayed: A New Account of Utopia», History Workshop Journal, 45 (1998), 28-47."
+    zotero: QPX2CQUI
+  - referencia: "Eric Nelson, «Greek Nonsense in More's \"Utopia\"», The Historical Journal 44, 4 (2001), 889-917."
+    zotero: XWWNEPJJ
+  - referencia: "Charles Béné, «Dialogue et satire dans l'Utopie de Thomas More», Bulletin de l'Association d'étude sur l'humanisme, la réforme et la renaissance 54, 1 (2002), 19-29."
+    zotero: UEFBXX4A
+  - referencia: "Jean-François Vallée, «The Fellowship of the Book: Printed Voices and Written Friendships in More's Utopia», en Printed Voices. The Renaissance Culture of Dialogue, ed. Dorothea Heitsch y Jean-François Vallé, University of Toronto Press, 2004, 42-62."
+    zotero: EB4KPIKK
+  - referencia: "Eric Nelson, «Utopia through Italian Eyes: Thomas More and the Critics of Civic Humanism», Renaissance Quarterly 59, 4 (2006), 1029-1057."
+    zotero: 7JX448WP
+  - referencia: "Brendan Cook, The Utopia of Sir Thomas More and the influence of Lorenzo Valla's On pleasure, tesis, Universidad de Toronto, 2009."
+    zotero: TM33VI4X
+  - referencia: "Hanan Yoran, Between utopia and dystopia: Erasmus, Thomas More, and the humanist Republic of Letters, Lanham, Md, Lexington Books, 2010."
+    zotero: 298KKJ63
+  - referencia: "Giulia Sissa, «Familiaris reprehensio quasi errantis. Raphael Hythloday, between Plato and Epicurus», Moreana 49, 187-188 (2012), 121-150."
+    zotero: CX9EZW8D
+  - referencia: "Mariano Vilar, «Pleasure and Variety in Thomas More’s Utopia», Moreana 53, 203-204 (2016), 147-170."
+    zotero: SBZ79R97
+
 revision: pendiente

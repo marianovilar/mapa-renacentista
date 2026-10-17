@@ -91,4 +91,39 @@ fuentes:
   - "Giovanni Gioviano Pontano, Dialogues I: Charon and Antonius, ed. y trad. J. H. Gaisser, Cambridge (MA), Harvard University Press, 2012."
   - "Salvatore Monti, «Ricerche sulla cronologia dei Dialoghi», en L. Monti Sabia y S. Monti, Studi su Giovanni Pontano, Messina, 2010, II, 757–834."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Giovanni Pontano, I Dialoghi, ed. Carmelo Previtera, Florencia, Sansoni, 1943."
+    anio: 1943
+    nota: "Edición crítica de los cinco diálogos."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Giovanni Gioviano Pontano, Dialogues, Volume 1: Charon and Antonius, trad. Julia Haig Gaisser, Cambridge, Harvard University Press, 2012."
+    anio: 2012
+    zotero: 9R54TUKP
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Giovanni Gioviano Pontano, I dialoghi. La fortuna. La conversazione, ed. Francesco Tateo, Milán, Bompiani, 2019."
+    anio: 2019
+    zotero: AV3MBP7X
+    nota: "Los cinco diálogos."
+
+bibliografia:
+  - referencia: "Scevola Mariotti, «PER LO STUDIO DEI DIALOGHI DEL PONTANO», Belfagor 2, 3 (1947), 332-344."
+    zotero: 45BLERH8
+  - referencia: "Francesco Tateo, Umanesimo etico di Giovanni Pontano, Lecce, Milella, 1972."
+    zotero: HC9AJWKP
+  - referencia: "Carmela Vera Tufano, «Il 'Polifemo' del Pontano. Riscritture teocritee nella 'Lyra' e nell' 'Antonius'», Il 'Polifemo' del Pontano. Riscritture teocritee nella 'Lyra' e nell' 'Antonius' (2010), 1000-1024."
+    zotero: RVGUEUTJ
+  - referencia: "Lodi Nauta, «Philology as Philosophy: Giovanni Pontano on Language, Meaning, and Grammar», Journal of the History of Ideas 72, 4 (2011), 481-502."
+    zotero: RM48RLLR
+  - referencia: "Alessandra Mantovani, «Intorno ad alcune edizioni recenti dei Dialoghi di Pontano», Intorno ad alcune edizioni recenti dei Dialoghi di Pontano (2018), 49-75."
+    zotero: BXJ4S9RG
+  - referencia: "Gianluca Del Noce, «L’art du poète et la folie des grammairiens La défense de Virgile dans le dialogue Antonius de Giovanni Pontano», en, Paris, Classiques Garnier, 2018, 21-38."
+    zotero: RUU2H9XD
+  - referencia: "Francesco Tateo, «Introduzione», en I dialoghi; la fortuna; la conversazione, Milano, Bompiani, 2019, VII-LXXX."
+    zotero: LRXXBZVB
+
 revision: pendiente

@@ -40,4 +40,31 @@ temas: [exilio, Florencia medicea, polémica antimedicea]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Francesco Filelfo, On Exile, ed. Jeroen De Keyser, trad. W. Scott Blanchard, Cambridge, Harvard University Press, 2013."
+    anio: 2013
+    zotero: VT7RHH2Z
+
+bibliografia:
+  - referencia: "Giacomo Ferraù, «Le «Commentationes Florentinae de Exilio»», en Francesco Filelfo nel quinto centenario della morte: atti del XVII Convegno di studi maceratesi, ed. Rino Avesani, Giuseppe Billanovich, Mirella Ferrari y Giovanni Pozzi, Padua, Antenore, 1986, 369-388."
+    zotero: 4P2GZU7G
+  - referencia: "Cesare Vasoli, «Le Commentationes de exilio di Francesco Filelfo», en Exil et civilisation en Italie, 1990, 119-134."
+    zotero: 94BBXP35
+  - referencia: "Gian Mario Cao, «Tra politica fiorentina e filosofia ellenistica: il dibattito sulla ricchezza nelle ''Commentationes'' di Francesco Filelfo», Archivio storico italiano 155, 1 (1997), 99-126."
+    zotero: K5CIJSMA
+  - referencia: "Gian Mario Cao, «The Prehistory of Modern Scepticism: Sextus Empiricus in Fifteenth-Century Italy», Journal of the Warburg and Courtauld Institutes 64 (2001), 229-280."
+    zotero: SSZTU94D
+  - referencia: "W. Scott Blanchard, «Patrician Sages and the Humanist Cynic: Francesco Filelfo and the Ethics of World Citizenship», Renaissance Quarterly 60, 4 (2007), 1107-1169."
+    zotero: KTU5E9QT
+  - referencia: "Jeroen De Keyser, «The Transmission of Francesco Filelfo’s ‘Commentationes Florentinae De Exilio’», Interpres: Rivista di Studi Quattrocenteschi, 30 (2011)."
+    zotero: BDU2IMWQ
+  - referencia: "Jeroen De Keyser y Ide François, «Incipitarium Philelfianum. A Guide to the Works of Francesco Filelfo», Camenae, 17 (2015)."
+    zotero: GTFCACN9
+  - referencia: "Mariano Vilar, «The Political Use of Epicureanism in Filelfo’s Commentationes Florentinae de exilio», Renaissance and Reformation / Renaissance et Réforme 42, 2 (2019), 141-164."
+    zotero: BSDW6QXZ
+  - referencia: "Jeroen De Keyser, «Exiled from the Cradle of Humanism. Francesco Filelfo’s Commentationes Florentinae de Exilio», Exil und Heimatferne in der Literatur des Humanismus von Petrarca bis zum Anfang des 16. Jahrhunderts (2019)."
+    zotero: DDAXPTGQ
+
 revision: pendiente

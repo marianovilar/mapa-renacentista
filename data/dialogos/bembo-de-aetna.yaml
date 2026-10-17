@@ -44,4 +44,11 @@ temas: [Etna, viaje, filosofía natural, latín de Bembo]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Pietro Bembo, Lyric Poetry. Etna, ed. y trad. Mary P. Chatfield, I Tatti Renaissance Library, Cambridge (MA), Harvard University Press, 2005."
+    anio: 2005
+    verificado: false
+
 revision: pendiente

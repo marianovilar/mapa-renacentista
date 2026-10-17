@@ -51,4 +51,35 @@ fuentes:
   - "Christopher S. Celenza, Petrarch: Everywhere a Wanderer, Londres, Reaktion Books, 2017."
   - "Francesco Petrarca, Les remèdes aux deux fortunes / De remediis utriusque fortunae, 1354–1366, ed. y trad. Christophe Carraud, Grenoble, 2002."
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: francés
+    referencia: "Francesco Petrarca, Les remèdes aux deux fortunes / De remediis utriusque fortunae, 1354–1366, ed. y trad. Christophe Carraud, Grenoble, 2002."
+    anio: 2002
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Conrad H. Rawski (trad.), Petrarch's Remedies for Fortune Fair and Foul, 5 vols., Bloomington, Indiana University Press, 1991."
+    anio: 1991
+    verificado: false
+  - tipo: edición
+    lengua: latín
+    referencia: "Francesco Petrarca y Pasquale Stoppelli, «De remediis utriusque fortunae», 2004."
+    anio: 2004
+    zotero: PQEVJAQR
+    nota: "Texto digital."
+  - tipo: traducción
+    lengua: español
+    referencia: "Francesco Petrarca, Delos remedios contra prospera y aduersa fortuna, Valladolid, por Diego de Gumiel, 1510."
+    anio: 1510
+    zotero: AMQGQEEW
+    nota: "Traducción castellana del siglo XVI."
+
+bibliografia:
+  - referencia: "Petrarch: a critical guide to the complete works, ed. Victoria Kirkham y Armando Maggi, Chicago, University of Chicago Press, 2009."
+    zotero: K7SQ5S7B
+  - referencia: "Amedeo Quondam, «I nostri moralisti: Petrarca e la fondazione del discorso morale moderno», en Forma del vivere: l'etica del gentiluomo e i moralisti italiani, Bologna, Il mulino, 2010."
+    zotero: 2CN7Q88F
+
 revision: pendiente

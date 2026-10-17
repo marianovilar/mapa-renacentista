@@ -59,4 +59,62 @@ fuentes:
   - "Maria Anfossi (ed.), De libero arbitrio, Florencia, Olschki, 1934."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Lorenzo Valla, Laurentii Vallae De libero arbitrio, ed. Maria Anfossi, Florencia, L. S. Olschki, 1934."
+    anio: 1934
+    zotero: SDD7V536
+    nota: "Edición crítica."
+  - tipo: traducción
+    lengua: italiano
+    referencia: "Lorenzo Valla, «Dialogo interno al libero arbitrio», en Scritti filosofici e religiosi, trad. Giorgio Radetti, Florencia, Sansoni, 1953, 251-282."
+    anio: 1953
+    zotero: HLWFHH7C
+  - tipo: traducción
+    lengua: francés
+    referencia: "Lorenzo Valla, Dialogue sur le libre-arbitre, trad. Jacques Chomarat, Paris, J. Vrin, 1983."
+    anio: 1983
+    zotero: 47AXXJK6
+  - tipo: edición y traducción
+    lengua: alemán
+    referencia: "Lorenzo Valla, Über den freien Willen. De libero arbitrio, ed. Eckhard Kessler, München, W. Fink, 1987."
+    anio: 1987
+    zotero: PXVJVXCY
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Lorenzo Valla, «Dialogue on Free Will», trad. Charles Trinkaus, en E. Cassirer, P. O. Kristeller y J. H. Randall (eds.), The Renaissance Philosophy of Man, Chicago, University of Chicago Press, 1948."
+    anio: 1948
+    verificado: false
+  - tipo: traducción
+    lengua: español
+    referencia: "Lorenzo Valla, «Sobre el libre albedrío (traducción parcial)», en Humansimo y Renacimiento, ed. Pedro Santidrián, Madrid, Alianza, 1986, 46-55."
+    anio: 1986
+    zotero: A2TC6E2G
+    nota: "Traducción parcial."
+  - tipo: traducción
+    lengua: español
+    referencia: "Lorenzo Valla, Sobre el libre albedrío. Sobre la profesión de los religiosos, ed. Mariano Vilar, Buenos Aires, Las Cuarenta, 2025."
+    anio: 2025
+    zotero: UA6HEHYJ
+    nota: "Con estudio introductorio; ya citada entre las fuentes."
+
+bibliografia:
+  - referencia: "Charles Trinkaus, «The Problem of Free Will in the Renaissance and the Reformation», Journal of the History of Ideas 10, 1 (1949), 51-62."
+    zotero: VMADGM8L
+  - referencia: "Hajnalka Obis, «Le fonti principali del De libero arbitrio di Lorenzo Valla», Acta classica Universitatis Scientiarum Debreceniensis, 34 (1998), 91-102."
+    zotero: WPXRE8KZ
+  - referencia: "Jon Peterson, «Lorenzo Valla: An Interpretation of the Dialogue on Free Will» (2005)."
+    zotero: UDFFAUMR
+  - referencia: "Rita Sturlese, «Prescienza e volontà divina: Valla di fronte alla discussione medievale sul libero arbitrio», Lorenzo Valla: la riforma della lingua e della logica (Edizione nazionale delle opere di Lorenzo Valla. Strumenti; 3) (2010), 1000-1028."
+    zotero: GIXGRUB9
+  - referencia: "Marco Laffranchi, «La concezione della libertà in Valla: tra Dialectica e De libero arbitrio», Lorenzo Valla: la riforma della lingua e della logica ... - ( Edizione nazionale delle opere di Lorenzo Valla. Strumenti ; 3) (2010), 1000-1017."
+    zotero: Z5W8X3ZE
+  - referencia: "Alfonso Ingegno, «Per l'etica di Valla: dalla Repastinatio al De libero arbitrio», Rivista di storia della filosofia: LXIX, 1, 2014 (2014), 27-56."
+    zotero: 8G393ETU
+  - referencia: "Anders Kraal, «Valla-Style Determinism and the Intellectual Background of Luther's», Harvard Theological Review 108, 3 (2015), 402-422."
+    zotero: ZD6YYPRC
+  - referencia: "Mariano Alejandro Vilar, «El De libero arbitrio de Lorenzo Valla: un diálogo entre teología y studia humanitatis», Studium. Filosofía y Teología 28, 55 (2025), 135-160."
+    zotero: LV2US7UD
+
 revision: pendiente

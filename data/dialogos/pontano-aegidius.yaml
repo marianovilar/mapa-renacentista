@@ -109,4 +109,43 @@ fuentes:
   - "Ernesto Caserta, «Il problema religioso nel De voluptate del Valla e nell'Aegidius del Pontano», Italica 43 (1966), 240–262."
   - "Giovanni Pontano, Aegidius: Dialogo, ed. Francesco Tateo, Roma, 2013."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Giovanni Pontano, I Dialoghi, ed. Carmelo Previtera, Florencia, Sansoni, 1943."
+    anio: 1943
+    nota: "Edición crítica de los cinco diálogos."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Giovanni Pontano, Aegidius: Dialogo, ed. Francesco Tateo, Roma, 2013."
+    anio: 2013
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Giovanni Gioviano Pontano, I dialoghi. La fortuna. La conversazione, ed. Francesco Tateo, Milán, Bompiani, 2019."
+    anio: 2019
+    zotero: AV3MBP7X
+    nota: "Los cinco diálogos."
+  - tipo: traducción
+    lengua: español
+    referencia: "Giovanni Giovano Pontano, «El Aegidius de Giovanni Pontano», Circe de clásicos y modernos 26, 1, trad. Mariano Vilar (2022), 149-189."
+    anio: 2022
+    zotero: SET5CR4V
+
+bibliografia:
+  - referencia: "Scevola Mariotti, «PER LO STUDIO DEI DIALOGHI DEL PONTANO», Belfagor 2, 3 (1947), 332-344."
+    zotero: 45BLERH8
+  - referencia: "Francesco Tateo, Umanesimo etico di Giovanni Pontano, Lecce, Milella, 1972."
+    zotero: HC9AJWKP
+  - referencia: "Victoria Kahn, «Giovanni Pontano's Rhetoric of Prudence», Philosophy & Rhetoric 16, 1 (1983), 16-34."
+    zotero: YNC7BNSS
+  - referencia: "Salvatore Monti, «Richerche sulla cronologia dei \"Dialoghi\" di Pontano», en Studi su Giovanni Pontano, ed. Liliana Monti Sabia y Salvatore Monti, Messina, Centro Interdipartimentale di Studi Umanistici, 2010, 757-826."
+    zotero: FWGD5XL4
+  - referencia: "Alessandra Mantovani, «Intorno ad alcune edizioni recenti dei Dialoghi di Pontano», Intorno ad alcune edizioni recenti dei Dialoghi di Pontano (2018), 49-75."
+    zotero: BXJ4S9RG
+  - referencia: "Francesco Tateo, «Introduzione», en I dialoghi; la fortuna; la conversazione, Milano, Bompiani, 2019, VII-LXXX."
+    zotero: LRXXBZVB
+
 revision: pendiente

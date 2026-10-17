@@ -43,4 +43,17 @@ resumen: >
 fuentes:
   - "Erich Meuthen, Nicholas of Cusa: A Sketch for a Biography, trad. David Crowner y Gerald Christianson, Washington, The Catholic University of America Press, 2010 [Nikolaus von Kues: Skizze einer Biographie, 1964; 7.ª ed., 1992]."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Nicolai de Cusa, De pace fidei, ed. Raymond Klibansky y Hildebrand Bascour, Opera omnia VII, Hamburgo, Felix Meiner, 1959."
+    anio: 1959
+    nota: "Edición crítica."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Jasper Hopkins (trad.), Nicholas of Cusa's De pace fidei and Cribratio Alkorani, Minneapolis, Banning, 1990."
+    anio: 1990
+    verificado: false
+
 revision: pendiente

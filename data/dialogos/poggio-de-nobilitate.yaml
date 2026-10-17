@@ -56,4 +56,36 @@ fuentes:
   - "Martín José Ciordia, «El príncipe y el sabio en el De infelicitate principum de Poggio Bracciolini», Studia Aurea 11 (2017), 461–479."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. VIII."
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Poggio Bracciolini, La vera nobiltà, ed. y trad. Davide Canfora, Roma, Salerno, 1999."
+    anio: 1999
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: edición
+    lengua: latín
+    referencia: "Poggio Bracciolini, De vera nobilitate, ed. Davide Canfora, Roma, Edizioni di Storia e Letteratura, 2002."
+    anio: 2002
+    nota: "Citada por Finzi (2010)."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Albert Rabil Jr. (ed. y trad.), Knowledge, Goodness, and Power: The Debate over Nobility among Quattrocento Italian Humanists, Binghamton, Medieval & Renaissance Texts & Studies, 1991."
+    anio: 1991
+    nota: "Traducción citada por Finzi (2010); incluye las respuestas de la polémica."
+    verificado: false
+  - tipo: edición
+    lengua: latín
+    referencia: "Poggio Bracciolini, Leonardo Chiense y National Library of Naples, Caroli Poggii De nobilitate liber disceptatorius, et Leonardi Chiensis De vera nobilitate contra Poggium tractatus apologeticus, cum eorum vita, et annotationibus abbatis Michaelis Iustiniani, typis Haeredum Camilli Caualli, 1657."
+    anio: 1657
+    zotero: W3RTM6ZX
+    nota: "Edición antigua junto con la réplica de Leonardo da Chio."
+
+bibliografia:
+  - referencia: "Iiro Kajanto, Poggio Bracciolini and classicism: a study in early Italian humanism, Helsinki, Suomalainen Tiedeakatemia: Distributor, Akateeminen Kirjakauppa, 1987."
+    zotero: ZS6BQM3P
+  - referencia: "Martín Ciordia, «La búsqueda de la virtud y las mujeres en textos de Poggio Bracciolini» (2010), 525-532."
+    zotero: 5BPENC3G
+
 revision: pendiente

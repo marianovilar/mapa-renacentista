@@ -40,4 +40,17 @@ temas: [sátira antipapal, guerra, Iglesia]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Erasmus, Iulius exclusus e coelis, ed. Silvana Seidel Menchi, Opera omnia (ASD) I-8, Leiden, Brill, 2013."
+    anio: 2013
+    nota: "Edición crítica."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Erasmus, Julius Excluded from Heaven: A Dialogue, trad. Michael J. Heath, en Collected Works of Erasmus 27, Toronto, University of Toronto Press, 1986."
+    anio: 1986
+    verificado: false
+
 revision: pendiente

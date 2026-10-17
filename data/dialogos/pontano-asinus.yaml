@@ -91,4 +91,41 @@ fuentes:
   - "Hélène Casanova-Robin, «Réminiscences plautiniennes dans le dialogue Asinus de Giovanni Pontano» (2023)."
   - "Mauro de Nichilo, «Lingua e stile nell'Asinus di Giovanni Pontano», en Sul latino degli umanisti, ed. F. Tateo, Bari, 2006, 79–101."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Giovanni Pontano, I Dialoghi, ed. Carmelo Previtera, Florencia, Sansoni, 1943."
+    anio: 1943
+    nota: "Edición crítica de los cinco diálogos."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Giovanni Giovano Pontano, Asinus. Dialogo dell'ingratitudine, ed. Francesco Tateo, Roma, Roma nel Rinascimento, 2014."
+    anio: 2014
+    zotero: EKKHJZBG
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Giovanni Gioviano Pontano, I dialoghi. La fortuna. La conversazione, ed. Francesco Tateo, Milán, Bompiani, 2019."
+    anio: 2019
+    zotero: AV3MBP7X
+    nota: "Los cinco diálogos."
+
+bibliografia:
+  - referencia: "Scevola Mariotti, «PER LO STUDIO DEI DIALOGHI DEL PONTANO», Belfagor 2, 3 (1947), 332-344."
+    zotero: 45BLERH8
+  - referencia: "Francesco Tateo, Umanesimo etico di Giovanni Pontano, Lecce, Milella, 1972."
+    zotero: HC9AJWKP
+  - referencia: "Francesco Tateo, «L'umorismo di Giovanni Pontano e l'ispirazione etica dell'Asinus», en Tradizione e realtà nell'Umanesimo italiano, Bari, Edizioni Dedalo, 1974, 319-354."
+    zotero: DAZ4AEC4
+  - referencia: "Eric Haywood, ««Iter asinarium». Per una nuova interpretatione dell' Asinus Pontaniano», en Confini dell'Umanesimo letterario. Studi in onore di Francesco Tateo, ed. Mauro De Nichilo, Grazia Distaso y Antonio Iurilli, Roma, Roma nel Rinascimento, 2003, 733-746."
+    zotero: DSZ7SHEB
+  - referencia: "Salvatore Monti, «Richerche sulla cronologia dei \"Dialoghi\" di Pontano», en Studi su Giovanni Pontano, ed. Liliana Monti Sabia y Salvatore Monti, Messina, Centro Interdipartimentale di Studi Umanistici, 2010, 757-826."
+    zotero: FWGD5XL4
+  - referencia: "Alessandra Mantovani, «Intorno ad alcune edizioni recenti dei Dialoghi di Pontano», Intorno ad alcune edizioni recenti dei Dialoghi di Pontano (2018), 49-75."
+    zotero: BXJ4S9RG
+  - referencia: "Francesco Tateo, «L'asino. Nota introduttiva», en I dialoghi; la fortuna; la conversazione, Milán, Bompiani, 2019, 307-316."
+    zotero: X39C5WFS
+  - referencia: "Mariano Vilar, «El asno de Giovanni Pontano», Patristica et Mediævalia 45, 1 (2024), 163-192."
+    zotero: C3YC8PZ7
+
 revision: pendiente

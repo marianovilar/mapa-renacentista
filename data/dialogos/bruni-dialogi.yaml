@@ -64,4 +64,42 @@ fuentes:
   - "Hans Baron, The Crisis of the Early Italian Renaissance (1955)."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Leonardo Bruni, Dialogi ad Petrum Paulum Histrum, ed. Stefano Ugo Baldassarri, Florencia, Olschki, 1994."
+    anio: 1994
+    nota: "Edición crítica; ya citada entre las fuentes."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Leonardo Bruni, Opere letterarie e politiche di Leonardo Bruni, ed. Paolo Viti, Turín, UTET, 1996."
+    anio: 1996
+    zotero: SDLLVDKL
+    nota: "Ya citada entre las fuentes."
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Leonardo Bruni, The Humanism of Leonardo Bruni: selected texts, trad. Gordon Griffiths, James Hankins y David Thompson, Binghamton, Medieval & Renaissance Texts & Studies in conjunction with the Renaissance Society of America, 1987."
+    anio: 1987
+    zotero: GDTKVXF7
+    nota: "Incluye los Diálogos a Pier Paolo Vergerio. Contenido por verificar."
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Eugenio Garin (ed.), Prosatori latini del Quattrocento, Milán-Nápoles, Ricciardi, 1952."
+    anio: 1952
+    nota: "Antología con traducción italiana; incluye pasajes de este diálogo. Contenido por verificar."
+    verificado: false
+  - tipo: traducción
+    lengua: español
+    referencia: "Manifiestos del humanismo, ed. María Morrás, Barcelona, Península, 2000."
+    anio: 2000
+    zotero: 9FYXQSYD
+    nota: "Antología; contenido por verificar."
+
+bibliografia:
+  - referencia: "Carol Quillen, «The Uses of the Past in Quattrocento Florence: A Reading of Leonardo Bruni's Dialogues», Journal of the History of Ideas 71, 3 (2010), 363-385."
+    zotero: F6NK9TNC
+  - referencia: "Timothy Kircher, «Renaissance Humanism and Its Discontents», The European Legacy 20, 5 (2015), 435-449."
+    zotero: KZ4AEGLC
+
 revision: pendiente

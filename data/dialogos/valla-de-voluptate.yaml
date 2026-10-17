@@ -69,4 +69,31 @@ fuentes:
   - "Maristella de Panizza Lorch (ed.), De vero falsoque bono, Bari, 1970 (apéndice I: comienzo de la primera redacción)."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Lorenzo Valla, De vero falsoque bono, ed. Maristella Lorch, Bari, Adriatica, 1970."
+    anio: 1970
+    zotero: VWZZXUVD
+    nota: "Edición crítica de la redacción final, con el comienzo de la primera en apéndice."
+nota_ediciones: "Las ediciones y traducciones modernas reproducen en general la redacción final (De vero bono): ver esa ficha. La de Lorch (1970) da en apéndice el comienzo de la primera redacción."
+
+bibliografia:
+  - referencia: "Tomasso Perrone, «GRIN - Esseri naturali. Riconsiderazione critico-filosofica del significato onto-teleologico del \"De voluptate\" di Lorenzo Valla», s. f.."
+    zotero: KSKFV3HC
+  - referencia: "Eugenio Garin, «Richerca sull'Epicureísmo del Quattrocento», en La cultura filosofica del Rinascimento italiano: Ricerche e documenti, Florencia, Sansoni, 1961, 72-93."
+    zotero: RC79U792
+  - referencia: "Ernesto Caserta, «Il problema religioso nel De voluptate del Valla e nell'Aegidius del Pontano», Italica 43 (1966), 240-263."
+    zotero: DFVT7MM6
+  - referencia: "Maristella Lorch, «Voluptas, molle quoddam et non invidiosum nomen: Lorenzo Valla's Defense of Voluptas in the Preface to his De Voluptate», en Philosophy and Humanism: Renaissance Essays in Honor of Paul Oskar Kristeller, ed. Edward Mahoney, New York, Columbia University Press, 1976, 214-228."
+    zotero: AJVXCD6V
+  - referencia: "Maristella Lorch, A Defense of Life. Lorenzo Valla's Theory of Pleasure, Munich, W. Fink Verlag, 1985."
+    zotero: 4UW8KQ9F
+  - referencia: "Ricardo Fubini, «Indagine sul De voluptate di Lorenzo Valla», en Umanesimo e secolarizzazione da Petrarca a Valla, Roma, Bulzoni Editore, 1990, 339-394."
+    zotero: 29KZANGX
+  - referencia: "Philippa Byrne, «'Cast out into the hellish night'. Pagan Virtue and Pagan Poetics in Lorenzo Valla's De voluptate», Ex Historia 5 (2013), 48-73."
+    zotero: 3C34R7AK
+  - referencia: "Ana Letícia Adami, «O prazer como um bem no De voluptate de Lorenzo Valla», Revista Crítica Histórica VI, 12 (2015), 1-15."
+    zotero: Q8TH4FS7
+
 revision: pendiente

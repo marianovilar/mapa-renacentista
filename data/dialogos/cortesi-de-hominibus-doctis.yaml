@@ -36,4 +36,11 @@ temas: [historia de los humanistas, estilo latino, ciceronianismo]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Paolo Cortesi, De hominibus doctis dialogus, ed. Giacomo Ferraù, Palermo, Il Vespro, 1979."
+    anio: 1979
+    verificado: false
+
 revision: pendiente

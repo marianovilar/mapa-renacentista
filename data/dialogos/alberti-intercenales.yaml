@@ -87,4 +87,26 @@ fuentes:
   - "Mariana Sverlij, «Las Intercenales de Leon Battista Alberti y la crítica al saber humanista», Cuadernos del Sur. Letras 41 (2017), 31–46."
   - "David Marsh, Lucian and the Latins: Humor and Humanism in the Early Renaissance, Ann Arbor, 1998."
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Leon Battista Alberti, Intercenales, ed. Franco Bacchelli y Luca D'Ascia, Bolonia, Pendragon, 2003."
+    anio: 2003
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Leon Battista Alberti, Dinner Pieces: A Translation of the Intercenales, trad. David Marsh, Binghamton, Medieval & Renaissance Texts & Studies, 1987."
+    anio: 1987
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+
+bibliografia:
+  - referencia: "Mariana Sverlij, «Diálogo de muertos: las Intercenales y el Momus de L. B. Alberti», en Actas de las X Jornadas Nacionales de Literatura Comparada, La Plata, Universidad Nacional de la Plata, 2011."
+    zotero: 8Z982JEN
+  - referencia: "Lorenzo Geri, A colloquio con Luciano di Samosata: Leon Battista Alberti, Giovanni Pontano ed Erasmo da Rotterdam, Roma, Bulzoni, 2011."
+    zotero: N794WXAP
+  - referencia: "Mariana Sverlij, «La razón y el absurdo en la obra de León Battista Alberti», Studia Aurea 6 (2012), 155-177."
+    zotero: 66GVID97
+
 revision: pendiente

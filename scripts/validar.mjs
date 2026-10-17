@@ -27,6 +27,8 @@ const RELACIONES_VOCES = ['jerárquica', 'entre pares', 'mixta'];
 const ESPACIOS = ['corte', 'curia', 'academia', 'casa privada', 'villa', 'jardín', 'monasterio', 'taller', 'espacio urbano', 'paraje natural', 'visión', 'más allá', 'indeterminado'];
 const FORMAS_DEDICATORIA = ['dedicatoria', 'carta-prefatoria', 'apóstrofe'];
 const REVISIONES = ['pendiente', 'revisado'];
+const TIPOS_EDICION = ['edición', 'edición y traducción', 'traducción'];
+const LENGUAS = ['latín', 'italiano', 'alemán', 'inglés', 'francés', 'español', 'portugués', 'catalán', 'neerlandés', 'ruso', 'polaco', 'húngaro'];
 const RELACIONES = { 'reelaboracion-de': 'reelaborada-en', 'reelaborada-en': 'reelaboracion-de', 'parte-de': 'contiene', contiene: 'parte-de', serie: 'serie' };
 
 function indice(lista, nombre) {
@@ -80,6 +82,12 @@ for (const d of dialogos) {
   if (d.ambientacion?.espacio != null && !ESPACIOS.includes(d.ambientacion.espacio)) errores.push(`${c}: espacio inválido "${d.ambientacion.espacio}"`);
   if (!REVISIONES.includes(d.revision)) errores.push(`${c}: revision inválida "${d.revision}"`);
   if (d.caso_dudoso && !d.motivo_duda) errores.push(`${c}: caso_dudoso sin motivo_duda`);
+  for (const e of d.ediciones ?? []) {
+    if (!TIPOS_EDICION.includes(e.tipo)) errores.push(`${c}: tipo de edición inválido "${e.tipo}"`);
+    if (!LENGUAS.includes(e.lengua)) errores.push(`${c}: lengua de edición inválida "${e.lengua}"`);
+    if (!e.referencia) errores.push(`${c}: edición sin referencia`);
+  }
+  for (const b of d.bibliografia ?? []) if (!b.referencia) errores.push(`${c}: entrada de bibliografía sin referencia`);
 
   if (Array.isArray(d.interlocutores) && d.interlocutores.length === 0) avisos.push(`${c}: interlocutores por completar`);
 
@@ -168,7 +176,7 @@ const lista = (xs) => xs.filter(Boolean).join('; ');
 writeFileSync(join(raiz, 'build/dialogos.csv'), csv([
   ['id', 'titulo', 'autores', 'lengua', 'forma', 'modo', 'libros', 'composicion_desde', 'composicion_hasta', 'composicion_certeza', 'composicion_lugares',
     'destinatarios', 'interlocutores', 'evocados', 'ambientacion_lugar', 'ambientacion_desde', 'ambientacion_hasta', 'ambientacion_espacio',
-    'primera_edicion_anio', 'primera_edicion_lugar', 'primera_edicion_impresor', 'temas', 'caso_dudoso', 'revision', 'fuentes'],
+    'primera_edicion_anio', 'primera_edicion_lugar', 'primera_edicion_impresor', 'temas', 'caso_dudoso', 'revision', 'fuentes', 'ediciones_modernas', 'traducciones', 'bibliografia'],
   ...dialogos.map((d) => [
     d.id, d.titulo, lista((d.autores ?? []).map(nom)), d.lengua, d.forma, d.modo, d.libros,
     d.composicion?.fecha?.desde, d.composicion?.fecha?.hasta, d.composicion?.fecha?.certeza,
@@ -179,6 +187,9 @@ writeFileSync(join(raiz, 'build/dialogos.csv'), csv([
     lug(d.ambientacion?.lugar), d.ambientacion?.fecha?.desde, d.ambientacion?.fecha?.hasta, d.ambientacion?.espacio,
     d.primera_edicion?.fecha?.desde, lug(d.primera_edicion?.lugar), d.primera_edicion?.impresor,
     lista(d.temas ?? []), d.caso_dudoso ? 'sí' : '', d.revision, (d.fuentes ?? []).join(' | '),
+    (d.ediciones ?? []).filter((e) => e.tipo !== 'traducción').map((e) => e.referencia).join(' | '),
+    lista([...new Set((d.ediciones ?? []).filter((e) => e.tipo !== 'edición').map((e) => e.lengua))]),
+    (d.bibliografia ?? []).map((b) => b.referencia).join(' | '),
   ]),
 ]));
 writeFileSync(join(raiz, 'build/personas.csv'), csv([

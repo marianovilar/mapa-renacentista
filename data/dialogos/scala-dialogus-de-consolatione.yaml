@@ -56,4 +56,17 @@ fuentes:
   - "Alison Brown, Bartolomeo Scala, 1430–1497, Chancellor of Florence: The Humanist as Bureaucrat, Princeton, 1979, 36–37 y 268–269."
   - "George McClure, Sorrow and Consolation in Italian Humanism, Princeton, 1991, 135–139."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Bartolomeo Scala, Humanistic and Political Writings, ed. Alison Brown, Tempe, 1997."
+    anio: 1997
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Bartolomeo Scala, Essays and dialogues, trad. Renée Neu Watkins, Cambridge, Harvard University Press, 2008."
+    anio: 2008
+    zotero: QNPN6X5K
+
 revision: pendiente

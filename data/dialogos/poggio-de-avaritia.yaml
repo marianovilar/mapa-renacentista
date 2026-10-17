@@ -68,4 +68,31 @@ fuentes:
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. IV."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
+ediciones:
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Poggio Bracciolini, De avaritia (Dialogus contra avaritiam), ed. Giuseppe Germano, Livorno, Belforte, 1994."
+    anio: 1994
+    nota: "Edición citada por Ciordia (2017)."
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Poggio Bracciolini, «On Avarice», trad. Benjamin G. Kohl y Elizabeth B. Welles, en B. G. Kohl y R. G. Witt (eds.), The Earthly Republic: Italian Humanists on Government and Society, Filadelfia, University of Pennsylvania Press, 1978."
+    anio: 1978
+    verificado: false
+  - tipo: edición y traducción
+    lengua: italiano
+    referencia: "Eugenio Garin (ed.), Prosatori latini del Quattrocento, Milán-Nápoles, Ricciardi, 1952."
+    anio: 1952
+    nota: "Antología con traducción italiana; incluye pasajes de este diálogo. Contenido por verificar."
+    verificado: false
+
+bibliografia:
+  - referencia: "Iiro Kajanto, Poggio Bracciolini and classicism: a study in early Italian humanism, Helsinki, Suomalainen Tiedeakatemia: Distributor, Akateeminen Kirjakauppa, 1987."
+    zotero: ZS6BQM3P
+  - referencia: "Martín Ciordia, «El placer en Poggio Bracciolini», Eadem Utraque Europa, 15 (2014), 63-74."
+    zotero: 33SVDS9F
+  - referencia: "Martín José Ciordia, «Poggio Bracciolini y las humanidades», en Estudios sobre el Renacimiento, ed. Martín José Ciordia, Ciudad Autónoma de Buenos Aires, Editorial de la Facultad de Filosofía y Letras, Universidad de Buenos Aires, 2014, 15–44."
+    zotero: ZNHEGXR2
+
 revision: pendiente

@@ -346,3 +346,13 @@ a:hover { text-decoration: underline; }
 
 /* Enlace de corrección al pie de cada ficha */
 .corregir { margin: 20px 0 0; padding-top: 10px; border-top: 1px solid var(--linea); font-size: 12px; color: var(--tinta-3); }
+
+/* Ediciones, traducciones y bibliografía en la ficha */
+.subtitulo-seccion { font-size: 12px; color: var(--tinta-2); margin: 8px 0 2px; font-weight: 600; }
+.ediciones li { font-size: 12px; color: var(--tinta-2); }
+.etiquetas.lenguas { margin-bottom: 4px; }
+.bibliografia-ficha summary { cursor: pointer; list-style: none; }
+.bibliografia-ficha summary::-webkit-details-marker { display: none; }
+.bibliografia-ficha summary h3::after { content: " ▸"; }
+.bibliografia-ficha[open] summary h3::after { content: " ▾"; }
+.bibliografia-ficha .nota-suelta { margin: 2px 0 6px; }

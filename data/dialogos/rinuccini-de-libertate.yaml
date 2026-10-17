@@ -34,4 +34,16 @@ temas: [libertad, tiranía, Lorenzo de' Medici, conjura de los Pazzi]
 
 fuentes: []
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Alamanno Rinuccini, Dialogus de libertate, ed. Francesco Adorno, Atti e Memorie dell'Accademia Toscana di Scienze e Lettere «La Colombaria» 22 (1957)."
+    anio: 1957
+    verificado: false
+  - tipo: traducción
+    lengua: inglés
+    referencia: "Renée Neu Watkins (trad.), Humanism and Liberty: Writings on Freedom from Fifteenth-Century Florence, Columbia, University of South Carolina Press, 1978."
+    anio: 1978
+    verificado: false
+
 revision: pendiente

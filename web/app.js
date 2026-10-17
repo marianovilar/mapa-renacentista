@@ -284,9 +284,31 @@ function vistaDialogo(d) {
 
     ${d.temas?.length ? `<div class="seccion"><h3>Temas</h3><div class="etiquetas">${d.temas.map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('')}</div></div>` : ''}
 
+    ${vistaEdiciones(d)}
+
     ${d.fuentes?.length ? `<div class="seccion"><h3>Fuentes</h3><ul class="fuentes">${d.fuentes.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></div>` : ''}
 
+    ${d.bibliografia?.length ? `<div class="seccion"><details class="bibliografia-ficha"><summary><h3>Bibliografía <span class="contador">${d.bibliografia.length}</span></h3></summary>
+      <p class="nota-suelta">Estudios pertinentes de la biblioteca del proyecto, identificados por sus datos de catálogo; no respaldan necesariamente lo que dice esta ficha.</p>
+      <ul class="fuentes">${d.bibliografia.map((b) => `<li>${esc(b.referencia)}</li>`).join('')}</ul></details></div>` : ''}
+
     <p class="corregir"><a href="${esc(urlCorreccion(d))}" target="_blank" rel="noopener">Proponer una corrección</a> · <a href="#/datos">Sobre los datos</a></p>`;
+}
+
+// Ediciones modernas y traducciones, con las lenguas de traducción resumidas arriba.
+function vistaEdiciones(d) {
+  const eds = d.ediciones ?? [];
+  if (!eds.length && !d.nota_ediciones) return '';
+  const item = (e) => `<li>${esc(e.referencia)}${e.verificado === false ? ' <span class="certeza">(por verificar)</span>' : ''}${e.nota ? `<span class="nota">${esc(e.nota)}</span>` : ''}</li>`;
+  const textos = eds.filter((e) => e.tipo !== 'traducción').sort((a, b) => (a.anio ?? 0) - (b.anio ?? 0));
+  const trads = eds.filter((e) => e.tipo === 'traducción').sort((a, b) => (a.anio ?? 0) - (b.anio ?? 0));
+  const lenguas = [...new Set(eds.filter((e) => e.tipo !== 'edición').map((e) => e.lengua))];
+  return `<div class="seccion"><h3>Ediciones y traducciones</h3>
+    ${lenguas.length ? `<div class="etiquetas lenguas">${lenguas.map((l) => `<span class="etiqueta">trad. ${esc(l)}</span>`).join('')}</div>` : ''}
+    ${textos.length ? `<div class="subtitulo-seccion">Ediciones</div><ul class="items ediciones">${textos.map((e) => item({ ...e, referencia: e.tipo === 'edición y traducción' ? `${e.referencia} [con trad. al ${e.lengua}]` : e.referencia })).join('')}</ul>` : ''}
+    ${trads.length ? `<div class="subtitulo-seccion">Traducciones</div><ul class="items ediciones">${trads.map((e) => item({ ...e, referencia: `${e.referencia} [${e.lengua}]` })).join('')}</ul>` : ''}
+    ${d.nota_ediciones ? `<p class="nota-suelta">${esc(d.nota_ediciones)}</p>` : ''}
+  </div>`;
 }
 
 // Abre el formulario de GitHub (.github/ISSUE_TEMPLATE/correccion-ficha.yml) con la ficha ya identificada.

@@ -57,4 +57,20 @@ fuentes:
   - "Poggio Bracciolini, De infelicitate principum, ed. Davide Canfora, Roma, Edizioni di Storia e Letteratura, 1998."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. IX."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Davide Canfora y Gian Francesco Poggio Bracciolini, Poggio Bracciolini, De infelicitate principum, Ed. di Storia e Letteratura, 1998."
+    anio: 1998
+    zotero: MC6SRNP2
+    nota: "Edición crítica; ya citada entre las fuentes."
+
+bibliografia:
+  - referencia: "Iiro Kajanto, Poggio Bracciolini and classicism: a study in early Italian humanism, Helsinki, Suomalainen Tiedeakatemia: Distributor, Akateeminen Kirjakauppa, 1987."
+    zotero: ZS6BQM3P
+  - referencia: "Iiro Kajanto, «Poggio Bracciolini's \"De Infelicitate Principum\" and Its Classical Sources», International Journal of the Classical Tradition 1, 1 (1994), 23-35."
+    zotero: 2F37XBR7
+  - referencia: "Davide Canfora, «La topica del \"principe\" e l'uso umanistico delle fonti in Poggio Bracciolini», Humanistica Lovaniensia XLV (1996), 1-92."
+    zotero: 4URDW8QN
+
 revision: pendiente

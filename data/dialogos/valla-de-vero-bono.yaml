@@ -69,4 +69,57 @@ fuentes:
   - "Riccardo Fubini, L'umanesimo italiano e i suoi storici, Milán, 2001, 131 ss. (perfil de Valla)."
   - "Maristella de Panizza Lorch (ed.), De vero falsoque bono, Bari, 1970."
 
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Lorenzo Valla, De vero falsoque bono, ed. Maristella Lorch, Bari, Adriatica, 1970."
+    anio: 1970
+    zotero: VWZZXUVD
+    nota: "Edición crítica."
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Lorenzo Valla, De voluptate / On Pleasure, ed. Maristella Lorch, trad. Kent Hieatt, New York, Abaris Books, 1977."
+    anio: 1977
+    zotero: TKPK6WBP
+    nota: "Con el título De voluptate / On Pleasure; texto latino de la edición de Lorch."
+  - tipo: edición y traducción
+    lengua: alemán
+    referencia: "Lorenzo Valla, Von der Lust oder Vom wahren Guten / De voluptate sive De vero bono, ed. y trad. Peter Michael Schenkel, introd. Eckhard Keßler, Múnich, Wilhelm Fink, 2004."
+    anio: 2004
+    nota: "Ya citada entre las fuentes."
+    verificado: false
+  - tipo: traducción
+    lengua: español
+    referencia: "Lorenzo Valla, Sobre el placer y el verdadero bien, trad. Mariano Vilar, Buenos Aires, Winograd, 2023."
+    anio: 2023
+    zotero: M6BEE5SC
+
+bibliografia:
+  - referencia: "Vincenzo Santangelo, «Retorica e letteratura nel \"de vero bono\" di L. Valla», Giornale italiano di filologia 16 (1963), 30-45."
+    zotero: HCJMEH7X
+  - referencia: "Letizia Panizza, «Lorenzo Valla's De Vero Falsoque Bono, Lactantius and Oratorical Scepticism», Journal of the Warburg Institute 41 (1978), 76-107."
+    zotero: C46VXK9X
+  - referencia: "Maristella Lorch, A Defense of Life. Lorenzo Valla's Theory of Pleasure, Munich, W. Fink Verlag, 1985."
+    zotero: 4UW8KQ9F
+  - referencia: "Brian Vickers, «Valla's Ambivalent Praise of Pleasure: Rhetoric in the Service of Christianity», Viator 17 (1986), 271-320."
+    zotero: AIPGUTBC
+  - referencia: "Maristella Lorch, «\"Pulchra Facies\" and \"Simulacrum\": Reflection on Valla's Theory of Pleasure and Donatello's Art», Notes in the History of Art 5, 3 (1986), 12-15."
+    zotero: WZVKQRMT
+  - referencia: "Maristella Lorch, «The Epicurean in Lorenzo Valla's On Pleasure», en Atoms, Pneuma, and Tranquility, ed. Margaret J. Osler, New York, Cambridge University Press, 1991, 89-114."
+    zotero: QZUQPNCU
+  - referencia: "Letizia Panizza, «Valla's De voluptate ac de vero bono and Erasmus' Stultitiae Laus: Renewing Christian Ethics», Erasmus of Rotterdam Society Yearbook 15 (1995), 1-25."
+    zotero: ITHQECFM
+  - referencia: "Lodi Nauta, «The Price of Reduction: Problems in Valla's Epicurean Fideism», en Ethik – Wissenschaft oder Lebenskunst. Modelle der Normenbegründung von der Antike bis zur Frühen Neuzeit, ed. S. Ebbersmeyer y E. Kesller, Berlin, LIT Verlag, 2007, 173-195."
+    zotero: CK5VUGGH
+  - referencia: "Mariano Vilar, Diálogos sobre el placer: la articulación del concepto epicúreo voluptas en Valla y Erasmo, tesis, UBA, 2013."
+    zotero: EMZ22DI9
+  - referencia: "Sylvie Ballestra-Puech, «Épicurisme et dialogisme du De voluptate de Lorenzo Valla à l’Epicureus d’Érasme», en Échos des voix, échos des textes. Mélanges en l’honneur de Béatrice Périgot, ed. Odile Gannier y Véronique Montagne, Classiques Garnier, 2013, 229-257."
+    zotero: K7HJW83K
+  - referencia: "Mariano Vilar, «La construcción dialógica del placer en el De vero bono de Lorenzo Valla», Studia Aurea 8 (2014), 347-368."
+    zotero: ISNI9WWK
+  - referencia: "Mariano Vilar, «La condena del mundo y el uso de la enargeia en el De vero bono de Lorenzo Valla», Scripta Mediaevalia 11, 2 (2019), 84-108."
+    zotero: QJ5RU6R7
+  - referencia: "Mariano Alejandro Vilar, «Utilitas y voluptas en el De vero bono de Lorenzo Valla», Medievalia 53, 1 (2021), 139-167."
+    zotero: RMLLJK8F
+
 revision: pendiente
