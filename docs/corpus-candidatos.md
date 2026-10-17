@@ -1,6 +1,6 @@
 # Corpus de la fase 1 — diálogos latinos, 1347–1533
 
-Los 43 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
+Los 44 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
 
 
 ## Italia, siglo XIV y comienzos del XV
@@ -28,6 +28,7 @@ Los 43 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia (?) | Alberti escribe también en vulgar; elegir la obra latina |
 | ✅ | Lapo da Castiglionchio el Joven | *De curiae commodis* | 1438 | Ferrara | La curia durante el concilio |
 | ✅ | Giannozzo Manetti | *Dialogus consolatorius* | 1438 | Florencia (?) | Sobre la muerte de su hijo |
+| ✅ | Giannozzo Manetti | *Dialogus in symposio* | 1448 | Venecia | Banquete de la embajada florentina; dedicado a Donato Acciaiuoli; inédito |
 | ✅ | Bartolomeo Facio | *De humanae vitae felicitate* (o *De vitae felicitate*) | c. 1445 | Nápoles | Corte de Alfonso el Magnánimo |
 | ✅ | Francesco Filelfo | *Commentationes florentinae de exilio* | 1440s | Siena / Milán (?) | Exiliados florentinos |
 | ✅ | Nicolás de Cusa | *Idiota* (*De sapientia*, *De mente*, *De staticis experimentis*) | 1450 | Roma / Fabriano | Tres fichas vinculadas como serie |
@@ -62,7 +63,7 @@ Los 43 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 
 ## Decisiones tomadas
 
-- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos, y el *De felicitate* de Zabarella, dedicado como el de Bruni a Vergerio, y los dos diálogos de Scala (*Dialogus de consolatione* y *De legibus et iudiciis*).
+- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos, y el *De felicitate* de Zabarella, dedicado como el de Bruni a Vergerio, los dos diálogos de Scala (*Dialogus de consolatione* y *De legibus et iudiciis*) y el *Dialogus in symposio* de Manetti.
 - **Scala, *Ducendane sit uxor sapienti* (1457–1459) y *Apologi*:** quedan fuera. El primero es un ensayo epistolar dirigido a Piero de' Medici, no un diálogo; los segundos son fábulas breves.
 - **Diálogos alegóricos** (*De remediis*, *Charon*, *De pace fidei*): entran.
 - **Cusa, *Idiota*:** tres fichas (*De sapientia*, *De mente*, *De staticis experimentis*) vinculadas como `serie`.

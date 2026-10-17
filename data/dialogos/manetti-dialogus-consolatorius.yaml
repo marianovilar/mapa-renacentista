@@ -1,5 +1,6 @@
 id: manetti-dialogus-consolatorius
 titulo: Dialogus consolatorius
+titulo_completo: Dialogus de acerba Antonii dilectissimi filii sui morte consolatorius
 lengua: latín
 forma: diálogo
 denominacion: dialogus
@@ -12,24 +13,31 @@ nota_destinatarios: "Por verificar."
 
 interlocutores:
   - persona: manetti
-    nota: "El autor como personaje, de duelo por su hijo."
+    nota: "El autor como personaje, de duelo por su hijo. Defiende, como peripatético, que el dolor de los padres es natural y por eso obligatorio (Reviakina)."
   - persona: agnolo-acciaiuoli
-    nota: "Por verificar."
+    nombre_en_el_texto: Angelus
+    nota: "Defiende la posición estoica: el dolor no es natural sino fruto de la costumbre (Reviakina)."
   - persona: niccolo-medici
-    nota: "Por verificar."
+    nota: "Por verificar. Reviakina menciona un árbitro cristiano que da la razón al peripatético, sin nombrarlo."
 
 composicion:
   fecha:
     desde: 1438
     hasta: 1438
     certeza: probable
-    nota: "Tras la muerte de su hijo Antonino."
+    nota: "Tras la muerte de su hijo Antonio."
   lugares:
     - lugar: florencia
       nota: "Por verificar."
 
-temas: [consolación, duelo, estoicismo y cristianismo]
+temas: [consolación, duelo, naturaleza y costumbre, estoicismo, peripatetismo y cristianismo, Bruto y Torcuato]
 
-fuentes: []
+resumen: >
+  Tras la muerte de su hijo Antonio, Manetti discute si el dolor de los padres
+  es natural. El estoico lo atribuye a la costumbre, el peripatético lo defiende
+  como natural, y un árbitro cristiano termina dando la razón al peripatético.
+
+fuentes:
+  - "N. V. Reviakina, «Giannozzo Manetti's Dialogue at a Feast of Friends», Soviet Studies in History 19, 2 (1980), 47–65, n. 25 (manuscrito: Biblioteca Vaticana, Urb. lat. 5, ff. 165r–199r)."
 
 revision: pendiente

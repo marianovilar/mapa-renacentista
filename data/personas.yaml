@@ -1111,3 +1111,96 @@
   tipo: histórica
   sexo: masculino
   nota: "Hijo menor de Cosme el Viejo; muere el 1 de noviembre de 1463."
+
+# --- Manetti, Dialogus in symposio (nombres según Reviakina 1980; identificaciones por verificar) ---
+- id: sinibaldo
+  nombre: Sinibaldo
+  nombre_latino: Sinibaldus
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
+
+- id: bernardo-symposio
+  nombre: Bernardo
+  nombre_latino: Bernardus
+  tipo: histórica
+  sexo: masculino
+  nota: "El más joven de la mesa en el banquete de 1448; conocedor de hebreo, griego y latín. Identificación por verificar."
+
+- id: alessandro-martelli
+  nombre: Alessandro Martelli
+  nombre_latino: Alexander Martellus
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
+
+- id: carlo-bardo
+  nombre: Carlo Bardo
+  nombre_latino: Carolus Bardus
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
+
+- id: tommaso-ringadori
+  nombre: Tommaso Ringadori
+  nombre_latino: Thomas Ringadorius
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
+
+- id: pigelio
+  nombre: Pigelio
+  nombre_latino: Pigelius
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Junto con «Partinarius» podría ser Pigello Portinari: por verificar."
+
+- id: partinario
+  nombre: Partinario
+  nombre_latino: Partinarius
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Ver la nota de Pigelio."
+
+- id: nerozzo
+  nombre: Nerozzo
+  nombre_latino: Nerotius
+  tipo: histórica
+  sexo: masculino
+  nota: "Comensal del banquete veneciano de 1448. Identificación por verificar."
+
+- id: hirsus
+  nombre: Hirsus, el canciller
+  nombre_latino: Hirsus
+  tipo: histórica
+  sexo: masculino
+  nota: "Canciller presente en el banquete veneciano de 1448. Identificación por verificar."
+
+- id: giovanfrancesco-manetti
+  nombre: Giovanfrancesco Manetti
+  nombre_latino: Iohannes Franciscus Manettus
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo de Giannozzo Manetti. Fechas por verificar."
+
+- id: gabriele-greco
+  nombre: Gabriel, el helenista
+  nombre_latino: Gabriel
+  tipo: histórica
+  sexo: masculino
+  nota: "Árbitro en el banquete veneciano de 1448, experto en griego. Identificación por verificar."
+
+- id: michele-rondinelli
+  nombre: Michele Rondinelli
+  nombre_latino: Michael Rondinellus
+  tipo: histórica
+  sexo: masculino
+  nota: "Árbitro en el banquete veneciano de 1448. Fechas por verificar."
+
+- id: boccaccio
+  nombre: Giovanni Boccaccio
+  nombre_latino: Iohannes Boccaccius
+  nacimiento: 1313
+  muerte: 1375
+  tipo: histórica
+  sexo: masculino

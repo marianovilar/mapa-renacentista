@@ -1,0 +1,82 @@
+id: manetti-dialogus-in-symposio
+titulo: Dialogus in symposio
+titulo_completo: Dialogus in domestico et familiari quorundam amicorum symposio Venetiis habitus cum ibi Florentini populi nomine legationis munere fungeretur
+lengua: latín
+forma: convivium
+denominacion: dialogus
+libros: 1
+
+autores: [manetti]
+
+destinatarios:
+  - persona: donato-acciaiuoli
+    forma: dedicatoria
+    nota: "Pariente de Manetti, «óptimo joven». Manetti quiere contarle cómo pasan su tiempo libre en Venecia y tranquilizarlo sobre su salud durante la peste."
+
+# Nombres según Reviakina (traducción inglesa de un artículo en ruso).
+# Las formas latinas y las identificaciones quedan por verificar en el manuscrito.
+interlocutores:
+  - persona: sinibaldo
+    nota: "Saca a los comensales de su sopor y propone convertir la cena en un convivium (de convivendo, mejor que el griego symposium)."
+  - persona: bernardo-symposio
+    nota: "El más joven de la mesa; versado en hebreo, griego y latín. Propone discutir la historia de Tancredi y Ghismonda (Decameron IV, 1) y la de Seleuco y Antíoco narrada por Bruni."
+  - persona: alessandro-martelli
+  - persona: carlo-bardo
+  - persona: tommaso-ringadori
+  - persona: pigelio
+  - persona: partinario
+  - persona: nerozzo
+  - persona: hirsus
+    nota: "Canciller."
+  - persona: manetti
+    nota: "El autor como personaje."
+  - persona: giovanfrancesco-manetti
+    nota: "Hijo del autor."
+  - persona: gabriele-greco
+    nota: "Uno de los árbitros: experto en lengua griega. Los árbitros resuelven la disputa invocando la naturaleza."
+  - persona: michele-rondinelli
+    nota: "Uno de los árbitros."
+nota_interlocutores: "Reviakina cita los nombres como Sinibald, Bernard, Alexander Martell, Carl Bardus, Thomas Ringadorius, Pigelius, Partinarius, Nerotius, el canciller Hirsus, Manetti y su hijo Gian-Francesco; árbitros: Gabriel y Michele Rondinelli. «Pigelius, Partinarius» podría ser una sola persona (¿Pigello Portinari?): por verificar."
+
+evocados:
+  - persona: boccaccio
+    nota: "«Nuestro poeta facetísimo y elegantísimo»: su novela de Tancredi y Ghismonda abre la primera disputa."
+  - persona: bruni
+    nota: "«Óptimo orador e historiador de nuestro tiempo», autor de la novela de Seleuco y Antíoco."
+
+composicion:
+  fecha:
+    desde: 1448
+    hasta: 1449
+    certeza: probable
+    nota: "Después del banquete de octubre de 1448, durante o poco después de la embajada florentina a Venecia."
+  lugares:
+    - lugar: venecia
+      nota: "Por verificar: el título dice que Manetti estaba allí como embajador."
+
+ambientacion:
+  espacio: casa privada
+  fecha:
+    desde: 1448
+    hasta: 1448
+    certeza: probable
+    nota: "Según Reviakina, el 8 de octubre de 1448, «día de san Marcos Evangelista»; pero la fiesta de san Marcos es el 25 de abril, así que la fecha debe verificarse en el manuscrito. Es tiempo de peste."
+  lugar: venecia
+  nota: "Una cena festiva a la que los venecianos invitan a la misión florentina («in domestico et familiari symposio»)."
+
+primera_edicion: null
+nota_edicion: "Inédito según Reviakina (1980). Manuscrito: Florencia, Biblioteca Medicea Laurenziana, Plut. XC sup. 29, ff. 1r–43v."
+
+temas: [peste, salud y longevidad, Tancredi y Ghismonda, Seleuco y Antíoco, crueldad y humanidad, ley natural, matrimonio y familia, el animal más útil al hombre]
+
+resumen: >
+  En una cena en Venecia en tiempo de peste, florentinos y venecianos discuten
+  si merece más elogio el severo Tancredi de Boccaccio o el compasivo Seleuco
+  de Bruni. Los árbitros condenan a Seleuco en nombre de la naturaleza.
+  La segunda cuestión es cuál es el animal más útil al hombre.
+
+fuentes:
+  - "N. V. Reviakina, «Giannozzo Manetti's Dialogue at a Feast of Friends», Soviet Studies in History 19, 2 (1980), 47–65 (orig. ruso, Saratov, 1978)."
+  - "Nicola Badaloni, «Filosofia della mente e filosofia delle arti in Giannozzo Manetti», Critica storica (1963), 2, 414–415 n. 93."
+
+revision: pendiente
