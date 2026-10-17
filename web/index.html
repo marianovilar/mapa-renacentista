@@ -17,9 +17,13 @@
       <span class="marca-titulo">Mapa renacentista</span>
       <span class="marca-sub">Diálogos latinos, de Petrarca a Erasmo · 1347–1533</span>
     </a>
+    <nav class="navegacion" aria-label="Secciones">
+      <a href="#/" data-seccion="explorar">Explorar</a>
+      <a href="#/presentacion" data-seccion="presentacion">Presentación</a>
+    </nav>
   </header>
 
-  <main class="disposicion">
+  <main class="disposicion" id="explorar">
     <aside class="panel panel-lista" aria-label="Índice">
       <div class="pestanas" role="tablist">
         <button role="tab" data-pestana="dialogos" aria-selected="true">Diálogos</button>
@@ -32,8 +36,18 @@
 
     <section class="centro">
       <div class="mapa-marco">
-        <div id="mapa" aria-label="Mapa de lugares"></div>
-        <div class="leyenda" id="leyenda-mapa"></div>
+        <div class="selector-vista" role="tablist" aria-label="Vista">
+          <button role="tab" data-vista="mapa" aria-selected="true">Mapa</button>
+          <button role="tab" data-vista="red" aria-selected="false">Red</button>
+        </div>
+        <div class="vista" id="vista-mapa">
+          <div id="mapa" aria-label="Mapa de lugares"></div>
+          <div class="leyenda" id="leyenda-mapa"></div>
+        </div>
+        <div class="vista" id="vista-red" hidden>
+          <svg id="red" role="img" aria-label="Red de diálogos conectados por personas en común"></svg>
+          <div class="leyenda leyenda-red" id="leyenda-red"></div>
+        </div>
       </div>
       <div class="tiempo-marco">
         <div class="tiempo-titulo">Fecha de composición</div>
@@ -44,9 +58,16 @@
     <aside class="panel panel-detalle" id="detalle" aria-live="polite"></aside>
   </main>
 
+  <article class="presentacion" id="presentacion" hidden></article>
+
+  <footer class="pie">
+    Desarrollado por Mariano Vilar, integrante del proyecto UBACYT «El diálogo como género y como problema en la Modernidad Temprana (siglos XV a XVII): del diálogo con los antiguos a los encuentros con nuevas formas de alteridad cultural», con asistencia de Claude (Anthropic).
+  </footer>
+
   <div class="globo" id="globo" role="tooltip" hidden></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
   <script type="module" src="app.js"></script>
 </body>
 </html>

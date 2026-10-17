@@ -115,9 +115,21 @@ function leerRuta() {
 }
 
 function aplicarRuta() {
+  const enPresentacion = location.hash.startsWith('#/presentacion');
+  $('#explorar').hidden = enPresentacion;
+  $('#presentacion').hidden = !enPresentacion;
+  for (const a of document.querySelectorAll('.navegacion a')) {
+    a.classList.toggle('activo', (a.dataset.seccion === 'presentacion') === enPresentacion);
+  }
+  if (enPresentacion) {
+    pintarPresentacion();
+    scrollTo(0, 0);
+    return;
+  }
   const sel = leerRuta();
   pintarDetalle(sel);
   pintarMapa(sel);
+  pintarRed(sel);
   pintarTiempo(sel);
   marcarLista(sel);
 }
@@ -484,6 +496,9 @@ function pintarMapa(sel) {
     }
   }
 
+  // Con el mapa oculto (vista de red o presentación) Leaflet no puede calcular el encuadre.
+  if (!$('#mapa').clientWidth) return;
+  mapa.invalidateSize(); // por si el mapa acaba de volver a mostrarse con un tamaño viejo
   if (resaltados.length === 1) mapa.flyTo(resaltados[0], Math.max(mapa.getZoom(), 6), { duration: 0.6 });
   else if (resaltados.length > 1) mapa.flyToBounds(L.latLngBounds(resaltados).pad(0.3), { duration: 0.6, maxZoom: 7 });
   if (resaltados.length && resaltados.length <= 6) {
@@ -566,6 +581,242 @@ function iniciarTiempo() {
   new ResizeObserver(() => pintarTiempo(leerRuta())).observe(cont);
 }
 
+// ---------- Selector de vista (mapa o red) ----------
+
+function leerPreferencia(clave, porDefecto) {
+  try { return localStorage.getItem(clave) ?? porDefecto; } catch { return porDefecto; }
+}
+function guardarPreferencia(clave, valor) {
+  try { localStorage.setItem(clave, valor); } catch { /* sin almacenamiento: no pasa nada */ }
+}
+
+function mostrarVista(vista) {
+  for (const b of document.querySelectorAll('.selector-vista button')) b.setAttribute('aria-selected', b.dataset.vista === vista);
+  $('#vista-mapa').hidden = vista !== 'mapa';
+  $('#vista-red').hidden = vista !== 'red';
+  guardarPreferencia('vista', vista);
+  if (vista === 'mapa') {
+    requestAnimationFrame(() => { mapa.invalidateSize(); pintarMapa(leerRuta()); });
+  } else if (red.svg) {
+    pintarRed(leerRuta());
+  }
+}
+
+function iniciarVistas() {
+  for (const b of document.querySelectorAll('.selector-vista button')) {
+    b.addEventListener('click', () => mostrarVista(b.dataset.vista));
+  }
+  mostrarVista(leerPreferencia('vista', 'mapa') === 'red' ? 'red' : 'mapa');
+}
+
+// ---------- Red de diálogos ----------
+// Cada diálogo es un nodo. Dos diálogos se unen si comparten una persona:
+//   autor       → la misma persona es autor de ambos;
+//   dedicatoria → la misma persona es destinataria de ambos;
+//   personaje   → cualquier otro cruce: interlocutor o evocado en alguno de los dos,
+//                 o roles distintos en cada uno (el autor de uno que es personaje del otro).
+
+const TIPOS_ENLACE = {
+  autor: { etiqueta: 'Mismo autor', color: '--composicion', curva: 0 },
+  personaje: { etiqueta: 'Personajes en común', color: '--ambientacion', curva: 0.18 },
+  dedicatoria: { etiqueta: 'Mismo destinatario', color: '--edicion', curva: -0.18 },
+};
+const RED_ANCHO = 1000;
+const RED_ALTO = 640;
+const red = { nodos: [], enlaces: [], porDialogo: new Map(), tipos: new Set(Object.keys(TIPOS_ENLACE)) };
+
+/** persona → roles ('autor' | 'destinatario' | 'personaje') que tiene en el diálogo d. */
+function rolesEn(d) {
+  const roles = new Map();
+  const poner = (id, rol) => { if (!roles.has(id)) roles.set(id, new Set()); roles.get(id).add(rol); };
+  for (const a of d.autores ?? []) poner(a, 'autor');
+  for (const x of d.destinatarios ?? []) poner(x.persona, 'destinatario');
+  for (const x of d.interlocutores ?? []) poner(x.persona, 'personaje');
+  for (const x of d.evocados ?? []) poner(x.persona, 'personaje');
+  for (const r of d.redacciones ?? []) for (const p of r.interlocutores ?? []) poner(p, 'personaje');
+  return roles;
+}
+
+function construirRed() {
+  const lista = [...db.dialogos.values()];
+  const roles = new Map(lista.map((d) => [d.id, rolesEn(d)]));
+  const pares = new Map();
+  for (let i = 0; i < lista.length; i++) {
+    for (let j = i + 1; j < lista.length; j++) {
+      const a = lista[i], b = lista[j];
+      const rb = roles.get(b.id);
+      for (const [persona, rolesA] of roles.get(a.id)) {
+        const rolesB = rb.get(persona);
+        if (!rolesB) continue;
+        const tipo = rolesA.has('autor') && rolesB.has('autor') ? 'autor'
+          : rolesA.has('destinatario') && rolesB.has('destinatario') ? 'dedicatoria'
+          : 'personaje';
+        const clave = `${a.id}|${b.id}|${tipo}`;
+        if (!pares.has(clave)) pares.set(clave, { source: a.id, target: b.id, tipo, personas: [] });
+        pares.get(clave).personas.push(persona);
+      }
+    }
+  }
+  red.enlaces = [...pares.values()];
+  const grado = new Map();
+  for (const e of red.enlaces) for (const id of [e.source, e.target]) grado.set(id, (grado.get(id) ?? 0) + 1);
+  red.nodos = lista.map((d) => ({ id: d.id, d, grado: grado.get(d.id) ?? 0 }));
+  for (const e of red.enlaces) {
+    for (const [x, y] of [[e.source, e.target], [e.target, e.source]]) {
+      if (!red.porDialogo.has(x)) red.porDialogo.set(x, []);
+      red.porDialogo.get(x).push({ otro: y, enlace: e });
+    }
+  }
+
+  // La disposición se calcula una sola vez, para que la red no se mueva entre selecciones.
+  const sim = d3.forceSimulation(red.nodos)
+    .force('enlace', d3.forceLink(red.enlaces).id((n) => n.id).distance(90).strength(0.25))
+    .force('carga', d3.forceManyBody().strength(-260))
+    .force('x', d3.forceX(RED_ANCHO / 2).strength(0.06))
+    .force('y', d3.forceY(RED_ALTO / 2).strength(0.09))
+    .force('choque', d3.forceCollide().radius((n) => radioNodo(n) + 14))
+    .stop();
+  for (let i = 0; i < 400; i++) sim.tick();
+  for (const n of red.nodos) {
+    n.x = Math.max(40, Math.min(RED_ANCHO - 40, n.x));
+    n.y = Math.max(30, Math.min(RED_ALTO - 30, n.y));
+  }
+}
+
+const radioNodo = (n) => 5 + Math.sqrt(n.grado) * 2.2;
+
+/** Curva cuadrática: cada tipo se curva distinto, para que no se tapen si un par comparte dos. */
+function trazo(e) {
+  const { x: x1, y: y1 } = e.source;
+  const { x: x2, y: y2 } = e.target;
+  const k = TIPOS_ENLACE[e.tipo].curva;
+  const mx = (x1 + x2) / 2 - (y2 - y1) * k;
+  const my = (y1 + y2) / 2 + (x2 - x1) * k;
+  return `M${x1},${y1} Q${mx},${my} ${x2},${y2}`;
+}
+
+/** Rectángulo que contiene los nodos dados, con margen para las etiquetas. */
+function limites(nodos) {
+  const xs = nodos.map((n) => n.x), ys = nodos.map((n) => n.y);
+  const x0 = Math.min(...xs) - 70, x1 = Math.max(...xs) + 70;
+  const y0 = Math.min(...ys) - 40, y1 = Math.max(...ys) + 30;
+  return { x: x0, y: y0, w: x1 - x0, h: y1 - y0 };
+}
+
+/** Acerca la vista a los nodos destacados, o la devuelve al encuadre completo. */
+function encuadrarRed(ids) {
+  const total = red.marco;
+  let t = d3.zoomIdentity;
+  if (ids && ids.size > 1) {
+    const b = limites(red.nodos.filter((n) => ids.has(n.id)));
+    const k = Math.min(3, Math.max(1, Math.min(total.w / b.w, total.h / b.h)));
+    t = d3.zoomIdentity
+      .translate(total.x + total.w / 2, total.y + total.h / 2)
+      .scale(k)
+      .translate(-(b.x + b.w / 2), -(b.y + b.h / 2));
+  }
+  red.svg.transition().duration(600).call(red.zoom.transform, t);
+}
+
+function iniciarRed() {
+  construirRed();
+  // El encuadre se ajusta a la red real, no al área de cálculo, para no dejar márgenes vacíos.
+  red.marco = limites(red.nodos);
+  const { x, y, w, h } = red.marco;
+  const svg = d3.select('#red').attr('viewBox', `${x} ${y} ${w} ${h}`).attr('preserveAspectRatio', 'xMidYMid meet');
+  const lienzo = svg.append('g');
+  red.zoom = d3.zoom().scaleExtent([0.5, 5]).on('zoom', (ev) => lienzo.attr('transform', ev.transform));
+  red.svg = svg;
+  svg.call(red.zoom);
+
+  lienzo.append('g').attr('class', 'enlaces').selectAll('path').data(red.enlaces).join('path')
+    .attr('d', trazo)
+    .attr('fill', 'none')
+    .on('mousemove', (ev, e) => mostrarGlobo(ev,
+      `<b>${esc(e.source.d.titulo)} · ${esc(e.target.d.titulo)}</b>${esc(TIPOS_ENLACE[e.tipo].etiqueta)}: ${esc(e.personas.map(nombre).join(', '))}`))
+    .on('mouseleave', ocultarGlobo);
+
+  const nodo = lienzo.append('g').attr('class', 'nodos').selectAll('g').data(red.nodos).join('g')
+    .attr('class', 'nodo')
+    .attr('transform', (n) => `translate(${n.x},${n.y})`)
+    .on('click', (ev, n) => { location.hash = `#/dialogo/${n.id}`; })
+    .on('mousemove', (ev, n) => mostrarGlobo(ev,
+      `<b>${esc(n.d.titulo)}</b>${esc(autoresDe(n.d))} · ${esc(fmtFecha(n.d.composicion?.fecha) ?? '')} · ${n.grado} ${n.grado === 1 ? 'conexión' : 'conexiones'}`))
+    .on('mouseleave', ocultarGlobo);
+  nodo.append('circle').attr('r', radioNodo);
+  nodo.append('text')
+    .attr('dy', (n) => -radioNodo(n) - 4)
+    .attr('text-anchor', 'middle')
+    .text((n) => (n.d.titulo.length > 28 ? `${n.d.titulo.slice(0, 26)}…` : n.d.titulo));
+
+  $('#leyenda-red').innerHTML = Object.entries(TIPOS_ENLACE)
+    .map(([tipo, t]) => `<label><input type="checkbox" data-tipo="${tipo}" checked><i class="raya" style="background:var(${t.color})"></i>${t.etiqueta}</label>`)
+    .join('') + '<span class="nota-leyenda">Clic en un diálogo para ver sus conexiones</span>';
+  for (const c of document.querySelectorAll('#leyenda-red input')) {
+    c.addEventListener('change', () => {
+      if (c.checked) red.tipos.add(c.dataset.tipo);
+      else red.tipos.delete(c.dataset.tipo);
+      pintarRed(leerRuta());
+    });
+  }
+}
+
+function pintarRed(sel) {
+  // Destacados: el diálogo elegido y sus vecinos, o los diálogos de la persona o el lugar elegidos.
+  const elegido = sel?.tipo === 'dialogo' ? sel.id : null;
+  let destacados = null;
+  let visible = (e) => red.tipos.has(e.tipo);
+  if (elegido) {
+    destacados = new Set([elegido]);
+    for (const { otro, enlace } of red.porDialogo.get(elegido) ?? []) if (red.tipos.has(enlace.tipo)) destacados.add(otro);
+    visible = (e) => red.tipos.has(e.tipo) && (e.source.id === elegido || e.target.id === elegido);
+  } else if (sel) {
+    destacados = new Set(dialogosDe(sel).map((d) => d.id));
+    visible = sel.tipo === 'persona'
+      ? (e) => red.tipos.has(e.tipo) && e.personas.includes(sel.id)
+      : (e) => red.tipos.has(e.tipo) && destacados.has(e.source.id) && destacados.has(e.target.id);
+  }
+
+  d3.select('#red .enlaces').selectAll('path')
+    .attr('stroke', (e) => color(TIPOS_ENLACE[e.tipo].color))
+    .attr('stroke-width', (e) => (destacados && visible(e) ? 2.6 : 1.4))
+    .attr('stroke-opacity', (e) => (!visible(e) ? 0 : destacados ? 0.9 : 0.4))
+    .style('pointer-events', (e) => (visible(e) ? 'stroke' : 'none'));
+
+  d3.select('#red .nodos').selectAll('g')
+    .classed('elegido', (n) => n.id === elegido)
+    .classed('atenuado', (n) => Boolean(destacados) && !destacados.has(n.id))
+    .classed('destacado', (n) => Boolean(destacados) && destacados.has(n.id));
+
+  if (!$('#vista-red').hidden) encuadrarRed(destacados);
+}
+
+function mostrarGlobo(ev, html) {
+  const globo = $('#globo');
+  globo.innerHTML = html;
+  globo.hidden = false;
+  const r = globo.getBoundingClientRect();
+  globo.style.left = `${Math.min(ev.clientX + 12, innerWidth - r.width - 8)}px`;
+  globo.style.top = `${Math.max(8, ev.clientY - r.height - 10)}px`;
+}
+function ocultarGlobo() { $('#globo').hidden = true; }
+
+// ---------- Presentación ----------
+
+function pintarPresentacion() {
+  const art = $('#presentacion');
+  if (art.dataset.listo) return;
+  art.dataset.listo = '1';
+  art.innerHTML = PRESENTACION;
+}
+
+const PRESENTACION = `
+  <div class="tipo-ficha">Presentación</div>
+  <h1>El diálogo humanista</h1>
+  <p class="aviso-borrador">Texto en preparación.</p>
+  <p><a href="#/">Ir a explorar los diálogos</a></p>
+`;
+
 // ---------- Arranque ----------
 
 async function arrancar() {
@@ -581,6 +832,8 @@ async function arrancar() {
   }
   iniciarLista();
   iniciarMapa();
+  iniciarRed();
+  iniciarVistas();
   iniciarTiempo();
   addEventListener('hashchange', aplicarRuta);
   aplicarRuta();

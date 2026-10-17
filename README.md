@@ -11,7 +11,7 @@ Una base de datos navegable de 44 diálogos latinos, del *Secretum* de Petrarca 
 - [`docs/esquema.md`](docs/esquema.md): cómo se cargan los datos.
 - [`docs/corpus-candidatos.md`](docs/corpus-candidatos.md): el corpus elegido y las decisiones tomadas.
 - [`data/`](data/): los datos (un YAML por diálogo, más `personas.yaml` y `lugares.yaml`).
-- [`web/`](web/): el sitio (HTML, CSS y JavaScript sin compilación; mapa con Leaflet).
+- [`web/`](web/): el sitio (HTML, CSS y JavaScript sin compilación; mapa con Leaflet y red de diálogos con d3).
 
 ## Trabajar en local
 
@@ -30,3 +30,7 @@ Valida los datos y abre el sitio en http://localhost:4321. Después de editar un
 ## Publicación
 
 Cada vez que se sube algo a `main`, GitHub Actions valida los datos y publica el sitio en GitHub Pages (`.github/workflows/pages.yml`). Si la validación falla, el sitio no se actualiza.
+
+## Créditos
+
+Desarrollado por Mariano Vilar, integrante del proyecto UBACYT «El diálogo como género y como problema en la Modernidad Temprana (siglos XV a XVII): del diálogo con los antiguos a los encuentros con nuevas formas de alteridad cultural», con asistencia de Claude (Anthropic).
