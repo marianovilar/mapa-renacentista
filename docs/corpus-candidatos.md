@@ -18,9 +18,9 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 |---|---|---|---|---|---|
 | ✅ | Poggio Bracciolini | *De avaritia* | 1428 (13 de noviembre) | Roma (curia); ambientado en el jardín de Bartolomeo da Montepulciano | Dedicado a Francesco Barbaro |
 | ✅ | Poggio Bracciolini | *De varietate fortunae* | 1431–1448 | Roma | Libro I dialogado con Antonio Loschi |
-| ✅ | Poggio Bracciolini | *De nobilitate* | c. 1440 | Florencia (curia) | Niccoli y Lorenzo de' Medici el Viejo |
-| ✅ | Poggio Bracciolini | *De infelicitate principum* | 1440 | Florencia | Niccoli, Carlo Marsuppini |
-| ✅ | Poggio Bracciolini | *Historia tripartita disceptativa convivalis* | c. 1450 | Roma | *Convivium* |
+| ✅ | Poggio Bracciolini | *De nobilitate* | c. 1440 | Florencia (curia); ambientado en la villa de Poggio | Niccoli y Lorenzo de' Medici el Viejo; dedicado a Gerardo Landriani |
+| ✅ | Poggio Bracciolini | *De infelicitate principum* | 1440 | Florencia; ambientado en casa de Niccoli (1434) | Niccoli, Carlo Marsuppini, Cosme de' Medici; dedicado a Tommaso Parentucelli |
+| ✅ | Poggio Bracciolini | *Historia tripartita disceptativa convivalis* | 1450–1451 | Terranuova (villa de Poggio) | *Convivium*; dedicado a Prospero Colonna |
 | ✅ | Lorenzo Valla | *De voluptate* | 1430–1431 | Roma, Piacenza, Pavía; ambientado en Roma (1427) | Bruni, Panormita, Niccoli |
 | ✅ | Lorenzo Valla | *De vero bono* | 1432–1433; revisiones posteriores | Pavía y Milán; ambientado en Pavía | Sacco, Vegio, Antonio da Rho y Guarino como moderador: ficha propia |
 | ✅ | Lorenzo Valla | *De libero arbitrio* | 1437–1439 | Gaeta | Con Antonio Glarea; dedicado a García Aznárez de Añón |

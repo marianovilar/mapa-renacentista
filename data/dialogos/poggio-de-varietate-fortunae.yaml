@@ -12,6 +12,7 @@ autores: [poggio]
 destinatarios:
   - persona: nicolas-v
     forma: dedicatoria
+    nota: "La dedicatoria elogia la utilidad moral de la historia, presenta la obra como afín al De infelicitate principum dedicado antes al mismo Tommaso, y le recuerda que como soberano temporal el papa no escapa a la fortuna (Shepherd 1837)."
 
 interlocutores:
   - persona: poggio
@@ -23,7 +24,7 @@ composicion:
     desde: 1431
     hasta: 1448
     certeza: probable
-    nota: "Comenzado hacia 1431; terminado y dedicado a Nicolás V en 1448."
+    nota: "Comenzado hacia 1431; terminado y dedicado a Nicolás V tras su elección (marzo de 1447). Shepherd (1837) fecha la publicación en 1447. El libro IV recoge el relato que Poggio obtuvo de Niccolò de' Conti cuando este acudió a Eugenio IV para que lo absolviera de haber abjurado de la fe."
   lugares:
     - lugar: roma
 
@@ -35,10 +36,17 @@ ambientacion:
     certeza: probable
     nota: "Poco antes de la muerte de Martín V (febrero de 1431)."
   lugar: roma
-  nota: "Desde el Capitolio, contemplando las ruinas de la ciudad."
+  nota: "Poggio y Loschi, cansados de recorrer los restos de la Roma antigua, descansan entre las ruinas del Capitolio, desde donde se domina casi toda la ciudad. Loschi evoca a Mario sentado entre las ruinas de Cartago."
 
-temas: [fortuna, ruinas de Roma, historia contemporánea, viajes]
+temas: [fortuna, ruinas de Roma, historia contemporánea, Tamerlán y Bayezid, viajes a la India]
 
-fuentes: []
+resumen: >
+  Desde el Capitolio, Poggio y Loschi recorren con la mirada las ruinas de Roma
+  y discuten qué es la fortuna. Siguen ejemplos antiguos y modernos de sus
+  reveses, la historia de Italia desde 1377 hasta Eugenio IV y, en el libro IV,
+  el viaje de Niccolò de' Conti por Persia y la India.
+
+fuentes:
+  - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. X."
 
 revision: pendiente

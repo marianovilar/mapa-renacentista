@@ -6,32 +6,49 @@ libros: 1
 
 autores: [poggio]
 
-destinatarios: []
-nota_destinatarios: "Por verificar."
+destinatarios:
+  - persona: landriani
+    forma: dedicatoria
+    nota: "En el prefacio Poggio señala que el tema había sido casi descuidado por los doctos y espera que otros corrijan y completen su ensayo (Shepherd 1837)."
 
 interlocutores:
   - persona: niccoli
+    nota: "Sostiene que la verdadera nobleza está en el alma, con Platón y los estoicos. Pasa revista a lo que se entiende por nobleza en Nápoles, Venecia, Roma, Florencia, Génova, Lombardía, Alemania, Francia, Inglaterra y España, y concluye que la opinión común no tiene principios fijos."
   - persona: lorenzo-medici-viejo
+    nota: "Al ver las estatuas recuerda a los romanos, que adornaban sus casas con las efigies de los antepasados. Defiende que la riqueza y la dignidad también dan nobleza y cita la definición de Aristóteles en la Política."
   - persona: poggio
-    nota: "El autor como personaje y anfitrión."
+    nota: "Anfitrión. Shepherd solo menciona como interlocutores a Niccoli y a Lorenzo."
 
 composicion:
   fecha:
-    desde: 1440
+    desde: 1439
     hasta: 1440
     certeza: probable
+    nota: "Publicado a comienzos de 1440. Poggio defiende el pasaje sobre los nobles venecianos en una carta a Gregorio Correr del 8 de abril de 1440 (Shepherd 1837)."
   lugares:
     - lugar: florencia
       nota: "La curia residía en Florencia entre 1434 y 1443."
 
 ambientacion:
   espacio: villa
-  fecha: null
+  fecha:
+    desde: 1435
+    hasta: 1436
+    certeza: conjetural
+    nota: "Antes de la muerte de Niccoli (enero de 1437) y después de que Poggio comprara la villa y reuniera allí estatuas antiguas (hacia 1434–1435). Fecha inferida, no explícita en el texto."
   lugar: terranuova
-  nota: "En la villa de Poggio, ante su colección de esculturas antiguas. Por verificar."
+  nota: "En la villa de Poggio en el Valdarno: Niccoli y Lorenzo de Médici van a ver unas estatuas recién llegadas de Roma, dispuestas en el jardín. La conversación termina con un paseo a la orilla del río al caer la tarde."
 
-temas: [nobleza, virtud y linaje, antigüedades]
+temas: [nobleza, virtud y linaje, riqueza, costumbres de las naciones, antigüedades, nobleza veneciana]
 
-fuentes: []
+resumen: >
+  Ante las estatuas antiguas de la villa de Poggio, Lorenzo de Médici defiende
+  que la nobleza también procede del linaje, la riqueza y los cargos. Niccoli,
+  tras repasar las ideas de nobleza de cada país, sostiene que solo la virtud
+  la otorga. El retrato de los nobles venecianos ofendió a Gregorio Correr, a
+  Pietro Tommasi y a Lauro Querini.
+
+fuentes:
+  - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. VIII."
 
 revision: pendiente

@@ -25,7 +25,7 @@ interlocutores:
     nota: "Retoma la avaricia del clero y la vincula con Judas, hasta que Andrea lo interrumpe. Según la carta a Niccoli, Poggio le había dado el papel principal contra la avaricia porque tenía fama de avaro."
   - persona: andrea-constantinopla
     nota: "Llega cuando los demás ya acordaron el orden de los discursos. Refuta a Loschi punto por punto y, según Walser, expresa la opinión del propio Poggio."
-nota_interlocutores: "Bruni y Niccoli objetaron el uso de nombres modernos y de personas reales. En la carta a Niccoli de junio de 1429 Poggio dice haber dado a Cencio el papel principal contra la avaricia, pero en el texto impreso la invectiva inicial es de Bartolomeo. Lang (1973) no comenta la diferencia; podría deberse a una revisión. Por verificar."
+nota_interlocutores: "Bruni y Niccoli objetaron el uso de nombres modernos y de personas reales. En la carta a Niccoli de junio de 1429 Poggio dice haber dado a Cencio el papel principal contra la avaricia, pero en el texto impreso la invectiva inicial es de Bartolomeo. Lang (1973) no comenta la diferencia, pero Shepherd (1837) la explica: en el primer borrador la invectiva inicial era de Cencio, y Poggio la pasó a Bartolomeo da Montepulciano porque Cencio tenía fama de avaro."
 
 evocados:
   - persona: bernardino-siena
@@ -36,7 +36,7 @@ composicion:
     desde: 1428
     hasta: 1428
     certeza: segura
-    nota: "Terminada el 13 de noviembre de 1428. Por respeto a Martín V, de fama avara, Poggio le escribe a Niccoli en junio de 1429 que no la publicaría mientras viviera el papa; aun así, cuando este murió en 1431 ya circulaba hacía dos años entre sus amigos (Lang 1973)."
+    nota: "Terminada el 13 de noviembre de 1428. Por respeto a Martín V, de fama avara, Poggio le escribe a Niccoli en junio de 1429 que no la publicaría mientras viviera el papa; aun así, cuando este murió en 1431 ya circulaba hacía dos años entre sus amigos (Lang 1973). Shepherd (1837) sostiene que Poggio la dio a conocer públicamente recién después de la muerte del papa."
   lugares:
     - lugar: roma
       nota: "En la curia papal, donde Poggio era secretario."
@@ -65,6 +65,7 @@ fuentes:
   - "Poggio Bracciolini, Opera omnia, ed. Riccardo Fubini, Turín, Bottega d'Erasmo, 1964–1969, vol. I, 2–31 (Historia convivalis disceptativa de avaritia); vol. III, epístola III, 35, a Niccoli."
   - "Ernst Walser, Poggius Florentinus. Leben und Werke, Leipzig, 1914."
   - "Christian Bec, Les marchands écrivains à Florence, 1375–1434, París, 1967."
+  - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. IV."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
 revision: pendiente

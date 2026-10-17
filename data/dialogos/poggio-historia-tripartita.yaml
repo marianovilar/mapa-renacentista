@@ -10,34 +10,50 @@ autores: [poggio]
 destinatarios:
   - persona: prospero-colonna
     forma: dedicatoria
-    nota: "Según Fredona, la segunda parte (o la obra) está dedicada al cardenal Prospero Colonna en 1451. Por verificar si la dedicatoria cubre las tres partes."
+    nota: "Shepherd (1837) dice que Poggio dedicó la obra entera al cardenal Prospero Colonna en 1451; Fredona refiere la dedicatoria a la segunda parte."
 
 interlocutores:
-  - persona: tignosi
-    nota: "Segunda parte: defiende la medicina."
   - persona: accolti
-    nota: "Segunda parte: defiende el derecho, con una lista de antiguos legisladores que retoma Scala en el De legibus et iudiciis."
-nota_interlocutores: "Reparto de las otras dos partes por verificar. Una de ellas discute si el latín fue la lengua común de los romanos, contra la tesis de Bruni."
+    nota: "Segunda parte: defiende el derecho como conclusión de la razón y sostén de la sociedad, con una lista de antiguos legisladores que retoma Scala en el De legibus et iudiciis. Responde a Tignosi con la anécdota del obispo de Arezzo que se curó dejando los remedios bajo la cama."
+  - persona: tignosi
+    nota: "Segunda parte: defiende la medicina como ciencia fundada en la naturaleza y acusa a los juristas de fomentar los pleitos por lucro."
+  - persona: marsuppini
+  - persona: poggio
+    nota: "Anfitrión. En la tercera parte sostiene, contra Leonardo Bruni, que el latín era la lengua común de todos los romanos y que el de los doctos solo difería por su pulimento."
+nota_interlocutores: "Reparto de la primera parte, y de los demás interlocutores de la tercera, por verificar en el texto."
 
 composicion:
   fecha:
     desde: 1450
     hasta: 1451
     certeza: probable
-    nota: "La segunda parte está dedicada en 1451 (Fredona)."
+    nota: "La conversación se sitúa en la estancia de Poggio en su tierra en 1450 y la obra se dedica en 1451 (Shepherd 1837; Fredona)."
   lugares:
-    - lugar: roma
-      nota: "Por verificar."
+    - lugar: terranuova
+      nota: "Shepherd la vincula con la estancia de Poggio en Terranuova en 1450. Por verificar."
 
-temas: [lengua latina, sobremesa, Bruni, disputa entre medicina y derecho]
+ambientacion:
+  espacio: villa
+  fecha:
+    desde: 1450
+    hasta: 1450
+    certeza: probable
+    nota: "Durante la peste del año del Jubileo, cuando Nicolás V se retiró a Fabriano y Poggio aprovechó para volver a su tierra."
+  lugar: terranuova
+  nota: "Sobremesa en la villa de Poggio, que recibe a Benedetto Accolti, al médico Niccolò da Foligno y al canciller Carlo Marsuppini."
+
+temas: [lengua latina, sobremesa, Bruni, disputa entre medicina y derecho, gratitud entre anfitrión y convidados]
 
 resumen: >
-  Tres conversaciones de sobremesa. La segunda, inspirada en el De nobilitate
-  legum et medicinae de Salutati, enfrenta al médico Niccolò Tignosi y al jurista
-  Benedetto Accolti sobre cuál arte es más antigua y noble.
+  Tres conversaciones de sobremesa en la villa de Poggio: si el anfitrión debe
+  agradecer a los convidados o al revés; cuál es más antigua y noble, la
+  medicina o el derecho (Tignosi contra Accolti, en la línea del De nobilitate
+  legum et medicinae de Salutati); y si el latín fue la lengua común de los
+  romanos, contra la tesis de Bruni.
 
 fuentes:
   - "Robert Fredona, «Carnival of Law: Bartolomeo Scala's Dialogue De legibus et iudiciis», Viator 39, 2 (2008), 207 y n. 72."
   - "Eugenio Garin, La disputa delle arti nel Quattrocento, Firenze, 1947, 15–33."
+  - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. X."
 
 revision: pendiente

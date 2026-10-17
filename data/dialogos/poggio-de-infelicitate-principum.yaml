@@ -2,34 +2,54 @@ id: poggio-de-infelicitate-principum
 titulo: De infelicitate principum
 lengua: latín
 forma: diálogo
+modo: diegético
 libros: 1
 
 autores: [poggio]
 
-destinatarios: []
-nota_destinatarios: "Por verificar."
+destinatarios:
+  - persona: nicolas-v
+    forma: dedicatoria
+    nota: "Dedicado a Tommaso da Sarzana antes de que llegara a papa. La dedicatoria opone la pompa de los poderosos a la felicidad que da la virtud, y dice que la obra conviene a un eclesiástico que buscó ser virtuoso antes que rico (Shepherd 1837)."
 
 interlocutores:
   - persona: niccoli
+    nota: "Voz principal: expone las miserias del poder, sostiene que el mando ilimitado corrompe incluso a los buenos y que la felicidad está en la vida privada de los estudiosos. Se queja de que ningún príncipe apoyó la búsqueda de códices de Poggio."
   - persona: marsuppini
+    nota: "Objeta que la vida en la curia suele envidiarse."
+  - persona: cosme-medici
   - persona: poggio
-    nota: "El autor como personaje."
+    nota: "Narrador. Abre la conversación contando su reciente cautiverio entre los soldados de Piccinino y las incomodidades de seguir a la curia."
 
 composicion:
   fecha:
     desde: 1440
     hasta: 1440
     certeza: probable
+    nota: "Publicado en 1440 (Shepherd 1837, según una carta inédita citada por Tonelli)."
   lugares:
     - lugar: florencia
+      nota: "La curia residía en Florencia."
 
 ambientacion:
-  fecha: null
+  espacio: casa privada
+  fecha:
+    desde: 1434
+    hasta: 1434
+    certeza: probable
+    nota: "El verano en que Poggio siguió a Eugenio IV a Florencia, tras la huida del papa de Roma (junio de 1434), poco después de rescatarse de los soldados de Piccinino. Shepherd fecha estos hechos en 1433, pero la huida de Eugenio IV es de 1434."
   lugar: florencia
-  nota: "Por verificar."
+  nota: "En casa de Niccolò Niccoli, punto de reunión de los letrados, donde Poggio encuentra a Carlo Marsuppini y a Cosme de Médici."
 
-temas: [príncipes, felicidad, vida activa y contemplativa]
+temas: [príncipes, felicidad, vida activa y contemplativa, corrupción del poder, mecenazgo de las letras]
 
-fuentes: []
+resumen: >
+  En casa de Niccoli, recién llegado a Florencia con la curia, Poggio se queja
+  de la vida errante del cortesano. Niccoli sostiene que los príncipes viven en
+  la angustia y que el poder los vuelve viciosos: la felicidad, si existe, está
+  en los particulares que moderan sus deseos y cultivan el saber.
+
+fuentes:
+  - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. IX."
 
 revision: pendiente

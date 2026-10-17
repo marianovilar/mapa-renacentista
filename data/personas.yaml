@@ -365,6 +365,14 @@
   sexo: masculino
   nota: "Predicador franciscano observante, canonizado en 1450."
 
+- id: landriani
+  nombre: Gerardo Landriani
+  nombre_latino: Gerardus Landrianus
+  muerte: 1445
+  tipo: histórica
+  sexo: masculino
+  nota: "Obispo de Lodi y luego de Como, cardenal desde 1439. En Lodi halló en 1421 el códice con el De oratore, el Brutus y el Orator de Cicerón."
+
 # --- Alberti, Pontifex ---
 - id: alberti
   nombre: Leon Battista Alberti
