@@ -16,7 +16,7 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 
 | ✅ | Autor | Obra | Fecha aprox. | Lugar aprox. | Observaciones |
 |---|---|---|---|---|---|
-| ✅ | Poggio Bracciolini | *De avaritia* | 1428–1429 | Roma (curia) | Dedicado a Francesco Barbaro |
+| ✅ | Poggio Bracciolini | *De avaritia* | 1428 (13 de noviembre) | Roma (curia); ambientado en el jardín de Bartolomeo da Montepulciano | Dedicado a Francesco Barbaro |
 | ✅ | Poggio Bracciolini | *De varietate fortunae* | 1431–1448 | Roma | Libro I dialogado con Antonio Loschi |
 | ✅ | Poggio Bracciolini | *De nobilitate* | c. 1440 | Florencia (curia) | Niccoli y Lorenzo de' Medici el Viejo |
 | ✅ | Poggio Bracciolini | *De infelicitate principum* | 1440 | Florencia | Niccoli, Carlo Marsuppini |

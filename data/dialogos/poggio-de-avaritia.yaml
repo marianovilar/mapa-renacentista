@@ -1,8 +1,9 @@
 id: poggio-de-avaritia
 titulo: De avaritia
-titulo_completo: Dialogus contra avaritiam
+titulo_completo: Historia convivalis disceptativa de avaritia et luxuria, et de fratre Bernardino aliisque concionatoribus
 lengua: latín
-forma: diálogo
+forma: convivium
+modo: diegético
 denominacion: dialogus
 libros: 1
 
@@ -11,39 +12,59 @@ autores: [poggio]
 destinatarios:
   - persona: barbaro
     forma: dedicatoria
+    nota: "El 13 de noviembre de 1428 Poggio anuncia a la vez que terminó la obra y que la dedica a Barbaro (Walser, según Lang 1973)."
 
 interlocutores:
   - persona: bartolomeo-montepulciano
+    nota: "Anfitrión: la conversación transcurre en su jardín. Propone discutir los dos peores vicios, la luxuria y la avaritia, que los predicadores tratan con superficialidad; pronuncia la primera invectiva contra la avaricia, con la etimología de avarus y la comparación con las harpías de Virgilio."
   - persona: loschi
-  - persona: andrea-constantinopla
+    nombre_en_el_texto: Antonius
+    nota: "Defiende la avaricia como natural y necesaria para la república: sin excedentes no habría caridad, liberalidad, templos ni artes. Poggio le dio ese papel porque era casi pródigo («fere prodigus»)."
   - persona: cencio-rustici
+    nombre_en_el_texto: Cincius
+    nota: "Retoma la avaricia del clero y la vincula con Judas, hasta que Andrea lo interrumpe. Según la carta a Niccoli, Poggio le había dado el papel principal contra la avaricia porque tenía fama de avaro."
+  - persona: andrea-constantinopla
+    nota: "Llega cuando los demás ya acordaron el orden de los discursos. Refuta a Loschi punto por punto y, según Walser, expresa la opinión del propio Poggio."
+nota_interlocutores: "Bruni y Niccoli objetaron el uso de nombres modernos y de personas reales. En la carta a Niccoli de junio de 1429 Poggio dice haber dado a Cencio el papel principal contra la avaricia, pero en el texto impreso la invectiva inicial es de Bartolomeo. Lang (1973) no comenta la diferencia; podría deberse a una revisión. Por verificar."
+
+evocados:
+  - persona: bernardino-siena
+    nota: "La conversación pasa de los predicadores a Bernardino, que entonces predicaba en Roma. Loschi lo elogia; Bartolomeo responde que nunca predicó de verdad contra la avaricia, solo contra la usura. Ante Niccoli, Poggio sostuvo que no atacaba a Bernardino sino a los predicadores franciscanos."
 
 composicion:
   fecha:
     desde: 1428
-    hasta: 1429
-    certeza: probable
-    nota: "Hubo una revisión posterior a la primera circulación."
+    hasta: 1428
+    certeza: segura
+    nota: "Terminada el 13 de noviembre de 1428. Por respeto a Martín V, de fama avara, Poggio le escribe a Niccoli en junio de 1429 que no la publicaría mientras viviera el papa; aun así, cuando este murió en 1431 ya circulaba hacía dos años entre sus amigos (Lang 1973)."
   lugares:
     - lugar: roma
       nota: "En la curia papal, donde Poggio era secretario."
 
 ambientacion:
-  espacio: curia
+  espacio: jardín
   fecha:
     desde: 1427
-    hasta: 1428
-    certeza: conjetural
+    hasta: 1427
+    certeza: probable
+    nota: "Durante la predicación triunfal de Bernardino de Siena en Roma, tras ser absuelto de las acusaciones por las que había comparecido ante el papa."
   lugar: roma
-  nota: "Conversación entre secretarios de la curia."
+  nota: "Sobremesa al aire libre en el jardín de Bartolomeo da Montepulciano, entre secretarios apostólicos que no tienen en ese momento obligaciones con el papa."
 
-temas: [avaritia, riqueza, curia, utilidad civil]
+temas: [avaritia, luxuria, usura, predicadores y órdenes mendicantes, Bernardino de Siena, utilidad pública, curia]
 
 resumen: >
-  Secretarios de la curia debaten sobre la avaricia; Loschi la defiende como
-  motor de la vida civil y Andrea la condena.
+  Tras una comida en el jardín de Bartolomeo da Montepulciano, unos
+  secretarios de la curia pasan de criticar a los predicadores a discutir la
+  avaricia. Bartolomeo la condena, Loschi la defiende como fundamento de la
+  ciudad y Andrea de Constantinopla lo refuta. Lang lo lee como una temprana
+  articulación de los valores de la élite mercantil florentina.
 
 fuentes:
+  - "Ann Proulx Lang, Poggio Bracciolini's De avaritia: A Study in Fifteenth Century Florentine Attitudes Toward Avarice and Usury, tesis de maestría, Sir George Williams University, Montreal, 1973."
+  - "Poggio Bracciolini, Opera omnia, ed. Riccardo Fubini, Turín, Bottega d'Erasmo, 1964–1969, vol. I, 2–31 (Historia convivalis disceptativa de avaritia); vol. III, epístola III, 35, a Niccoli."
+  - "Ernst Walser, Poggius Florentinus. Leben und Werke, Leipzig, 1914."
+  - "Christian Bec, Les marchands écrivains à Florence, 1375–1434, París, 1967."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
 revision: pendiente

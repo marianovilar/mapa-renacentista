@@ -125,7 +125,7 @@
   muerte: 1451
   tipo: histórica
   sexo: masculino
-  nota: "Andreas Chrysoberges, dominico. Identificación por verificar."
+  nota: "Andreas Chrysoberges, dominico. Poggio lo presenta como «vir insignis et literis et religione»; Walser lo llama «Predigermönch», fraile predicador (según Lang 1973). Identificación por verificar."
 
 - id: barbaro
   nombre: Francesco Barbaro
@@ -355,6 +355,15 @@
   tipo: histórica
   sexo: masculino
   nota: "Hijo de Tarquinio el Soberbio; violador de Lucrecia según Livio."
+
+- id: bernardino-siena
+  nombre: Bernardino de Siena
+  nombre_latino: Bernardinus Senensis
+  nacimiento: 1380
+  muerte: 1444
+  tipo: histórica
+  sexo: masculino
+  nota: "Predicador franciscano observante, canonizado en 1450."
 
 # --- Alberti, Pontifex ---
 - id: alberti
