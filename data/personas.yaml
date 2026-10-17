@@ -1028,3 +1028,26 @@
   tipo: histórica
   sexo: masculino
   nota: "Predicador agustino y prior general de la orden; maestro de Egidio da Viterbo. Fecha de nacimiento por verificar."
+
+# --- Zabarella, De felicitate ---
+- id: zabarella
+  nombre: Francesco Zabarella
+  nombre_latino: Franciscus de Zabarellis
+  nacimiento: 1360
+  muerte: 1417
+  tipo: histórica
+  sexo: masculino
+  nota: "Canonista paduano, nacido el 10 de agosto de 1360 y muerto el 26 de septiembre de 1417; cardenal de Florencia desde 1411 (Girgensohn)."
+
+- id: disputans
+  nombre: El disputante
+  nombre_latino: Disputans
+  tipo: ficticia
+  sexo: masculino
+
+- id: epicuro
+  nombre: Epicuro
+  nombre_latino: Epicurus
+  tipo: histórica
+  sexo: masculino
+  nota: "Filósofo griego (341–270 a. C.)."

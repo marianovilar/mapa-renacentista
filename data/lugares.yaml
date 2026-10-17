@@ -194,3 +194,11 @@
   lat: 49.9929
   lon: 8.2473
   wikidata: null
+
+- id: praglia
+  nombre: Abadía de Praglia
+  nombre_latino: Pratalea
+  lat: 45.3635
+  lon: 11.7340
+  wikidata: null
+  nota: "Abadía benedictina al pie de los montes Euganeos, cerca de Padua."

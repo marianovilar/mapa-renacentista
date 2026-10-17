@@ -1,6 +1,6 @@
 # Corpus de la fase 1 — diálogos latinos, 1347–1533
 
-Los 40 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
+Los 41 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
 
 
 ## Italia, siglo XIV y comienzos del XV
@@ -9,6 +9,7 @@ Los 40 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 |---|---|---|---|---|---|
 | ✅ | Petrarca | *Secretum* | 1347–1353 | Vaucluse / Milán | Franciscus y Augustinus; Veritas presente |
 | ✅ | Petrarca | *De remediis utriusque fortunae* | 1354–1366 | Milán | Interlocutores alegóricos (Gaudium, Spes, Ratio, Dolor, Metus) |
+| ✅ | Francesco Zabarella | *De felicitate* | c. 1399–1400 | Padua / Praglia | Franciscus y un Disputans; dedicado a Vergerio |
 | ✅ | Leonardo Bruni | *Dialogi ad Petrum Paulum Histrum* | 1401–1406 | Florencia | Salutati, Niccoli, Rossi; dedicado a Vergerio |
 
 ## Italia, siglo XV
@@ -59,7 +60,7 @@ Los 40 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 
 ## Decisiones tomadas
 
-- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos.
+- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos, y el *De felicitate* de Zabarella, dedicado como el de Bruni a Vergerio.
 - **Diálogos alegóricos** (*De remediis*, *Charon*, *De pace fidei*): entran.
 - **Cusa, *Idiota*:** tres fichas (*De sapientia*, *De mente*, *De staticis experimentis*) vinculadas como `serie`.
 - **Hutten:** cada pieza de los *Dialogi* sería una ficha; por ahora solo *Vadiscus*.

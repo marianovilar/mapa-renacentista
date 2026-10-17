@@ -1,0 +1,70 @@
+id: zabarella-de-felicitate
+titulo: De felicitate
+titulo_completo: De felicitate libri tres
+lengua: latín
+forma: diálogo
+modo: mimético
+libros: 3
+
+autores: [zabarella]
+
+destinatarios:
+  - persona: vergerio
+    forma: dedicatoria
+    nota: "Amigo y alumno de Zabarella. El diálogo se presenta como un modo de tenerlo «ante los ojos» mientras está ausente. Vergerio copió la única copia conocida y agregó una posfacio."
+
+interlocutores:
+  - persona: zabarella
+    nombre_en_el_texto: Franciscus
+    nota: "Cabe suponer que representa al autor; abre el diálogo con «Quid est humana felicitas?»."
+  - persona: disputans
+    nombre_en_el_texto: Disputans
+    nota: "Su primera respuesta es «Voluptas seu delectatio»."
+nota_interlocutores: "Ninguno de los dos personajes aparece como los amigos de la dedicatoria. Como exemplum contra Epicuro aparece un anciano campesino de Tribano, cerca de Padua, iletrado y centenario gracias a su vida frugal."
+
+evocados:
+  - persona: epicuro
+    nota: "Blanco de la crítica del libro I, que lo apostrofa («Dic, Epicure»). Lo reconoce docto, pero lo juzga blando y le señala una inconsistencia entre el placer sensible y el placer de la virtud (a partir de Cicerón, Tusculanas III)."
+
+composicion:
+  fecha:
+    desde: 1399
+    hasta: 1400
+    certeza: probable
+    nota: "Hacia 1400. Escrito poco después del tratado de métrica que compuso con Vergerio. Vergerio terminó de copiarlo el 19 de octubre de 1400 (Girgensohn)."
+  lugares:
+    - lugar: padua
+      nota: "Por verificar: Zabarella era profesor en Padua."
+    - lugar: praglia
+      nota: "Allí Vergerio terminó de copiar la única copia conocida, mientras la peste suspendía las clases en Padua; Zabarella probablemente también estaba allí, con el abad Giovanni Ubaldini."
+
+ambientacion:
+  espacio: indeterminado
+  fecha: null
+  lugar: null
+  nota: "Sin escena: el texto abre directamente con la pregunta de Franciscus."
+
+primera_edicion:
+  fecha:
+    desde: 1655
+    hasta: 1655
+    certeza: segura
+    nota: "Editio princeps a cargo del conde Giacomo Zabarella, descendiente del autor, dedicada a Alejandro VII («Opus hoc de Felicitate supra duo secula latuit»). Se basa en el manuscrito de Padua, Biblioteca del Seminario, 196, con correcciones probablemente autógrafas, y omite el colofón de Vergerio."
+  lugar: padua
+  impresor: Paolo Frambotti
+
+temas: [felicidad, voluptas y delectatio, Epicuro, felicidad imperfecta y beatitud, riqueza, poder, fama, virtud, gloria]
+
+resumen: >
+  Disputa en tres libros, de estructura rígida y pedagógica cercana a los
+  ejercicios escolásticos. Descarta los falsos bienes, sobre todo el placer
+  (libro I), examina la felicidad imperfecta de esta vida (libro II) y define
+  la beatitud eterna (libro III).
+
+fuentes:
+  - "Dieter Girgensohn, «Francesco Zabarella da Padova. Dottrina e attività politica di un professore di diritto durante il grande scisma d'Occidente», Quaderni per la storia dell'Università di Padova 26–27 (1993–1994)."
+  - "Mariano Vilar, «El renacimiento del epicureísmo entre Zabarella, Raimondi y Ficino», capítulo en prensa (EUNSA, 2026)."
+  - "Gasparo Zonta, Francesco Zabarella (1360–1417), Padua, Tipografia del Seminario, 1915, 19–21."
+  - "Francesco Zabarella, De felicitate libri III, Padua, Paolo Frambotti, 1655."
+
+revision: pendiente
