@@ -1,0 +1,38 @@
+name: Corrección de una ficha
+description: Señalar un error o un dato faltante en un diálogo, una persona o un lugar.
+title: "Corrección: "
+labels: [corrección]
+body:
+  - type: input
+    id: ficha
+    attributes:
+      label: Ficha
+      description: Título del diálogo, o nombre de la persona o el lugar. Si llegaste desde el sitio, ya está completo.
+    validations:
+      required: true
+  - type: dropdown
+    id: campo
+    attributes:
+      label: ¿Qué dato?
+      multiple: true
+      options:
+        - Fecha o lugar de composición
+        - Ambientación
+        - Primera edición
+        - Destinatarios
+        - Interlocutores o evocados
+        - Datos de una persona
+        - Ubicación de un lugar
+        - Otro
+  - type: textarea
+    id: correccion
+    attributes:
+      label: Corrección
+      description: Qué dice la ficha y qué debería decir.
+    validations:
+      required: true
+  - type: textarea
+    id: fuente
+    attributes:
+      label: Fuente
+      description: Edición, estudio o documento que respalda la corrección, con página si es posible.

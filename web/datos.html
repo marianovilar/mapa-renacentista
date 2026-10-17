@@ -1,0 +1,54 @@
+<!-- Texto de la sección «Sobre los datos». Se carga dentro del sitio: solo contenido, sin <html> ni <head>.
+     Los <span data-cifra="…"> los completa app.js con cuentas hechas sobre los datos. -->
+<div class="tipo-ficha">Sobre los datos</div>
+<h1>Cómo se armó esta base</h1>
+
+<div class="cifras-datos">
+  <div><b data-cifra="dialogos">—</b><span>diálogos</span></div>
+  <div><b data-cifra="con-fuentes">—</b><span>con fuentes citadas</span></div>
+  <div><b data-cifra="sin-fuentes">—</b><span>sin fuentes todavía</span></div>
+  <div><b data-cifra="revisados">—</b><span>revisados por el equipo</span></div>
+</div>
+
+<h2>Qué reúne</h2>
+<p>La primera fase del sitio registra <span data-cifra="dialogos">—</span> diálogos escritos en latín entre el <i>Secretum</i> de Petrarca (1347–1353) y la última edición de los <i>Colloquia</i> supervisada por Erasmo (1533). No es un catálogo exhaustivo sino una selección de obras representativas del género, hecha por Mariano Vilar. Se incluyen también algunos casos límite, marcados como <b>caso dudoso</b> (hay <span data-cifra="dudosos">—</span>): colecciones en las que no todos los textos están dialogados, como las <i>Intercenales</i> de Alberti, u obras cuya forma dialógica es discutible.</p>
+<p>Cada ficha describe un diálogo y lo vincula con <span data-cifra="personas">—</span> personas y <span data-cifra="lugares">—</span> lugares. Por cada obra se registran, cuando se conocen:</p>
+<ul class="tipologia">
+  <li><b>Composición:</b> fechas y lugares de escritura, incluidas las redacciones sucesivas.</li>
+  <li><b>Ambientación:</b> el lugar, la fecha y el tipo de espacio en que transcurre la conversación ficticia.</li>
+  <li><b>Primera edición:</b> año, lugar e impresor.</li>
+  <li><b>Personas:</b> autores; destinatarios (de la dedicatoria, la carta prefatoria o el apóstrofe); interlocutores, con el nombre que reciben en el texto; y evocados, es decir, personas que no hablan pero cuya presencia o mención es significativa.</li>
+  <li><b>Rasgos de forma:</b> el modo (mimético, diegético o mixto), la relación entre los interlocutores y la cantidad de libros.</li>
+</ul>
+<p>Las personas se clasifican como históricas, ficticias, alegóricas, mitológicas o divinas. Las fechas se cargan siempre como intervalos («desde», «hasta») con un grado de certeza: <b>segura</b>, <b>probable</b> o <b>conjetural</b>. En el mapa y la línea de tiempo, las conjeturales se dibujan más tenues y con borde punteado. Cuando las fuentes discrepan, la ficha no elige en silencio: lo dice en una nota.</p>
+
+<h2>Cómo se cargó y con qué grado de confianza</h2>
+<p>La base se armó con asistencia de inteligencia artificial (Claude, de Anthropic) y se encuentra en una etapa de prototipo. Conviene distinguir dos situaciones:</p>
+<ul class="tipologia">
+  <li><b>Fichas con fuentes citadas</b> (<span data-cifra="con-fuentes">—</span>). Se contrastaron con ediciones y estudios especializados aportados por el equipo: introducciones de ediciones críticas, artículos y capítulos. Los datos se tomaron de esas fuentes, que se listan al pie de cada ficha, y las notas indican de qué autor proviene cada afirmación discutida.</li>
+  <li><b>Fichas sin fuentes</b> (<span data-cifra="sin-fuentes">—</span>). Se cargaron a partir del conocimiento general del modelo y todavía no se contrastaron con bibliografía. Llevan la etiqueta <span class="etiqueta aviso">sin fuentes</span> y deben leerse como borradores: pueden tener errores de fecha, de lugar o de reparto.</li>
+</ul>
+<p>En todos los casos, la expresión «por verificar» señala datos concretos que falta comprobar. Ninguna ficha está todavía <b>revisada</b>: esa marca se reserva para las que haya controlado un especialista del equipo. Mientras tanto, todas llevan la etiqueta <span class="etiqueta">sin revisar</span>.</p>
+
+<h2>Cómo leer la red y el mapa</h2>
+<p>El <b>mapa</b> ubica cada diálogo en tres tipos de lugar: donde se compuso, donde transcurre y donde se imprimió por primera vez. Usa un relieve moderno sin fronteras de época, y los nombres de las regiones son aproximados. Las escenas que no tienen un lugar real (visiones, el más allá) no se pueden ubicar.</p>
+<p>La <b>red</b> une dos diálogos cuando comparten autor, destinatario o personajes, con un color para cada tipo de vínculo. Por defecto solo cuenta a las personas históricas: un personaje alegórico o mitológico en común, como Mercurio, es un dato literario y no social. La opción «incluir todos los personajes» muestra la red completa. Hay que tener en cuenta que una colección como las <i>Intercenales</i> o el <i>De remediis</i> ocupa un solo nodo, igual que un diálogo breve.</p>
+
+<h2>Descargar los datos</h2>
+<p>Los datos se pueden descargar y reutilizar libremente citando el sitio. Las tablas CSV se abren en Excel, LibreOffice o Google Sheets; en ellas, los valores múltiples se separan con punto y coma.</p>
+<ul class="descargas">
+  <li><a href="dialogos.csv" download>dialogos.csv</a>: una fila por diálogo, con fechas, lugares, personas y fuentes.</li>
+  <li><a href="personas.csv" download>personas.csv</a>: personas, con sus fechas, tipo y notas.</li>
+  <li><a href="lugares.csv" download>lugares.csv</a>: lugares, con sus coordenadas.</li>
+  <li><a href="datos.json" download>datos.json</a>: la base completa, con todas las notas, en un solo archivo.</li>
+</ul>
+<p>Los archivos fuente, en formato YAML, están en el <a href="https://github.com/marianovilar/mapa-renacentista" target="_blank" rel="noopener">repositorio de GitHub</a>, junto con el esquema que los describe.</p>
+
+<h2>Proponer correcciones</h2>
+<p>Las correcciones son bienvenidas y son la forma de que la base mejore. Cada ficha de diálogo tiene al pie un enlace <b>Proponer una corrección</b>, que abre un formulario en GitHub con la ficha ya identificada; también se puede abrir el <a href="https://github.com/marianovilar/mapa-renacentista/issues/new?template=correccion-ficha.yml" target="_blank" rel="noopener">formulario general</a>. Hace falta una cuenta de GitHub, que es gratuita. Conviene indicar el dato que habría que cambiar y, si es posible, la fuente que lo respalda. Quien no tenga cuenta puede escribirle directamente a Mariano Vilar.</p>
+
+<h2>Cómo citar</h2>
+<p class="cita">Vilar, Mariano (2026). <i>Mapa renacentista. Diálogos latinos de Petrarca a Erasmo (1347–1533)</i>. Versión preliminar. Proyecto UBACYT «El diálogo como género y como problema en la Modernidad Temprana (siglos XV a XVII)». https://marianovilar.github.io/mapa-renacentista/ [consulta: día/mes/año].</p>
+<p>Para citar una ficha en particular, puede agregarse su dirección, que aparece en la barra del navegador al abrirla.</p>
+
+<p class="volver"><a href="#/">← Volver al mapa</a></p>

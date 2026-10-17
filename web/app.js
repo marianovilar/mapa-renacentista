@@ -114,15 +114,19 @@ function leerRuta() {
   return null;
 }
 
+// Páginas de texto: cada una vive en su propio archivo HTML dentro de web/.
+const PAGINAS = { presentacion: 'presentacion.html', datos: 'datos.html' };
+
 function aplicarRuta() {
-  const enPresentacion = location.hash.startsWith('#/presentacion');
-  $('#explorar').hidden = enPresentacion;
-  $('#presentacion').hidden = !enPresentacion;
+  const pagina = location.hash.split('/')[1];
+  const enTexto = pagina in PAGINAS;
+  $('#explorar').hidden = enTexto;
+  for (const art of document.querySelectorAll('.presentacion')) art.hidden = art.id !== pagina;
   for (const a of document.querySelectorAll('.navegacion a')) {
-    a.classList.toggle('activo', (a.dataset.seccion === 'presentacion') === enPresentacion);
+    a.classList.toggle('activo', a.dataset.seccion === (enTexto ? pagina : 'explorar'));
   }
-  if (enPresentacion) {
-    pintarPresentacion();
+  if (enTexto) {
+    pintarPagina(pagina);
     scrollTo(0, 0);
     return;
   }
@@ -280,7 +284,15 @@ function vistaDialogo(d) {
 
     ${d.temas?.length ? `<div class="seccion"><h3>Temas</h3><div class="etiquetas">${d.temas.map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('')}</div></div>` : ''}
 
-    ${d.fuentes?.length ? `<div class="seccion"><h3>Fuentes</h3><ul class="fuentes">${d.fuentes.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></div>` : ''}`;
+    ${d.fuentes?.length ? `<div class="seccion"><h3>Fuentes</h3><ul class="fuentes">${d.fuentes.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></div>` : ''}
+
+    <p class="corregir"><a href="${esc(urlCorreccion(d))}" target="_blank" rel="noopener">Proponer una corrección</a> · <a href="#/datos">Sobre los datos</a></p>`;
+}
+
+// Abre el formulario de GitHub (.github/ISSUE_TEMPLATE/correccion-ficha.yml) con la ficha ya identificada.
+function urlCorreccion(d) {
+  const q = new URLSearchParams({ template: 'correccion-ficha.yml', title: `Corrección: ${d.titulo}`, ficha: `${d.titulo} (${d.id})` });
+  return `https://github.com/marianovilar/mapa-renacentista/issues/new?${q}`;
 }
 
 function vistaPersona(p) {
@@ -827,21 +839,37 @@ function mostrarGlobo(ev, html) {
 }
 function ocultarGlobo() { $('#globo').hidden = true; }
 
-// ---------- Presentación ----------
+// ---------- Páginas de texto ----------
 
-// El texto vive en web/presentacion.html, para poder editarlo sin tocar el código.
-async function pintarPresentacion() {
-  const art = $('#presentacion');
+// Los textos viven en web/*.html, para poder editarlos sin tocar el código.
+async function pintarPagina(pagina) {
+  const art = document.getElementById(pagina);
   if (art.dataset.listo) return;
   art.dataset.listo = '1';
   try {
-    const r = await fetch('presentacion.html');
+    const r = await fetch(PAGINAS[pagina]);
     if (!r.ok) throw new Error(r.status);
     art.innerHTML = await r.text();
+    rellenarCifras(art);
   } catch (err) {
     delete art.dataset.listo;
-    art.innerHTML = `<p>No se pudo cargar la presentación (${esc(err.message)}).</p>`;
+    art.innerHTML = `<p>No se pudo cargar la página (${esc(err.message)}).</p>`;
   }
+}
+
+// Completa los <span data-cifra="…"> de las páginas de texto con cuentas hechas sobre los datos.
+function rellenarCifras(art) {
+  const ds = [...db.dialogos.values()];
+  const cifras = {
+    dialogos: ds.length,
+    personas: db.personas.size,
+    lugares: db.lugares.size,
+    'con-fuentes': ds.filter((d) => d.fuentes?.length).length,
+    'sin-fuentes': ds.filter((d) => !d.fuentes?.length).length,
+    revisados: ds.filter((d) => d.revision === 'revisado').length,
+    dudosos: ds.filter((d) => d.caso_dudoso).length,
+  };
+  for (const el of art.querySelectorAll('[data-cifra]')) el.textContent = cifras[el.dataset.cifra] ?? '—';
 }
 
 // ---------- Arranque ----------

@@ -327,3 +327,22 @@ a:hover { text-decoration: underline; }
   .aviso-datos { padding: 8px 16px; flex-direction: column; align-items: flex-start; gap: 6px; }
 }
 .leyenda-red .opcion-todos { margin-top: 4px; padding-top: 5px; border-top: 1px solid var(--linea); max-width: 230px; }
+
+/* Sobre los datos */
+.presentacion .cifras-datos {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 0 0 24px; font-family: var(--sans);
+}
+.presentacion .cifras-datos div { border: 1px solid var(--linea); border-radius: 8px; padding: 10px 12px; background: var(--superficie); }
+.presentacion .cifras-datos b { display: block; font-size: 26px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.presentacion .cifras-datos span { font-size: 12px; color: var(--tinta-3); }
+.presentacion .etiqueta { font-family: var(--sans); font-size: 12px; white-space: nowrap; }
+.presentacion .descargas { padding-left: 22px; margin: 0 0 16px; }
+.presentacion .descargas li { margin-bottom: 6px; }
+.presentacion .descargas a { font-family: var(--sans); font-size: 16px; }
+.presentacion .cita { border-left: 3px solid var(--linea-fuerte); padding-left: 14px; font-size: 17px; overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .presentacion .cifras-datos { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Enlace de corrección al pie de cada ficha */
+.corregir { margin: 20px 0 0; padding-top: 10px; border-top: 1px solid var(--linea); font-size: 12px; color: var(--tinta-3); }

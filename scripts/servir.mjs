@@ -7,12 +7,12 @@ import { fileURLToPath } from 'node:url';
 
 const raiz = fileURLToPath(new URL('..', import.meta.url));
 const PUERTO = Number(process.env.PORT) || 4321;
-const TIPOS = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png' };
+const TIPOS = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.csv': 'text/csv' };
 
 createServer(async (req, res) => {
   const ruta = decodeURIComponent(new URL(req.url, 'http://x').pathname);
-  const archivo = ruta === '/datos.json'
-    ? join(raiz, 'build', 'datos.json')
+  const archivo = ['/datos.json', '/dialogos.csv', '/personas.csv', '/lugares.csv'].includes(ruta)
+    ? join(raiz, 'build', ruta.slice(1))
     : join(raiz, 'web', normalize(ruta === '/' ? '/index.html' : ruta).replace(/^(\.\.[/\\])+/, ''));
   try {
     const cuerpo = await readFile(archivo);

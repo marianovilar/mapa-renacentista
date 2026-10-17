@@ -9,5 +9,5 @@ const dist = join(raiz, 'dist');
 
 rmSync(dist, { recursive: true, force: true });
 cpSync(join(raiz, 'web'), dist, { recursive: true });
-copyFileSync(join(raiz, 'build', 'datos.json'), join(dist, 'datos.json'));
+for (const f of ['datos.json', 'dialogos.csv', 'personas.csv', 'lugares.csv']) copyFileSync(join(raiz, 'build', f), join(dist, f));
 console.log('Sitio listo en dist/');
