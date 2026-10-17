@@ -1,22 +1,33 @@
 id: valla-de-vero-bono
 titulo: De vero bono
-titulo_completo: De vero bono / De vero falsoque bono
+titulo_completo: De vero bono
 lengua: latín
 forma: diálogo
+modo: diegético
 libros: 3
 
 autores: [valla]
 
 destinatarios: []
-nota_destinatarios: "Por verificar."
+nota_destinatarios: "Sin dedicatario. Valla se proponía entregar el manuscrito en persona a cinco colegas influyentes, buscando una cátedra o un patrono (Keßler 2004); en 1434 envió un ejemplar del libro III al papa Eugenio IV (Fubini 1987)."
 
+# Reparto de la segunda redacción, trasladada al ambiente de Pavía y Milán (Fubini 1987; Keßler 2004).
 interlocutores:
   - persona: catone-sacco
-    nota: "Ocupa el lugar de Bruni (postura estoica). Por verificar."
+    nota: "Asume la parte del estoico, defensor de la honestas, que en la primera redacción tenía Bruni. Jurista influyente, probablemente apoyó la cátedra de Valla en Pavía y era adversario del Panormita."
   - persona: maffeo-vegio
-    nota: "Ocupa el lugar del Panormita (postura epicúrea). Por verificar."
+    nota: "Asume la parte epicúrea en lugar del Panormita, tras la ruptura de Valla con él; era su rival local como poeta áulico. El libro III transcurre en su jardín."
   - persona: antonio-da-rho
-    nota: "Ocupa el lugar de Niccoli (síntesis cristiana). Por verificar."
+    nombre_en_el_texto: Antonius Raudensis
+    nota: "Interlocutor cristiano, en el lugar de Niccoli. Franciscano, profesor de retórica en Milán."
+  - persona: guarino
+    nota: "Moderador de la disputa, introducido de manera ficticia; pronuncia el epílogo y se abstiene de pronunciarse sobre los discursos de Vegio y Antonio da Rho."
+  - persona: valla
+    nombre_en_el_texto: Laurentius
+    nota: "Ahora participa como maestro, en primera persona, y retoma el papel que tenía Antonius Harena."
+  - persona: antonio-bossi
+    nota: "Joven alumno de Valla («auditor meus»), de la familia milanesa a la que estaba ligado."
+nota_interlocutores: "Entre los presentes figuran también Antonio Berneri, vicario del arzobispo de Milán, y el canónigo milanés Giuseppe Brivio, cuya tolerancia legitima las tesis más audaces; el médico Giovanni Marco, que representa a la facultad de la que dependía Valla; y el secretario ducal Francesco Piccinino, sustituido en una redacción posterior por Pier Candido Decembrio."
 
 relaciones:
   - dialogo: valla-de-voluptate
@@ -24,31 +35,38 @@ relaciones:
 
 composicion:
   fecha:
-    desde: 1433
+    desde: 1432
     hasta: 1433
-    certeza: probable
+    certeza: segura
+    nota: "Revisión emprendida tras la ruptura con el Panormita (1432) y terminada en el verano de 1433 en Milán, después de que Valla perdiera la cátedra de Pavía por su disputa con los juristas (febrero–marzo de 1433)."
   lugares:
     - lugar: pavia
-      nota: "Probable, por verificar: en 1433 Valla residió en varias ciudades."
+      nota: "Revisión preparada en el círculo pavés de Vegio y Sacco."
+    - lugar: milan
+      nota: "Manuscrito terminado allí en el verano de 1433 (Keßler 2004)."
 
 redacciones:
-  - titulo: De vero falsoque bono
+  - titulo: Revisiones posteriores
     fecha: { desde: 1441, hasta: 1449, certeza: conjetural }
     lugares: []
-    nota: "Revisiones posteriores con el mismo reparto; fechas y lugares por verificar."
+    nota: "Valla siguió revisando la obra durante años. El título De vero falsoque bono que usa la edición de Lorch no figura en ningún manuscrito de esta redacción (Keßler 2004). Fechas y lugares por verificar."
 
 ambientacion:
   fecha: null
   lugar: pavia
-  nota: "Por verificar."
+  nota: "Libros I y II en una «porticus gregoriana» no identificable; libro III en el jardín de Maffeo Vegio. Pavía no se nombra, pero las circunstancias la indican (Keßler 2004). La obra deja de presentarse como fruto del humanismo romano y pasa a ser testimonio del humanismo lombardo."
 
-temas: [voluptas, honestas, estoicismo, epicureísmo, sumo bien]
+temas: [voluptas, honestas, estoicismo, epicureísmo, sumo bien, retórica contra dialéctica, humanismo lombardo]
 
 resumen: >
   Segunda versión de De voluptate: el mismo debate sobre el sumo bien,
-  trasladado a Pavía y con interlocutores lombardos.
+  trasladado a Pavía, con interlocutores de la universidad y de la corte de
+  Milán, y con un título menos provocador.
 
 fuentes:
-  - "Maristella de Panizza Lorch (ed.), De vero falsoque bono (1970)."
+  - "Riccardo Fubini, «Ricerche sul De voluptate di Lorenzo Valla», Medioevo e Rinascimento 1 (1987), 189 ss."
+  - "Eckhard Keßler, «Ein Werk, ein Autor und ihre verwirrende Geschichte», introducción a Lorenzo Valla, Von der Lust oder Vom wahren Guten / De voluptate sive De vero bono, ed. y trad. Peter Michael Schenkel, Múnich, Wilhelm Fink, 2004, VII–XCIII."
+  - "Riccardo Fubini, L'umanesimo italiano e i suoi storici, Milán, 2001, 131 ss. (perfil de Valla)."
+  - "Maristella de Panizza Lorch (ed.), De vero falsoque bono, Bari, 1970."
 
 revision: pendiente

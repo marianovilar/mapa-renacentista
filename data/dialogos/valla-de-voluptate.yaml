@@ -2,47 +2,71 @@ id: valla-de-voluptate
 titulo: De voluptate
 lengua: latín
 forma: diálogo
+modo: diegético
 libros: 3
 
 autores: [valla]
 
 destinatarios: []
-nota_destinatarios: "Por verificar."
+nota_destinatarios: "Sin dedicatario conocido. Tuvo una suerte de edición patrocinada por el Panormita y una circulación restringida; en junio de 1432 Antonio da Rho le pedía a Valla un ejemplar (Fubini 1987)."
 
 interlocutores:
   - persona: bruni
-    nota: "Portavoz de la postura estoica."
+    nota: "Portavoz de la postura estoica, defensor de la honestas."
   - persona: panormita
-    nota: "Portavoz de la postura epicúrea."
+    nota: "Portavoz de la postura epicúrea. Valla era entonces su cliente («familiaris Panormite»)."
   - persona: niccoli
-    nota: "Portavoz de la síntesis cristiana."
+    nota: "Portavoz de la síntesis cristiana; en la ficción ha venido a Roma «ob indulgentias»."
+  - persona: antonio-arena
+    nombre_en_el_texto: Antonius Harena
+    nota: "Interviene en la primera redacción; en la segunda su papel pasa al propio Valla (Keßler 2004)."
+nota_interlocutores: "La conversación reúne a «cuatro colegas de la secretaría» de la curia. Valla no habla: narra en tercera persona y asiste como joven invitado por su tío Melchiorre Scrivani, secretario apostólico."
+
+evocados:
+  - persona: scrivani
+    nota: "Tío de Valla: lo invita a escuchar la disputa. Murió de peste en 1430, y Valla aspiró sin éxito a sucederlo."
 
 relaciones:
   - dialogo: valla-de-vero-bono
     tipo: reelaborada-en
-    nota: "En 1433 Valla reescribe la obra con interlocutores distintos."
+    nota: "En 1433 Valla reescribe la obra con interlocutores lombardos y la traslada a Pavía."
 
 composicion:
   fecha:
-    desde: 1431
+    desde: 1430
     hasta: 1431
-    certeza: probable
+    certeza: segura
+    nota: "Empezado en Roma en 1430, tras la muerte de su tío; continuado durante el viaje a Piacenza por la herencia; terminado a fines de 1430 o comienzos de 1431 y publicado en Pavía (Keßler 2004). Fubini (1987) data la primera redacción, «licenziata», en 1431."
   lugares:
+    - lugar: roma
+      nota: "Comienzo de la redacción, en 1430."
+    - lugar: piacenza
+      nota: "Estancia por la herencia del tío; allí prosigue la escritura (Fubini, Keßler)."
     - lugar: pavia
+      nota: "Terminado y publicado allí, en el entorno de su cátedra de retórica (1431)."
 
 ambientacion:
-  fecha: null
+  espacio: espacio urbano
+  fecha:
+    desde: 1427
+    hasta: 1427
+    certeza: segura
+    nota: "Fecha ficticia («hinc tribus annis»). La escena es deliberadamente inverosímil: Bruni y el Panormita estuvieron en Roma en años distintos (1426 y 1428) y no consta una estancia de Niccoli (Fubini 1987)."
   lugar: roma
-  nota: "Por verificar."
+  nota: "Libros I y II en un pórtico alto junto al Monte Giordano, a pedido de Bruni, para alejarse del bullicio de la curia; libro III en el jardín de la casa del Panormita en Roma (Keßler 2004)."
 
-temas: [voluptas, honestas, estoicismo, epicureísmo, sumo bien]
+temas: [voluptas, honestas, estoicismo, epicureísmo, sumo bien, retórica contra dialéctica, curia romana]
 
 resumen: >
-  Debate sobre el sumo bien en el que la defensa epicúrea del placer derrota a
+  Debate sobre el sumo bien entre secretarios de la curia, ambientado en Roma
+  en 1427 pero concebido en Lombardía: la defensa epicúrea del placer derrota a
   la estoica, y ambas quedan superadas por la voluptas cristiana.
 
 fuentes:
-  - "Maristella de Panizza Lorch (ed.), De vero falsoque bono (1970)."
+  - "Riccardo Fubini, «Ricerche sul De voluptate di Lorenzo Valla», Medioevo e Rinascimento 1 (1987), 189 ss."
+  - "Eckhard Keßler, «Ein Werk, ein Autor und ihre verwirrende Geschichte», introducción a Lorenzo Valla, Von der Lust oder Vom wahren Guten / De voluptate sive De vero bono, ed. y trad. Peter Michael Schenkel, Múnich, Wilhelm Fink, 2004, VII–XCIII."
+  - "Riccardo Fubini, L'umanesimo italiano e i suoi storici, Milán, 2001, 131 ss. (perfil de Valla)."
+  - "Maristella de Panizza Lorch (ed.), De vero falsoque bono, Bari, 1970 (apéndice I: comienzo de la primera redacción)."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
 revision: pendiente

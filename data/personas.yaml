@@ -144,7 +144,7 @@
   tipo: histórica
   sexo: masculino
   wikidata: Q214115
-  nota: "Nacimiento c. 1407."
+  nota: "Nacido en Roma en 1407 según Fubini; Keßler, siguiendo a Monfasani (2001), da 1406. Familia de origen piacentino."
 
 - id: panormita
   nombre: Antonio Beccadelli, el Panormita
@@ -160,7 +160,7 @@
   nombre_latino: Cato Saccus
   tipo: histórica
   sexo: masculino
-  nota: "Jurista de Pavía. Fechas por verificar."
+  nota: "Jurista influyente de la Universidad de Pavía, adversario del Panormita; probablemente apoyó la cátedra de Valla (Fubini 1987). Fechas por verificar."
 
 - id: maffeo-vegio
   nombre: Maffeo Vegio
@@ -175,7 +175,7 @@
   nombre_latino: Antonius Raudensis
   tipo: histórica
   sexo: masculino
-  nota: "Franciscano milanés. Fechas por verificar."
+  nota: "Franciscano milanés, sucesor de Barzizza en la enseñanza de retórica en Milán; portavoz del partido de Pier Candido Decembrio. Fechas por verificar."
 
 # --- More, Utopia ---
 - id: moro
@@ -1268,3 +1268,26 @@
   tipo: histórica
   sexo: masculino
   nota: "Hijo del impresor Johann Froben y ahijado de Erasmo, que le dedica los Colloquia desde 1522, cuando era niño. Fechas por verificar."
+
+# --- Valla, De voluptate y De vero bono (según Fubini 1987 y Keßler 2004) ---
+- id: antonio-arena
+  nombre: Antonio Arena
+  nombre_latino: Antonius Harena
+  tipo: histórica
+  sexo: masculino
+  nota: "Interlocutor menor de la primera redacción de De voluptate. Identificación por verificar."
+
+- id: scrivani
+  nombre: Melchiorre Scrivani
+  nombre_latino: Melchior Scrivanus
+  muerte: 1430
+  tipo: histórica
+  sexo: masculino
+  nota: "Tío materno de Valla, secretario apostólico desde 1426; muere de peste en 1430."
+
+- id: antonio-bossi
+  nombre: Antonio Bossi
+  nombre_latino: Antonius Bossius
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo de Ambrogio Bossi, de la nobleza milanesa; alumno de Valla."

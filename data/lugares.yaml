@@ -232,3 +232,10 @@
   lat: 47.9990
   lon: 7.8421
   wikidata: null
+
+- id: piacenza
+  nombre: Piacenza
+  nombre_latino: Placentia
+  lat: 45.0526
+  lon: 9.6930
+  wikidata: null

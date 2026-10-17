@@ -21,8 +21,8 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Poggio Bracciolini | *De nobilitate* | c. 1440 | Florencia (curia) | Niccoli y Lorenzo de' Medici el Viejo |
 | ✅ | Poggio Bracciolini | *De infelicitate principum* | 1440 | Florencia | Niccoli, Carlo Marsuppini |
 | ✅ | Poggio Bracciolini | *Historia tripartita disceptativa convivalis* | c. 1450 | Roma | *Convivium* |
-| ✅ | Lorenzo Valla | *De voluptate* | 1431 | Roma (?) | Bruni, Panormita, Niccoli |
-| ✅ | Lorenzo Valla | *De vero bono* (luego *De vero falsoque bono*) | 1433; revisiones hasta c. 1449 | Pavía | Reelaboración con interlocutores lombardos: ficha propia |
+| ✅ | Lorenzo Valla | *De voluptate* | 1430–1431 | Roma, Piacenza, Pavía; ambientado en Roma (1427) | Bruni, Panormita, Niccoli |
+| ✅ | Lorenzo Valla | *De vero bono* | 1432–1433; revisiones posteriores | Pavía y Milán; ambientado en Pavía | Sacco, Vegio, Antonio da Rho y Guarino como moderador: ficha propia |
 | ✅ | Lorenzo Valla | *De libero arbitrio* | c. 1439 | Nápoles (?) | Con Antonio Glarea |
 | ✅ | Lorenzo Valla | *De professione religiosorum* | 1442 | Nápoles (?) | |
 | ✅ | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia (?) | Alberti escribe también en vulgar; elegir la obra latina |
