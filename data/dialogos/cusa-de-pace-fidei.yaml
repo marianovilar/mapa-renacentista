@@ -20,7 +20,7 @@ composicion:
     desde: 1453
     hasta: 1453
     certeza: probable
-    nota: "Tras la caída de Constantinopla (mayo de 1453)."
+    nota: "Tras la caída de Constantinopla (mayo de 1453). Cusa residía entonces en su diócesis de Brixen (Bressanone), donde había tomado posesión como obispo y emprendía la reforma de los monasterios (Meuthen)."
   lugares:
     - lugar: bressanone
 
@@ -28,10 +28,19 @@ ambientacion:
   espacio: visión
   fecha: null
   lugar: null
-  nota: "Visión: un concilio celestial."
+  nota: "Visión: un concilio celestial donde los representantes de todas las naciones y religiones se reúnen ante Cristo, el Verbo."
 
-temas: [concordia religiosa, una religio in rituum varietate, Constantinopla]
+temas: [concordia religiosa, una religio in rituum varietate, Constantinopla, islam]
 
-fuentes: []
+resumen: >
+  Ante la caída de Constantinopla, los sabios de diecisiete naciones y credos
+  conversan ante el Verbo sobre sus diferencias y descubren que todos participan,
+  en distinto grado, de una verdadera religión subyacente: «una sola religión en
+  la diversidad de ritos». El cristianismo la posee entera por revelación; a
+  todos les toca una piadosa emulación. Meuthen lo vincula con la Cribratio
+  Alkoran (1461).
+
+fuentes:
+  - "Erich Meuthen, Nicholas of Cusa: A Sketch for a Biography, trad. David Crowner y Gerald Christianson, Washington, The Catholic University of America Press, 2010 [Nikolaus von Kues: Skizze einer Biographie, 1964; 7.ª ed., 1992]."
 
 revision: pendiente

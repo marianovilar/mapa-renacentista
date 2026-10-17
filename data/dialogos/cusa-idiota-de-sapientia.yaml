@@ -24,7 +24,7 @@ composicion:
     desde: 1450
     hasta: 1450
     certeza: probable
-    nota: "Julio de 1450, según las suscripciones. Por verificar."
+    nota: "Julio de 1450, según las suscripciones. El verano del año jubilar, primero de Cusa como cardenal (recibió el capelo el 11 de enero de 1450), que fue para él «un año de descanso y reflexión»: como el papa, salió de Roma y en esos meses escribió los cuatro libros del Idiota (De sapientia I y II, De mente, De staticis experimentis), que van de la teología a la epistemología y a la filosofía natural (Meuthen). Ese verano Cusa consagró una capilla en Fontecolombo, cerca de Rieti."
   lugares:
     - lugar: rieti
 
@@ -37,8 +37,14 @@ ambientacion:
     nota: "Año jubilar."
   lugar: roma
 
-temas: [docta ignorancia, sabiduría, saber del laico]
+temas: [docta ignorancia, sabiduría, saber del laico, teología]
 
-fuentes: []
+resumen: >
+  Primeros dos libros del Idiota: un laico iletrado enseña a un orador que la
+  sabiduría no está en los libros sino «en las plazas», y que se alcanza por la
+  docta ignorancia.
+
+fuentes:
+  - "Erich Meuthen, Nicholas of Cusa: A Sketch for a Biography, trad. David Crowner y Gerald Christianson, Washington, The Catholic University of America Press, 2010 [Nikolaus von Kues: Skizze einer Biographie, 1964; 7.ª ed., 1992]."
 
 revision: pendiente

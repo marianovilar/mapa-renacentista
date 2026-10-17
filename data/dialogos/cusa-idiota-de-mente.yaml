@@ -25,7 +25,7 @@ composicion:
     desde: 1450
     hasta: 1450
     certeza: probable
-    nota: "Agosto de 1450, según las suscripciones. Por verificar."
+    nota: "Agosto de 1450, según las suscripciones. El verano del año jubilar, primero de Cusa como cardenal (recibió el capelo el 11 de enero de 1450), que fue para él «un año de descanso y reflexión»: como el papa, salió de Roma y en esos meses escribió los cuatro libros del Idiota (De sapientia I y II, De mente, De staticis experimentis), que van de la teología a la epistemología y a la filosofía natural (Meuthen)."
   lugares:
     - lugar: fabriano
 
@@ -37,10 +37,16 @@ ambientacion:
     certeza: probable
     nota: "Año jubilar."
   lugar: roma
-  nota: "En el taller donde el idiota talla cucharas."
+  nota: "En el taller donde el idiota, un tallador de cucharas romano, trabaja: Cusa parte de su oficio para llevarlo, guiándolo en la conversación, del concepto de cuchara a relaciones profundas (Meuthen)."
 
-temas: [mente, medida, conocimiento]
+temas: [mente, medida, conocimiento, el hombre como cocreador, saber del laico]
 
-fuentes: []
+resumen: >
+  En el taller del tallador de cucharas, el idiota discute con un orador y un
+  filósofo qué es la mente, a partir de su arte: la mente humana, imagen de la
+  divina, mide y crea conceptos como el artesano crea formas.
+
+fuentes:
+  - "Erich Meuthen, Nicholas of Cusa: A Sketch for a Biography, trad. David Crowner y Gerald Christianson, Washington, The Catholic University of America Press, 2010 [Nikolaus von Kues: Skizze einer Biographie, 1964; 7.ª ed., 1992]."
 
 revision: pendiente

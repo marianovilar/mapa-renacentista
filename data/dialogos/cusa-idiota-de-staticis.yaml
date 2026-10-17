@@ -24,7 +24,7 @@ composicion:
     desde: 1450
     hasta: 1450
     certeza: probable
-    nota: "Septiembre de 1450, según las suscripciones. Por verificar."
+    nota: "Septiembre de 1450, según las suscripciones. El verano del año jubilar, primero de Cusa como cardenal (recibió el capelo el 11 de enero de 1450), que fue para él «un año de descanso y reflexión»: como el papa, salió de Roma y en esos meses escribió los cuatro libros del Idiota (De sapientia I y II, De mente, De staticis experimentis), que van de la teología a la epistemología y a la filosofía natural (Meuthen)."
   lugares:
     - lugar: fabriano
 
@@ -35,8 +35,15 @@ ambientacion:
     certeza: probable
   lugar: roma
 
-temas: [balanza, experimentación, medida]
+temas: [balanza, experimentación, medida, filosofía natural, medicina]
 
-fuentes: []
+resumen: >
+  Cuarto libro del Idiota: el laico propone medir con la balanza el peso
+  específico de la sangre y la orina, el pulso, la respiración o la humedad.
+  Según Meuthen, marca el paso de la investigación de cualidades a la medición
+  de cantidades, de la filosofía natural medieval a la ciencia moderna.
+
+fuentes:
+  - "Erich Meuthen, Nicholas of Cusa: A Sketch for a Biography, trad. David Crowner y Gerald Christianson, Washington, The Catholic University of America Press, 2010 [Nikolaus von Kues: Skizze einer Biographie, 1964; 7.ª ed., 1992]."
 
 revision: pendiente
