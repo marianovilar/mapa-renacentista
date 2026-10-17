@@ -1051,3 +1051,53 @@
   tipo: histórica
   sexo: masculino
   nota: "Filósofo griego (341–270 a. C.)."
+
+# --- Scala, De legibus et iudiciis, y Poggio, Historia tripartita (según Fredona 2008) ---
+- id: scala
+  nombre: Bartolomeo Scala
+  nombre_latino: Bartholomaeus Scala
+  nacimiento: 1430
+  muerte: 1497
+  tipo: histórica
+  sexo: masculino
+  nota: "Canciller de la República de Florencia y cliente de Lorenzo de' Medici."
+
+- id: bernardo-machiavelli
+  nombre: Bernardo Machiavelli
+  nombre_latino: Bernardus Machiavellus
+  nacimiento: 1426
+  muerte: 1500
+  tipo: histórica
+  sexo: masculino
+  nota: "Padre de Niccolò; doctor en derecho civil. Nacimiento entre 1426 y 1429."
+
+- id: bartolo
+  nombre: Bartolo da Sassoferrato
+  nombre_latino: Bartolus de Saxoferrato
+  muerte: 1357
+  tipo: histórica
+  sexo: masculino
+  nota: "Jurista, maestro de Baldo."
+
+- id: baldo
+  nombre: Baldo degli Ubaldi
+  nombre_latino: Baldus de Ubaldis
+  muerte: 1400
+  tipo: histórica
+  sexo: masculino
+  nota: "Jurista perugino; enseñó en Florencia entre 1358 y 1364."
+
+- id: tignosi
+  nombre: Niccolò Tignosi da Foligno
+  nombre_latino: Nicolaus Tignosius Fulginas
+  tipo: histórica
+  sexo: masculino
+  nota: "Médico y filósofo aristotélico, maestro de Ficino en el Studio florentino. Fechas por verificar."
+
+- id: prospero-colonna
+  nombre: Prospero Colonna
+  nombre_latino: Prosper Columna
+  muerte: 1463
+  tipo: histórica
+  sexo: masculino
+  nota: "Cardenal, sobrino de Martín V."

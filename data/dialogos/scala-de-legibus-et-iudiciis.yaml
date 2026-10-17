@@ -1,0 +1,72 @@
+id: scala-de-legibus-et-iudiciis
+titulo: De legibus et iudiciis
+titulo_completo: De legibus et iudiciis dialogus
+lengua: latín
+forma: diálogo
+modo: diegético
+denominacion: dialogus
+relacion_interlocutores: entre pares
+libros: 1
+
+autores: [scala]
+
+destinatarios: []
+nota_destinatarios: "Por verificar."
+
+interlocutores:
+  - persona: scala
+    nombre_en_el_texto: Bartholomaeus
+    nota: "El autor como personaje, inmovilizado por la gota junto al fuego. Defiende vivir según la dirección de «un hombre bueno y un buen juez» guiado por la naturaleza."
+  - persona: bernardo-machiavelli
+    nombre_en_el_texto: Bernardus
+    nota: "Amigo íntimo de Scala (amicus et familiarius). Defiende el origen divino e inmutable de la ley con argumentos del Minos platónico y cierra el diálogo con una invocación piadosa."
+
+evocados:
+  - persona: cosme-medici
+    nota: "Bartolomeo recuerda que Cosme detestaba los juegos de Carnaval, frente a Niccolò da Uzzano, que los consideraba útiles."
+  - persona: bartolo
+    nota: "Protagonista, con Baldo, de una controversia inventada y absurda: Baldo habría falsificado códices del Digesto y Bartolo lo habría desenmascarado con las Pandectas pisanas."
+  - persona: baldo
+
+composicion:
+  fecha:
+    desde: 1483
+    hasta: 1483
+    certeza: segura
+    nota: "Febrero–marzo de 1483 (ed. Brown). Dos años después de los Apologi centum (otoño de 1481), cuyo apólogo 26, el de las leyes convertidas en telarañas, cita el personaje de Bartolomeo."
+  lugares:
+    - lugar: florencia
+
+ambientacion:
+  espacio: casa privada
+  fecha:
+    desde: 1483
+    hasta: 1483
+    certeza: probable
+    nota: "En Carnaval, en pleno invierno."
+  lugar: florencia
+  nota: "Junto al fuego, en el palacio de Scala en Borgo Pinti; afuera, los jóvenes apedrean las calles y cobran peaje con barricadas."
+
+primera_edicion:
+  fecha:
+    desde: 1940
+    hasta: 1940
+    certeza: segura
+    nota: "Primera edición moderna de Lamberto Borghi en La Bibliofilia 42 (1940), 256–282. Se conserva completo en un único manuscrito (Siena, Biblioteca Comunale, G.VIII.46, ff. 59r–103v), con extractos en la Riccardiana de Florencia."
+  lugar: florencia
+
+temas: [naturaleza de la ley, derecho natural, Carnaval y Saturnales, Bartolo y Baldo, Pandectas pisanas, Minos platónico, Lucrecio, gobierno de los Medici]
+
+resumen: >
+  En Carnaval, Scala y Bernardo Machiavelli debaten junto al fuego sobre la
+  ley. El diálogo desmonta su origen divino, ridiculiza a los juristas y deja
+  triunfante a la naturaleza. Fredona lo lee como una crítica de tono lucreciano
+  y una justificación inquietante del gobierno de los Medici.
+
+fuentes:
+  - "Robert Fredona, «Carnival of Law: Bartolomeo Scala's Dialogue De legibus et iudiciis», Viator 39, 2 (2008), 193–214."
+  - "Bartolomeo Scala, Humanistic and Political Writings, ed. Alison Brown, Tempe, 1997, 338–364 y 547–549."
+  - "Alison Brown, Bartolomeo Scala, 1430–1497, Chancellor of Florence: The Humanist as Bureaucrat, Princeton, 1979."
+  - "Bartolomeo Scala, Essays and Dialogues, trad. Renée Neu Watkins, I Tatti Renaissance Library, Cambridge (MA), 2008, 158–231."
+
+revision: pendiente

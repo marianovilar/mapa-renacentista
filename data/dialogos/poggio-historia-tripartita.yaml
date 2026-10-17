@@ -7,23 +7,37 @@ libros: 3
 
 autores: [poggio]
 
-destinatarios: []
-nota_destinatarios: "Por verificar."
+destinatarios:
+  - persona: prospero-colonna
+    forma: dedicatoria
+    nota: "Según Fredona, la segunda parte (o la obra) está dedicada al cardenal Prospero Colonna en 1451. Por verificar si la dedicatoria cubre las tres partes."
 
-interlocutores: []
-nota_interlocutores: "Por verificar. Una de las tres partes discute si el latín fue lengua común de los romanos, contra la tesis de Bruni."
+interlocutores:
+  - persona: tignosi
+    nota: "Segunda parte: defiende la medicina."
+  - persona: accolti
+    nota: "Segunda parte: defiende el derecho, con una lista de antiguos legisladores que retoma Scala en el De legibus et iudiciis."
+nota_interlocutores: "Reparto de las otras dos partes por verificar. Una de ellas discute si el latín fue la lengua común de los romanos, contra la tesis de Bruni."
 
 composicion:
   fecha:
     desde: 1450
-    hasta: 1450
-    certeza: conjetural
+    hasta: 1451
+    certeza: probable
+    nota: "La segunda parte está dedicada en 1451 (Fredona)."
   lugares:
     - lugar: roma
       nota: "Por verificar."
 
-temas: [lengua latina, sobremesa, Bruni]
+temas: [lengua latina, sobremesa, Bruni, disputa entre medicina y derecho]
 
-fuentes: []
+resumen: >
+  Tres conversaciones de sobremesa. La segunda, inspirada en el De nobilitate
+  legum et medicinae de Salutati, enfrenta al médico Niccolò Tignosi y al jurista
+  Benedetto Accolti sobre cuál arte es más antigua y noble.
+
+fuentes:
+  - "Robert Fredona, «Carnival of Law: Bartolomeo Scala's Dialogue De legibus et iudiciis», Viator 39, 2 (2008), 207 y n. 72."
+  - "Eugenio Garin, La disputa delle arti nel Quattrocento, Firenze, 1947, 15–33."
 
 revision: pendiente
