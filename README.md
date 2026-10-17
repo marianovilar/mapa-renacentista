@@ -1,10 +1,10 @@
-# Mapa renacentista
+# Coordenadas renacentistas
 
-Visualización interactiva del Renacimiento europeo (siglos XIV–XVII): mapas políticos, figuras, obras clásicas redescubiertas y traducidas, y obras nuevas. La interfaz tiene un mapa en el centro y la información en paneles laterales.
+Espacios navegables que conectan obras del Renacimiento europeo (siglos XIV–XVII) a través de sus personas, lugares, fechas y temas. El primero, en desarrollo, reúne los diálogos latinos de Petrarca a Erasmo; más adelante se sumarán otros espacios, por ejemplo de obras literarias o pictóricas.
 
 **Sitio:** https://marianovilar.github.io/mapa-renacentista/
 
-## Fase 1: diálogos latinos, de Petrarca a Erasmo
+## Primer espacio: diálogos latinos, de Petrarca a Erasmo
 
 Una base de datos navegable de 46 diálogos latinos, del *Secretum* de Petrarca (desde 1347) a la última edición de los *Colloquia* de Erasmo (1533). Cada diálogo registra autor, destinatario, interlocutores, evocados, fecha y lugar de composición, ambientación y primera edición. Al hacer clic en cualquiera de esos datos se ven sus cruces con el resto.
 

@@ -1,4 +1,4 @@
-// Mapa renacentista — fase 1. Lee datos.json (generado por npm run validar)
+// Coordenadas renacentistas — primer espacio: diálogos latinos. Lee datos.json (generado por npm run validar)
 // y arma tres vistas enlazadas: índice, mapa con línea de tiempo y ficha de detalle.
 // La selección vive en la URL (#/dialogo/id, #/persona/id, #/lugar/id).
 
@@ -161,7 +161,7 @@ function vistaInicio() {
   const sinFuentes = [...db.dialogos.values()].filter((d) => !d.fuentes?.length).length;
   return `
     <div class="entrada">
-      <div class="tipo-ficha">Fase 1</div>
+      <div class="tipo-ficha">Primer espacio</div>
       <h1 class="detalle-titulo">Diálogos latinos del Renacimiento</h1>
       <p class="detalle-sub">Del <i>Secretum</i> de Petrarca a la última edición de los <i>Colloquia</i> de Erasmo</p>
       <div class="cifras">
