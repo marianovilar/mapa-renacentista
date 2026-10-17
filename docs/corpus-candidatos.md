@@ -10,7 +10,7 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Petrarca | *Secretum* | 1347–1353 | Vaucluse / Milán | Franciscus y Augustinus; Veritas presente |
 | ✅ | Petrarca | *De remediis utriusque fortunae* | 1354–1366 | Milán | Interlocutores alegóricos (Gaudium, Spes, Ratio, Dolor, Metus) |
 | ✅ | Francesco Zabarella | *De felicitate* | c. 1399–1400 | Padua / Praglia | Franciscus y un Disputans; dedicado a Vergerio |
-| ✅ | Leonardo Bruni | *Dialogi ad Petrum Paulum Histrum* | 1401–1406 | Florencia | Salutati, Niccoli, Rossi; dedicado a Vergerio |
+| ✅ | Leonardo Bruni | *Dialogi ad Petrum Paulum Histrum* | c. 1403–1408 (ambientados en la Pascua de 1401) | Florencia | Salutati, Niccoli, Rossi, Sermini; dedicado a Vergerio |
 
 ## Italia, siglo XV
 

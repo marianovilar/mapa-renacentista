@@ -40,11 +40,12 @@
 - id: salutati
   nombre: Coluccio Salutati
   nombre_latino: Colucius Salutatus
-  nacimiento: 1331
+  nacimiento: 1332
   muerte: 1406
   tipo: histórica
   sexo: masculino
   wikidata: Q93113
+  nota: "Nacido en Stignano (Valdinievole) el 16 de febrero de 1332; canciller de Florencia desde 1375 hasta su muerte, el 6 de mayo de 1406 (Viti 1996)."
 
 - id: niccoli
   nombre: Niccolò Niccoli
@@ -63,14 +64,14 @@
   tipo: histórica
   sexo: masculino
   wikidata: Q7351953
-  nota: "Fechas aproximadas."
+  nota: "Fechas aproximadas. Uno de los primeros alumnos de Crisoloras, de una familia tradicional florentina."
 
 - id: pietro-sermini
-  nombre: Pietro di ser Mino
+  nombre: Pietro di ser Mino (Pietro Sermini)
   nombre_latino: Petrus Minius
   tipo: histórica
   sexo: masculino
-  nota: "Notario florentino; interlocutor en el libro II. Fechas por verificar."
+  nota: "Sucedió a Salutati como canciller de Florencia en 1406; en 1410 se retiró a un monasterio y se volvió un predicador célebre (Martines 1963, según Perino 2021)."
 
 - id: vergerio
   nombre: Pier Paolo Vergerio el Viejo

@@ -11,26 +11,31 @@ autores: [bruni]
 destinatarios:
   - persona: vergerio
     forma: dedicatoria
+    nota: "En la dedicatoria Bruni elogia los estudios y el esplendor de Florencia y lamenta la ausencia de Vergerio, que había pasado en la ciudad 1386 y 1387; le envía por escrito la disputa para que la disfrute aunque no haya estado presente."
 
 interlocutores:
   - persona: salutati
     nombre_en_el_texto: Colucius
+    nota: "Libro I: reprende a los jóvenes por no practicar la disputatio y defiende a Dante, Petrarca y Boccaccio. En el libro II elogia la Laudatio de Bruni y se niega a responder él mismo a Niccoli."
   - persona: niccoli
     nombre_en_el_texto: Nicolaus
+    nota: "Libro I: niega que se pueda disputar en una época de ignorancia y lanza la invectiva contra las tres coronas. Libro II: pronuncia su encomio, en gran parte irónico según Perino."
   - persona: rossi
     nombre_en_el_texto: Robertus
+    nota: "En su jardín transcurre el libro II; le pide a Salutati que defienda a los autores florentinos."
   - persona: bruni
     nombre_en_el_texto: Leonardus
-    nota: "El autor como personaje y narrador."
+    nota: "El autor como personaje y narrador; en el libro II decide que sea el propio Niccoli quien haga el elogio."
   - persona: pietro-sermini
+    nombre_en_el_texto: Petrus
     nota: "Solo en el libro II."
 
 composicion:
   fecha:
-    desde: 1401
-    hasta: 1406
-    certeza: probable
-    nota: "Libro I hacia 1401; libro II posterior. La datación del libro II es objeto de debate (Baron)."
+    desde: 1403
+    hasta: 1408
+    certeza: conjetural
+    nota: "Datación discutida. Baron fecha el libro I en 1401 y el II después de la muerte de Gian Galeazzo Visconti (1402); Viti (1992), el II entre 1403 y 1408. La mayoría piensa en una composición conjunta posterior a la Laudatio florentine urbis (1403–1404), que el libro II menciona: Mortensen, 1403–1406; Fubini, después de la muerte de Salutati (1406); Baldassarri, segunda mitad de 1406; Witt, cerca de 1408. Una carta a Niccoli de febrero–mayo de 1408 ya muestra la obra en circulación (Perino 2021; Viti 1996)."
   lugares:
     - lugar: florencia
 
@@ -39,17 +44,23 @@ ambientacion:
   fecha:
     desde: 1401
     hasta: 1401
-    certeza: probable
-    nota: "En Pascua; libro I en casa de Salutati, libro II al día siguiente en casa de Rossi."
+    certeza: segura
+    nota: "Durante las fiestas de Pascua («cum solemniter celebrarentur ii dies, qui pro resurrectione Iesu Christi festi habentur»), siete años después de la muerte de Luigi Marsili (1394). El libro II transcurre al día siguiente, aunque la mención de la Laudatio lo vuelve imposible: es una convención del género (Mortensen, según Perino)."
   lugar: florencia
+  nota: "Libro I en casa de Salutati; libro II, al día siguiente, en los jardines de Roberto de' Rossi."
 
-temas: [Dante, Petrarca y Boccaccio, antiguos y modernos, disputatio, Florencia]
+temas: [Dante, Petrarca y Boccaccio, antiguos y modernos, disputatio, crítica a la escolástica y al occamismo, libros perdidos, elogio de Florencia, humanismo cívico]
 
 resumen: >
-  Niccoli condena a las tres coronas florentinas frente a Salutati y, al día
-  siguiente, se retracta y las elogia.
+  Durante las fiestas de Pascua, Niccoli niega ante Salutati que pueda haber
+  disputa en una época bárbara y condena a las tres coronas florentinas; al día
+  siguiente, en el jardín de Rossi, las elogia en un encomio en buena parte
+  irónico. Viti lo considera un manifiesto de la nueva cultura humanista.
 
 fuentes:
+  - "Alejo Perino, «Polémicas en los inicios del Quattrocento: los Diálogos a Pier Paolo Vergerio de Leonardo Bruni como manifiesto del humanismo», Studia Aurea 15 (2021), 295–317."
+  - "Leonardo Bruni, Opere letterarie e politiche, ed. Paolo Viti, Turín, UTET, 1996, 73–143 (con nota introductoria)."
+  - "Stefano Ugo Baldassarri (ed.), Dialogi ad Petrum Paulum Histrum, Florencia, Olschki, 1994."
   - "Hans Baron, The Crisis of the Early Italian Renaissance (1955)."
   - "David Marsh, The Quattrocento Dialogue (1980)."
 
