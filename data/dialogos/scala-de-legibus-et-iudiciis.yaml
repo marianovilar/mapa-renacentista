@@ -10,8 +10,10 @@ libros: 1
 
 autores: [scala]
 
-destinatarios: []
-nota_destinatarios: "Por verificar."
+destinatarios:
+  - persona: lorenzo-magnifico
+    forma: carta-prefatoria
+    nota: "Scala le somete la «disputatiuncula» que tuvo con Bernardo Machiavelli antes de publicarla, y lo llama «juez y autor de todas mis cosas» (Siena, ms. G.VIII.46, ff. 59v–60r)."
 
 interlocutores:
   - persona: scala
@@ -33,7 +35,7 @@ composicion:
     desde: 1483
     hasta: 1483
     certeza: segura
-    nota: "Febrero–marzo de 1483 (ed. Brown). Dos años después de los Apologi centum (otoño de 1481), cuyo apólogo 26, el de las leyes convertidas en telarañas, cita el personaje de Bartolomeo."
+    nota: "Febrero–marzo de 1483 (ed. Brown): según la carta prefatoria, Scala lo escribió en los días en que Lorenzo asistía como legado al congreso de Cremona sobre la guerra. Dos años después de los Apologi centum (otoño de 1481), cuyo apólogo 26, el de las leyes convertidas en telarañas, cita el personaje de Bartolomeo."
   lugares:
     - lugar: florencia
 
@@ -65,7 +67,7 @@ resumen: >
 
 fuentes:
   - "Robert Fredona, «Carnival of Law: Bartolomeo Scala's Dialogue De legibus et iudiciis», Viator 39, 2 (2008), 193–214."
-  - "Bartolomeo Scala, Humanistic and Political Writings, ed. Alison Brown, Tempe, 1997, 338–364 y 547–549."
+  - "Bartolomeo Scala, Humanistic and Political Writings, ed. Alison Brown, Tempe, 1997, 338–364 y 547–549 (texto y carta prefatoria)."
   - "Alison Brown, Bartolomeo Scala, 1430–1497, Chancellor of Florence: The Humanist as Bureaucrat, Princeton, 1979."
   - "Bartolomeo Scala, Essays and Dialogues, trad. Renée Neu Watkins, I Tatti Renaissance Library, Cambridge (MA), 2008, 158–231."
 

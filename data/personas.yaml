@@ -1101,3 +1101,13 @@
   tipo: histórica
   sexo: masculino
   nota: "Cardenal, sobrino de Martín V."
+
+# --- Scala, Dialogus de consolatione ---
+- id: giovanni-medici
+  nombre: Giovanni di Cosimo de' Medici
+  nombre_latino: Iohannes Medices
+  nacimiento: 1421
+  muerte: 1463
+  tipo: histórica
+  sexo: masculino
+  nota: "Hijo menor de Cosme el Viejo; muere el 1 de noviembre de 1463."

@@ -1,0 +1,59 @@
+id: scala-dialogus-de-consolatione
+titulo: Dialogus de consolatione
+titulo_completo: Bartholomei Scalae dialogus de consolatione qui dicitur Cosmus
+lengua: latín
+forma: diálogo
+modo: diegético
+denominacion: dialogus
+libros: 1
+
+autores: [scala]
+
+destinatarios:
+  - persona: lorenzo-magnifico
+    forma: carta-prefatoria
+    nota: "Carta autógrafa a Lorenzo, entonces de catorce años, fechada el 31 de diciembre de 1463, que precede al diálogo (Brown, carta I.13)."
+
+interlocutores:
+  - persona: scala
+    nota: "Narrador y personaje: acompaña a Cosme para sacarlo de su silencio y le propone los temas («materiam disputationis obiectanti»)."
+  - persona: cosme-medici
+    nombre_en_el_texto: Cosmus
+    nota: "Da nombre al diálogo. Scala explica que lo hace hablar para dar autoridad a sus palabras, como si el lector oyera al propio Cosme."
+
+evocados:
+  - persona: giovanni-medici
+    nota: "Hijo de Cosme, muerto el 1 de noviembre de 1463; su muerte motiva la consolación."
+
+composicion:
+  fecha:
+    desde: 1463
+    hasta: 1463
+    certeza: segura
+    nota: "Entre la muerte de Giovanni (1 de noviembre) y la carta a Lorenzo (31 de diciembre de 1463)."
+  lugares:
+    - lugar: florencia
+
+ambientacion:
+  espacio: casa privada
+  fecha:
+    desde: 1463
+    hasta: 1463
+    certeza: segura
+    nota: "Pocos días después de la muerte de Giovanni; Cosme tiene setenta y cinco años y sufre de gota."
+  lugar: florencia
+  nota: "En la habitación de Cosme, adonde acude casi toda la ciudad a consolarlo; Scala lo encuentra un día solo y en silencio."
+
+temas: [consolación, muerte de un hijo, providencia, miseria humana, fortaleza estoica, Medici]
+
+resumen: >
+  Tras la muerte de Giovanni de' Medici, Scala visita a Cosme y lo hace
+  conversar para arrancarlo de su silencio. Es Cosme, sereno ante la desgracia,
+  quien termina consolando sobre la condición humana y la providencia.
+
+fuentes:
+  - "Bartolomeo Scala, Humanistic and Political Writings, ed. Alison Brown, Tempe, 1997, 274–299."
+  - "Alison Brown, Bartolomeo Scala, 1430–1497, Chancellor of Florence: The Humanist as Bureaucrat, Princeton, 1979, 36–37 y 268–269."
+  - "George McClure, Sorrow and Consolation in Italian Humanism, Princeton, 1991, 135–139."
+
+revision: pendiente

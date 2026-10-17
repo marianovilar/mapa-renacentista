@@ -1,6 +1,6 @@
 # Corpus de la fase 1 — diálogos latinos, 1347–1533
 
-Los 42 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
+Los 43 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
 
 
 ## Italia, siglo XIV y comienzos del XV
@@ -37,7 +37,7 @@ Los 42 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Bartolomeo Platina | *De optimo cive* | 1474 | Roma | Cosme y Lorenzo de' Medici |
 | ✅ | Alamanno Rinuccini | *De libertate* | 1479 | Florencia | Tras la conjura de los Pazzi |
 | ✅ | Bartolomeo Scala | *De legibus et iudiciis* | 1483 | Florencia | Scala y Bernardo Machiavelli, en Carnaval |
-| | Bartolomeo Scala | *Dialogus de consolatione* | 1463 | Florencia | Con Cosme de' Medici; candidato, falta fuente |
+| ✅ | Bartolomeo Scala | *Dialogus de consolatione* (*Cosmus*) | 1463 | Florencia | Scala y Cosme tras la muerte de Giovanni de' Medici |
 | ✅ | Giovanni Pontano | *Charon* | c. 1467–1470 | Nápoles | |
 | ✅ | Giovanni Pontano | *Antonius* | 1480s–1491 | Nápoles | Homenaje al Panormita |
 | ✅ | Giovanni Pontano | *Actius* | 1495–1499 | Nápoles | Sobre la poesía; Sannazaro |
@@ -62,7 +62,8 @@ Los 42 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 
 ## Decisiones tomadas
 
-- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos, y el *De felicitate* de Zabarella, dedicado como el de Bruni a Vergerio, y el *De legibus et iudiciis* de Scala.
+- **Corpus:** se mantienen los 38 diálogos de la lista y se suman el *Aegidius* y el *Asinus* de Pontano, para tener sus cinco diálogos, y el *De felicitate* de Zabarella, dedicado como el de Bruni a Vergerio, y los dos diálogos de Scala (*Dialogus de consolatione* y *De legibus et iudiciis*).
+- **Scala, *Ducendane sit uxor sapienti* (1457–1459) y *Apologi*:** quedan fuera. El primero es un ensayo epistolar dirigido a Piero de' Medici, no un diálogo; los segundos son fábulas breves.
 - **Diálogos alegóricos** (*De remediis*, *Charon*, *De pace fidei*): entran.
 - **Cusa, *Idiota*:** tres fichas (*De sapientia*, *De mente*, *De staticis experimentis*) vinculadas como `serie`.
 - **Hutten:** cada pieza de los *Dialogi* sería una ficha; por ahora solo *Vadiscus*.
