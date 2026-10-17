@@ -25,7 +25,7 @@ Los 46 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Lorenzo Valla | *De vero bono* | 1432–1433; revisiones posteriores | Pavía y Milán; ambientado en Pavía | Sacco, Vegio, Antonio da Rho y Guarino como moderador: ficha propia |
 | ✅ | Lorenzo Valla | *De libero arbitrio* | c. 1439 | Nápoles (?) | Con Antonio Glarea |
 | ✅ | Lorenzo Valla | *De professione religiosorum* | 1442 | Nápoles (?) | |
-| ✅ | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia (empezado el 13 de octubre); ambientado en Perugia | Alberti escribe también en vulgar; elegir la obra latina |
+| ✅ | Leon Battista Alberti | *Pontifex* | 1437 | Bolonia, 13–17 de octubre (colofón); ambientado en Perugia | Alberti escribe también en vulgar; elegir la obra latina |
 | ✅ | Leon Battista Alberti | *Intercenales* | c. 1430–1440 | Bolonia / Florencia | Colección mixta; libros dedicados a Toscanelli, Bruni y Poggio |
 | ✅ | Lapo da Castiglionchio el Joven | *De curiae commodis* | 1438 | Ferrara | La curia durante el concilio |
 | ✅ | Giannozzo Manetti | *Dialogus consolatorius* | 1438 (versión italiana 1439) | Vacciano; ambientado en la Certosa del Galluzzo | Muerte de su hijo Antonino; Agnolo Acciaiuoli y el prior Niccolò da Cortona |
