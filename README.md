@@ -13,6 +13,11 @@ Una base de datos navegable de 46 diálogos latinos, del *Secretum* de Petrarca 
 - [`data/`](data/): los datos (un YAML por diálogo, más `personas.yaml` y `lugares.yaml`).
 - [`web/`](web/): el sitio (HTML, CSS y JavaScript sin compilación; mapa con Leaflet y red de diálogos con d3).
 
+## Corregir fichas
+
+- **Editor local:** doble clic en `editar-fichas.bat` (requiere Python y Node.js). Muestra las fichas en orden cronológico, valida los cambios y, si no hay errores, los publica (commit y push). Incluye un buscador de los ids de personas y lugares.
+- **En GitHub:** editar el YAML con el lápiz y guardar. Si la validación falla, el sitio no se actualiza y el error aparece en la pestaña Actions.
+
 ## Trabajar en local
 
 Requiere [Node.js](https://nodejs.org/).
