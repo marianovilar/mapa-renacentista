@@ -870,7 +870,7 @@ async function pintarPagina(pagina) {
   if (art.dataset.listo) return;
   art.dataset.listo = '1';
   try {
-    const r = await fetch(PAGINAS[pagina]);
+    const r = await fetch(PAGINAS[pagina], { cache: 'no-cache' });
     if (!r.ok) throw new Error(r.status);
     art.innerHTML = await r.text();
     rellenarCifras(art);
@@ -899,7 +899,8 @@ function rellenarCifras(art) {
 
 async function arrancar() {
   try {
-    const datos = await fetch('datos.json').then((r) => {
+    // no-cache: el navegador pregunta siempre si hay una versión nueva (si no la hay, no se descarga de nuevo).
+    const datos = await fetch('datos.json', { cache: 'no-cache' }).then((r) => {
       if (!r.ok) throw new Error(r.status);
       return r.json();
     });
