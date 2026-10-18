@@ -87,6 +87,8 @@ for (const d of dialogos) {
     if (!LENGUAS.includes(e.lengua)) errores.push(`${c}: lengua de edición inválida "${e.lengua}"`);
     if (!e.referencia) errores.push(`${c}: edición sin referencia`);
   }
+  if (d.texto_en_linea != null && !/^https?:\/\/\S+$/.test(d.texto_en_linea.url ?? '')) errores.push(`${c}: texto_en_linea sin una url válida`);
+  if (d.texto_en_linea != null && !d.texto_en_linea.descripcion) errores.push(`${c}: texto_en_linea sin descripcion`);
   for (const b of d.bibliografia ?? []) if (!b.referencia) errores.push(`${c}: entrada de bibliografía sin referencia`);
 
   if (Array.isArray(d.interlocutores) && d.interlocutores.length === 0) avisos.push(`${c}: interlocutores por completar`);
@@ -176,7 +178,7 @@ const lista = (xs) => xs.filter(Boolean).join('; ');
 writeFileSync(join(raiz, 'build/dialogos.csv'), csv([
   ['id', 'titulo', 'autores', 'lengua', 'forma', 'modo', 'libros', 'composicion_desde', 'composicion_hasta', 'composicion_certeza', 'composicion_lugares',
     'destinatarios', 'interlocutores', 'evocados', 'ambientacion_lugar', 'ambientacion_desde', 'ambientacion_hasta', 'ambientacion_espacio',
-    'primera_edicion_anio', 'primera_edicion_lugar', 'primera_edicion_impresor', 'temas', 'caso_dudoso', 'revision', 'fuentes', 'ediciones_modernas', 'traducciones', 'bibliografia'],
+    'primera_edicion_anio', 'primera_edicion_lugar', 'primera_edicion_impresor', 'temas', 'caso_dudoso', 'revision', 'fuentes', 'ediciones_modernas', 'traducciones', 'bibliografia', 'texto_en_linea'],
   ...dialogos.map((d) => [
     d.id, d.titulo, lista((d.autores ?? []).map(nom)), d.lengua, d.forma, d.modo, d.libros,
     d.composicion?.fecha?.desde, d.composicion?.fecha?.hasta, d.composicion?.fecha?.certeza,
@@ -190,6 +192,7 @@ writeFileSync(join(raiz, 'build/dialogos.csv'), csv([
     (d.ediciones ?? []).filter((e) => e.tipo !== 'traducción').map((e) => e.referencia).join(' | '),
     lista([...new Set((d.ediciones ?? []).filter((e) => e.tipo !== 'edición').map((e) => e.lengua))]),
     (d.bibliografia ?? []).map((b) => b.referencia).join(' | '),
+    d.texto_en_linea?.url,
   ]),
 ]));
 writeFileSync(join(raiz, 'build/personas.csv'), csv([

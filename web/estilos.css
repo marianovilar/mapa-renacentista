@@ -356,3 +356,8 @@ a:hover { text-decoration: underline; }
 .bibliografia-ficha summary h3::after { content: " ▸"; }
 .bibliografia-ficha[open] summary h3::after { content: " ▾"; }
 .bibliografia-ficha .nota-suelta { margin: 2px 0 6px; }
+
+/* Enlace al texto en acceso abierto */
+.texto-en-linea { margin: 10px 0; font-size: 13px; }
+.texto-en-linea a { font-weight: 600; margin-right: 8px; }
+.texto-en-linea span { color: var(--tinta-3); font-size: 12px; }

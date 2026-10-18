@@ -239,6 +239,7 @@ function vistaDialogo(d) {
     <div class="etiquetas">${etiquetas.join('')}</div>
     ${d.caso_dudoso ? `<p class="nota-suelta">${esc(d.motivo_duda)}</p>` : ''}
     ${d.resumen ? `<p class="resumen">${esc(d.resumen)}</p>` : ''}
+    ${d.texto_en_linea?.url ? `<p class="texto-en-linea"><a href="${esc(d.texto_en_linea.url)}" target="_blank" rel="noopener">Leer el texto ↗</a><span>${esc(d.texto_en_linea.descripcion ?? '')}</span></p>` : ''}
 
     <div class="seccion">
       <h3>Fechas y lugares</h3>

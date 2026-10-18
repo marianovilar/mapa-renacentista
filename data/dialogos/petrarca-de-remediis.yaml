@@ -47,6 +47,10 @@ resumen: >
   pasiones. Celenza lo describe como un «estoicismo cristiano para las masas»:
   tuvo más de 250 manuscritos, pero pocas ediciones impresas.
 
+texto_en_linea:
+  url: "http://www.bibliotecaitaliana.it/testo/bibit000299"
+  descripcion: "Texto latino completo · Biblioteca Italiana"
+
 fuentes:
   - "Christopher S. Celenza, Petrarch: Everywhere a Wanderer, Londres, Reaktion Books, 2017."
   - "Francesco Petrarca, Les remèdes aux deux fortunes / De remediis utriusque fortunae, 1354–1366, ed. y trad. Christophe Carraud, Grenoble, 2002."

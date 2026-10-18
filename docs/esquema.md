@@ -130,6 +130,7 @@ Si falta un dato y no se puede completar todavía, el campo queda vacío y se ex
 - `revision: pendiente | revisado`. Todo lo cargado de forma provisional queda `pendiente` hasta que alguien lo coteje con la bibliografía.
 - `fuentes`: referencias que respaldan las fechas y los datos.
 - `ediciones`: ediciones modernas y traducciones. Cada una lleva `tipo` (`edición` | `edición y traducción` | `traducción`), `lengua` (la del texto si es edición, la de llegada si hay traducción), `referencia`, `anio` y, si está en la biblioteca de Zotero, `zotero` (la clave del ítem). Las que no se pudieron comprobar llevan `verificado: false`. `nota_ediciones` explica las ausencias.
+- `texto_en_linea`: un único enlace al texto del diálogo en acceso abierto, con `url` y `descripcion` (qué edición es y en qué repositorio). Se prefiere, en este orden: una edición moderna libre de derechos, un texto transcrito y el facsímil de una edición antigua; y se comprueba que se vea completo desde la Argentina. Si no hay ninguno, el campo se omite.
 - `bibliografia`: estudios pertinentes identificados en la biblioteca de Zotero por sus metadatos, no necesariamente leídos. A diferencia de `fuentes`, no respaldan los datos de la ficha. Cada entrada tiene `referencia` y `zotero`.
 - Ambos campos se cargan con `scripts/cargar-ediciones.py`, que arma las referencias a partir de `build/zotero.csv`.
 - `npm run validar` comprueba que los `id` referidos existan, que las fechas tengan sentido y que no falten campos obligatorios.
@@ -158,5 +159,6 @@ Si falta un dato y no se puede completar todavía, el campo queda vacío y se ex
 | `resumen` | no | dos o tres líneas |
 | `fuentes` | no | lista de referencias |
 | `ediciones` | no | lista de `tipo`, `lengua`, `referencia`, `anio`, `zotero`, `nota`, `verificado` |
+| `texto_en_linea` | no | `url` y `descripcion` |
 | `bibliografia` | no | lista de `referencia` y `zotero` |
 | `revision` | sí | `pendiente` \| `revisado` |
