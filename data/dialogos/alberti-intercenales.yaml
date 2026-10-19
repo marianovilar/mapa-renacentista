@@ -81,6 +81,10 @@ resumen: >
   tipo ciceroniano, fábulas y novelle. Alberti se retrata como Lepidus y como
   Philoponius.
 
+texto_en_linea:
+  url: "https://archive.org/details/leonisbaptistalb00albe/page/122/mode/1up"
+  descripcion: "Texto latino editado por Girolamo Mancini (1890) - Archive"
+
 fuentes:
   - "Leon Battista Alberti, Dinner Pieces: A Translation of the Intercenales, trad. David Marsh, Binghamton, Medieval & Renaissance Texts & Studies, 1987."
   - "Leon Battista Alberti, Intercenales, ed. Franco Bacchelli y Luca D'Ascia, Bolonia, Pendragon, 2003."
