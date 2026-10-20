@@ -46,6 +46,10 @@ resumen: >
   reveses, la historia de Italia desde 1377 hasta Eugenio IV y, en el libro IV,
   el viaje de Niccolò de' Conti por Persia y la India.
 
+texto_en_linea:
+  url: "https://archive.org/details/bub_gb_FBySfwhNWK8C/page/n9/mode/2up"
+  descripcion: "Edición de 1723 realizada por Domenico Giorgio - Archive"
+
 fuentes:
   - "Martín José Ciordia, «El príncipe y el sabio en el De infelicitate principum de Poggio Bracciolini», Studia Aurea 11 (2017), 461–479."
   - "William Shepherd, The Life of Poggio Bracciolini, 2.ª ed., Liverpool, 1837, cap. X."
