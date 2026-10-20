@@ -1,0 +1,91 @@
+id: valla-apologus
+titulo: Apologus in Poggium
+titulo_completo: In Poggium Florentinum apologeticus et scenicus actus
+lengua: latín
+forma: diálogo
+modo: mimético
+libros: 1
+
+autores: [valla]
+
+destinatarios: []
+nota_destinatarios: "Sin dedicatario conocido. Valla dice responder a las invectivas de Poggio no con otra invectiva sino con un «apólogo o acto escénico», para que resulte más divertido a los lectores (Bonmatí 2004). Por verificar."
+
+interlocutores:
+  - persona: guarino
+    nota: "Hace de juez: Valla le pide que corrija en su lugar el latín de Poggio, y Guarino lo reprende continuamente comparándolo con el de sus criados. Interroga a los sirvientes sobre construcciones y diminutivos (Bonmatí 2004)."
+  - persona: poggio
+    nota: "Acusado de escribir en el latín vulgar o «culinario» de un cocinero o un caballerizo; se duerme ebrio y solo interviene al principio y al final (Bonmatí 2004)."
+  - persona: valla
+    nombre_en_el_texto: Laurentius
+    nota: "Pone en escena la disputa y pide a Guarino que juzgue. Los errores que atribuye a Poggio están tomados, de forma ficticia, de sus cartas a Niccolò Niccoli."
+  - persona: parmeno
+    nota: "El cocinero, que habla latín culinario; pide que Poggio, que habla peor que él, lo reemplace en la cocina o como despensero."
+  - persona: dromo
+    nota: "El caballerizo, que habla latín culinario."
+  - persona: dionisio-apologus
+    nombre_en_el_texto: Dionysius
+    nota: "Despensero o vinatero, alumno de Guarino: explica correctamente el régimen de los verbos incoativos (Elegantiae I, 23)."
+nota_interlocutores: "Los nombres de los criados vienen de la comedia: Dromo y Parmeno, de Plauto y Terencio; Dionisio, de una carta de Cicerón (Att. 4, 8, 2). Dan al diálogo un tono festivo (Bonmatí 2004)."
+
+evocados:
+  - persona: niccoli
+    nota: "Destinatario de las cartas de Poggio de las que Valla extrae, de forma ficticia, los errores de latín que le reprocha."
+
+composicion:
+  fecha:
+    desde: 1453
+    hasta: 1454
+    certeza: probable
+    nota: "Hacia 1454 (Bonmatí), como respuesta inmediata a la Cuarta invectiva de Poggio, difundida hacia 1453; la polémica entre ambos se aviva entre 1451 y 1454. El llamado Apólogo II, que contesta a la Disceptatio convivalis III de Poggio (1450), es anterior: su número se debe al orden de las ediciones. Poggio respondió al Apólogo en su Quinta invectiva."
+  lugares:
+    - lugar: roma
+      nota: "Valla vivía en Roma desde 1448, al servicio de Nicolás V. Por verificar."
+
+ambientacion:
+  espacio: casa privada
+  fecha: null
+  lugar: null
+  nota: "Bonmatí sitúa la escena en casa de Guarino y, a la vez, en la cocina de Valla, donde los criados hablan su latín de cocina. Por verificar en el texto."
+
+temas: [lengua latina, sermo vulgaris, latín culinario, Elegantiae, polémica con Poggio, comedia, invectiva]
+
+resumen: >
+  Respuesta escénica de Valla a las invectivas de Poggio: con Guarino como
+  juez, los criados de la casa, el cocinero, el caballerizo y el despensero,
+  exhiben su latín «culinario», que Valla equipara al de Poggio. Mientras
+  Poggio dormita borracho, Guarino corrige uno a uno sus barbarismos según
+  la autoridad de los antiguos, defendiendo la Romana lingua de las
+  Elegantiae frente al sermo vulgaris.
+
+texto_en_linea:
+  url: "https://archive.org/details/gri_33125009483351"
+  descripcion: "Edición de París, Robert Estienne, 1541, junto con las Elegantiae (facsímil) · Internet Archive"
+
+fuentes:
+  - "Virginia Bonmatí Sánchez, «El Sermo Vulgaris frente a la Romana lingua de Lorenzo Valla (c. 1407-1457) en el Apólogo I contra Poggio Bracciolini (1380-1459)», Cuadernos de Filología Clásica. Estudios Latinos 24, 2 (2004), 303–318."
+  - "Virginia Bonmatí Sánchez, «El Apólogo o Acto Escénico de Lorenzo Valla (1454) del Manuscrito 613 de la Biblioteca Riccardiana de Florencia en contestación a la Cuarta Invectiva de Poggio Bracciolini (1453)», eHumanista 4 (2004), 240."
+
+ediciones:
+  - tipo: edición
+    lengua: latín
+    referencia: "Lorenzo Valla, De Latinae linguae elegantia lib. VI; De reciprocatione sui et suus lib. I; In Antonium Raudensem annotationum libellus; In Pogium Florentinum apologeticus et scenicus actus, París, Robert Estienne, 1541."
+    anio: 1541
+    zotero: UMPW5SDB
+    nota: "Edición antigua; antes había salido en París (1529) y en las Opera omnia de Basilea (1540), según Bonmatí."
+  - tipo: edición y traducción
+    lengua: español
+    referencia: "Lorenzo Valla, Apólogo contra Poggio Bracciolini. Poggio Bracciolini, Quinta invectiva contra Lorenzo Valla (1453), estudio y edición crítica con traducción de Virginia Bonmatí Sánchez, León, Universidad de León, 2006."
+    anio: 2006
+    zotero: 3765766F
+    nota: "Edición crítica, que tiene en cuenta el manuscrito Riccardiano 613, único testimonio manuscrito conocido."
+
+bibliografia:
+  - referencia: "Martin L. McLaughlin, «The Dispute between Poggio and Valla», en Literary Imitation in the Italian Renaissance: The Theory and Practice of Literary Imitation in Italy from Dante to Bembo, Oxford University Press, 1996."
+    zotero: SRLX7AJY
+  - referencia: "Salvatore Camporeale, «Poggio Bracciolini contre Lorenzo Valla. Les Orationes in Laurentium Vallam», en Penser entre les lignes. Philologie et philosophie au Quattrocento, ed. Fosca Mariani-Zini, Lille, Presses Universitaires du Septentrion, 2001, 251-273."
+    zotero: TA4HK8SF
+  - referencia: "Virginia Bonmatí Sánchez, «La Vituperatio irónica en la Quinta Invectiva de Poggio Bracciolini (1453) contra Lorenzo Valla», Studia Philologica Valentina 8, 5 (2005), 11-35."
+    zotero: IU3GJP2M
+
+revision: pendiente
