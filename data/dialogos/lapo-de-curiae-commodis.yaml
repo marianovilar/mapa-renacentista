@@ -34,6 +34,10 @@ ambientacion:
 
 temas: [curia papal, ironía, carrera eclesiástica]
 
+texto_en_linea:
+  url: "https://archive.org/details/quellenundforsch16deutuoft/page/n125/mode/1up"
+  descripcion: "Edición de Richard Scholz, Quellen und Forschungen aus italienischen Archiven und Bibliotheken 16 (1914), 108–153 - Archive"
+
 fuentes:
   - "Christopher S. Celenza, Renaissance Humanism and the Papal Curia: Lapo da Castiglionchio the Younger's De curiae commodis (1999)."
 
