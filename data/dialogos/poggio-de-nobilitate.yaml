@@ -50,6 +50,10 @@ resumen: >
   que duró hasta fin de siglo, con respuestas de Leonardo da Chio, Lauro
   Quirini, Paolo Morosini, Jacopo di Porcìa y Tristano Caracciolo (Finzi 2010).
 
+texto_en_linea:
+  url: "http://www.alim.dfll.univr.it/alim/letteratura.nsf/(volumiID)/0BF32379B9EBFC47C1257AAB005AC804!opendocument&vs=Autore"
+  descripcion: "Texto latino en ALIM (ed.Canfora)"
+
 fuentes:
   - "Claudio Finzi, «La polemica sulla nobiltà nell'Italia del Quattrocento», Cuadernos de Filología Clásica. Estudios Latinos 30, 2 (2010), 341–380."
   - "Poggio Bracciolini, La vera nobiltà, ed. y trad. Davide Canfora, Roma, Salerno, 1999."
