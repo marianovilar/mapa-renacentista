@@ -15,6 +15,7 @@ Una base de datos navegable de 46 diálogos latinos, del *Secretum* de Petrarca 
 
 ## Corregir fichas
 
+- **Editor en línea:** `https://marianovilar.github.io/mapa-renacentista/editor.html`. Se entra con un token personal de GitHub con permiso de escritura sobre este repositorio (la página explica cómo crearlo). Tiene una casilla para marcar la ficha como revisada, campos para el enlace al texto en línea, el resto del YAML para editar a mano y un buscador de ids. Valida con las mismas reglas que el sitio y, si no hay errores, guarda el cambio en GitHub y sigue la publicación.
 - **Editor local:** doble clic en `editar-fichas.bat` (requiere Python y Node.js). Muestra las fichas en orden cronológico, valida los cambios y, si no hay errores, los publica (commit y push). Incluye un buscador de los ids de personas y lugares.
 - **En GitHub:** editar el YAML con el lápiz y guardar. Si la validación falla, el sitio no se actualiza y el error aparece en la pestaña Actions.
 

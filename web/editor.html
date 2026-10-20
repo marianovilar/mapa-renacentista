@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Editor de fichas</title>
+  <link rel="icon" href="icono.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body class="editor">
+  <header class="cabecera">
+    <a class="marca" href="./">
+      <span class="marca-titulo">Coordenadas renacentistas</span>
+      <span class="marca-sub">Editor de fichas</span>
+    </a>
+    <nav class="navegacion" aria-label="Sesión">
+      <a href="./" target="_blank" rel="noopener">Ver el sitio</a>
+      <button type="button" id="salir" hidden>Salir</button>
+    </nav>
+  </header>
+
+  <!-- Acceso: solo con un token de GitHub con permiso de escritura en el repositorio -->
+  <section class="acceso" id="acceso">
+    <h1>Entrar al editor</h1>
+    <p>El editor guarda los cambios directamente en el repositorio del sitio. Para entrar hace falta un <b>token de GitHub</b> con permiso de escritura sobre este repositorio: funciona como tu contraseña personal y solo vos lo tenés.</p>
+    <form id="form-acceso">
+      <label for="token">Token de GitHub</label>
+      <input id="token" type="password" autocomplete="current-password" spellcheck="false" placeholder="github_pat_…" required>
+      <label class="casilla"><input type="checkbox" id="recordar"> Recordar en este navegador (no lo marques en una computadora compartida)</label>
+      <button type="submit">Entrar</button>
+      <p class="mensaje-acceso" id="mensaje-acceso" role="status"></p>
+    </form>
+    <details>
+      <summary>¿Cómo creo el token?</summary>
+      <ol>
+        <li>En GitHub, entrá a <b>Settings → Developer settings → Personal access tokens → Fine-grained tokens</b> y elegí <b>Generate new token</b>.</li>
+        <li>Nombre: «Editor de fichas». Vencimiento: el que prefieras (por ejemplo, un año).</li>
+        <li>En <b>Repository access</b>, elegí <b>Only select repositories</b> y marcá solo <code>mapa-renacentista</code>.</li>
+        <li>En <b>Permissions → Repository permissions</b>, poné <b>Contents</b> en <b>Read and write</b>. No hace falta ningún otro permiso.</li>
+        <li>Generalo, copialo y guardalo en tu gestor de contraseñas: GitHub no lo vuelve a mostrar.</li>
+      </ol>
+    </details>
+  </section>
+
+  <main class="editor-cuerpo" id="cuerpo" hidden>
+    <aside class="panel editor-lista">
+      <div class="editor-titulo">Fichas <span class="contador" id="contador"></span></div>
+      <input type="search" id="filtro" placeholder="Buscar…">
+      <ul id="lista" class="editor-items"></ul>
+    </aside>
+
+    <section class="editor-centro">
+      <div class="editor-cabeza">
+        <h2 id="rotulo">Elegí una ficha</h2>
+        <a id="ver-ficha" href="#" target="_blank" rel="noopener" hidden>Ver en el sitio ↗</a>
+      </div>
+
+      <div class="editor-campos" id="campos" hidden>
+        <label class="casilla grande"><input type="checkbox" id="revisada"> Ficha revisada</label>
+        <fieldset id="campo-texto">
+          <legend>Texto en línea</legend>
+          <label for="texto-url">Enlace</label>
+          <input id="texto-url" type="url" placeholder="https://…">
+          <label for="texto-desc">Descripción</label>
+          <input id="texto-desc" type="text" placeholder="Qué edición es · en qué repositorio">
+          <p class="ayuda">Si dejás el enlace vacío, la ficha queda sin texto en línea.</p>
+        </fieldset>
+      </div>
+
+      <label for="yaml" class="editor-titulo" id="rotulo-yaml" hidden>Resto de la ficha (YAML)</label>
+      <textarea id="yaml" spellcheck="false" hidden></textarea>
+
+      <div class="editor-botones" id="botones" hidden>
+        <button type="button" id="validar">Validar</button>
+        <button type="button" id="guardar" class="principal">Guardar y publicar</button>
+        <button type="button" id="descartar">Descartar cambios</button>
+      </div>
+      <div class="editor-mensajes" id="mensajes" role="status" aria-live="polite"></div>
+    </section>
+
+    <aside class="panel editor-ids">
+      <div class="editor-titulo">Personas y lugares</div>
+      <p class="ayuda">Clic: copia el id.</p>
+      <input type="search" id="busca-ids" placeholder="Buscar…">
+      <ul id="ids" class="editor-items"></ul>
+    </aside>
+  </main>
+
+  <script type="module" src="editor.js"></script>
+</body>
+</html>

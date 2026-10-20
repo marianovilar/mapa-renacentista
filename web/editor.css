@@ -1,0 +1,71 @@
+/* Editor de fichas: usa los colores y tipografías de estilos.css */
+body.editor { display: flex; flex-direction: column; height: 100vh; }
+.editor button {
+  font: inherit; font-size: 13px; padding: 6px 14px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--linea-fuerte); background: var(--superficie); color: var(--tinta);
+}
+.editor button:hover { background: var(--resalte); }
+.editor button.principal { background: var(--marca); border-color: var(--marca); color: var(--fondo); font-weight: 600; }
+.editor button.principal:hover { filter: brightness(1.08); }
+.editor button:disabled { opacity: 0.5; cursor: default; }
+.editor input[type="text"], .editor input[type="url"], .editor input[type="search"], .editor input[type="password"], .editor textarea {
+  font: inherit; font-size: 13px; padding: 6px 8px; border: 1px solid var(--linea-fuerte); border-radius: 6px;
+  background: var(--superficie); color: var(--tinta); width: 100%; box-sizing: border-box;
+}
+.editor .ayuda { color: var(--tinta-3); font-size: 12px; margin: 4px 0 0; }
+.editor .casilla { display: flex; align-items: center; gap: 8px; font-size: 13px; margin: 8px 0; cursor: pointer; }
+.editor .casilla.grande { font-size: 15px; font-weight: 600; }
+.editor .casilla input { width: 16px; height: 16px; accent-color: var(--marca); }
+
+/* Acceso */
+.acceso { max-width: 560px; margin: 40px auto; padding: 0 16px; line-height: 1.5; }
+.acceso h1 { font-family: var(--serif); font-size: 30px; margin: 0 0 8px; }
+.acceso form { display: flex; flex-direction: column; gap: 6px; margin: 16px 0; }
+.acceso form label:not(.casilla) { font-size: 13px; font-weight: 600; }
+.acceso form button { align-self: flex-start; margin-top: 4px; }
+.acceso details { font-size: 13px; color: var(--tinta-2); }
+.acceso summary { cursor: pointer; font-weight: 600; color: var(--tinta); }
+.mensaje-acceso { min-height: 1.2em; font-size: 13px; color: var(--composicion); margin: 4px 0 0; }
+
+/* Cuerpo en tres columnas */
+.editor-cuerpo { flex: 1; min-height: 0; display: grid; grid-template-columns: 280px 1fr 260px; }
+.editor-cuerpo[hidden] { display: none; }
+.editor-lista, .editor-ids { padding: 12px; display: flex; flex-direction: column; gap: 6px; overflow: hidden; }
+.editor-lista { border-right: 1px solid var(--linea); }
+.editor-ids { border-left: 1px solid var(--linea); }
+.editor-titulo { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-3); }
+.editor-items { list-style: none; margin: 0; padding: 0; overflow-y: auto; flex: 1; }
+.editor-items li { padding: 5px 6px; border-radius: 5px; cursor: pointer; font-size: 13px; display: flex; gap: 6px; align-items: baseline; }
+.editor-items li:hover { background: var(--resalte); }
+.editor-items li.activo { background: var(--resalte); box-shadow: inset 3px 0 0 var(--marca); }
+.editor-items .anio { color: var(--tinta-3); font-size: 11px; min-width: 32px; font-variant-numeric: tabular-nums; }
+.editor-items .tit { flex: 1; }
+.editor-items .ok { color: var(--marca); font-weight: 600; }
+.editor-items .grupo { cursor: default; font-weight: 600; color: var(--tinta-3); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 8px; }
+.editor-items .grupo:hover { background: none; }
+.editor-items .id { color: var(--tinta-3); font-family: Consolas, monospace; font-size: 11px; }
+
+.editor-centro { padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; min-height: 0; overflow-y: auto; }
+.editor-cabeza { display: flex; align-items: baseline; gap: 12px; }
+.editor-cabeza h2 { font-family: var(--serif); font-size: 24px; margin: 0; }
+.editor-cabeza a { font-size: 13px; }
+.editor-campos { display: flex; flex-direction: column; gap: 6px; padding: 10px 12px; border: 1px solid var(--linea); border-radius: 8px; background: var(--superficie); }
+.editor-campos[hidden] { display: none; }
+.editor-campos fieldset { border: 0; padding: 0; margin: 0; display: grid; grid-template-columns: 90px 1fr; gap: 6px 10px; align-items: center; }
+.editor-campos legend { font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.editor-campos fieldset label { font-size: 13px; color: var(--tinta-2); }
+.editor-campos fieldset .ayuda { grid-column: 2; }
+#yaml { flex: 1; min-height: 320px; font-family: Consolas, "Courier New", monospace; font-size: 13px; line-height: 1.5; resize: vertical; tab-size: 2; }
+.editor-botones { display: flex; gap: 8px; flex-wrap: wrap; }
+.editor-mensajes { font-size: 13px; line-height: 1.5; }
+.editor-mensajes p { margin: 2px 0; }
+.editor-mensajes .error { color: var(--composicion); }
+.editor-mensajes .ok { color: #2f6b2f; }
+.editor-mensajes .aviso { color: var(--tinta-2); }
+[hidden] { display: none !important; }
+
+@media (max-width: 900px) {
+  .editor-cuerpo { grid-template-columns: 1fr; }
+  .editor-lista { max-height: 220px; border-right: 0; border-bottom: 1px solid var(--linea); }
+  .editor-ids { max-height: 240px; border-left: 0; border-top: 1px solid var(--linea); }
+}
