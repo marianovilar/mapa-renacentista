@@ -640,11 +640,12 @@ function guardarPreferencia(clave, valor) {
   try { localStorage.setItem(clave, valor); } catch { /* sin almacenamiento: no pasa nada */ }
 }
 
-function mostrarVista(vista) {
+// La vista inicial es la red; solo se recuerda el mapa si la persona lo eligió con un clic.
+function mostrarVista(vista, elegida = false) {
   for (const b of document.querySelectorAll('.selector-vista button')) b.setAttribute('aria-selected', b.dataset.vista === vista);
   $('#vista-mapa').hidden = vista !== 'mapa';
   $('#vista-red').hidden = vista !== 'red';
-  guardarPreferencia('vista', vista);
+  if (elegida) guardarPreferencia('vista-elegida', vista);
   if (vista === 'mapa') {
     requestAnimationFrame(() => { mapa.invalidateSize(); pintarMapa(leerRuta()); });
   } else if (red.svg) {
@@ -654,9 +655,9 @@ function mostrarVista(vista) {
 
 function iniciarVistas() {
   for (const b of document.querySelectorAll('.selector-vista button')) {
-    b.addEventListener('click', () => mostrarVista(b.dataset.vista));
+    b.addEventListener('click', () => mostrarVista(b.dataset.vista, true));
   }
-  mostrarVista(leerPreferencia('vista', 'mapa') === 'red' ? 'red' : 'mapa');
+  mostrarVista(leerPreferencia('vista-elegida', 'red') === 'mapa' ? 'mapa' : 'red');
 }
 
 // ---------- Red de diálogos ----------

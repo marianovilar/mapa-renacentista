@@ -46,14 +46,14 @@
     <section class="centro">
       <div class="mapa-marco">
         <div class="selector-vista" role="tablist" aria-label="Vista">
-          <button role="tab" data-vista="mapa" aria-selected="true">Mapa</button>
-          <button role="tab" data-vista="red" aria-selected="false">Red</button>
+          <button role="tab" data-vista="red" aria-selected="true">Red</button>
+          <button role="tab" data-vista="mapa" aria-selected="false">Mapa</button>
         </div>
-        <div class="vista" id="vista-mapa">
+        <div class="vista" id="vista-mapa" hidden>
           <div id="mapa" aria-label="Mapa de lugares"></div>
           <div class="leyenda" id="leyenda-mapa"></div>
         </div>
-        <div class="vista" id="vista-red" hidden>
+        <div class="vista" id="vista-red">
           <svg id="red" role="img" aria-label="Red de diálogos conectados por personas en común"></svg>
           <div class="leyenda leyenda-red" id="leyenda-red"></div>
         </div>
