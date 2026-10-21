@@ -615,7 +615,18 @@ function iniciarTiempo() {
     globo.style.top = `${e.clientY - r.height - 10}px`;
   });
   cont.addEventListener('mouseleave', () => { globo.hidden = true; });
-  new ResizeObserver(() => pintarTiempo(leerRuta())).observe(cont);
+  // Solo se redibuja si cambia el ancho entero: así la barra de desplazamiento o el redondeo
+  // de algunos navegadores (Edge con zoom fraccionario) no generan un bucle de redibujos.
+  let anchoPrevio = 0, pendiente = 0;
+  new ResizeObserver(() => {
+    cancelAnimationFrame(pendiente);
+    pendiente = requestAnimationFrame(() => {
+      const ancho = cont.clientWidth;
+      if (Math.abs(ancho - anchoPrevio) < 2) return;
+      anchoPrevio = ancho;
+      pintarTiempo(leerRuta());
+    });
+  }).observe(cont);
 }
 
 // ---------- Aviso sobre el estado de los datos ----------

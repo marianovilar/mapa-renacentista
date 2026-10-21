@@ -139,7 +139,7 @@ a:hover { text-decoration: underline; }
 /* Línea de tiempo */
 .tiempo-marco { border-top: 1px solid var(--linea); background: var(--superficie); padding: 8px 14px 6px; }
 .tiempo-titulo { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinta-3); }
-#tiempo { height: 190px; overflow-y: auto; }
+#tiempo { height: 190px; overflow-y: auto; overflow-x: hidden; scrollbar-gutter: stable; }
 #tiempo svg { display: block; }
 .barra { cursor: pointer; }
 .eje text { fill: var(--tinta-3); font: 11px var(--sans); }
