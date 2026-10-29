@@ -1,0 +1,68 @@
+id: conversini-dialogus-litera
+titulo: Dialogus inter Iohannem et Literam
+titulo_completo: Dialogus inter Iohannem et Literam
+lengua: latín
+forma: diálogo
+modo: mimético
+libros: 1
+
+autores: [conversini]
+
+destinatarios:
+  - persona: tommaso-frignano
+    forma: dedicatoria
+    nota: "Encabezado dirigido «al padre y señor Tomás, presbítero titular de los santos Nereo, Aquileo y Pancracio, cardenal», por su «servidor devotísimo» e «hijo». Felicita a su tío por el cardenalato que le dio Urbano VI el 18 de septiembre de 1378, y el diálogo incluye la primera biografía humanista de una gran figura religiosa. Conversini llevó a Roma el ejemplar de dedicatoria (hoy Oxford, New College, D.155) en 1379 (Eaker y Kohl 1989)."
+
+interlocutores:
+  - persona: conversini
+    nombre_en_el_texto: Iohannes
+    nota: "El autor, maestro de escuela en Belluno, que quiere enviar la carta a su tío; deja ver sus preocupaciones personales y profesionales."
+  - persona: litera
+    nombre_en_el_texto: Litera
+    nota: "La propia carta personificada: duda de que valga la pena el viaje, peligroso, y de que un cardenal reciba bien un escrito tan modesto."
+
+evocados:
+  - persona: petrarca
+    nota: "Ejemplo «doméstico» de fama literaria y de los honores que le dio el señor de Padua. Para Eaker y Kohl, el diálogo muestra la enorme deuda de Conversini con Petrarca."
+  - persona: boccaccio
+    nota: "Recordado entre los hombres de letras que Conversini conoció de joven."
+
+composicion:
+  fecha:
+    desde: 1378
+    hasta: 1379
+    certeza: segura
+    nota: "Escrito en las fiestas de Navidad de 1378, apenas recibida la noticia del cardenalato de Tommaso (18 de septiembre de 1378), y terminado el 5 de enero de 1379. Es la primera obra extensa de Conversini (Eaker y Kohl 1989)."
+  lugares:
+    - lugar: belluno
+      nota: "Conversini dirigía allí la escuela comunal desde 1374."
+
+ambientacion:
+  espacio: indeterminado
+  fecha:
+    desde: 1378
+    hasta: 1378
+    certeza: probable
+    nota: "Después de la elevación de Tommaso al cardenalato, al momento de enviar la carta."
+  lugar: null
+  nota: "Conversación del autor con su carta antes de enviarla; el texto no describe un escenario. Por verificar si se da por supuesto Belluno."
+
+temas: [vocación religiosa, franciscanos, biografía de Tommaso da Frignano, Petrarca, estoicismo, fortuna, oficio de maestro]
+
+resumen: >
+  Conversini le pide a su carta que vaya a Roma a felicitar a su tío, el
+  franciscano Tommaso da Frignano, recién nombrado cardenal; la carta duda del
+  viaje y del recibimiento. El diálogo traza una biografía del tío, elogia la
+  vida religiosa y deja ver las penurias del autor como maestro de escuela.
+
+fuentes:
+  - "Helen Lanneau Eaker y Benjamin G. Kohl, introducción a Giovanni Conversini da Ravenna, Dialogue between Giovanni and a Letter, Binghamton, Medieval & Renaissance Texts & Studies, 1989."
+
+ediciones:
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Giovanni Conversini da Ravenna, Dialogue between Giovanni and a Letter, ed. y trad. Helen Lanneau Eaker, introducción y notas de Helen Lanneau Eaker y Benjamin G. Kohl, Binghamton (NY), Medieval & Renaissance Texts & Studies, 1989."
+    anio: 1989
+    nota: "Primera edición crítica, sobre el manuscrito de Oxford, New College, D.155. En Internet Archive, solo en préstamo controlado."
+
+revision: pendiente

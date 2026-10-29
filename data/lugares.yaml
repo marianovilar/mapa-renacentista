@@ -114,6 +114,13 @@
   lon: 13.5713
   wikidata: null
 
+- id: belluno
+  nombre: Belluno
+  nombre_latino: Bellunum
+  lat: 46.1405
+  lon: 12.2167
+  wikidata: null
+
 - id: siena
   nombre: Siena
   nombre_latino: Sena

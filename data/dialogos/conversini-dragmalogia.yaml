@@ -1,0 +1,67 @@
+id: conversini-dragmalogia
+titulo: Dragmalogia
+titulo_completo: Dragmalogia de eligibili vite genere
+lengua: latín
+forma: diálogo
+modo: mimético
+libros: 1
+
+autores: [conversini]
+
+destinatarios: []
+nota_destinatarios: "Sin dedicatario. Hacia 1406, Vergerio le insistió para que dedicara un ejemplar a Inocencio VII, que quería llevarlo a la curia, pero Conversini se negó: dijo haberlo escrito para decir la verdad y no por riqueza ni honores. Lo dejó circular solo entre amigos cercanos (Kohl 1980)."
+
+interlocutores:
+  - persona: paduanus-dragmalogia
+    nombre_en_el_texto: Paduanus
+    nota: "Pronuncia los discursos largos y es casi el portavoz del autor; defiende la monarquía, la vida en el campo, el ocio letrado y la vida contemplativa (Kohl 1980)."
+  - persona: venetus-dragmalogia
+    nombre_en_el_texto: Venetus
+    nota: "Responde brevemente o hace preguntas; defiende la república, la ciudad, el comercio y la vida activa. Venecia aparece casi como una caricatura."
+
+evocados:
+  - persona: conversini
+    nombre_en_el_texto: Ravennas
+    nota: "El autor aparece en tercera persona: el Paduano cuenta por qué «el Ravenate» dejó la corte de los Carrara."
+  - persona: francesco-novello
+    nota: "Su política de conquista después de la muerte de Gian Galeazzo Visconti (1402) se condena al comienzo del diálogo."
+
+composicion:
+  fecha:
+    desde: 1404
+    hasta: 1404
+    certeza: segura
+    nota: "El texto termina con «En Venecia, año del Señor 1404». Conversini dejó Padua entre el 27 de marzo y el 23 de junio de 1404; según Kohl, empezó la obra en el otoño de ese año y la escribió en los seis meses siguientes a su partida, mientras se ganaba la vida en Venecia como maestro y preceptor (entre sus alumnos, Francesco Barbaro)."
+  lugares:
+    - lugar: venecia
+
+ambientacion:
+  espacio: indeterminado
+  fecha:
+    desde: 1404
+    hasta: 1404
+    certeza: probable
+    nota: "En plena guerra entre Venecia y los Carrara («bellis estuantibus»), después de la partida de Conversini de Padua."
+  lugar: null
+  nota: "Conversación durante un viaje a pie desde Padua hacia Venecia; al llegar, el Veneciano invita al Paduano a su casa. Escenario vago (Kohl 1980)."
+
+temas: [vida activa y contemplativa, monarquía y república, vida en la corte, ciudad y campo, libertad, pecados capitales, Venecia y Padua, vocación religiosa]
+
+resumen: >
+  Un paduano y un veneciano conversan camino de Venecia, en plena guerra de
+  1404. Del estado de Italia y de la salida del autor de la corte de los
+  Carrara pasan a comparar la monarquía con la república, la ciudad con el
+  campo y al señor con el maestro; discuten los pecados capitales y la
+  libertad, y terminan con el elogio de la vida religiosa.
+
+fuentes:
+  - "Benjamin G. Kohl, introducción a Giovanni di Conversino da Ravenna, Dragmalogia de eligibili vite genere, Lewisburg, Bucknell University Press, 1980."
+
+ediciones:
+  - tipo: edición y traducción
+    lengua: inglés
+    referencia: "Giovanni di Conversino da Ravenna, Dragmalogia de eligibili vite genere, ed. y trad. Helen Lanneau Eaker, introducción y notas de Benjamin G. Kohl, Lewisburg, Bucknell University Press, 1980."
+    anio: 1980
+    nota: "Sobre los manuscritos de París, BnF, lat. 6494, y Venecia, Querini Stampalia. En Internet Archive, solo en préstamo controlado."
+
+revision: pendiente

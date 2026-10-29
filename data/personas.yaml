@@ -463,6 +463,51 @@
   sexo: masculino
   nota: "Despensero o vinatero en el Apologus de Valla, alumno de Guarino; el nombre viene de una carta de Cicerón (Att. 4, 8, 2)."
 
+# --- Conversini, Dialogus inter Iohannem et Literam y Dragmalogia ---
+- id: conversini
+  nombre: Giovanni Conversini da Ravenna
+  nombre_latino: Iohannes de Ravenna
+  nacimiento: 1343
+  muerte: 1408
+  tipo: histórica
+  sexo: masculino
+  wikidata: null
+
+- id: tommaso-frignano
+  nombre: Tommaso da Frignano
+  nombre_latino: Thomas de Frignano
+  muerte: 1381
+  tipo: histórica
+  sexo: masculino
+  wikidata: null
+
+- id: litera
+  nombre: La Carta
+  nombre_latino: Litera
+  tipo: alegórica
+  sexo: femenino
+
+- id: venetus-dragmalogia
+  nombre: El Veneciano
+  nombre_latino: Venetus
+  tipo: ficticia
+  sexo: masculino
+
+- id: paduanus-dragmalogia
+  nombre: El Paduano
+  nombre_latino: Paduanus
+  tipo: ficticia
+  sexo: masculino
+
+- id: francesco-novello
+  nombre: Francesco Novello da Carrara
+  nombre_latino: Franciscus Novellus de Carraria
+  nacimiento: 1359
+  muerte: 1406
+  tipo: histórica
+  sexo: masculino
+  wikidata: null
+
 # --- Alberti, Pontifex ---
 - id: alberti
   nombre: Leon Battista Alberti
