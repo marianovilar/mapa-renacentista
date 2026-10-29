@@ -1,0 +1,61 @@
+id: conversini-consolatorio
+titulo: Diálogo consolatorio (Mestus y Consolator)
+titulo_completo: null
+lengua: latín
+forma: diálogo
+modo: mimético
+libros: 1
+
+autores: [conversini]
+
+destinatarios:
+  - persona: rugolo
+    forma: dedicatoria
+    nota: "Dirigido a su amigo de Treviso, el notario Paolo Rugolo (Kohl 1980; DBI). Forma de la dedicatoria por verificar."
+
+interlocutores:
+  - persona: mestus-conversini
+    nombre_en_el_texto: Mestus
+    nota: "El afligido. Según Sabbadini, el autor no consuela a otros sino a sí mismo, de modo que el Mestus sería el propio Conversini, que acaba de perder a su hijo. Por verificar en el texto."
+  - persona: consolator-conversini
+    nombre_en_el_texto: Consolator
+    nota: "Reúne ejemplos y pruebas de fuentes cristianas y paganas para consolar al afligido (Kohl 1980)."
+
+evocados:
+  - persona: israele-conversini
+    nota: "Hijo de Conversini y de Benasuda, nacido en Belluno en 1375; estudiaba letras en Padua y murió de peste en el verano de 1401, a los veinticinco años. Su muerte motiva el diálogo."
+
+composicion:
+  fecha:
+    desde: 1401
+    hasta: 1401
+    certeza: probable
+    nota: "Escrito poco después de la muerte de Israele, en el verano de 1401 (Kohl 1980; DBI). Sabbadini lo considera «el primer ejemplo de un tratado consolatorio humanista de grandes proporciones en que el autor, sin embargo, no consuela a otros sino a sí mismo». Título latino, manuscritos y fecha exacta por verificar en Kohl, «The Works of Giovanni di Conversino da Ravenna», Traditio 31 (1975)."
+  lugares:
+    - lugar: padua
+      nota: "Conversini era entonces canciller de Francesco Novello da Carrara. Por verificar."
+
+ambientacion:
+  espacio: indeterminado
+  fecha: null
+  lugar: null
+  nota: "Sin datos sobre el escenario. Por verificar."
+
+temas: [consolación, muerte de un hijo, duelo, peste, impotencia de la muerte]
+
+resumen: >
+  Tras la muerte de su hijo Israele por la peste de 1401, Conversini escribe un
+  largo diálogo entre un Afligido y un Consolador, que reúne ejemplos
+  cristianos y paganos sobre la impotencia de la muerte. Ficha provisional,
+  armada con referencias indirectas y sin consultar el texto.
+
+fuentes:
+  - "Benjamin G. Kohl, introducción a Giovanni di Conversino da Ravenna, Dragmalogia de eligibili vite genere, Lewisburg, Bucknell University Press, 1980, p. 27 (que cita a Remigio Sabbadini, Giovanni da Ravenna, insigne figura d'umanista, Como, 1924, p. 87)."
+  - "Benjamin G. Kohl, «Conversini, Giovanni (Giovanni da Ravenna)», Dizionario Biografico degli Italiani 28 (1983)."
+
+bibliografia:
+  - referencia: "Benjamin G. Kohl, «The Works of Giovanni di Conversino da Ravenna: A Catalogue of Manuscripts and Editions», Traditio 31 (1975), 349–367."
+  - referencia: "George W. McClure, «The Art of Mourning: Autobiographical Writings on the Loss of a Son in Italian Humanist Thought (1400–1461)», Renaissance Quarterly 39 (1986). Por verificar si trata este diálogo."
+  - referencia: "George W. McClure, Sorrow and Consolation in Italian Humanism, Princeton, Princeton University Press, 1991. Por verificar si trata este diálogo."
+
+revision: pendiente

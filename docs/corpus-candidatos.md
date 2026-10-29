@@ -1,6 +1,6 @@
 # Corpus de la fase 1 — diálogos latinos, 1347–1533
 
-Los 49 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
+Los 50 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisión pendiente. Las fechas y los lugares son **aproximados y deben verificarse** contra la bibliografía.
 
 
 ## Italia, siglo XIV y comienzos del XV
@@ -11,6 +11,7 @@ Los 49 diálogos elegidos (✅), todos cargados en `data/dialogos/` con revisió
 | ✅ | Petrarca | *De remediis utriusque fortunae* | 1354–1366 | Milán | 254 diálogos; interlocutores alegóricos (Gaudium, Spes, Ratio, Dolor, Metus) |
 | ✅ | Giovanni Conversini da Ravenna | *Dialogus inter Iohannem et Literam* | 1378–1379 | Belluno | Giovanni y su carta personificada; dedicado a su tío, el cardenal Tommaso da Frignano; agregado en 2026 |
 | ✅ | Francesco Zabarella | *De felicitate* | c. 1399–1400 | Padua / Praglia | Franciscus y un Disputans; dedicado a Vergerio |
+| ✅ | Giovanni Conversini da Ravenna | Diálogo consolatorio (*Mestus* y *Consolator*) | 1401 | Padua (?) | Por la muerte de su hijo Israele; dirigido a Paolo Rugolo; ficha provisional, agregado en 2026 |
 | ✅ | Giovanni Conversini da Ravenna | *Dragmalogia de eligibili vite genere* | 1404 | Venecia | Un paduano y un veneciano camino de Venecia; agregado en 2026 |
 | ✅ | Leonardo Bruni | *Dialogi ad Petrum Paulum Histrum* | c. 1403–1408 (ambientados en la Pascua de 1401) | Florencia | Salutati, Niccoli, Rossi, Sermini; dedicado a Vergerio |
 

@@ -508,6 +508,33 @@
   sexo: masculino
   wikidata: null
 
+- id: rugolo
+  nombre: Paolo Rugolo
+  nombre_latino: Paulus Rugolus
+  tipo: histórica
+  sexo: masculino
+  wikidata: null
+
+- id: israele-conversini
+  nombre: Israele Conversini
+  nacimiento: 1375
+  muerte: 1401
+  tipo: histórica
+  sexo: masculino
+  wikidata: null
+
+- id: mestus-conversini
+  nombre: El Afligido
+  nombre_latino: Mestus
+  tipo: ficticia
+  sexo: masculino
+
+- id: consolator-conversini
+  nombre: El Consolador
+  nombre_latino: Consolator
+  tipo: ficticia
+  sexo: masculino
+
 # --- Alberti, Pontifex ---
 - id: alberti
   nombre: Leon Battista Alberti
