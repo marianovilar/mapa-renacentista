@@ -34,6 +34,10 @@ ambientacion:
 
 temas: [felicidad, vida contemplativa, respuesta a Valla]
 
+texto_en_linea:
+  url: "https://books.google.com.ar/books?id=HpkXieoO0Y4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
+  descripcion: "Edición de 1556 en Google Books"
+
 fuentes: []
 
 ediciones: []
