@@ -10,14 +10,16 @@ autores: [facio]
 destinatarios:
   - persona: alfonso-v
     forma: dedicatoria
+nota_destinatarios: "En la edición de Amberes (Plantino, 1556) precede a la dedicatoria a Alfonso una Epistola apologetica de Facio a Roberto Strozzi; en la de Hanau (Freher, 1611) va al final, pp. 147 ss., y Mehus la reimprime en 1745 (pp. XXXIV–XXXV). Strozzi le había escrito que Lamola le concedía todo a Guarino con demasiada facilidad, objeción que, según Facio, compartía otro lector que no nombra. Facio responde y promete darle a Strozzi, cuando vuelva a Ferrara, un ejemplar del diálogo para mostrárselo a su príncipe y a «Guarino, nuestro maestro». En una carta a Girolamo Guarino, Facio se queja de la negligencia de Strozzi en mostrarle el diálogo a su padre. Valla cita parte de la epístola en su segunda invectiva contra Facio."
 
 interlocutores:
   - persona: guarino
-    nota: "Por verificar."
+    nota: "Maestro de Lamola, de «suma autoridad»: lleva el peso de la argumentación (Epistola apologetica)."
   - persona: panormita
-    nota: "Por verificar."
+    nota: "Facio lo presenta como «poeta y caballero preclaro» al nombrar a los interlocutores."
   - persona: lamola
-    nota: "Por verificar."
+    nota: "Concede con facilidad los argumentos de Guarino. En la Epistola apologetica Facio lo justifica por el decoro: así correspondía al carácter afable de Lamola, que no se opone con terquedad a la verdad, y no convenía que un discípulo contradijera con obstinación a su maestro."
+nota_interlocutores: "Facio nombra a los tres al presentar el diálogo: «hago conversar a Antonio Panormita, poeta y caballero preclaro, a Guarino de Verona, orador excelentísimo, y a Giovanni Lamola, hombre muy elocuente», para que el lector crea tenerlos presentes. En la Epistola apologetica explica que, como quería recorrer todas las artes y saberes, una contradicción constante entre Lamola y Guarino habría hecho interminable la disputa: lo intentó y lo abandonó por la extensión innecesaria. Le basta mostrar, por ejemplo, los bienes y males de la riqueza y pasar a otra cosa. Dice imitar el Hierón de Jenofonte y los diálogos de Cicerón De senectute y De amicitia, donde nadie contradice al que expone, a diferencia de las Tusculanas."
 
 composicion:
   fecha:
@@ -38,7 +40,8 @@ texto_en_linea:
   url: "https://books.google.com.ar/books?id=HpkXieoO0Y4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
   descripcion: "Edición de 1556 en Google Books"
 
-fuentes: []
+fuentes:
+  - "Bartolomeo Facio, Epistola apologetica a Roberto Strozzi, en Bartholomaei Facii De viris illustribus liber, ed. Lorenzo Mehus, Florencia, 1745, pp. XXXIV–XXXV (con noticias sobre el diálogo en pp. XXXIII–XXXIV)."
 
 ediciones: []
 nota_ediciones: "No se halló edición moderna. Hay ediciones antiguas (Amberes, Plantino, 1556) y la adaptación castellana de Juan de Lucena."
