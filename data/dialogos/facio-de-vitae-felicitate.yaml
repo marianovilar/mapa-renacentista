@@ -32,7 +32,7 @@ ambientacion:
   lugar: ferrara
   nota: "Por verificar."
 
-temas: [felicidad, vida contemplativa, respuesta a Valla]
+temas: [felicidad, vida contemplativa, vida activa, supremo bien]
 
 texto_en_linea:
   url: "https://books.google.com.ar/books?id=HpkXieoO0Y4C&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false"
@@ -41,7 +41,7 @@ texto_en_linea:
 fuentes: []
 
 ediciones: []
-nota_ediciones: "No se halló edición moderna en la biblioteca. Hay ediciones antiguas (Amberes, Plantino, 1556) y la adaptación castellana de Juan de Lucena."
+nota_ediciones: "No se halló edición moderna. Hay ediciones antiguas (Amberes, Plantino, 1556) y la adaptación castellana de Juan de Lucena."
 
 bibliografia:
   - referencia: "Ottavio DiCamillo, «Juan de Lucena's rewriting of Bartolomeo Fazio's De vitae felicitate: on the many uses of humanist ethical theories» (s. f.)."
