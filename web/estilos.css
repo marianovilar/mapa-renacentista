@@ -160,6 +160,8 @@ a:hover { text-decoration: underline; }
 .etiqueta {
   font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--linea-fuerte); color: var(--tinta-2);
 }
+a.etiqueta.tema { text-decoration: none; color: var(--tinta); }
+a.etiqueta.tema:hover { border-color: var(--marca); color: var(--marca); }
 .etiqueta.aviso { border-color: var(--edicion); color: var(--tinta); }
 .detalles { font-size: 12px; color: var(--tinta-2); margin: -6px 0 14px; line-height: 1.5; }
 .seccion { margin-top: 16px; }

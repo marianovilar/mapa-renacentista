@@ -1,6 +1,8 @@
 // Coordenadas renacentistas — primer espacio: diálogos latinos. Lee datos.json (generado por npm run validar)
 // y arma tres vistas enlazadas: índice, mapa con línea de tiempo y ficha de detalle.
-// La selección vive en la URL (#/dialogo/id, #/persona/id, #/lugar/id).
+// La selección vive en la URL (#/dialogo/id, #/persona/id, #/lugar/id, #/tema/nombre).
+
+import { GRUPOS_TEMAS } from './validacion.js';
 
 const L = window.L;
 const AÑO_MIN = 1340;
@@ -45,6 +47,7 @@ const db = {
   lugares: new Map(),
   porPersona: new Map(), // id → [{ d, rol, nota, alias }]
   porLugar: new Map(), // id → [{ d, rol, nota }]
+  porTema: new Map(), // tema → [d]
   regiones: [],
 };
 
@@ -73,6 +76,7 @@ function indexar(datos) {
     for (const x of d.composicion?.lugares ?? []) anotar(db.porLugar, x.lugar, { d, rol: 'composicion', nota: x.nota });
     anotar(db.porLugar, d.ambientacion?.lugar, { d, rol: 'ambientacion' });
     anotar(db.porLugar, d.primera_edicion?.lugar, { d, rol: 'edicion' });
+    for (const t of d.temas ?? []) anotar(db.porTema, t, d);
   }
 }
 
@@ -96,6 +100,7 @@ function fmtVida(p) {
 function dialogosDe(sel) {
   if (!sel) return [];
   if (sel.tipo === 'dialogo') return db.dialogos.has(sel.id) ? [db.dialogos.get(sel.id)] : [];
+  if (sel.tipo === 'tema') return db.porTema.get(sel.id) ?? [];
   const fuente = sel.tipo === 'persona' ? db.porPersona : db.porLugar;
   return [...new Set((fuente.get(sel.id) ?? []).map((e) => e.d))];
 }
@@ -104,13 +109,14 @@ function dialogosDe(sel) {
 
 const enlaceD = (d) => `<a href="#/dialogo/${esc(d.id)}"><i>${esc(d.titulo)}</i></a>`;
 const enlaceP = (id) => `<a href="#/persona/${esc(id)}">${esc(nombre(id))}</a>`;
+const enlaceT = (t) => `<a class="etiqueta tema" href="#/tema/${esc(encodeURIComponent(t))}">${esc(t)}</a>`;
 const enlaceL = (id) => (id && db.lugares.has(id) ? `<a href="#/lugar/${esc(id)}">${esc(db.lugares.get(id).nombre)}</a>` : '');
 
 // ---------- Ruta ----------
 
 function leerRuta() {
   const [, tipo, id] = decodeURIComponent(location.hash).split('/');
-  if (['dialogo', 'persona', 'lugar'].includes(tipo) && id) return { tipo, id };
+  if (['dialogo', 'persona', 'lugar', 'tema'].includes(tipo) && id) return { tipo, id };
   return null;
 }
 
@@ -147,6 +153,7 @@ function pintarDetalle(sel) {
   else if (sel.tipo === 'dialogo' && db.dialogos.has(sel.id)) html = vistaDialogo(db.dialogos.get(sel.id));
   else if (sel.tipo === 'persona' && db.personas.has(sel.id)) html = vistaPersona(db.personas.get(sel.id));
   else if (sel.tipo === 'lugar' && db.lugares.has(sel.id)) html = vistaLugar(db.lugares.get(sel.id));
+  else if (sel.tipo === 'tema' && definicionTema(sel.id) != null) html = vistaTema(sel.id);
   else html = `<p>No se encontró «${esc(sel.id)}».</p>`;
   panel.innerHTML = html;
   panel.scrollTop = 0;
@@ -283,7 +290,7 @@ function vistaDialogo(d) {
       .map((r) => `<li>${esc(RELACIONES[r.tipo] ?? r.tipo)} ${enlaceD(db.dialogos.get(r.dialogo))}${r.nota ? `<span class="nota">${esc(r.nota)}</span>` : ''}</li>`)
       .join('')}</ul></div>` : ''}
 
-    ${d.temas?.length ? `<div class="seccion"><h3>Temas</h3><div class="etiquetas">${d.temas.map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('')}</div>${d.detalles?.length ? `<p class="detalles">${d.detalles.map(esc).join(' · ')}</p>` : ''}</div>` : ''}
+    ${d.temas?.length ? `<div class="seccion"><h3>Temas</h3><div class="etiquetas">${d.temas.map(enlaceT).join('')}</div>${d.detalles?.length ? `<p class="detalles">${d.detalles.map(esc).join(' · ')}</p>` : ''}</div>` : ''}
 
     ${vistaEdiciones(d)}
 
@@ -376,6 +383,36 @@ function vistaLugar(l) {
     ${secciones || '<p class="nota-suelta">Sin diálogos asociados.</p>'}`;
 }
 
+// ---------- Temas ----------
+
+function definicionTema(t) {
+  for (const temas of Object.values(GRUPOS_TEMAS)) if (t in temas) return temas[t];
+  return null;
+}
+const grupoTema = (t) => Object.keys(GRUPOS_TEMAS).find((g) => t in GRUPOS_TEMAS[g]);
+
+function vistaTema(t) {
+  const ds = db.porTema.get(t) ?? [];
+  // Temas cercanos: los que más diálogos comparten con este.
+  const propios = new Set(ds.map((d) => d.id));
+  const cercanos = [...db.porTema]
+    .filter(([otro]) => otro !== t)
+    .map(([otro, xs]) => [otro, xs.filter((d) => propios.has(d.id)).length])
+    .filter(([, n]) => n > 0)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'es'))
+    .slice(0, 8);
+  return `
+    <div class="tipo-ficha">Tema · ${esc(grupoTema(t))}</div>
+    <h1 class="detalle-titulo">${esc(t)}</h1>
+    <p class="detalle-sub">${esc(definicionTema(t))}</p>
+    <div class="seccion"><h3>${ds.length} ${ds.length === 1 ? 'diálogo' : 'diálogos'}</h3><ul class="items">${ds
+      .map((d) => `<li>${enlaceD(d)} · ${esc(autoresDe(d))} <span class="certeza">${esc(fmtFecha(d.composicion?.fecha) ?? '')}</span></li>`)
+      .join('') || '<li class="nota-suelta">Todavía ningún diálogo.</li>'}</ul></div>
+    ${cercanos.length ? `<div class="seccion"><h3>Aparece junto a</h3><ul class="items">${cercanos
+      .map(([otro, n]) => `<li><a href="#/tema/${esc(encodeURIComponent(otro))}">${esc(otro)}</a><span class="contador">${n} ${n === 1 ? 'diálogo' : 'diálogos'}</span></li>`)
+      .join('')}</ul></div>` : ''}`;
+}
+
 // ---------- Índice ----------
 
 let pestana = 'dialogos';
@@ -400,6 +437,16 @@ function pintarLista() {
       const n = new Set(db.porPersona.get(p.id).map((e) => e.d.id)).size;
       const roles = [...new Set(db.porPersona.get(p.id).map((e) => e.rol))].join(', ');
       html += `<li><a href="#/persona/${esc(p.id)}" data-id="persona/${esc(p.id)}"><span class="principal">${esc(p.nombre)}</span><span class="secundario">${esc(roles)} · ${n} ${n === 1 ? 'diálogo' : 'diálogos'}</span></a></li>`;
+    }
+  } else if (pestana === 'temas') {
+    for (const [grupo, temas] of Object.entries(GRUPOS_TEMAS)) {
+      const filas = Object.keys(temas).filter((t) => coincide(t, temas[t]));
+      if (!filas.length) continue;
+      html += `<li class="grupo">${esc(grupo)}</li>`;
+      for (const t of filas) {
+        const n = db.porTema.get(t)?.length ?? 0;
+        html += `<li><a href="#/tema/${esc(encodeURIComponent(t))}" data-id="tema/${esc(t)}"><span class="principal">${esc(t)}</span><span class="secundario">${n} ${n === 1 ? 'diálogo' : 'diálogos'}</span></a></li>`;
+      }
     }
   } else {
     const lista = [...db.lugares.values()].filter((l) => db.porLugar.has(l.id)).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
