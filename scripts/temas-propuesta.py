@@ -92,7 +92,7 @@ ASIGNACION = {
     'manetti-dialogus-in-symposio': ['banquete', 'amor', 'derecho y leyes', 'filosofía natural y medicina'],
     'moro-utopia': ['república y libertad', 'príncipes y tiranía', 'riqueza y pobreza', 'placer y epicureísmo', 'viajes', 'sátira lucianesca'],
     'petrarca-de-remediis': ['fortuna', 'estoicismo y virtud', 'muerte, duelo y consolación', 'virtudes y vicios'],
-    'petrarca-secretum': ['vida religiosa y conversión', 'amor', 'fe y filosofía', 'libre albedrío', 'poesía y poética'],
+    'petrarca-secretum': ['vida religiosa y conversión', 'amor', 'fe y filosofía', 'libre albedrío', 'poesía y poética', 'fortuna de los letrados'],
     'platina-de-optimo-cive': ['república y libertad', 'Florencia y los Médici', 'príncipes y tiranía'],
     'poggio-de-avaritia': ['riqueza y pobreza', 'virtudes y vicios', 'crítica del clero', 'papado y curia', 'banquete'],
     'poggio-de-infelicitate-principum': ['príncipes y tiranía', 'felicidad y sumo bien', 'vida activa y contemplativa', 'fortuna de los letrados', 'Florencia y los Médici'],
