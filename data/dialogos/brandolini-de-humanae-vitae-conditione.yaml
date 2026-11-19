@@ -30,7 +30,8 @@ ambientacion:
   lugar: buda
   nota: "Junto al rey enfermo."
 
-temas: [miseria y dignidad del hombre, enfermedad, consolación]
+temas: [miseria y dignidad del hombre, "muerte, duelo y consolación"]
+detalles: [enfermedad]
 
 fuentes: []
 

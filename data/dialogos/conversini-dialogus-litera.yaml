@@ -47,7 +47,8 @@ ambientacion:
   lugar: null
   nota: "Conversación del autor con su carta antes de enviarla; el texto no describe un escenario. Por verificar si se da por supuesto Belluno."
 
-temas: [vocación religiosa, franciscanos, Petrarca, estoicismo, fortuna, oficio de maestro]
+temas: [vida religiosa y conversión, estoicismo y virtud, fortuna, fortuna de los letrados]
+detalles: [vocación religiosa, franciscanos, Petrarca, oficio de maestro]
 
 resumen: >
   Conversini le pide a su carta que vaya a Roma a felicitar a su tío, el

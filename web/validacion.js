@@ -13,6 +13,9 @@ export const FORMAS_DEDICATORIA = ['dedicatoria', 'carta-prefatoria', 'apóstrof
 export const REVISIONES = ['pendiente', 'revisado'];
 export const TIPOS_EDICION = ['edición', 'edición y traducción', 'traducción'];
 export const LENGUAS = ['latín', 'italiano', 'alemán', 'inglés', 'francés', 'español', 'portugués', 'catalán', 'neerlandés', 'ruso', 'polaco', 'húngaro'];
+// Vocabulario controlado de temas (docs/vocabulario-temas.md). Lo que no entra acá va en `detalles`.
+export const GRUPOS_TEMAS = {"Ética y felicidad": ["felicidad y sumo bien", "placer y epicureísmo", "estoicismo y virtud", "fortuna", "virtudes y vicios", "riqueza y pobreza", "nobleza", "vida activa y contemplativa"], "Amor, muerte y condición humana": ["amor", "matrimonio y mujeres", "muerte, duelo y consolación", "miseria y dignidad del hombre", "alma e inmortalidad"], "Religión": ["fe y filosofía", "libre albedrío", "vida religiosa y conversión", "crítica del clero", "papado y curia", "concordia religiosa"], "Política y sociedad": ["república y libertad", "príncipes y tiranía", "Florencia y los Médici", "guerra y paz", "derecho y leyes"], "Letras y saberes": ["antiguos y modernos", "lengua latina y estilo", "poesía y poética", "retórica y dialéctica", "historia e historiografía", "educación y studia humanitatis", "fortuna de los letrados", "conocimiento y docta ignorancia", "filosofía natural y medicina", "Platón y platonismo", "Aristóteles y aristotelismo"], "Formas y ámbitos": ["sátira lucianesca", "banquete", "academia", "viajes"]};
+export const TEMAS = Object.values(GRUPOS_TEMAS).flat();
 export const RELACIONES = { 'reelaboracion-de': 'reelaborada-en', 'reelaborada-en': 'reelaboracion-de', 'parte-de': 'contiene', contiene: 'parte-de', serie: 'serie' };
 
 export function validarDatos({ personas, lugares, regiones, dialogos }) {
@@ -68,6 +71,7 @@ export function validarDatos({ personas, lugares, regiones, dialogos }) {
     if (d.relacion_interlocutores != null && !RELACIONES_VOCES.includes(d.relacion_interlocutores)) errores.push(`${c}: relacion_interlocutores inválida "${d.relacion_interlocutores}"`);
     if (d.ambientacion?.espacio != null && !ESPACIOS.includes(d.ambientacion.espacio)) errores.push(`${c}: espacio inválido "${d.ambientacion.espacio}"`);
     if (!REVISIONES.includes(d.revision)) errores.push(`${c}: revision inválida "${d.revision}"`);
+    for (const t of d.temas ?? []) if (!TEMAS.includes(t)) errores.push(`${c}: tema fuera del vocabulario "${t}" (los temas libres van en detalles)`);
     if (d.caso_dudoso && !d.motivo_duda) errores.push(`${c}: caso_dudoso sin motivo_duda`);
     for (const e of d.ediciones ?? []) {
       if (!TIPOS_EDICION.includes(e.tipo)) errores.push(`${c}: tipo de edición inválido "${e.tipo}"`);

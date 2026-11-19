@@ -35,7 +35,8 @@ ambientacion:
     certeza: probable
   lugar: roma
 
-temas: [experimentación, medida, filosofía natural, medicina]
+temas: [filosofía natural y medicina, conocimiento y docta ignorancia]
+detalles: [experimentación, medida]
 
 resumen: >
   Cuarto libro del Idiota: el laico propone medir con la balanza el peso

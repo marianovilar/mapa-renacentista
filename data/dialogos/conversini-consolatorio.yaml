@@ -41,7 +41,8 @@ ambientacion:
   lugar: null
   nota: "Sin datos sobre el escenario. Por verificar."
 
-temas: [consolación, muerte de un hijo, duelo, peste, impotencia de la muerte]
+temas: ["muerte, duelo y consolación", fe y filosofía]
+detalles: [muerte de un hijo, peste, impotencia de la muerte]
 
 resumen: >
   Tras la muerte de su hijo Israele por la peste de 1401, Conversini escribe un

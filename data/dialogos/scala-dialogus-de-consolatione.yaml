@@ -44,7 +44,8 @@ ambientacion:
   lugar: florencia
   nota: "En la habitación de Cosme, adonde acude casi toda la ciudad a consolarlo; Scala lo encuentra un día solo y en silencio."
 
-temas: [consolación, muerte de un hijo, providencia, miseria y dignidad del hombre, fortaleza estoica, Medici]
+temas: ["muerte, duelo y consolación", miseria y dignidad del hombre, estoicismo y virtud, Florencia y los Médici]
+detalles: [muerte de un hijo, providencia, fortaleza estoica, Medici]
 
 resumen: >
   Tras la muerte de Giovanni de' Medici, Scala visita a Cosme y lo hace

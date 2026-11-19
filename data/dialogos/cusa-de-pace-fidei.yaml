@@ -30,7 +30,8 @@ ambientacion:
   lugar: null
   nota: "Visión: un concilio celestial donde los representantes de todas las naciones y religiones se reúnen ante Cristo, el Verbo."
 
-temas: [concordia religiosa, Constantinopla, islam]
+temas: [concordia religiosa, fe y filosofía, guerra y paz]
+detalles: [Constantinopla, islam]
 
 resumen: >
   Ante la caída de Constantinopla, los sabios de diecisiete naciones y credos

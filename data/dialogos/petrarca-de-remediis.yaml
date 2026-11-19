@@ -39,7 +39,8 @@ ambientacion:
   lugar: null
   nota: "Diálogos alegóricos sin escena."
 
-temas: [fortuna, consolación, estoicismo, vida moral]
+temas: [fortuna, estoicismo y virtud, "muerte, duelo y consolación", virtudes y vicios]
+detalles: [vida moral]
 
 resumen: >
   Doscientos cincuenta y cuatro diálogos breves (122 sobre la fortuna

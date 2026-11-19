@@ -154,7 +154,8 @@ Si falta un dato y no se puede completar todavía, el campo queda vacío y se ex
 | `relaciones` | no | lista de `dialogo` y `tipo` |
 | `forma` | no | `diálogo` \| `coloquio` \| `convivium` \| `diálogo narrado` \| `mixta` |
 | `libros` | no | número de libros |
-| `temas` | no | etiquetas libres |
+| `temas` | no | temas del vocabulario controlado (`GRUPOS_TEMAS` en `web/validacion.js`; ver `docs/vocabulario-temas.md`) |
+| `detalles` | no | etiquetas libres, propias de la obra; se muestran en la ficha pero no conectan diálogos |
 | `caso_dudoso` | no | `true` y `motivo_duda` |
 | `resumen` | no | dos o tres líneas |
 | `fuentes` | no | lista de referencias |

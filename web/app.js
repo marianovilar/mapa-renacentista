@@ -283,7 +283,7 @@ function vistaDialogo(d) {
       .map((r) => `<li>${esc(RELACIONES[r.tipo] ?? r.tipo)} ${enlaceD(db.dialogos.get(r.dialogo))}${r.nota ? `<span class="nota">${esc(r.nota)}</span>` : ''}</li>`)
       .join('')}</ul></div>` : ''}
 
-    ${d.temas?.length ? `<div class="seccion"><h3>Temas</h3><div class="etiquetas">${d.temas.map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('')}</div></div>` : ''}
+    ${d.temas?.length ? `<div class="seccion"><h3>Temas</h3><div class="etiquetas">${d.temas.map((t) => `<span class="etiqueta">${esc(t)}</span>`).join('')}</div>${d.detalles?.length ? `<p class="detalles">${d.detalles.map(esc).join(' · ')}</p>` : ''}</div>` : ''}
 
     ${vistaEdiciones(d)}
 

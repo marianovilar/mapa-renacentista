@@ -37,7 +37,8 @@ ambientacion:
     nota: "Año jubilar."
   lugar: roma
 
-temas: [docta ignorancia, sabiduría, saber del laico, teología]
+temas: [conocimiento y docta ignorancia, fe y filosofía, educación y studia humanitatis]
+detalles: [sabiduría, saber del laico, teología]
 
 resumen: >
   Primeros dos libros del Idiota: un laico iletrado enseña a un orador que la

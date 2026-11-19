@@ -45,7 +45,8 @@ ambientacion:
   lugar: null
   nota: "Conversación durante un viaje a pie desde Padua hacia Venecia; al llegar, el Veneciano invita al Paduano a su casa. Escenario vago (Kohl 1980)."
 
-temas: [vida activa y contemplativa, monarquía y república, vida en la corte, ciudad y campo, libertad, pecados capitales, Venecia y Padua, vocación religiosa]
+temas: [vida activa y contemplativa, república y libertad, príncipes y tiranía, virtudes y vicios, vida religiosa y conversión]
+detalles: [monarquía y república, vida en la corte, ciudad y campo, pecados capitales, Venecia y Padua, vocación religiosa]
 
 resumen: >
   Un paduano y un veneciano conversan camino de Venecia, en plena guerra de
