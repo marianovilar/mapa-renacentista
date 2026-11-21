@@ -662,6 +662,20 @@ function iniciarTiempo() {
     globo.style.top = `${e.clientY - r.height - 10}px`;
   });
   cont.addEventListener('mouseleave', () => { globo.hidden = true; });
+  // La línea de tiempo se puede plegar para dar más lugar a la red o al mapa; se recuerda la elección.
+  const boton = $('#alternar-tiempo');
+  const plegar = (oculta) => {
+    cont.hidden = oculta;
+    boton.setAttribute('aria-expanded', !oculta);
+    boton.title = oculta ? 'Mostrar la línea de tiempo' : 'Ocultar la línea de tiempo';
+  };
+  plegar(leerPreferencia('tiempo-oculto', '0') === '1');
+  boton.addEventListener('click', () => {
+    const oculta = !cont.hidden;
+    plegar(oculta);
+    guardarPreferencia('tiempo-oculto', oculta ? '1' : '0');
+    if (!$('#vista-red').hidden) pintarRed(leerRuta());
+  });
   // Solo se redibuja si cambia el ancho entero: así la barra de desplazamiento o el redondeo
   // de algunos navegadores (Edge con zoom fraccionario) no generan un bucle de redibujos.
   let anchoPrevio = 0, pendiente = 0;
